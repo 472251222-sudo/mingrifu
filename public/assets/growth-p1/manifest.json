@@ -1,0 +1,341 @@
+{
+  "version": 1,
+  "sprites": {
+    "city:house:5": {
+      "assetId": "city:house:5",
+      "file": "city-atlas.png",
+      "x": 480,
+      "y": 1152,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "city:book:5": {
+      "assetId": "city:book:5",
+      "file": "city-atlas.png",
+      "x": 480,
+      "y": 1680,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "city:cafe:5": {
+      "assetId": "city:cafe:5",
+      "file": "city-atlas.png",
+      "x": 480,
+      "y": 1728,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "city:bench:5": {
+      "assetId": "city:bench:5",
+      "file": "city-atlas.png",
+      "x": 480,
+      "y": 1440,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "tree:fern:1": {
+      "assetId": "tree:fern:1",
+      "file": "tree-atlas.png",
+      "x": 96,
+      "y": 0,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "tree:fern:2": {
+      "assetId": "tree:fern:2",
+      "file": "tree-atlas.png",
+      "x": 192,
+      "y": 0,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "tree:fern:3": {
+      "assetId": "tree:fern:3",
+      "file": "tree-atlas.png",
+      "x": 288,
+      "y": 0,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "tree:fern:4": {
+      "assetId": "tree:fern:4",
+      "file": "tree-atlas.png",
+      "x": 384,
+      "y": 0,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "tree:fern:5": {
+      "assetId": "tree:fern:5",
+      "file": "tree-atlas.png",
+      "x": 480,
+      "y": 0,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "tree:flower:1": {
+      "assetId": "tree:flower:1",
+      "file": "tree-atlas.png",
+      "x": 96,
+      "y": 336,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "tree:flower:2": {
+      "assetId": "tree:flower:2",
+      "file": "tree-atlas.png",
+      "x": 192,
+      "y": 336,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "tree:flower:3": {
+      "assetId": "tree:flower:3",
+      "file": "tree-atlas.png",
+      "x": 288,
+      "y": 336,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "tree:flower:4": {
+      "assetId": "tree:flower:4",
+      "file": "tree-atlas.png",
+      "x": 384,
+      "y": 336,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "tree:flower:5": {
+      "assetId": "tree:flower:5",
+      "file": "tree-atlas.png",
+      "x": 480,
+      "y": 336,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "tree:bush:1": {
+      "assetId": "tree:bush:1",
+      "file": "tree-atlas.png",
+      "x": 96,
+      "y": 384,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "tree:bush:2": {
+      "assetId": "tree:bush:2",
+      "file": "tree-atlas.png",
+      "x": 192,
+      "y": 384,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "tree:bush:3": {
+      "assetId": "tree:bush:3",
+      "file": "tree-atlas.png",
+      "x": 288,
+      "y": 384,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "tree:bush:4": {
+      "assetId": "tree:bush:4",
+      "file": "tree-atlas.png",
+      "x": 384,
+      "y": 384,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "tree:bush:5": {
+      "assetId": "tree:bush:5",
+      "file": "tree-atlas.png",
+      "x": 480,
+      "y": 384,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "tree:tree:1": {
+      "assetId": "tree:tree:1",
+      "file": "tree-atlas.png",
+      "x": 96,
+      "y": 96,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "tree:tree:2": {
+      "assetId": "tree:tree:2",
+      "file": "tree-atlas.png",
+      "x": 192,
+      "y": 96,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "tree:tree:3": {
+      "assetId": "tree:tree:3",
+      "file": "tree-atlas.png",
+      "x": 288,
+      "y": 96,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "tree:tree:4": {
+      "assetId": "tree:tree:4",
+      "file": "tree-atlas.png",
+      "x": 384,
+      "y": 96,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    },
+    "tree:tree:5": {
+      "assetId": "tree:tree:5",
+      "file": "tree-atlas.png",
+      "x": 480,
+      "y": 96,
+      "width": 48,
+      "height": 48,
+      "anchor": [
+        24,
+        44
+      ],
+      "frames": 2,
+      "frameDuration": 500
+    }
+  }
+}
