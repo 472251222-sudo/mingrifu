@@ -1,0 +1,58 @@
+✔ first seed and built world survive fresh service reads without duplicate gifts or old-key access (2.652542ms)
+✔ broken JSON becomes a recoverable fault with exact raw preserved and no writes (0.579042ms)
+✔ unknown schema becomes a recoverable fault with exact raw preserved and no writes (0.198ms)
+✔ invalid world becomes a recoverable fault with exact raw preserved and no writes (0.194667ms)
+✔ missing fields becomes a recoverable fault with exact raw preserved and no writes (0.19475ms)
+✔ oversized raw becomes a recoverable fault with exact raw preserved and no writes (0.175125ms)
+✔ storage read denial faults without inventing readable raw or creating a seed (0.281125ms)
+✔ localStorage getter denial is caught by lazy default access (0.096084ms)
+✔ no Web Locks keeps both new and existing worlds readable but never writes (0.845208ms)
+✔ same-token clients serialize under one origin lock: exactly one command saves (0.527375ms)
+✔ seed creation allows only first null token, and revision jumps or unchanged revisions reject atomically (0.476083ms)
+✔ JSON token detects external formatting changes even when revisions match (0.184375ms)
+✔ candidate is captured before waiting for a lock and cannot be mutated into the stored world (0.176208ms)
+✔ write failure retains committed world and exact pending build; retry consumes BP only once (0.411666ms)
+✔ failed initial save is visibly unsaved; retry saves one gift without a command (0.221917ms)
+✔ cancel discards a failed candidate and never publishes or charges it (0.372417ms)
+✔ conflicted pending command cannot retry or run before explicit reload of the other page (0.50175ms)
+✔ two initial controllers and repeated StrictMode initialization save the seed only once (0.281958ms)
+✔ parallel runs synchronously reserve the transaction and never overwrite each other (0.243333ms)
+✔ invalid commands and unchanged moves never perform a storage write (0.198709ms)
+✔ subscribers observe old resources while saving and the committed world only after success (0.307167ms)
+✔ failed effort retry preserves one event id and grants one permanent reward; duplicate submission is a no-op (0.933666ms)
+✔ unavailable lock request getter degrades to explicit read-only and never throws during creation (0.104916ms)
+✔ lock acquisition rejection retains old world and retryable pending command (0.292167ms)
+✔ oversized UTF-8 raw is refused before JSON parsing even below the JS character limit (8.932292ms)
+✔ oversized valid candidate cannot replace the downloadable original raw record with unsaved JSON (61.2855ms)
+✔ pending and published objects are immutable; views cannot change the retried charge or event (0.547667ms)
+✖ default storage getter permission recovery reloads the complete old world on the same controller without seeding (0.937292ms)
+✔ persistent default storage getter denial keeps repeated reloads read-only with zero writes (0.1495ms)
+✔ explicit storage injection remains stable when options and ambient default storage change (0.160625ms)
+✔ locked default storage save captures one storage object for both token read and write (0.461125ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 30
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 165.927917
+
+✖ failing tests:
+
+test at tests/game-persistence.test.mjs:423:1
+✖ default storage getter permission recovery reloads the complete old world on the same controller without seeding (0.937292ms)
+  AssertionError [ERR_ASSERTION]: the same controller must recheck current permission
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:442:12)
+      at async Test.run (node:internal/test_runner/test:1313:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

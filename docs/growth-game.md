@@ -149,3 +149,11 @@ P2-B交付记录：52项项目测试、55项资源检查通过；264对场景边
 - GAME-002-UI进入review：视图11/11，最新154全套测试与build通过；Chrome桌面/320×568/390×700/preview四完整建造流程、真实CDP触控drag/cancel、Alpha/前景/稀疏负地图数学和截图已交QA。旧001后台dev日志追加476字节完整另存game-002-ui-prior-dev-appended.txt后恢复001已提交字节；新dev日志/进程不再写旧证据。
 - GAME-003-DATA进入review：27数据测试、155全套测试与build、真实StrictMode/锁/存储12浏览器基础场景完成；独立数据QA接单，不将harness当完整游戏。Art独立只读检查002截图/脚点/像素与木屋SHA，不改素材/approved。
 - RELEASE原型回归：旧5188服务已停止，初次连接失败留release-old-p1-r1.txt；启动现有应用5191后release-old-p1-r2通过P1桌面/390/320建造成长保存扩张与V3任务完成/撤销、计划编辑、目标创建生成任务，0 pageErrors。WebKit未安装跳过；全部隔离浏览器，不触用户数据。
+
+- 004规则提交465ff6b已Push。002 UI QA已亲跑11项、查看手机/叠层截图，正在补.5/.25/.125缩小Alpha与实际渲染一致性探针，不把未确证猜测当缺陷。
+- QA-DATA-001/P2：默认localStorage getter初次拒绝被service永久缓存，权限恢复后同controller重新读取仍失败；QA稳定复现，数据未损坏。003数据结论changes_requested，原data Builder第1轮修复与回归中。详见qa-defects.md，其他已核查原子保存/冲突/坏档/无锁安全机制无缺陷。
+- Art独立只读复核002截图：10Sprite规格与manifest一致；木屋原始/运行SHA相同；桌面2×33,636与手机1×各8,409个木屋屏幕像素误差0，屋树接地/光照/叠层无客观缺陷。植物大色块、小路重复和8×8稀疏程度留用户主观验收，仍candidate。
+
+- QA-G002-001/P2 Important：QA实际Chrome确证.25/.125屋顶命中漏选/误选自然树；源PNG Alpha与实际缩小栅格取样不一致。002 UI changes_requested，原UI Builder第1轮修复中（真实Canvas回归，不能只改镜像公式）；QA临时证据另存game-002-qa-scale-before/。003/004 UI暂等002复验，规则/数据独立修复继续；不把已有通过截图当低倍率命中已合格。
+
+- QA-DATA-001第1轮关闭：数据31/31、全套158、build，真实Chrome同Hook桌面/320/390恢复旧档0写并后续成功保存。数据QA亲跑31项与原最小反例通过，规格/质量0剩余缺陷；默认Storage重取、锁内同对象capture，未改Hook/API。初次验证504由临时cache冲突造成，隔离cache重跑通过（非第2业务修复）。003数据子阶段可版本化，整体存档UI仍待集成。003-data/qa-data-001-r1-report.md及game-003-data-qa.md。

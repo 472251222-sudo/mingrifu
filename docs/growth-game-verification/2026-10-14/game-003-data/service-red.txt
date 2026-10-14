@@ -1,0 +1,532 @@
+✖ first seed and built world survive fresh service reads without duplicate gifts or old-key access (1.38875ms)
+✖ broken JSON becomes a recoverable fault with exact raw preserved and no writes (0.578458ms)
+✖ unknown schema becomes a recoverable fault with exact raw preserved and no writes (0.077125ms)
+✖ invalid world becomes a recoverable fault with exact raw preserved and no writes (0.076042ms)
+✖ missing fields becomes a recoverable fault with exact raw preserved and no writes (0.064666ms)
+✖ oversized raw becomes a recoverable fault with exact raw preserved and no writes (0.06925ms)
+✖ storage read denial faults without inventing readable raw or creating a seed (0.10875ms)
+✖ localStorage getter denial is caught by lazy default access (0.080458ms)
+✖ no Web Locks keeps both new and existing worlds readable but never writes (0.13375ms)
+✖ same-token clients serialize under one origin lock: exactly one command saves (0.148458ms)
+✖ seed creation allows only first null token, and revision jumps or unchanged revisions reject atomically (0.103375ms)
+✖ JSON token detects external formatting changes even when revisions match (0.14375ms)
+✖ candidate is captured before waiting for a lock and cannot be mutated into the stored world (0.141458ms)
+✖ write failure retains committed world and exact pending build; retry consumes BP only once (0.135541ms)
+✖ failed initial save is visibly unsaved; retry saves one gift without a command (0.098083ms)
+✖ cancel discards a failed candidate and never publishes or charges it (0.089958ms)
+✖ conflicted pending command cannot retry or run before explicit reload of the other page (0.109542ms)
+✖ two initial controllers and repeated StrictMode initialization save the seed only once (0.092792ms)
+✖ parallel runs synchronously reserve the transaction and never overwrite each other (0.064625ms)
+✖ invalid commands and unchanged moves never perform a storage write (0.068541ms)
+✖ subscribers observe old resources while saving and the committed world only after success (0.062791ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 0
+ℹ fail 21
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 90.166125
+
+✖ failing tests:
+
+test at tests/game-persistence.test.mjs:61:1
+✖ first seed and built world survive fresh service reads without duplicate gifts or old-key access (1.38875ms)
+  AssertionError [ERR_ASSERTION]: the save service must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at service (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:52:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:62:42)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.start (node:internal/test_runner/test:1177:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:90:3
+✖ broken JSON becomes a recoverable fault with exact raw preserved and no writes (0.578458ms)
+  AssertionError [ERR_ASSERTION]: the save service must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at service (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:52:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:91:49)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:90:3
+✖ unknown schema becomes a recoverable fault with exact raw preserved and no writes (0.077125ms)
+  AssertionError [ERR_ASSERTION]: the save service must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at service (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:52:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:91:49)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:90:3
+✖ invalid world becomes a recoverable fault with exact raw preserved and no writes (0.076042ms)
+  AssertionError [ERR_ASSERTION]: the save service must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at service (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:52:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:91:49)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:90:3
+✖ missing fields becomes a recoverable fault with exact raw preserved and no writes (0.064666ms)
+  AssertionError [ERR_ASSERTION]: the save service must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at service (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:52:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:91:49)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:90:3
+✖ oversized raw becomes a recoverable fault with exact raw preserved and no writes (0.06925ms)
+  AssertionError [ERR_ASSERTION]: the save service must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at service (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:52:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:91:49)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:107:1
+✖ storage read denial faults without inventing readable raw or creating a seed (0.10875ms)
+  AssertionError [ERR_ASSERTION]: the transaction controller must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at controller (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:56:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:110:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:120:1
+✖ localStorage getter denial is caught by lazy default access (0.080458ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:124:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:133:1
+✖ no Web Locks keeps both new and existing worlds readable but never writes (0.13375ms)
+  AssertionError [ERR_ASSERTION]: the save service must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at service (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:52:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:135:49)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:150:1
+✖ same-token clients serialize under one origin lock: exactly one command saves (0.148458ms)
+  AssertionError [ERR_ASSERTION]: the save service must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at service (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:52:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:152:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:166:1
+✖ seed creation allows only first null token, and revision jumps or unchanged revisions reject atomically (0.103375ms)
+  AssertionError [ERR_ASSERTION]: the save service must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at service (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:52:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:167:44)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:177:1
+✖ JSON token detects external formatting changes even when revisions match (0.14375ms)
+  AssertionError [ERR_ASSERTION]: the save service must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at service (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:52:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:178:77)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:187:1
+✖ candidate is captured before waiting for a lock and cannot be mutated into the stored world (0.141458ms)
+  AssertionError [ERR_ASSERTION]: the save service must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at service (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:52:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:188:77)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:199:1
+✖ write failure retains committed world and exact pending build; retry consumes BP only once (0.135541ms)
+  AssertionError [ERR_ASSERTION]: the transaction controller must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at controller (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:56:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:200:40)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:226:1
+✖ failed initial save is visibly unsaved; retry saves one gift without a command (0.098083ms)
+  AssertionError [ERR_ASSERTION]: the transaction controller must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at controller (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:56:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:229:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:246:1
+✖ cancel discards a failed candidate and never publishes or charges it (0.089958ms)
+  AssertionError [ERR_ASSERTION]: the transaction controller must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at controller (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:56:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:247:40)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:261:1
+✖ conflicted pending command cannot retry or run before explicit reload of the other page (0.109542ms)
+  AssertionError [ERR_ASSERTION]: the transaction controller must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at controller (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:56:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:263:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:281:1
+✖ two initial controllers and repeated StrictMode initialization save the seed only once (0.092792ms)
+  AssertionError [ERR_ASSERTION]: the transaction controller must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at controller (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:56:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:282:59)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:294:1
+✖ parallel runs synchronously reserve the transaction and never overwrite each other (0.064625ms)
+  AssertionError [ERR_ASSERTION]: the transaction controller must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at controller (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:56:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:295:40)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:307:1
+✖ invalid commands and unchanged moves never perform a storage write (0.068541ms)
+  AssertionError [ERR_ASSERTION]: the transaction controller must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at controller (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:56:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:308:40)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:321:1
+✖ subscribers observe old resources while saving and the committed world only after success (0.062791ms)
+  AssertionError [ERR_ASSERTION]: the transaction controller must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at controller (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:56:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:322:40)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

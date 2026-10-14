@@ -1,0 +1,28 @@
+9:57:21 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+{
+  "chromeVersion": "155.0.8059.40",
+  "url": "http://127.0.0.1:5194/__qa-data-001.html",
+  "results": [
+    {
+      "name": "desktop",
+      "status": "failed",
+      "error": "page.waitForFunction: Timeout 30000ms exceeded.\n    at settled (/Users/lyc/Desktop/明日复3.0/docs/growth-game-verification/2026-10-14/game-003-data/browser-qa-data-001.mjs:34:30)\n    at /Users/lyc/Desktop/明日复3.0/docs/growth-game-verification/2026-10-14/game-003-data/browser-qa-data-001.mjs:58:34",
+      "errors": [
+        "Failed to load resource: the server responded with a status of 504 (Outdated Optimize Dep)",
+        "Failed to load resource: the server responded with a status of 504 (Outdated Optimize Dep)"
+      ]
+    }
+  ]
+}
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+page.waitForFunction: Timeout 30000ms exceeded.
+    at settled (/Users/lyc/Desktop/明日复3.0/docs/growth-game-verification/2026-10-14/game-003-data/browser-qa-data-001.mjs:34:30)
+    at /Users/lyc/Desktop/明日复3.0/docs/growth-game-verification/2026-10-14/game-003-data/browser-qa-data-001.mjs:58:34 {
+  log: [],
+  name: 'TimeoutError'
+}
+
+Node.js v24.16.0

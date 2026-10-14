@@ -1,0 +1,46 @@
+{
+  "chromeVersion": "155.0.8059.40",
+  "url": "http://127.0.0.1:5194/__qa-data-001.html",
+  "cacheDir": "/var/folders/zq/rtrjt2x968x9j_49jf08r3jr0000gn/T/mingrifu-qa-data-001-vite-2tGttD",
+  "results": [
+    {
+      "name": "desktop",
+      "width": 1280,
+      "status": "passed",
+      "sameHook": true,
+      "recoveryWrites": 0,
+      "recoveredRevision": 3,
+      "recoveredXP": 25,
+      "recoveredBP": 33,
+      "resumedWrites": 1,
+      "resumedXP": 35,
+      "resumedBP": 35
+    },
+    {
+      "name": "phone320",
+      "width": 320,
+      "status": "passed",
+      "sameHook": true,
+      "recoveryWrites": 0,
+      "recoveredRevision": 3,
+      "recoveredXP": 25,
+      "recoveredBP": 33,
+      "resumedWrites": 1,
+      "resumedXP": 35,
+      "resumedBP": 35
+    },
+    {
+      "name": "phone390",
+      "width": 390,
+      "status": "passed",
+      "sameHook": true,
+      "recoveryWrites": 0,
+      "recoveredRevision": 3,
+      "recoveredXP": 25,
+      "recoveredBP": 33,
+      "resumedWrites": 1,
+      "resumedXP": 35,
+      "resumedBP": 35
+    }
+  ]
+}

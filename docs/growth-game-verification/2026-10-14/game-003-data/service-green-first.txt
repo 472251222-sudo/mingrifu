@@ -1,0 +1,29 @@
+✔ first seed and built world survive fresh service reads without duplicate gifts or old-key access (2.97675ms)
+✔ broken JSON becomes a recoverable fault with exact raw preserved and no writes (1.024125ms)
+✔ unknown schema becomes a recoverable fault with exact raw preserved and no writes (0.460375ms)
+✔ invalid world becomes a recoverable fault with exact raw preserved and no writes (0.227125ms)
+✔ missing fields becomes a recoverable fault with exact raw preserved and no writes (0.191375ms)
+✔ oversized raw becomes a recoverable fault with exact raw preserved and no writes (0.169875ms)
+✔ storage read denial faults without inventing readable raw or creating a seed (0.312125ms)
+✔ localStorage getter denial is caught by lazy default access (0.101209ms)
+✔ no Web Locks keeps both new and existing worlds readable but never writes (0.359875ms)
+✔ same-token clients serialize under one origin lock: exactly one command saves (0.848375ms)
+✔ seed creation allows only first null token, and revision jumps or unchanged revisions reject atomically (0.460083ms)
+✔ JSON token detects external formatting changes even when revisions match (0.170666ms)
+✔ candidate is captured before waiting for a lock and cannot be mutated into the stored world (0.155417ms)
+✔ write failure retains committed world and exact pending build; retry consumes BP only once (0.413542ms)
+✔ failed initial save is visibly unsaved; retry saves one gift without a command (0.213083ms)
+✔ cancel discards a failed candidate and never publishes or charges it (0.351292ms)
+✔ conflicted pending command cannot retry or run before explicit reload of the other page (0.76475ms)
+✔ two initial controllers and repeated StrictMode initialization save the seed only once (0.27125ms)
+✔ parallel runs synchronously reserve the transaction and never overwrite each other (0.209792ms)
+✔ invalid commands and unchanged moves never perform a storage write (0.172292ms)
+✔ subscribers observe old resources while saving and the committed world only after success (0.2265ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 87.017709

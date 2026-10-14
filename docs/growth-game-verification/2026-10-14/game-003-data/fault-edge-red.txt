@@ -1,0 +1,78 @@
+✔ first seed and built world survive fresh service reads without duplicate gifts or old-key access (2.363208ms)
+✔ broken JSON becomes a recoverable fault with exact raw preserved and no writes (0.585417ms)
+✔ unknown schema becomes a recoverable fault with exact raw preserved and no writes (0.197375ms)
+✔ invalid world becomes a recoverable fault with exact raw preserved and no writes (0.182ms)
+✔ missing fields becomes a recoverable fault with exact raw preserved and no writes (0.176625ms)
+✔ oversized raw becomes a recoverable fault with exact raw preserved and no writes (0.169125ms)
+✔ storage read denial faults without inventing readable raw or creating a seed (0.330541ms)
+✔ localStorage getter denial is caught by lazy default access (0.101083ms)
+✔ no Web Locks keeps both new and existing worlds readable but never writes (0.345208ms)
+✔ same-token clients serialize under one origin lock: exactly one command saves (0.901375ms)
+✔ seed creation allows only first null token, and revision jumps or unchanged revisions reject atomically (0.474959ms)
+✔ JSON token detects external formatting changes even when revisions match (0.165125ms)
+✔ candidate is captured before waiting for a lock and cannot be mutated into the stored world (0.1555ms)
+✔ write failure retains committed world and exact pending build; retry consumes BP only once (0.389708ms)
+✔ failed initial save is visibly unsaved; retry saves one gift without a command (0.194166ms)
+✔ cancel discards a failed candidate and never publishes or charges it (0.364667ms)
+✔ conflicted pending command cannot retry or run before explicit reload of the other page (0.627417ms)
+✔ two initial controllers and repeated StrictMode initialization save the seed only once (0.23ms)
+✔ parallel runs synchronously reserve the transaction and never overwrite each other (0.2005ms)
+✔ invalid commands and unchanged moves never perform a storage write (0.170709ms)
+✔ subscribers observe old resources while saving and the committed world only after success (0.22375ms)
+✔ failed effort retry preserves one event id and grants one permanent reward; duplicate submission is a no-op (0.851209ms)
+✖ unavailable lock request getter degrades to explicit read-only and never throws during creation (0.163792ms)
+✔ lock acquisition rejection retains old world and retryable pending command (0.265792ms)
+✔ oversized UTF-8 raw is refused before JSON parsing even below the JS character limit (9.444458ms)
+✖ oversized valid candidate cannot replace the downloadable original raw record with unsaved JSON (62.067125ms)
+✔ pending and published objects are immutable; views cannot change the retried charge or event (0.497ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 25
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 159.25225
+
+✖ failing tests:
+
+test at tests/game-persistence.test.mjs:361:1
+✖ unavailable lock request getter degrades to explicit read-only and never throws during creation (0.163792ms)
+  SecurityError: blocked
+      at new DOMException (node:internal/per_context/domexception:76:18)
+      at get request (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:362:40)
+      at Module.createGamePersistence (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/persistence.js:50:32)
+      at service (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:53:14)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:363:44)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+
+test at tests/game-persistence.test.mjs:391:1
+✖ oversized valid candidate cannot replace the downloadable original raw record with unsaved JSON (62.067125ms)
+  AssertionError [ERR_ASSERTION]: The validation function is expected to return "true". Received false
+  
+  Caught error:
+  
+  GamePersistenceError: 世界记录超过 8 MiB 安全读取上限，原始记录已保留。请下载原始记录后检查。
+      at async TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:405:3)
+      at async Test.run (node:internal/test_runner/test:1313:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: GamePersistenceError: 世界记录超过 8 MiB 安全读取上限，原始记录已保留。请下载原始记录后检查。
+        at fault (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/persistence.js:20:53)
+        at checkSize (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/persistence.js:25:11)
+        at parseWorld (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/persistence.js:36:3)
+        at Object.save (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/persistence.js:75:22)
+        at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:405:32)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1306:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+        at Test.postRun (node:internal/test_runner/test:1447:19)
+        at Test.run (node:internal/test_runner/test:1372:12),
+    operator: 'rejects',
+    diff: 'simple'
+  }

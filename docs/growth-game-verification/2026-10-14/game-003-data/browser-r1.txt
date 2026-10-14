@@ -1,0 +1,126 @@
+9:37:21 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+{
+  "url": "http://127.0.0.1:5194/__game-data-harness.html",
+  "chromeVersion": "155.0.8059.40",
+  "results": [
+    {
+      "name": "desktop-strict-quota-refresh",
+      "status": "passed",
+      "evidence": {
+        "bp": 38,
+        "xp": 50,
+        "revision": 2,
+        "efforts": 1,
+        "saved": true
+      }
+    },
+    {
+      "name": "two-tabs-real-web-locks",
+      "status": "passed",
+      "evidence": {
+        "outcomes": [
+          true,
+          false
+        ],
+        "winnerRevision": 1,
+        "loserCode": "conflict",
+        "loserReloadedBP": 28
+      }
+    },
+    {
+      "name": "two-tabs-first-seed",
+      "status": "passed",
+      "evidence": {
+        "totalWrites": 1,
+        "bp": 30,
+        "objects": 1
+      }
+    },
+    {
+      "name": "bad-json",
+      "status": "passed",
+      "evidence": {
+        "code": "invalid_json",
+        "readonly": true,
+        "writes": 0,
+        "rawDownloadExact": true
+      }
+    },
+    {
+      "name": "unknown-version",
+      "status": "passed",
+      "evidence": {
+        "code": "unsupported_version",
+        "readonly": true,
+        "writes": 0,
+        "rawDownloadExact": true
+      }
+    },
+    {
+      "name": "invalid-world",
+      "status": "passed",
+      "evidence": {
+        "code": "invalid_world",
+        "readonly": true,
+        "writes": 0,
+        "rawDownloadExact": true
+      }
+    },
+    {
+      "name": "no-locks-new",
+      "status": "passed",
+      "evidence": {
+        "saved": false,
+        "readonly": true,
+        "writes": 0
+      }
+    },
+    {
+      "name": "no-locks-existing",
+      "status": "passed",
+      "evidence": {
+        "saved": true,
+        "readonly": true,
+        "writes": 0
+      }
+    },
+    {
+      "name": "storage-getter-denied",
+      "status": "passed",
+      "evidence": {
+        "code": "storage_unavailable",
+        "saved": false,
+        "raw": null
+      }
+    },
+    {
+      "name": "first-seed-quota-retry",
+      "status": "passed",
+      "evidence": {
+        "saved": true,
+        "writes": 1,
+        "bp": 30
+      }
+    },
+    {
+      "name": "phone-320-touch-persistence",
+      "status": "passed",
+      "evidence": {
+        "width": 320,
+        "bp": 33,
+        "xp": 25,
+        "revision": 2
+      }
+    },
+    {
+      "name": "phone-390-touch-persistence",
+      "status": "passed",
+      "evidence": {
+        "width": 390,
+        "bp": 33,
+        "xp": 25,
+        "revision": 2
+      }
+    }
+  ]
+}
