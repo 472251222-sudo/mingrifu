@@ -140,3 +140,5 @@ P2-B交付记录：52项项目测试、55项资源检查通过；264对场景边
 - 并行分工：GAME-002纯规则不依赖GAME-001页面实现，BASE完成后由 /root/game_rules 独占balance.js/world.js/spatial.js与game-world测试；/root/game_builder完成001后独占正交渲染/UI。共享API由Manager协调，规则Builder不写UI，UI Builder不写规则。阶段提交仍按独立入口→建造→存档/成长依赖推进。Art只读初始布局建议：木屋(2,2)、道路(3,4..7)、树(0,2)/(6,3)、幼草(0,6)/(6,6)、花(2,5)，新增构图candidate。
 
 - GAME-001：真实RED→GREEN构建/HTTP契约3项，全套55/55；独立build成功。隔离Chrome155桌面dev/preview、320/390、木屋404重试共5项通过。Manager另实跑契约3/3并查看320截图；QA独立规格/质量通过、0缺陷，19受保护文件与BASE相同，12资源原字节一致。首轮favicon404已定位并最小修正，原失败证据保留。未验证连续触控拖动/真机/Safari，002与RELEASE补覆盖。报告game-001-report.md，QA game-001-qa.md；本阶段不宣称完整游戏可玩或新美术通过。
+
+- GAME-001提交4d100a4已Push。GAME-002-RULES独立子阶段：规则26/26、全套81/81，QA亲跑26项并在内存验证全部10素材建造/收纳/重摆；规格/质量0缺陷通过。此子阶段版本化稳定API后，规则Builder继续004努力/生态与003扩张纯命令，UI Builder继续002建造；完整002尚未宣称完成。规则报告与QA见game-002-rules-report.md/game-002-rules-qa.md。

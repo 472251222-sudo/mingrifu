@@ -1,0 +1,34 @@
+✔ catalog uses actual asset IDs, names and footprints and the confirmed prices (4.9815ms)
+✔ stages are derived from permanent XP at both exact boundaries (0.23475ms)
+✔ new world has the configured gift, protected path, sparse nature and no consumed progress (0.570458ms)
+✔ footprints use the complete square grid, not sprite canvas dimensions (0.123208ms)
+✔ world cells and frontier include all four directions and negative chunk coordinates (0.16375ms)
+✔ placement checks space only and never consume BP, unlock content or remove vegetation (0.215958ms)
+✔ a confirmed flower costs BP once, increments revision and allocates a stable ID (0.363083ms)
+✔ legal confirmed placement clears complete intersecting natural footprints only (0.168625ms)
+✔ unknown, out-of-bounds and overlapping builds reject atomically with meaningful messages (1.289167ms)
+✔ initial mature trees do not unlock their catalog entries and rejected builds preserve nature (0.640916ms)
+✔ insufficient BP leaves resources, IDs, nature and revision untouched (0.102583ms)
+✔ gift cabin move, storage and placement retain ID and are always free (0.254625ms)
+✔ moving ignores its old footprint and identical movement is an actual no-op (0.097958ms)
+✔ moving and re-placing an owned locked asset do not re-check catalog locks or charge (0.174ms)
+✔ invalid object lifecycle commands reject atomically instead of creating duplicate objects (0.607084ms)
+✔ full footprints may cross seams of already connected land without moving original records (0.118167ms)
+✔ revision and allocation overflow reject before any changes (0.17625ms)
+✔ validation rejects unknown schemas and invalid resources without replacing the input (0.6135ms)
+✔ validation rejects missing, disconnected, duplicate and oversized chunks (0.240625ms)
+✔ validation rejects unsafe, reused and non-monotonic object IDs across both collections (0.340375ms)
+✔ validation distinguishes stored coordinates, live footprints and actual artificial overlap (0.568917ms)
+✔ natural objects cannot occupy artificial cells, path cells or each other (0.411792ms)
+✔ path validation rejects duplicate, fractional and locked-land cells (0.193459ms)
+✔ effort validation enforces event content, uniqueness, permanent XP total and earned BP ceiling (0.509875ms)
+✔ bounded collections and text reject malformed archives before iterating huge inputs (0.24025ms)
+✔ commands validate the original world before attempting edits (0.076042ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 26
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 89.357708

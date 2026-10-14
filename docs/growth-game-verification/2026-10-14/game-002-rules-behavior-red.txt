@@ -1,0 +1,444 @@
+✔ catalog uses actual asset IDs, names and footprints and the confirmed prices (5.7255ms)
+✔ stages are derived from permanent XP at both exact boundaries (0.276333ms)
+✔ new world has the configured gift, protected path, sparse nature and no consumed progress (0.22375ms)
+✔ footprints use the complete square grid, not sprite canvas dimensions (0.19025ms)
+✔ world cells and frontier include all four directions and negative chunk coordinates (0.192166ms)
+✔ placement checks space only and never consume BP, unlock content or remove vegetation (0.246208ms)
+✖ a confirmed flower costs BP once, increments revision and allocates a stable ID (0.166042ms)
+✖ legal confirmed placement clears complete intersecting natural footprints only (0.060833ms)
+✖ unknown, out-of-bounds and overlapping builds reject atomically with meaningful messages (0.829834ms)
+✖ initial mature trees do not unlock their catalog entries and rejected builds preserve nature (0.189458ms)
+✖ insufficient BP leaves resources, IDs, nature and revision untouched (0.110959ms)
+✖ gift cabin move, storage and placement retain ID and are always free (0.076541ms)
+✖ moving ignores its old footprint and identical movement is an actual no-op (0.064458ms)
+✖ moving and re-placing an owned locked asset do not re-check catalog locks or charge (0.061125ms)
+✖ invalid object lifecycle commands reject atomically instead of creating duplicate objects (0.126583ms)
+✖ full footprints may cross seams of already connected land without moving original records (0.08575ms)
+✖ revision and allocation overflow reject before any changes (0.129917ms)
+✖ validation rejects unknown schemas and invalid resources without replacing the input (0.641042ms)
+✖ validation rejects missing, disconnected, duplicate and oversized chunks (0.140583ms)
+✖ validation rejects unsafe, reused and non-monotonic object IDs across both collections (0.094958ms)
+✖ validation distinguishes stored coordinates, live footprints and actual artificial overlap (0.09575ms)
+✖ natural objects cannot occupy artificial cells, path cells or each other (0.091125ms)
+✖ path validation rejects duplicate, fractional and locked-land cells (0.081542ms)
+✖ effort validation enforces event content, uniqueness, permanent XP total and earned BP ceiling (0.135292ms)
+✖ bounded collections and text reject malformed archives before iterating huge inputs (0.0935ms)
+✖ commands validate the original world before attempting edits (0.128417ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 6
+ℹ fail 20
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 92.966792
+
+✖ failing tests:
+
+test at tests/game-world.test.mjs:117:1
+✖ a confirmed flower costs BP once, increments revision and allocates a stable ID (0.166042ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:8:9)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:119:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-world.test.mjs:131:1
+✖ legal confirmed placement clears complete intersecting natural footprints only (0.060833ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:8:9)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:133:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-world.test.mjs:141:1
+✖ unknown, out-of-bounds and overlapping builds reject atomically with meaningful messages (0.829834ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /土地|越界|超出/. Input:
+  
+  'Error: 这项操作暂不可用。'
+  
+      at rejectAtomic (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:18:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:142:3)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: 这项操作暂不可用。
+        at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:8:9)
+        at file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:18:23
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at rejectAtomic (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:18:10)
+        at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:142:3)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1306:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+        at Test.postRun (node:internal/test_runner/test:1447:19),
+    expected: /土地|越界|超出/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/game-world.test.mjs:150:1
+✖ initial mature trees do not unlock their catalog entries and rejected builds preserve nature (0.189458ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /解锁|XP/. Input:
+  
+  'Error: 这项操作暂不可用。'
+  
+      at rejectAtomic (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:18:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:151:105)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: 这项操作暂不可用。
+        at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:8:9)
+        at file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:18:23
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at rejectAtomic (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:18:10)
+        at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:151:105)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1306:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+        at Test.postRun (node:internal/test_runner/test:1447:19),
+    expected: /解锁|XP/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/game-world.test.mjs:159:1
+✖ insufficient BP leaves resources, IDs, nature and revision untouched (0.110959ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /BP|建造点|不足/. Input:
+  
+  'Error: 这项操作暂不可用。'
+  
+      at rejectAtomic (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:18:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:162:3)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: 这项操作暂不可用。
+        at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:8:9)
+        at file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:18:23
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at rejectAtomic (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:18:10)
+        at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:162:3)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1306:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+        at Test.postRun (node:internal/test_runner/test:1447:19),
+    expected: /BP|建造点|不足/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/game-world.test.mjs:165:1
+✖ gift cabin move, storage and placement retain ID and are always free (0.076541ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:8:9)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:168:17)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-world.test.mjs:184:1
+✖ moving ignores its old footprint and identical movement is an actual no-op (0.064458ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:8:9)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:186:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-world.test.mjs:193:1
+✖ moving and re-placing an owned locked asset do not re-check catalog locks or charge (0.061125ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:8:9)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:198:17)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-world.test.mjs:206:1
+✖ invalid object lifecycle commands reject atomically instead of creating duplicate objects (0.126583ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /找不到|对象/. Input:
+  
+  'Error: 这项操作暂不可用。'
+  
+      at rejectAtomic (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:18:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:207:3)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: 这项操作暂不可用。
+        at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:8:9)
+        at file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:18:23
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at rejectAtomic (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:18:10)
+        at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:207:3)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1306:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+        at Test.postRun (node:internal/test_runner/test:1447:19),
+    expected: /找不到|对象/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/game-world.test.mjs:220:1
+✖ full footprints may cross seams of already connected land without moving original records (0.08575ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:8:9)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:226:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-world.test.mjs:233:1
+✖ revision and allocation overflow reject before any changes (0.129917ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /编号|ID|上限|溢出/. Input:
+  
+  'Error: 这项操作暂不可用。'
+  
+      at rejectAtomic (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:18:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:236:3)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: 这项操作暂不可用。
+        at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:8:9)
+        at file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:18:23
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at rejectAtomic (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:18:10)
+        at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:236:3)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1306:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+        at Test.postRun (node:internal/test_runner/test:1447:19),
+    expected: /编号|ID|上限|溢出/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/game-world.test.mjs:242:1
+✖ validation rejects unknown schemas and invalid resources without replacing the input (0.641042ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:250:14)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /存档|整数|资源|编号/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/game-world.test.mjs:258:1
+✖ validation rejects missing, disconnected, duplicate and oversized chunks (0.140583ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:262:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /存档|土地|区块/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/game-world.test.mjs:268:1
+✖ validation rejects unsafe, reused and non-monotonic object IDs across both collections (0.094958ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:271:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /存档|编号|ID/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/game-world.test.mjs:279:1
+✖ validation distinguishes stored coordinates, live footprints and actual artificial overlap (0.09575ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:282:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /存档|占地|对象|素材|收纳/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/game-world.test.mjs:290:1
+✖ natural objects cannot occupy artificial cells, path cells or each other (0.091125ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:293:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /存档|自然|占地/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/game-world.test.mjs:299:1
+✖ path validation rejects duplicate, fractional and locked-land cells (0.081542ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:302:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /存档|道路/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/game-world.test.mjs:306:1
+✖ effort validation enforces event content, uniqueness, permanent XP total and earned BP ceiling (0.135292ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:311:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /存档|努力|事件|XP/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/game-world.test.mjs:323:1
+✖ bounded collections and text reject malformed archives before iterating huge inputs (0.0935ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:326:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /存档|上限/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/game-world.test.mjs:334:1
+✖ commands validate the original world before attempting edits (0.128417ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /XP|存档/. Input:
+  
+  'Error: 这项操作暂不可用。'
+  
+      at rejectAtomic (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:18:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:336:3)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: 这项操作暂不可用。
+        at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:8:9)
+        at file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:18:23
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at rejectAtomic (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:18:10)
+        at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-world.test.mjs:336:3)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1306:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+        at Test.postRun (node:internal/test_runner/test:1447:19),
+    expected: /XP|存档/,
+    operator: 'throws',
+    diff: 'simple'
+  }
