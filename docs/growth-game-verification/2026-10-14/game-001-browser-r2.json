@@ -1,0 +1,91 @@
+{
+  "chromeVersion": "155.0.8059.40",
+  "results": [
+    {
+      "name": "desktop-dev",
+      "base": "http://127.0.0.1:5189/",
+      "width": 1280,
+      "mobile": false,
+      "initialScale": 1,
+      "canvasState": {
+        "width": 1078,
+        "height": 680,
+        "smoothing": false,
+        "colors": 36,
+        "imageRendering": "pixelated",
+        "touchAction": "none"
+      },
+      "errors": [],
+      "failed": [],
+      "storage": "isolated sentinel values unchanged",
+      "requestCount": 58,
+      "status": "passed"
+    },
+    {
+      "name": "desktop-preview",
+      "base": "http://127.0.0.1:5190/",
+      "width": 1280,
+      "mobile": false,
+      "initialScale": 1,
+      "canvasState": {
+        "width": 1078,
+        "height": 680,
+        "smoothing": false,
+        "colors": 36,
+        "imageRendering": "pixelated",
+        "touchAction": "none"
+      },
+      "errors": [],
+      "failed": [],
+      "storage": "isolated sentinel values unchanged",
+      "requestCount": 30,
+      "status": "passed"
+    },
+    {
+      "name": "phone-320",
+      "base": "http://127.0.0.1:5189/",
+      "width": 320,
+      "mobile": true,
+      "initialScale": 0.5,
+      "canvasState": {
+        "width": 294,
+        "height": 489,
+        "smoothing": false,
+        "colors": 110,
+        "imageRendering": "pixelated",
+        "touchAction": "none"
+      },
+      "errors": [],
+      "failed": [],
+      "storage": "isolated sentinel values unchanged",
+      "requestCount": 58,
+      "status": "passed"
+    },
+    {
+      "name": "phone-390",
+      "base": "http://127.0.0.1:5189/",
+      "width": 390,
+      "mobile": true,
+      "initialScale": 0.5,
+      "canvasState": {
+        "width": 364,
+        "height": 489,
+        "smoothing": false,
+        "colors": 110,
+        "imageRendering": "pixelated",
+        "touchAction": "none"
+      },
+      "errors": [],
+      "failed": [],
+      "storage": "isolated sentinel values unchanged",
+      "requestCount": 58,
+      "status": "passed"
+    },
+    {
+      "name": "resource-failure-retry",
+      "status": "passed",
+      "failure": "isolated cabin PNG 404",
+      "retry": "renders real world successfully"
+    }
+  ]
+}

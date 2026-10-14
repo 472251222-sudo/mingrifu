@@ -1,0 +1,29 @@
+✘ [ERROR] Could not resolve "/Users/lyc/Desktop/明日复3.0/vite.game.config.mjs"
+
+✖ independent game builds and serves its own shell and original resources without V3 (15.040708ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 175.416
+
+✖ failing tests:
+
+test at tests/game-build.test.mjs:14:1
+✖ independent game builds and serves its own shell and original resources without V3 (15.040708ms)
+  AssertionError [ERR_ASSERTION]: The independent game must build successfully: Build failed with 1 error:
+  error: Could not resolve "/Users/lyc/Desktop/明日复3.0/vite.game.config.mjs"
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-build.test.mjs:28:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1313:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: undefined,
+    operator: 'fail',
+    diff: 'simple'
+  }

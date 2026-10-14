@@ -1,0 +1,5 @@
+
+> 3-0@0.0.0 preview:game
+> vite preview --config vite.game.config.mjs
+
+  ➜  Local:   http://127.0.0.1:5190/

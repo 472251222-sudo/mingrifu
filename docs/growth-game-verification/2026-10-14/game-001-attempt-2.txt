@@ -1,0 +1,6 @@
+✘ [ERROR] The build was canceled
+
+
+Interrupted while running:
+
+⚠ tests/game-build.test.mjs (tests/game-build.test.mjs:1:1)

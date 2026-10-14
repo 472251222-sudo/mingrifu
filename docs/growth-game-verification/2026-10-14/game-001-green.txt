@@ -1,0 +1,12 @@
+▶ independent game builds and serves its own shell and original resources without V3
+  ✔ dev root resolves game HTML, aliased entry and runtime assets (87.274166ms)
+  ✔ preview root resolves built game HTML, chunk and every runtime asset (20.00525ms)
+✔ independent game builds and serves its own shell and original resources without V3 (547.415833ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 734.595333
