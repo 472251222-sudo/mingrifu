@@ -1,0 +1,232 @@
+{
+  "task": "GAME003-GUARD-UI-R1",
+  "listedFiles": 45,
+  "selfExcluded": true,
+  "files": [
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-build.txt",
+      "bytes": 1369,
+      "sha256": "8565e8d0876a89d566fd93fc2b5eb3eba8a91d2c1daaf40be5a0ca7a81726d88"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-compat-build-both-320-pending.png",
+      "bytes": 58100,
+      "sha256": "35ebfc201b3da77d7d2cf204c33dcf745217f0ce5fab2e2393a537c9b5fb0312"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-compat-build-both-320-retried.png",
+      "bytes": 42023,
+      "sha256": "1b1b1770ce896a57372e54f5f5af2141fbdf3d15fb0d8ed684674f52d21150ed"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-compat-effort-cancel-320-pending.png",
+      "bytes": 59382,
+      "sha256": "9c1dfdc1f9a59a0d23ac9bb1aed20fe03a2d7a483b62f4056e20a4535337a9b9"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-compat-effort-cancel-320-retried.png",
+      "bytes": 44822,
+      "sha256": "bb5887495ec5f831bc5226f4b81b911040818f094b3de99f2ce4909603173528"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-compat-effort-reload-390-pending.png",
+      "bytes": 63641,
+      "sha256": "7486c0f193fadc4231ba1028d031038a76bc62015638938ba62abe031c956f86"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-compat-effort-reload-390-retried.png",
+      "bytes": 46943,
+      "sha256": "9e8019295bd26b8bdd296a28aaa8fd5826fd8458488443398b01d3f599c3371e"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-compat-ordinary-reloaded.png",
+      "bytes": 42027,
+      "sha256": "f8d3f58dae6190d614241f8cf72a76d385ce9a0d8706caea4bfb94edd3767b90"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-compat.json",
+      "bytes": 17404,
+      "sha256": "ef726a3587a42edf90f8bfb596ca0c606d2b1a108894357f4c1735180f8c7444"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-compat.txt",
+      "bytes": 17405,
+      "sha256": "7c958d4080d6f76a1a0b519a9b5a2ff16d6581c1739d97b7c3d9ac80db58b66a"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-green-build-both-320-error.png",
+      "bytes": 40528,
+      "sha256": "00223bc3962aee381993f7ca32ce210a028760922b65c41d9cd4ca10f9e85fb3"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-green-effort-cancel-320-pending.png",
+      "bytes": 59382,
+      "sha256": "9c1dfdc1f9a59a0d23ac9bb1aed20fe03a2d7a483b62f4056e20a4535337a9b9"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-green-effort-cancel-320-retried.png",
+      "bytes": 44822,
+      "sha256": "bb5887495ec5f831bc5226f4b81b911040818f094b3de99f2ce4909603173528"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-green-effort-reload-390-pending.png",
+      "bytes": 63641,
+      "sha256": "7486c0f193fadc4231ba1028d031038a76bc62015638938ba62abe031c956f86"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-green-effort-reload-390-retried.png",
+      "bytes": 46943,
+      "sha256": "9e8019295bd26b8bdd296a28aaa8fd5826fd8458488443398b01d3f599c3371e"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-green-verified-build-both-320-pending.png",
+      "bytes": 58100,
+      "sha256": "35ebfc201b3da77d7d2cf204c33dcf745217f0ce5fab2e2393a537c9b5fb0312"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-green-verified-build-both-320-retried.png",
+      "bytes": 42023,
+      "sha256": "1b1b1770ce896a57372e54f5f5af2141fbdf3d15fb0d8ed684674f52d21150ed"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-green-verified-effort-cancel-320-pending.png",
+      "bytes": 59382,
+      "sha256": "9c1dfdc1f9a59a0d23ac9bb1aed20fe03a2d7a483b62f4056e20a4535337a9b9"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-green-verified-effort-cancel-320-retried.png",
+      "bytes": 44822,
+      "sha256": "bb5887495ec5f831bc5226f4b81b911040818f094b3de99f2ce4909603173528"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-green-verified-effort-reload-390-pending.png",
+      "bytes": 63641,
+      "sha256": "7486c0f193fadc4231ba1028d031038a76bc62015638938ba62abe031c956f86"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-green-verified-effort-reload-390-retried.png",
+      "bytes": 46943,
+      "sha256": "9e8019295bd26b8bdd296a28aaa8fd5826fd8458488443398b01d3f599c3371e"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-green-verified.json",
+      "bytes": 17223,
+      "sha256": "6929ea096c0da21246973671ca816119e9f25f15cc9c0a0b6a2a548bb9e2e0ef"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-green-verified.txt",
+      "bytes": 17224,
+      "sha256": "c00d95293f5c3c641d28529acb2be0166bc9c70a444f65c927a82c16d8195e8d"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-green.json",
+      "bytes": 12063,
+      "sha256": "2499cf26ad4c796d86d8a36118e76fdd7477e02d278bc677575ea03dd0bd5406"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-green.txt",
+      "bytes": 12979,
+      "sha256": "2320b10521f7009232767d639e76e31636d7dc87c682a71d8085eeb2c34e7f15"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-hashes.json",
+      "bytes": 2352,
+      "sha256": "f22191d13485f4f88ff2f27bd6e57d338cd0a50e334f04bf5be1fde8e761e6d9"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-npm-test.txt",
+      "bytes": 17698,
+      "sha256": "064926369f762dff19e7f14b34655055ca7cba4714a88f00e423e71b61fb1b0f"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-production-build-both-320-pending.png",
+      "bytes": 58100,
+      "sha256": "35ebfc201b3da77d7d2cf204c33dcf745217f0ce5fab2e2393a537c9b5fb0312"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-production-build-both-320-retried.png",
+      "bytes": 42023,
+      "sha256": "1b1b1770ce896a57372e54f5f5af2141fbdf3d15fb0d8ed684674f52d21150ed"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-production-effort-cancel-320-pending.png",
+      "bytes": 59382,
+      "sha256": "9c1dfdc1f9a59a0d23ac9bb1aed20fe03a2d7a483b62f4056e20a4535337a9b9"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-production-effort-cancel-320-retried.png",
+      "bytes": 44822,
+      "sha256": "bb5887495ec5f831bc5226f4b81b911040818f094b3de99f2ce4909603173528"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-production-effort-reload-390-pending.png",
+      "bytes": 63641,
+      "sha256": "7486c0f193fadc4231ba1028d031038a76bc62015638938ba62abe031c956f86"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-production-effort-reload-390-retried.png",
+      "bytes": 46943,
+      "sha256": "9e8019295bd26b8bdd296a28aaa8fd5826fd8458488443398b01d3f599c3371e"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-production-ordinary-reloaded.png",
+      "bytes": 42027,
+      "sha256": "f8d3f58dae6190d614241f8cf72a76d385ce9a0d8706caea4bfb94edd3767b90"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-production.json",
+      "bytes": 17440,
+      "sha256": "d46db127b162dc11fbd083badba14e0fb83f8e4d9f5b1c1ebd90ef8e719b3f93"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-production.txt",
+      "bytes": 17441,
+      "sha256": "7f46702dbdaed67ff195ca4449636e3de2447d97cc8205898b60d1cf64c82206"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-red-effort-cancel-320-pending.png",
+      "bytes": 56412,
+      "sha256": "8c83a6f071efbe581fdb27653ad91cc5eece15e453ad29da54587ce5331c9edb"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-red-effort-cancel-320-retried.png",
+      "bytes": 43546,
+      "sha256": "2d1605167e620df2311885115fcbe572d274cc770ac0fc2d144922ebadda8ac1"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-red-effort-reload-390-pending.png",
+      "bytes": 63641,
+      "sha256": "7486c0f193fadc4231ba1028d031038a76bc62015638938ba62abe031c956f86"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-red-effort-reload-390-retried.png",
+      "bytes": 45634,
+      "sha256": "f6eef880cae2498ff3dd5e8b35324968960e01df353f8d8c8f2a3a9c0d290083"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-red.json",
+      "bytes": 12109,
+      "sha256": "cee3027019bff5f388367299af923f6f1dd6cc39e74c09d56e549ec0f7cf0639"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-red.txt",
+      "bytes": 13277,
+      "sha256": "2ded591e2ac344bd762904893b9aa416fdea5b5a1e056fdefca700a9659887fc"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui-r1-report.md",
+      "bytes": 4416,
+      "sha256": "1a7b6d9088c34255eb5ac188b9020c6784f971d85d4557c1daf85e37e6a12aaf"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-guard-ui.mjs",
+      "bytes": 11089,
+      "sha256": "588b9c7e8ffbd5d2a470ff49666cf65af9d011f63f430354e4a8e5ca3d5f4a87"
+    },
+    {
+      "path": "src/growth/game/GameApp.jsx",
+      "bytes": 19278,
+      "sha256": "20bec0ec365694797ecaa26cbf719bbe39190f10a9c2a36a27a928a72bbf44ef"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+✔ first seed and built world survive fresh service reads without duplicate gifts or old-key access (2.70075ms)
+✔ broken JSON becomes a recoverable fault with exact raw preserved and no writes (0.550167ms)
+✔ unknown schema becomes a recoverable fault with exact raw preserved and no writes (0.185083ms)
+✔ invalid world becomes a recoverable fault with exact raw preserved and no writes (0.199292ms)
+✔ missing fields becomes a recoverable fault with exact raw preserved and no writes (0.208083ms)
+✔ oversized raw becomes a recoverable fault with exact raw preserved and no writes (0.169584ms)
+✔ storage read denial faults without inventing readable raw or creating a seed (0.268833ms)
+✔ localStorage getter denial is caught by lazy default access (0.097375ms)
+✔ no Web Locks keeps both new and existing worlds readable but never writes (0.964917ms)
+✔ same-token clients serialize under one origin lock: exactly one command saves (0.506084ms)
+✔ seed creation allows only first null token, and revision jumps or unchanged revisions reject atomically (0.444417ms)
+✔ JSON token detects external formatting changes even when revisions match (0.153917ms)
+✔ candidate is captured before waiting for a lock and cannot be mutated into the stored world (0.15275ms)
+✔ write failure retains committed world and exact pending build; retry consumes BP only once (0.403458ms)
+✔ failed initial save is visibly unsaved; retry saves one gift without a command (0.214459ms)
+✔ cancel discards a failed candidate and never publishes or charges it (0.367084ms)
+✔ conflicted pending command cannot retry or run before explicit reload of the other page (0.531709ms)
+✔ two initial controllers and repeated StrictMode initialization save the seed only once (0.278042ms)
+✔ parallel runs synchronously reserve the transaction and never overwrite each other (0.248416ms)
+✔ invalid commands and unchanged moves never perform a storage write (0.211292ms)
+✔ subscribers observe old resources while saving and the committed world only after success (0.281291ms)
+✔ failed effort retry preserves one event id and grants one permanent reward; duplicate submission is a no-op (0.944834ms)
+✔ unavailable lock request getter degrades to explicit read-only and never throws during creation (0.107625ms)
+✔ lock acquisition rejection retains old world and retryable pending command (0.304834ms)
+✔ oversized UTF-8 raw is refused before JSON parsing even below the JS character limit (10.008375ms)
+✔ oversized valid candidate cannot replace the downloadable original raw record with unsaved JSON (72.344792ms)
+✔ pending and published objects are immutable; views cannot change the retried charge or event (0.506209ms)
+✔ default storage getter permission recovery reloads the complete old world on the same controller without seeding (0.422042ms)
+✔ persistent default storage getter denial keeps repeated reloads read-only with zero writes (0.158958ms)
+✔ explicit storage injection remains stable when options and ambient default storage change (0.170042ms)
+✔ locked default storage save captures one storage object for both token read and write (0.316583ms)
+✖ atomic checkpoint rejects the second stale renderer even when its native storage cache still holds the seed (0.90975ms)
+✖ checkpoint precommit abort leaves the original raw and visible world untouched until a same-command retry (0.23525ms)
+✖ localStorage is never written while checkpoint commit remains outstanding (6.771917ms)
+✖ LS failure plus metadata rollback failure keeps raw, freezes new commands, and retries only the same owner candidate (0.549333ms)
+✖ load verification faults on a leading checkpoint without publishing or replacing the valid old record (6.992ms)
+✖ absent checkpoint capability is explicit read-only and cannot bootstrap unsafe saves (0.167625ms)
+ℹ tests 37
+ℹ suites 0
+ℹ pass 31
+ℹ fail 6
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 192.907125
+
+✖ failing tests:
+
+test at tests/game-persistence.test.mjs:568:1
+✖ atomic checkpoint rejects the second stale renderer even when its native storage cache still holds the seed (0.90975ms)
+  AssertionError [ERR_ASSERTION]: a stale local cache must not authorize a second successful save
+  
+  2 !== 1
+  
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:573:10)
+      at async Test.run (node:internal/test_runner/test:1313:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:579:1
+✖ checkpoint precommit abort leaves the original raw and visible world untouched until a same-command retry (0.23525ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:584:10)
+      at async Test.run (node:internal/test_runner/test:1313:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:595:1
+✖ localStorage is never written while checkpoint commit remains outstanding (6.771917ms)
+  AssertionError [ERR_ASSERTION]: request success or a queued guard operation is not a committed fence
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:602:10)
+      at async Test.run (node:internal/test_runner/test:1313:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:608:1
+✖ LS failure plus metadata rollback failure keeps raw, freezes new commands, and retries only the same owner candidate (0.549333ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'write_failed'
+  - 'checkpoint_pending'
+  
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:613:10)
+      at async Test.run (node:internal/test_runner/test:1313:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'write_failed',
+    expected: 'checkpoint_pending',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:626:1
+✖ load verification faults on a leading checkpoint without publishing or replacing the valid old record (6.992ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:630:10)
+      at async Test.run (node:internal/test_runner/test:1313:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-persistence.test.mjs:637:1
+✖ absent checkpoint capability is explicit read-only and cannot bootstrap unsafe saves (0.167625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-persistence.test.mjs:639:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

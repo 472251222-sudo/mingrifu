@@ -1,0 +1,37 @@
+{
+  "capturedAt": "2026-10-14T15:14:01.558372+00:00",
+  "baseCommit": "a9ca5d0",
+  "state": "UI frozen; review pending A11 QA-DATAUI-002 backend fix",
+  "files": [
+    {
+      "path": "src/growth/game/GameApp.jsx",
+      "bytes": 19124,
+      "sha256": "fc3ec93af4364068187b06ee91c16de080f7b77d3d50059b340087dd3447b226"
+    },
+    {
+      "path": "src/growth/game/WorldCanvas.jsx",
+      "bytes": 7125,
+      "sha256": "f4db16f198641bbf5afee4090262b54417b32c5be27ac8dcd3a5ce2ddc849214"
+    },
+    {
+      "path": "src/growth/game/scene.js",
+      "bytes": 6059,
+      "sha256": "827abdc2aff7b94fb5359fd27e2f1fa0ee1b1bc8d6f51404dc70b0ec5f63896b"
+    },
+    {
+      "path": "src/growth/game/renderer.js",
+      "bytes": 6205,
+      "sha256": "dfc0e91f1d9fe907e5cb83fdeed69b09fb0226f80372d4fe35a260fe624f673e"
+    },
+    {
+      "path": "src/growth/game/styles.css",
+      "bytes": 8075,
+      "sha256": "82912452d76d1ead123e1e4078af253e09903e372d288adf5d0b8218403369e3"
+    },
+    {
+      "path": "tests/game-integration.test.mjs",
+      "bytes": 2230,
+      "sha256": "c216ac21424a08bc514b7c6ed990a3f829bde2e4f61520414db4837b5a19596e"
+    }
+  ]
+}

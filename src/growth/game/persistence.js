@@ -1,4 +1,5 @@
 import {applyGameCommand, createGameWorld, validateGameWorld} from './world.js';
+import {createGameCheckpoint} from './checkpoint.js';
 
 // This namespace is independent of P1/V3/V4. Limits count UTF-8 bytes of the
 // actual JSON record and reject it before parsing; no history is ever trimmed.
@@ -18,7 +19,7 @@ export class GamePersistenceError extends Error {
 }
 
 const fault = (code, message, raw = null, cause) => new GamePersistenceError(code, message, {raw, cause});
-const readonlyFault = () => fault('readonly', '当前浏览器没有可用的安全保存锁，世界保持只读。请在 localhost 或安全来源使用支持 Web Locks 的浏览器。');
+const readonlyFault = () => fault('readonly', '当前浏览器缺少安全保存能力，世界保持只读。请在 localhost 或安全来源使用支持 Web Locks、IndexedDB 和安全摘要的浏览器。');
 
 function checkSize(raw) {
   if (raw.length > GAME_PERSISTENCE.maxRawBytes || new TextEncoder().encode(raw).byteLength > GAME_PERSISTENCE.maxRawBytes) {
@@ -51,6 +52,8 @@ export function createGamePersistence(options = {}) {
   let readonly = true;
   try { readonly = typeof locks?.request !== 'function'; }
   catch { /* A denied lock capability is also an explicit read-only mode. */ }
+  const checkpoint = Object.hasOwn(options, 'checkpoint') ? options.checkpoint : createGameCheckpoint();
+  readonly ||= !checkpoint || checkpoint.readonly;
 
   function currentStorage() {
     try {
@@ -78,6 +81,12 @@ export function createGamePersistence(options = {}) {
 
   function read() { return readFrom(currentStorage()); }
 
+  async function verify(result) {
+    if (readonly) return;
+    try {await checkpoint.verify(await checkpoint.fingerprint(result.raw, result.world.revision));}
+    catch (error) {throw fault(error.code ?? 'storage_unavailable', error.message, result.raw, error);}
+  }
+
   async function save(candidate, expectedToken) {
     if (readonly) throw readonlyFault();
     if (expectedToken !== null && typeof expectedToken !== 'string') throw fault('invalid_token', '保存凭据无效，请重新读取世界后再操作。');
@@ -95,7 +104,7 @@ export function createGamePersistence(options = {}) {
       throw fault(error.code, error.message, null, error);
     }
     try {
-      return await locks.request(GAME_PERSISTENCE.lockName, {mode: 'exclusive'}, () => {
+      return await locks.request(GAME_PERSISTENCE.lockName, {mode: 'exclusive'}, async () => {
         // Resolve once inside the lock: token check and write must target the
         // same Storage object even if the browser getter subsequently changes.
         const writeStorage = currentStorage();
@@ -103,8 +112,23 @@ export function createGamePersistence(options = {}) {
         if (current.token !== expectedToken) throw fault('conflict', '另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。', current.raw);
         const revision = current.isNew ? 0 : current.world.revision + 1;
         if (captured.revision !== revision) throw fault('invalid_revision', '世界版本没有连续递增，请重新读取后再操作。', current.raw);
+        let reservation;
+        try {
+          const expected = await checkpoint.fingerprint(current.raw, current.world.revision);
+          const next = await checkpoint.fingerprint(candidateRaw, captured.revision);
+          // Commit the cross-renderer CAS fence before touching localStorage.
+          // A stale local cache can never authorize the same predecessor twice.
+          reservation = await checkpoint.reserve(expected, next);
+        } catch (error) {throw fault(error.code ?? 'storage_unavailable', error.message, current.raw, error);}
         try { writeStorage.setItem(GAME_PERSISTENCE.key, candidateRaw); }
-        catch (error) { throw fault('write_failed', '世界保存失败，资源和布局保持原样。请重试同一操作或取消。', current.raw, error); }
+        catch (error) {
+          try {await checkpoint.rollback(reservation);}
+          catch (rollbackError) {throw fault('checkpoint_pending', '世界写入失败，原始世界记录已保留，但安全校验尚未恢复。当前保持只读；请重试同一操作，也可下载原始记录。安全状态恢复前不能取消或重新读取，不会自动重置安全校验。', current.raw, rollbackError);}
+          const writeError = fault('write_failed', '世界保存失败，资源和布局保持原样。请重试同一操作或取消。', current.raw, error);
+          writeError.checkpointRestored = true;
+          throw writeError;
+        }
+        // No further guard commit/await after a successful Storage write.
         return {world: captured, token: candidateRaw, isNew: false, raw: candidateRaw};
       });
     } catch (error) {
@@ -113,7 +137,7 @@ export function createGamePersistence(options = {}) {
     }
   }
 
-  return Object.freeze({readonly, read, save});
+  return Object.freeze({readonly, read, verify, save});
 }
 
 function freeze(value) {
@@ -148,9 +172,11 @@ export function createGameWorldController({persistence = createGamePersistence()
       error: persistence.readonly ? readonlyFault() : null, pending: null});
   };
   const failed = (error, initial = false) => {
+    if (attempt && error.code === 'checkpoint_pending') attempt.recoveryRequired = true;
+    if (attempt && error.checkpointRestored === true) attempt.recoveryRequired = false;
     const readFault = ['storage_unavailable', 'invalid_json', 'invalid_world', 'unsupported_version', 'save_too_large'].includes(error.code);
     publish({busy: false, status: initial || readFault ? 'fault' : 'ready',
-      readonly: persistence.readonly || initial || readFault || error.code === 'conflict',
+      readonly: persistence.readonly || initial || readFault || error.code === 'conflict' || Boolean(attempt?.recoveryRequired),
       error, raw: error.raw ?? state.raw, pending: attempt?.pending ?? null});
   };
 
@@ -165,7 +191,7 @@ export function createGameWorldController({persistence = createGamePersistence()
       if (attempt.pending.kind === 'initial' && error.code === 'conflict') {
         try {
           const current = persistence.read();
-          if (!current.isNew) { committed(current); return true; }
+          if (!current.isNew) {await persistence.verify?.(current);committed(current);return true;}
         } catch (readError) { error = readError; }
       }
       failed(error, attempt.pending.kind === 'initial');
@@ -176,12 +202,13 @@ export function createGameWorldController({persistence = createGamePersistence()
   }
 
   async function reload() {
-    if (operating) return false;
+    if (operating || attempt?.recoveryRequired) return false;
     operating = true;
     attempt = null;
     publish({status: 'loading', busy: true, error: null, pending: null});
     try {
       const result = persistence.read();
+      await persistence.verify?.(result);
       token = result.token;
       if (!result.isNew || persistence.readonly) {
         committed(result);
@@ -232,7 +259,7 @@ export function createGameWorldController({persistence = createGamePersistence()
   }
 
   function cancel() {
-    if (operating || !attempt) return false;
+    if (operating || !attempt || attempt.recoveryRequired) return false;
     const blocked = state.readonly;
     attempt = null;
     publish({pending: null, error: blocked ? state.error : null});

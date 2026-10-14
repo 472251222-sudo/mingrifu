@@ -5,6 +5,19 @@ import {objectOrder, objectRect} from '../homestead/world.js';
 export const ZOOMS = [.125, .25, .5, 1, 2, 3, 4];
 export const spriteRect = objectRect;
 
+export function gameChangeSummary(before, after) {
+  const previous = new Map(before.nature.map(object => [object.id, object.asset]));
+  return {changed: before.revision !== after.revision, xp: after.xp - before.xp, bp: after.bp - before.bp,
+    ecologySteps: Math.floor(after.xp / BALANCE.ecology.xpInterval) - Math.floor(before.xp / BALANCE.ecology.xpInterval),
+    natureChanged: after.nature.filter(object => !previous.has(object.id) || previous.get(object.id) !== object.asset).length};
+}
+
+export function withExpansionBounds(scene, candidates) {
+  const bounds = {...scene.bounds}, side = BALANCE.chunkSize * BALANCE.tileSize;
+  for (const {x, y} of candidates) {bounds.x0 = Math.min(bounds.x0, x * side - 12); bounds.y0 = Math.min(bounds.y0, y * side - 12); bounds.x1 = Math.max(bounds.x1, (x + 1) * side + 12); bounds.y1 = Math.max(bounds.y1, (y + 1) * side + 12);}
+  return {...scene, bounds};
+}
+
 export function projectObject(object, assets, kind = 'artificial') {
   const assetId = object.assetId || object.asset;
   const asset = assets.get(assetId);

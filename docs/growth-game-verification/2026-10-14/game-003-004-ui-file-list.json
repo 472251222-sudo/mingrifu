@@ -1,0 +1,438 @@
+{
+  "sourceFiles": 6,
+  "listedFiles": 86,
+  "self": "docs/growth-game-verification/2026-10-14/game-003-004-ui-file-list.json",
+  "selfExcludedFromHashList": true,
+  "files": [
+    {
+      "path": "docs/growth-game-verification/2026-10-14/game-003-004-ui-build-final.txt",
+      "bytes": 1369,
+      "sha256": "b3821461f403e4c1358a4a6cf98f1af053ac57a64e5162c8c5f7518c8b60decd"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/game-003-004-ui-build-first.txt",
+      "bytes": 1369,
+      "sha256": "c5b7fe8c8afb82bfa97e2b2fb3aebd573de5473c0785074088b309eba8097fce"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/game-003-004-ui-build-r1.txt",
+      "bytes": 1369,
+      "sha256": "de18d8e949d362f06bc900308a52ef47e40f3b592964407e2b23b25861b626f1"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/game-003-004-ui-npm-test-final.txt",
+      "bytes": 15867,
+      "sha256": "906397ff1bba576878231752ce9a7be83f15a797edf94c0d023e4eb8618bb8da"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/game-003-004-ui-protected.json",
+      "bytes": 5279,
+      "sha256": "34172d831a8bafa903023fa09962d1a1485f623188157e3a87bdf294e7bc7ceb"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/game-003-004-ui-report.md",
+      "bytes": 11510,
+      "sha256": "2d596401488f147a6628600b98305655a9233403652691a4927632537d6c38fc"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/game-003-004-ui-source-hashes.json",
+      "bytes": 1145,
+      "sha256": "917b3e744f418c3eb3ff5ac4adf77f3c5c1bc5edd36c728c0271e7ca096e1c6c"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/game-003-004-ui-unit-green.txt",
+      "bytes": 504,
+      "sha256": "02aa464b5e8abde4b3a9ed918382cadf12a860251ea83f4b1e34fed64381e3be"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/game-003-004-ui-unit-red.txt",
+      "bytes": 3280,
+      "sha256": "201ec569630da1d559917917e7c880072f7a893c06a23413bd8eb99f1be3f2e8"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-faults-r1-build-quota.png",
+      "bytes": 50481,
+      "sha256": "182a0656839faebfeb1969a218308257674f04ffb21b7f940951145dd32b57b8"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-faults-r1-corrupt-original.txt",
+      "bytes": 24,
+      "sha256": "bbe78a873abbeb40c0ac03c006ba458272dd614b7f5088d6200556f121a0c330"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-faults-r1-corrupt.png",
+      "bytes": 49600,
+      "sha256": "7e55b0b0f006c790f38e7adcb93216e23f2c549098bd372ca908e2d997b885b0"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-faults-r1-initial-quota.png",
+      "bytes": 49674,
+      "sha256": "ebcf01330d59f878906c3cbaa0898a462297b5b82aee2726b264df077f2b3cae"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-faults-r1-no-locks.png",
+      "bytes": 53270,
+      "sha256": "2b85cac97a158a8d65dbd6e5d0a80fa6c1735380a33cde6bd407899e7186e4d6"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-faults-r1-race-conflict.png",
+      "bytes": 51610,
+      "sha256": "4d3f37825446a29f5806359cb4e22b46b52d4073a56dfc426b688221536bab7b"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-faults-r1-resource404.png",
+      "bytes": 43788,
+      "sha256": "aa674aa8d37fde4e001469451410dcb65f5782bd696e51bcd57ba3b10548c3da"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-faults-r1-unknown-original.txt",
+      "bytes": 42,
+      "sha256": "391ae422aa7a75b151355b261dd8223fc779d1ce9b0005f352d52654391c32bb"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-faults-r1-unknown.png",
+      "bytes": 49293,
+      "sha256": "7471485d56fd98cd9c2645fbcd00a66e9a187d29ededdd23e79f3e91d4f662df"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-faults-r1.json",
+      "bytes": 1181,
+      "sha256": "d438f2bb0320ec14ae49f924be6e8b9bf52208ab44ed4b90488dbf8ca5528884"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-faults-r1.txt",
+      "bytes": 1182,
+      "sha256": "a15ada6e6d389ed453d9dd31a156ac2996daf21960180eeb17a72f020a4073ec"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-faults.mjs",
+      "bytes": 11544,
+      "sha256": "329609f30cd92e1b59a458ff6f9aa6d3430f7b9f966f4ea7f49b8fe9059e62ce"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r1-desktop-expand-preview.png",
+      "bytes": 53433,
+      "sha256": "4b2f4f640724c2c8f608c7eac1f45c78c8c8a7b4d8d37806d4a7ad83b39ed45e"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r1-desktop-expanded.png",
+      "bytes": 57658,
+      "sha256": "5fe215c4675ab9ee03fea9bd2c3ce109a90541b9d8e833e8b89412e215939a3f"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r1-desktop-growth300.png",
+      "bytes": 68247,
+      "sha256": "399dee9eefbf7f6390f7277b16455e119a4f6deb6f73aa0490f36237d61b72ba"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r1-desktop-growth50.png",
+      "bytes": 59893,
+      "sha256": "974ec376d7794c2a3c34fb3c4d9602cc9046c112d7fd599efa663daa82d840f5"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r1-desktop-initial.png",
+      "bytes": 57480,
+      "sha256": "9c57ca136079c3231f25c7dcf29dd83889ad0c300668ec1eca40d3490c6cf641"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r1-desktop-invalid.png",
+      "bytes": 56011,
+      "sha256": "7793ef5e5d3b9818fc096059a300afde1cc8644bdeebb41490c75c7093c87797"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r1-desktop-restored.png",
+      "bytes": 61797,
+      "sha256": "552cbf19f80b14f0ad9fa13c8f20a8b3ae786fc1b5eb2cd4a2f9d61d0be8fa19"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r1-phone320-failure.png",
+      "bytes": 38495,
+      "sha256": "083ca666a1c5ad9c25a4e8ae2e753fa80f45ca512738183d11359cced238b6c9"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r1-phone320-initial.png",
+      "bytes": 43178,
+      "sha256": "110f3df3dec92e121e5452e2461cc977e375801fd351892d6cc295169201aac7"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r1-phone320-invalid.png",
+      "bytes": 41229,
+      "sha256": "33270a8b2f2e8991dd4b6198b6cf137ee161e412aea0d86eba0946208d25748e"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r1.json",
+      "bytes": 5392,
+      "sha256": "a9cfea91fd05acc3f05455c8abb0f69bc5900d9b48a82b52f398f12ab79ae671"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r1.txt",
+      "bytes": 876,
+      "sha256": "9c9bde2608bfc178bb61a590e4fb2ec449ee84ed2524d5da3146e905139fee72"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-desktop-expand-preview.png",
+      "bytes": 53433,
+      "sha256": "4b2f4f640724c2c8f608c7eac1f45c78c8c8a7b4d8d37806d4a7ad83b39ed45e"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-desktop-expanded.png",
+      "bytes": 57658,
+      "sha256": "5fe215c4675ab9ee03fea9bd2c3ce109a90541b9d8e833e8b89412e215939a3f"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-desktop-growth300.png",
+      "bytes": 68247,
+      "sha256": "399dee9eefbf7f6390f7277b16455e119a4f6deb6f73aa0490f36237d61b72ba"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-desktop-growth50.png",
+      "bytes": 59893,
+      "sha256": "974ec376d7794c2a3c34fb3c4d9602cc9046c112d7fd599efa663daa82d840f5"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-desktop-initial.png",
+      "bytes": 57480,
+      "sha256": "9c57ca136079c3231f25c7dcf29dd83889ad0c300668ec1eca40d3490c6cf641"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-desktop-invalid.png",
+      "bytes": 56011,
+      "sha256": "7793ef5e5d3b9818fc096059a300afde1cc8644bdeebb41490c75c7093c87797"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-desktop-restored.png",
+      "bytes": 61797,
+      "sha256": "552cbf19f80b14f0ad9fa13c8f20a8b3ae786fc1b5eb2cd4a2f9d61d0be8fa19"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-phone320-expand-preview.png",
+      "bytes": 37121,
+      "sha256": "e87f8de2b138f988091615f55b2f7fcd023a4ce7167f9b68fde05b8b229a91ca"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-phone320-expanded.png",
+      "bytes": 37688,
+      "sha256": "f6f171dcf6f72f984a53d3c3dadf160b514122b4ccaf83c401793d97194ae0ad"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-phone320-growth300.png",
+      "bytes": 43349,
+      "sha256": "fcb410915418345751a45b42bf5fa08a6eeca81d23bc1087810b968f1b261d77"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-phone320-growth50.png",
+      "bytes": 38719,
+      "sha256": "3505bb66bcc775961ba15f0da46dd985b11c585fa48c26482ce35b01c2497a5a"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-phone320-initial.png",
+      "bytes": 43178,
+      "sha256": "110f3df3dec92e121e5452e2461cc977e375801fd351892d6cc295169201aac7"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-phone320-invalid.png",
+      "bytes": 41229,
+      "sha256": "33270a8b2f2e8991dd4b6198b6cf137ee161e412aea0d86eba0946208d25748e"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-phone320-restored.png",
+      "bytes": 39620,
+      "sha256": "0406cfc5cf11d7688f57e847b8b3bb725ae64ae65046b30786343f1807558650"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-phone390-expand-preview.png",
+      "bytes": 38862,
+      "sha256": "715d6faa8e755e072abf508bfbf8ef399bb10a6fa3641b694b03e85360e26659"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-phone390-expanded.png",
+      "bytes": 39378,
+      "sha256": "2142308a13fc04e60620a3cb78e851f707c806f74c19308a9aea4b007c441c5d"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-phone390-growth300.png",
+      "bytes": 45979,
+      "sha256": "71a532128229bb739cefd6637be79736a16fd7d2ea09e8d6e67ab99c25843fe5"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-phone390-growth50.png",
+      "bytes": 47236,
+      "sha256": "4ddbb9f4c341fad087ac0c12b6d32f7d4248c458a12715362bcba775043f66d8"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-phone390-initial.png",
+      "bytes": 45306,
+      "sha256": "d6c99d99ce204172b6e2d40f4461f0bddc0f53b490ba06e5e8feba6ee6ed1279"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-phone390-invalid.png",
+      "bytes": 43161,
+      "sha256": "6c888937124dde88decd7abf94096c83b2488ed1a7d996903539da29ea5f192b"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-phone390-restored.png",
+      "bytes": 42598,
+      "sha256": "6b889d5b3618292e2e0b10268e8cf465d75db02d45f4c8f6e3628ae86b37ebb5"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-production-expand-preview.png",
+      "bytes": 53433,
+      "sha256": "4b2f4f640724c2c8f608c7eac1f45c78c8c8a7b4d8d37806d4a7ad83b39ed45e"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-production-expanded.png",
+      "bytes": 57658,
+      "sha256": "5fe215c4675ab9ee03fea9bd2c3ce109a90541b9d8e833e8b89412e215939a3f"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-production-growth300.png",
+      "bytes": 68247,
+      "sha256": "399dee9eefbf7f6390f7277b16455e119a4f6deb6f73aa0490f36237d61b72ba"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-production-growth50.png",
+      "bytes": 59893,
+      "sha256": "974ec376d7794c2a3c34fb3c4d9602cc9046c112d7fd599efa663daa82d840f5"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-production-initial.png",
+      "bytes": 57480,
+      "sha256": "9c57ca136079c3231f25c7dcf29dd83889ad0c300668ec1eca40d3490c6cf641"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-production-invalid.png",
+      "bytes": 56011,
+      "sha256": "7793ef5e5d3b9818fc096059a300afde1cc8644bdeebb41490c75c7093c87797"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2-production-restored.png",
+      "bytes": 61797,
+      "sha256": "552cbf19f80b14f0ad9fa13c8f20a8b3ae786fc1b5eb2cd4a2f9d61d0be8fa19"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2.json",
+      "bytes": 19901,
+      "sha256": "709da8f8b974e5283d7d6d1e082590b270e6143d7c6af7a1ab7854be9b9e65ab"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows-r2.txt",
+      "bytes": 308,
+      "sha256": "764b06ee30c21de69159a3dff4036575e66bc5316c3ee26577192d6bb38abe2a"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-flows.mjs",
+      "bytes": 13008,
+      "sha256": "b627f922fa4f72a83043db1d872838827e8840f4f1f5652eba77f42f47e369cc"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-idempotency-clock.mjs",
+      "bytes": 2868,
+      "sha256": "b4c900dd8c31cff8a1b8870a5a2ca9a30f511dcfa744e5d7fc002cc672890ad9"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-idempotency-r1.json",
+      "bytes": 216,
+      "sha256": "48d2ef2c63882e319b8a1922df1edeb107e8b6d64c5c73b9b2f16e2ccbe99831"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-idempotency-r1.png",
+      "bytes": 45308,
+      "sha256": "56b3f54dcebe9c94536dcf2e7f2e3f8680d4f0886e7d09a36cfb704b50b2ad98"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-idempotency-r1.txt",
+      "bytes": 201,
+      "sha256": "2210d3339906f2f4497da73ad2639f562011f2b50125834868c2685842360695"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-quota-effort-r1-green-failed.png",
+      "bytes": 52161,
+      "sha256": "9356a9067bcf43b1655c314c1e7aa24ca2eebbc223bf3ecef602eed9187d780b"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-quota-effort-r1-green-retried.png",
+      "bytes": 44822,
+      "sha256": "bb5887495ec5f831bc5226f4b81b911040818f094b3de99f2ce4909603173528"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-quota-effort-r1-green.json",
+      "bytes": 5924,
+      "sha256": "3c208842ed25e1b7be8f410216bd785bff33912698148d0c18da271c7f62027c"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-quota-effort-r1-green.txt",
+      "bytes": 5925,
+      "sha256": "8e2070af3ef03a179e7219df7752ebefbfc41da2985b7131da4d0d71d80c46e5"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-quota-effort-r1-red-failed.png",
+      "bytes": 52721,
+      "sha256": "2ca53e0a3827bbd930fc9b227e905c65cfe6c9fc38e7758c0f6d01b75adea8b9"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-quota-effort-r1-red.json",
+      "bytes": 4833,
+      "sha256": "04ebec5261b577a902163154900ce4ea5678a5b5821335c4e5b8bc587143ecfb"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-quota-effort-r1-red.txt",
+      "bytes": 5430,
+      "sha256": "a784d11db2035ddf65c6bf8feb82e439d475d8899069798c3ccc1587df7d144e"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-quota-effort.mjs",
+      "bytes": 4123,
+      "sha256": "9c820410b7bd70a8022e1b71d981d00ecc59a8469c0a60fca7d5deac845346e7"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-ui-red.json",
+      "bytes": 136,
+      "sha256": "aaa6f36b8f515f0e8d0d8718b0f847a5a00afdca488410a8e52483a92e299088"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-ui-red.mjs",
+      "bytes": 1369,
+      "sha256": "7302b0eee09284e1c5dab77436c7b490160ed57c1c7741d5fbaf2c48e4eb178e"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-ui-red.png",
+      "bytes": 37749,
+      "sha256": "581327f1b9f9896ae91197f6cba11372413fea617072ba4138fcf3c211c8bd52"
+    },
+    {
+      "path": "docs/growth-game-verification/2026-10-14/release-game-ui-red.txt",
+      "bytes": 565,
+      "sha256": "db9d155dc1ee2673b9973411e4731600e574f62a7de3627ace10c2e13b73999a"
+    },
+    {
+      "path": "src/growth/game/GameApp.jsx",
+      "bytes": 19124,
+      "sha256": "fc3ec93af4364068187b06ee91c16de080f7b77d3d50059b340087dd3447b226"
+    },
+    {
+      "path": "src/growth/game/WorldCanvas.jsx",
+      "bytes": 7125,
+      "sha256": "f4db16f198641bbf5afee4090262b54417b32c5be27ac8dcd3a5ce2ddc849214"
+    },
+    {
+      "path": "src/growth/game/renderer.js",
+      "bytes": 6205,
+      "sha256": "dfc0e91f1d9fe907e5cb83fdeed69b09fb0226f80372d4fe35a260fe624f673e"
+    },
+    {
+      "path": "src/growth/game/scene.js",
+      "bytes": 6059,
+      "sha256": "827abdc2aff7b94fb5359fd27e2f1fa0ee1b1bc8d6f51404dc70b0ec5f63896b"
+    },
+    {
+      "path": "src/growth/game/styles.css",
+      "bytes": 8075,
+      "sha256": "82912452d76d1ead123e1e4078af253e09903e372d288adf5d0b8218403369e3"
+    },
+    {
+      "path": "tests/game-integration.test.mjs",
+      "bytes": 2230,
+      "sha256": "c216ac21424a08bc514b7c6ed990a3f829bde2e4f61520414db4837b5a19596e"
+    }
+  ]
+}

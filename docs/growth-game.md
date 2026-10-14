@@ -1,6 +1,6 @@
 # 明日复独立成长游戏：Manager接管记录
 
-更新：2026-10-14。本文件是长期目标、当前状态与任务队列的唯一汇总；阶段产物、截图和详细证据继续保留在原目录，不复制一套美术/测试文档。先核对实际Git状态，再用本文件恢复上下文。
+更新：2026-10-15。本文件是长期目标、当前状态与任务队列的唯一汇总；本轮从2026-10-14连续执行，证据继续保留在该日期目录，不移动旧结果。先核对实际Git状态，再用本文件恢复上下文。
 
 ## 目标与边界
 
@@ -12,12 +12,12 @@
 
 ## 当前仓库与架构
 
-- 本轮开始：feature/growth-rebuild，HEAD `65774ef568ca467f0cae530702e8f7d87dde0b4c`（P1.1 baseline），跟踪origin同名分支。
-- CFG-001已提交并Push为`6f06535c1e223bc8f2edaee192230dc88fccc831`（原生Agent配置与接管）。WF-001从该提交开始，只改工作流文档；Git最新HEAD仍需实际核对，以上不是当前HEAD的永久假定。
+- 接管时：feature/growth-rebuild，HEAD `65774ef568ca467f0cae530702e8f7d87dde0b4c`（P1.1 baseline）。本轮已依次完成CFG、WF、规格、BASE与游戏子阶段提交，当前跟踪origin同名开发分支；最新提交须实际核对，下方记录保留各阶段依据。
+- CFG-001已提交并Push为`6f06535c1e223bc8f2edaee192230dc88fccc831`；WF-001为`cdfb761`。当前业务开发已获用户后续授权，不再受早期“只配置”范围限制。
 - 本地main与远程main：`990f7ff11718a0131ca1b96f34fbc049317ad95d`。本地v4-development：`44d16da`；本轮远程查询没有同名分支。历史checkout仍保留，不修改。
-- P1/P1.1已入Git。P2-A、P2-B、PixelLab资料及作品集等仍有既有未跟踪文件；`src/main.jsx`已有未提交P2-B入口。**本次配置提交不包含这些成果，远程/新clone不能仅凭配置提交恢复本地P2-B。** 后续先独立审查并归档有效成果，不能删除或假装已提交。
-- 技术栈：React19.2、Vite6.4、ES modules、CSS、Canvas2D；项目npm依赖已在本地。`npm test`使用Node内置测试；`npm run build`走Vite及Sites包装，仍是包含V3的整体应用构建，尚非独立游戏包。
-- `src/main.jsx`以懒加载路径隔离`/growth-p1`和`/growth-p2-homestead`，其他路径仍为V3 App。P2-B现在可独立访问，但仍借用主仓库入口与构建，**未达到独立发行模块**。
+- P1/P1.1已入Git；P2-A/P2-B必要工程、素材、脚本、报告及原`src/main.jsx`入口已在BASE提交`3811fae`归档。PixelLab历史资料、作品集及4份私人安全索引仍有既有未跟踪文件，原样保留，不混入游戏提交。
+- 技术栈：React19.2、Vite6.4、ES modules、CSS、Canvas2D；项目依赖已在本地。`npm test`使用Node内置测试。新增`npm run dev:game / build:game / preview:game`只启动/构建新游戏，输出`dist/game`；原`npm run build`及V3入口保持。
+- 原`src/main.jsx`继续承载V3、`/growth-p1`和`/growth-p2-homestead`。新`game/index.html`与`src/growth/game/`为独立入口，不加载V3业务；构建只复制明确的12项现有运行资产，独立Vite缓存避免与旧应用冲突。
 
 ## 实际成果与验收状态
 
@@ -29,16 +29,19 @@
 | Blender木屋P2-A | 已开发，陶土红木屋已获用户视觉确认 | [原报告](growth-blender-experiment/2026-10-13/README.md)，有效工程在`delivery/`。96×128透明PNG、候选32色、相机南侧0°水平旋转/38°俯角；屋顶可独立换色；原报告旧“待验收”文字按历史保留 |
 | P2-B林缘小家 | 已开发，技术/候选美术完成；新增美术与构图未验收 | [报告](growth-p2-b/2026-10-14/README.md)、[资源清单](growth-p2-b/2026-10-14/ASSET-CATALOG.md)、`src/growth/homestead/`；12×12Tilemap、32对象实例、10Sprite（9新增）、104地形图块；木屋原图字节未变 |
 | P2-B相机与渲染 | 已开发，Chrome桌面与320/390px模拟验证通过 | 锚点排序、像素缩放、拖动/总览、资源加载失败重试；真实手机/Safari、双指缩放、长期大地图性能尚未验证 |
-| P2-B建造/存档 | 尚未开发 | 目前只读场景配置+预览，没有新场景自由放置/移动/收纳、世界扩张或保存。不能把P1能力视为已经接入P2-B |
-| 独立游戏入口/发行包 | 尚未开发 | 当前路由依附V3入口；独立启动、构建/预览与资源工程打包须下一阶段实现 |
-| 正交游戏成长反馈、正式玩法/经济 | 尚未开发/部分产品规则待定 | P1只有模拟成长；保留世界独立方向，不继承旧V3目标绑定机制 |
+| P2-B只读家园预览 | 保留原成果 | 仍是可调整配置的美术场景；没有将其改造成正式世界或覆盖存档。建造与成长在独立game模块实现 |
+| 独立游戏入口/发行包 | 已开发、技术验证通过 | `game/`入口、独立启动/构建/预览已QA通过；不加载V3业务，不覆盖原应用构建 |
+| 正交游戏自由建造 | 已开发、技术验证通过；产品验收待用户 | 初始8×8、素材占地/锚点、移动/收纳/重摆、实际屏幕Alpha命中、320/390触控与总览；低倍率命中缺陷第1轮关闭 |
+| 模拟努力、XP/BP、阶段、生态与扩张 | 已开发、技术验证与独立QA通过；产品验收待用户 | 永久XP、可花BP、50XP生态变化、120/300解锁、20BP相邻区块、负坐标与接缝；以正式PRD为准，不接真实任务 |
+| 独立游戏存档 | 已开发、独立QA通过；原生并发P1第1轮关闭 | 新键、失败保护/重试/坏档/未知版本/刷新恢复；原生metadata CAS、21独立真实GameApp cases、正常关闭浏览器后新进程恢复。崩溃领先校验保守只读，不承诺断电保障 |
 | 通用AI图像/PixelLab/Pixelorama实验 | 通用生成与PixelLab实验已完成；Pixelorama仅研究，编辑实操未验证；当前路线停用 | `docs/growth-art-research/`、`growth-pixellab-workflow/`、`growth-pixellab-live/`。不得删除，不调用服务，不把历史接口能力当本轮使用 |
 | V3旧成长、历史V4方案 | 旧实现保留；不作为新游戏产品约束 | 不删除、不重构业务、不迁移V4全系统；当前主产品仍按原方案运行 |
 
-CFG-001原生多Agent配置接管已完成，三个自定义角色启动及52项测试的对应证据见配置验证记录。WF-001已提交并Push为cdfb761；当前用户已授权SPEC-001→BASE-001→GAME/RELEASE连续开发。正式规格以[产品规格](growth-product-spec.md)为准，执行计划见[开发计划](growth-development-plan.md)。不得把上表的原型能力标成独立游戏已交付。截图、测试与工程成功不能代替用户视觉验收。
+CFG-001原生多Agent配置与WF-001已完成。当前用户已授权SPEC-001→BASE-001→GAME/RELEASE连续开发。正式规格以[产品规格](growth-product-spec.md)为准，执行计划见[开发计划](growth-development-plan.md)。独立MVP候选技术完成、A11已复验关闭、阻断0；游戏产品体验及新增美术仍待用户集中验收，不能由测试自行认定approved。
 
 ## 有效源文件与生产流程
 
+- 独立游戏：`game/`、`src/growth/game/`；balance/spatial/world/growth负责规则，scene/renderer/WorldCanvas负责渲染与交互，persistence/useGameWorld负责新存档，GameApp负责游戏界面。独立包与原V3/P1入口隔离。
 - P1：`src/growth/{world,grid,buildings,nature,persistence,useWorld,view,scene,renderer}.js`、`WorldMap.jsx`、`WorldPrototype.jsx`及styles。
 - P2-B：`src/growth/homestead/{scene.json,tile-rules.js,world.js,renderer.js,HomesteadPreview.jsx,styles.css}`。场景JSON定义地形与独立Sprite，改变配置可移动对象；图像未整场烘焙。
 - P2-A：生成脚本与设置在`docs/growth-blender-experiment/2026-10-13/`顶层的`build_cabin.py`、`cabin-config.json`、`pixel_export.mjs`；有效红/蓝`.blend`及PNG位于其`delivery/`。以delivery工程/图像为交付基准，早期目录保留；不要假定脚本也位于delivery。
@@ -48,9 +51,9 @@ CFG-001原生多Agent配置接管已完成，三个自定义角色启动及52项
 
 ## 验证与运行
 
-当前本地场景：`http://127.0.0.1:5188/growth-p2-homestead`；资源页加`?view=assets`；原P1在同服务`/growth-p1`。端口不是持久保证，启动前查实际服务，不清理用户会话。
+当前独立游戏开发入口`http://127.0.0.1:5189/`，生产构建预览`http://127.0.0.1:5190/`。旧应用验证服务在5191，可访问`/growth-p1`、`/growth-p2-homestead`及V3。端口不是持久保证，启动前核对服务，不清理用户会话。
 
-已有依赖时：`npm run dev -- --host 127.0.0.1 --port 5188 --strictPort`。现有测试：`npm test`。现有浏览器验证：`scripts/verify-growth-p1.mjs`、`scripts/verify-growth-p11.mjs`；P2-B验证：阶段目录中的`verify_assets.mjs`、`verify_models.py`、`verify_browser.mjs`。脚本运行参数和输出边界见各原报告，不能覆盖旧证据。
+已有依赖时独立启动`npm run dev:game`，构建`npm run build:game`，预览`npm run preview:game`。旧应用另用`npm run dev -- --host 127.0.0.1 --port 5191 --strictPort`。测试`npm test`。已有P1/P1.1与P2-B验证脚本仍保留；本轮游戏脚本/新输出在`docs/growth-game-verification/2026-10-14/`，每次重跑指定唯一输出，不能覆盖旧证据。体验说明见该目录release-guide.md。
 
 P2-B交付记录：52项项目测试、55项资源检查通过；264对场景边界与16,384组二值地形连接检查；9工程重开重渲一致，阔冠树重建一致；最终Vite构建成功。Chrome桌面、320/390px模拟和P1/P1.1回归通过；WebKit不可用跳过。这些是历史证据，新的运行结果见[本轮配置验证](growth-agent-verification/2026-10-14/README.md)，不得冒称全套已重跑。
 
@@ -79,13 +82,13 @@ P2-B交付记录：52项项目测试、55项资源检查通过；264对场景边
 | ART-REVIEW-001 候选视觉验收 | awaiting_user / 用户，Art提供证据 | 用户实际评审新树/植被/装饰/地形与家园构图；记录逐项决定，不重做已验收木屋、不自行改approved |
 | GAME-001 独立运行边界与入口 | technical_done / Builder→QA | 独立启动/构建/预览与资源/V3隔离已验证；55测试、Chrome桌面/320/390及失败重试通过；本阶段12×12只读壳，后续替换8×8游戏模型 |
 | GAME-002 正交建造适配 | technical_done / 两名Builder→QA，Art只维护资产接口 | 建造/免费调整/Alpha前景/手机触控已验；低倍率采样缺陷第1轮QA关闭，160测试/build通过。此阶段内存世界，持久化与成长界面随后接入 |
-| GAME-003 独立世界保存与扩张 | running / 数据与规则Builder→QA | 稳定002纯API后并行实现新键/Web Locks/事务hook与expand纯命令；UI随后集成，刷新/故障/并发/旧键与新土地建造待验 |
-| GAME-004 双轨成长/XP/BP/解锁 | running / 规则Builder→QA | 独占规则域实现事件幂等/XP/BP/阶段/生态，与002 UI和003数据文件隔离；努力界面与完整闭环随后集成，不接主产品 |
-| RELEASE-001 独立模块验收 | backlog / Manager+QA+用户 | 覆盖全流程、保存与恢复、非法操作、相机总览、遮挡、资源失败、移动端；独立构建可从说明复现，V3/P1回归通过；美术用户确认、已知问题清楚、提交可恢复 |
+| GAME-003 独立世界保存与扩张 | technical_done / 数据Builder→独立QA | 完整存档/扩张/新地建造；P1并发缺陷第1轮关闭，47数据与21独立真实GameApp cases，180全套与正常浏览器新进程恢复通过；不迁移world主键 |
+| GAME-004 双轨成长/XP/BP/解锁 | technical_done / 规则与UI Builder→QA | 规则61项、最终桌面/320/390/生产核心闭环与综合QA通过；幂等/生态/永久XP/阶段/解锁可体验，不接主产品数据 |
+| RELEASE-001 独立模块验收 | technical_done / Manager+QA；产品/视觉awaiting_user | 最终180测试/build、四环境真实闭环/截图、旧P1/V3回归、并发QA、998文件保护通过。候选集中交用户体验，不自行改approved；阶段Git实绩见日志与交付报告 |
 
 完整独立交付必须同时满足：入口/构建独立、已有核心自由建造和扩张/保存能力在新正交场景真正可用、模拟成长不破坏布局、可靠桌面/手机体验、素材来源与工程可复现、自动测试与独立QA通过、用户完成视觉体验验收。不能仅凭静态家园图或旧P1测试宣称交付完成。
 
-当前优先顺序：SPEC-001审核→BASE-001安全归档→GAME-001独立边界→GAME-002建造→GAME-003/GAME-004按依赖实施→RELEASE-001。新增美术统一candidate，可玩候选完成后集中交用户验收，不预先阻塞技术实现。
+当前队列SPEC-001→BASE-001→GAME-001→GAME-002→GAME-003/GAME-004→RELEASE-001技术工作已完成。下一步为用户集中体验/视觉验收；新美术统一candidate，先收实际反馈，暂不自动开始主产品集成或扩大玩法。
 
 ## CFG-001任务记录
 
@@ -159,3 +162,19 @@ P2-B交付记录：52项项目测试、55项资源检查通过；264对场景边
 - QA-DATA-001第1轮关闭：数据31/31、全套158、build，真实Chrome同Hook桌面/320/390恢复旧档0写并后续成功保存。数据QA亲跑31项与原最小反例通过，规格/质量0剩余缺陷；默认Storage重取、锁内同对象capture，未改Hook/API。初次验证504由临时cache冲突造成，隔离cache重跑通过（非第2业务修复）。003数据子阶段可版本化，整体存档UI仍待集成。003-data/qa-data-001-r1-report.md及game-003-data-qa.md。
 
 - 003数据提交6643291已Push。002最终QA规格/质量通过，QA-G002-001第1轮关闭：独立亲跑12视图与9,698,112真实Canvas样本0差，原两个误选点已正确o-1；160全套/build及V3/game独立cache证据检查通过，19保护文件当前不变。技术完成，用户阶段/美术验收未进行。下一步原UI Builder接入003/004真实存档、努力与扩张；不再保留临时内存提示冒称已保存。
+
+- GAME002提交a9ca5d0已Push（111文件含UI、cache与新证据）；Manager检查main仍990f7ff、v4-development仍44d16da。GAME003/004最后UI集成已分派原Builder，独占UI6文件与新集成/浏览器证据，不写已QA的world/data文件。root dev5189由Manager运行（子Agent后台服务曾随结束停止），最后build/preview与可玩全闭环再验；不以001/002临时壳代替最终交付。
+
+- 最后UI核心已接稳定Hook并build，Manager启动根生产preview5190。Builder跑完整browser，两个QA分域只读：核心A01..A10/A12..A14；生产数据A11/事务恢复/并发。QA-DATAUI-001/P2预审确证手机努力保存失败的外层retry/cancel被drawer遮，原资源/raw正确；Builder第1轮修复，sameattempt保持。完整UI技术完成尚未宣称，最终以稳定代码/真实生产页面报告为准。
+
+- 生产QA新发现QA-DATAUI-002/P1高：无注入真实双页排队同WebLock，间歇双方宣称成功rev1但最终只一事件，刷新丢另一页已宣称奖励；0轮，原data owner先根因调查。A11阻断最终交付，不能以Node/fake/harness通过否認。证据release-data-qa-preaudit/；QA-DATAUI-001第1轮实际恢复通过属于不同ID。
+- 原核心QA独立desktop闭环通过后遇模型容量错误，同配置重试仍失败；未换模型/权限。现有dataQA另亲跑320×568、390×700、5190 production完整核心循环全部passed/0errors、截图/旧键/刷新重开齐全；不重复做原有效成果。源代码稳定后最终合并规格/质量结论，A11仍open，整模块未technical_done。
+
+- QA-DATAUI-002根因data owner独立确证：锁互斥正确，LS renderer cache更新晚于后续锁callback。Manager批准第1轮小型原生IDB metadata预commit CAS guard，不存world、不迁移LS主键/schema、不增加依赖/系统权限；失败原文保持、owner同候选安全重试、load verify；crash版本不一致保守只读不自动重置。PRD§8/计划按实际证据补充（产品方向/经济/视觉不变）。原UI冻结，164项目测试与四环境核心闭环通过但A11仍阻断，不提前收束。
+
+- 同轮QA预审补充接口边界：checkpoint_pending下cancel/reload须拒绝并保留同候选恢复凭据；原UI owner仅修改GameApp两个handler，尊重cancel false、reload成功后才清UI attempt，其他UI/规则冻结。真实手机RED已确证旧handler会误报取消/初始保存；修复后320努力取消、390努力重读、320建造预览取消/重读的同候选retry均通过，兼容与最终QA继续。数据owner加入recoveryRequired跨连续失败保护，不增加修复轮数或额外玩法。
+
+- 第1轮实现已冻结：persistence b44b293c（末次仅对齐不可取消/重读文案），checkpoint094c4b3c，GameApp20bec0ec，Hook原f9589a1f；数据47/47，Owner原生两页16组（2序各8）恰一成功/一拒绝，另7故障/初始/cap/crash通过。Manager最后fresh全套180/180与独立build Dro1WYHz通过，四环境完整游戏flowfinal全部passed/0errors；额外真实测试Chrome正常关闭→新进程同隔离profile，LS原文与IDBmetadata不变、25XP35BP/单gift/单event、0errors。最终独立QA正在复验，A11关闭前仍review。安全998文件missing0、994不变、4授权变动，木屋字节相同；main/v4 unchanged。
+
+- 2026-10-15 RELEASE最终独立QA规格/质量通过、阻断0；QA-DATAUI-002/P1第1轮关闭。QA亲跑47Node和21实际GameApp cases（12原生竞争、NULL一次gift、7故障、production短核心），最后四份source SHA与冻结一致；22个必要顶层文件按清单归档release-data-qa-final/，没有profile/cache。原native命令附带NULL驾驶前提错误/exit1保留，修正单case实际exit0，不伪造整命令历史成功或重置修复轮数。
+- 当前交付为独立可玩MVP候选：入口/启动/构建、自由建造/免费调整、模拟努力XP/BP/阶段/自然成长、扩张与保存均technical_done；新增美术与8×8构图仍candidate、产品阶段awaiting_user。完整报告及真实截图见[release-report](growth-game-verification/2026-10-14/release-report.md)，操作见[体验说明](growth-game-verification/2026-10-14/release-guide.md)。无Safari/真机/OS重启/断电/极限大地图保障，无云/导入/真实任务；崩溃领先guard保留原文但只读，不自动重置。Manager只按明确本阶段清单Commit/Push开发分支，既有私人/历史研究文件留本地，不合main。

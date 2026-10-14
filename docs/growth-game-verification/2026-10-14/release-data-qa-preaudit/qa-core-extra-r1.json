@@ -1,0 +1,149 @@
+{
+  "chrome": "155.0.8059.40",
+  "results": [
+    {
+      "name": "mobile-extra",
+      "status": "passed",
+      "view": {
+        "scale": 0.25,
+        "left": 53,
+        "right": 245,
+        "top": 97,
+        "bottom": 225,
+        "width": 298,
+        "height": 321
+      },
+      "world": {
+        "schemaVersion": 1,
+        "revision": 6,
+        "nextId": 9,
+        "xp": 300,
+        "bp": 6,
+        "chunks": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": -1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": -1
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ],
+        "efforts": [
+          {
+            "id": "c36b457e-f5a3-4015-bf6e-92cbd76cded1",
+            "source": "simulation",
+            "minutes": 150,
+            "occurredAt": "2026-10-14T15:04:55.092Z"
+          },
+          {
+            "id": "8c03cb2c-7522-43e1-895d-e78852019cef",
+            "source": "simulation",
+            "minutes": 150,
+            "occurredAt": "2026-10-14T15:04:55.257Z"
+          }
+        ],
+        "objects": [
+          {
+            "id": "o-1",
+            "asset": "cabin-terracotta",
+            "x": 2,
+            "y": 2,
+            "stored": false
+          },
+          {
+            "id": "o-8",
+            "asset": "cabin-terracotta",
+            "x": -6,
+            "y": 2,
+            "stored": false
+          }
+        ],
+        "nature": [
+          {
+            "id": "n-2",
+            "asset": "oak-broad",
+            "x": 0,
+            "y": 2,
+            "stage": "mature"
+          },
+          {
+            "id": "n-3",
+            "asset": "pine-slender",
+            "x": 6,
+            "y": 3,
+            "stage": "mature"
+          },
+          {
+            "id": "n-4",
+            "asset": "oak-broad",
+            "x": 0,
+            "y": 6,
+            "stage": "mature"
+          },
+          {
+            "id": "n-5",
+            "asset": "oak-broad",
+            "x": 6,
+            "y": 6,
+            "stage": "mature"
+          },
+          {
+            "id": "n-6",
+            "asset": "wildflowers",
+            "x": 2,
+            "y": 5,
+            "stage": "static"
+          },
+          {
+            "id": "n-7",
+            "asset": "bush",
+            "stage": "bush",
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "path": [
+          {
+            "x": 3,
+            "y": 4
+          },
+          {
+            "x": 3,
+            "y": 5
+          },
+          {
+            "x": 3,
+            "y": 6
+          },
+          {
+            "x": 3,
+            "y": 7
+          }
+        ]
+      },
+      "clockAdvanceDays": 5,
+      "layout": {
+        "width": 320,
+        "height": 568,
+        "scrollWidth": 320,
+        "scrollHeight": 568,
+        "mapHeight": 321,
+        "actionBottom": 568
+      }
+    },
+    {
+      "name": "resource-retry",
+      "status": "passed",
+      "sameRaw": true
+    }
+  ]
+}

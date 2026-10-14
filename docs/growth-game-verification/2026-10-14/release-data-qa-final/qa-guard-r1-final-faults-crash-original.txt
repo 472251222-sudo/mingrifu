@@ -1,0 +1,79 @@
+ 
+{
+  "schemaVersion": 1,
+  "revision": 0,
+  "nextId": 7,
+  "xp": 0,
+  "bp": 30,
+  "chunks": [
+    {
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "efforts": [],
+  "objects": [
+    {
+      "id": "o-1",
+      "asset": "cabin-terracotta",
+      "x": 2,
+      "y": 2,
+      "stored": false
+    }
+  ],
+  "nature": [
+    {
+      "id": "n-2",
+      "asset": "oak-broad",
+      "x": 0,
+      "y": 2,
+      "stage": "mature"
+    },
+    {
+      "id": "n-3",
+      "asset": "pine-slender",
+      "x": 6,
+      "y": 3,
+      "stage": "mature"
+    },
+    {
+      "id": "n-4",
+      "asset": "grass-tuft",
+      "x": 0,
+      "y": 6,
+      "stage": "young"
+    },
+    {
+      "id": "n-5",
+      "asset": "grass-tuft",
+      "x": 6,
+      "y": 6,
+      "stage": "young"
+    },
+    {
+      "id": "n-6",
+      "asset": "wildflowers",
+      "x": 2,
+      "y": 5,
+      "stage": "static"
+    }
+  ],
+  "path": [
+    {
+      "x": 3,
+      "y": 4
+    },
+    {
+      "x": 3,
+      "y": 5
+    },
+    {
+      "x": 3,
+      "y": 6
+    },
+    {
+      "x": 3,
+      "y": 7
+    }
+  ]
+}

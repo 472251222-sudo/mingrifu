@@ -1,5 +1,6 @@
 import {drawWorld} from '../homestead/renderer.js';
 import {objectOrder} from '../homestead/world.js';
+import {BALANCE} from './balance.js';
 import {cameraOrigin, hitScene, projectObject, screenToWorld, spriteRect} from './scene.js';
 
 const hitContexts = new WeakMap();
@@ -60,21 +61,31 @@ export function createSpriteMasks(resources) {
 
 export function composeRenderObjects(scene, preview) {
   let objects = scene.objects;
-  if (preview && Number.isInteger(preview.x) && Number.isInteger(preview.y)) {
+  if (preview && preview.type !== 'expand' && Number.isInteger(preview.x) && Number.isInteger(preview.y)) {
     if (preview.type !== 'build') objects = objects.filter(object => object.id !== preview.id);
     objects = [...objects, {...projectObject({id: preview.id || '~preview', assetId: preview.assetId, x: preview.x, y: preview.y}, scene.assets), preview: true}];
   }
   return objectOrder(objects);
 }
 
-export function paintGame(context, scene, resources, camera, width, height, {preview = null, placement = null, selectedId = null} = {}) {
+export function paintGame(context, scene, resources, camera, width, height, {preview = null, placement = null, selectedId = null, expansionCandidates = []} = {}) {
   context.setTransform(1, 0, 0, 1, 0, 0);
   context.fillStyle = '#e8e7d3'; context.fillRect(0, 0, width, height);
   context.imageSmoothingEnabled = false;
   const origin = cameraOrigin(camera, width, height);
   context.save(); context.translate(...origin); context.scale(camera.scale, camera.scale);
   drawWorld(context, {...scene, objects: []}, resources);
-  if (preview && Number.isInteger(preview.x) && Number.isInteger(preview.y)) {
+  if (preview?.type === 'expand') {
+    const side = BALANCE.chunkSize * BALANCE.tileSize, line = Math.max(1, 1 / camera.scale);
+    for (const candidate of expansionCandidates) {
+      const x = candidate.x * side, y = candidate.y * side, selected = candidate.x === preview.x && candidate.y === preview.y;
+      context.fillStyle = selected ? placement?.ok ? 'rgba(70,119,71,.24)' : 'rgba(173,63,48,.24)' : 'rgba(164,170,139,.15)';
+      context.fillRect(x, y, side, side);
+      context.strokeStyle = selected ? '#3b6550' : '#78816c'; context.lineWidth = line;
+      context.setLineDash(selected ? [] : [line * 4, line * 3]);context.strokeRect(x + line / 2, y + line / 2, side - line, side - line);context.setLineDash([]);
+    }
+  }
+  if (preview && preview.type !== 'expand' && Number.isInteger(preview.x) && Number.isInteger(preview.y)) {
     const asset = scene.assets.get(preview.assetId), [w, h] = asset.footprint;
     context.fillStyle = placement?.ok ? 'rgba(70,119,71,.35)' : 'rgba(173,63,48,.35)';
     context.fillRect(preview.x * 32, preview.y * 32, w * 32, h * 32);

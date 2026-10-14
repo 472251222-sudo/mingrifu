@@ -1,0 +1,12 @@
+✔ growth feedback distinguishes ecological steps from final changed plants (1.564125ms)
+✔ no-op effort feedback never announces new resources or ecological progress (0.783041ms)
+✔ free adjustments and paid building feedback leave permanent XP unchanged (0.352084ms)
+✔ expansion preview extends overview into negative candidates without granting tiles or moving objects (0.447333ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 74.886917

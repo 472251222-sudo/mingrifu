@@ -1,0 +1,122 @@
+{
+  "chrome": "155.0.8059.40",
+  "results": [
+    {
+      "name": "production-desktop-core",
+      "status": "passed",
+      "final": {
+        "schemaVersion": 1,
+        "revision": 6,
+        "nextId": 9,
+        "xp": 125,
+        "bp": 31,
+        "chunks": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ],
+        "efforts": [
+          {
+            "id": "036d8da4-92d5-442d-baca-96d46531377a",
+            "source": "simulation",
+            "minutes": 125,
+            "occurredAt": "2026-10-14T16:02:52.101Z",
+            "label": "QA frozen core"
+          }
+        ],
+        "objects": [
+          {
+            "id": "o-1",
+            "asset": "cabin-terracotta",
+            "x": 2,
+            "y": 2,
+            "stored": false
+          },
+          {
+            "id": "o-7",
+            "asset": "wildflowers",
+            "x": 5,
+            "y": 5,
+            "stored": false
+          },
+          {
+            "id": "o-8",
+            "asset": "wildflowers",
+            "x": 10,
+            "y": 6,
+            "stored": false
+          }
+        ],
+        "nature": [
+          {
+            "id": "n-2",
+            "asset": "oak-broad",
+            "x": 0,
+            "y": 2,
+            "stage": "mature"
+          },
+          {
+            "id": "n-3",
+            "asset": "pine-slender",
+            "x": 6,
+            "y": 3,
+            "stage": "mature"
+          },
+          {
+            "id": "n-4",
+            "asset": "oak-broad",
+            "x": 0,
+            "y": 6,
+            "stage": "mature"
+          },
+          {
+            "id": "n-5",
+            "asset": "grass-tuft",
+            "x": 6,
+            "y": 6,
+            "stage": "young"
+          },
+          {
+            "id": "n-6",
+            "asset": "wildflowers",
+            "x": 2,
+            "y": 5,
+            "stage": "static"
+          }
+        ],
+        "path": [
+          {
+            "x": 3,
+            "y": 4
+          },
+          {
+            "x": 3,
+            "y": 5
+          },
+          {
+            "x": 3,
+            "y": 6
+          },
+          {
+            "x": 3,
+            "y": 7
+          }
+        ]
+      },
+      "metadata": {
+        "schemaVersion": 1,
+        "digest": "7dec0ffd052061e94ef09508fc0df53421b761d29e9745e4fcd7df1a60399be4",
+        "revision": 6,
+        "previousDigest": "347441cdf854051538382778f5c8c887dc32938bf7e575cbe6909b3f6f5ebb71",
+        "previousRevision": 5,
+        "owner": "d3c49531-d49e-4c21-86f7-b3e47184317c"
+      },
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chrome": "155.0.8059.40",
+  "results": [
+    {
+      "name": "desktop",
+      "status": "passed"
+    },
+    {
+      "name": "phone320",
+      "status": "passed"
+    },
+    {
+      "name": "phone390",
+      "status": "passed"
+    },
+    {
+      "name": "production",
+      "status": "passed"
+    }
+  ]
+}

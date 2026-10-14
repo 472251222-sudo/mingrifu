@@ -1,0 +1,263 @@
+{
+  "chrome": "155.0.8059.40",
+  "results": [
+    {
+      "name": "effort-cancel-320",
+      "width": 320,
+      "height": 568,
+      "checkpointPending": true,
+      "originalCandidate": "{\"schemaVersion\":1,\"revision\":1,\"nextId\":7,\"xp\":50,\"bp\":40,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[{\"id\":\"8405fb59-e2f7-4064-a0ab-414cb0fdc590\",\"source\":\"simulation\",\"minutes\":50,\"occurredAt\":\"2026-10-14T15:31:22.850Z\"}],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"bush\",\"x\":0,\"y\":6,\"stage\":\"bush\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}",
+      "cancelMessage": "已取消，世界与资源保持原样。",
+      "cancelPreserved": false,
+      "after": {
+        "raw": "{\"schemaVersion\":1,\"revision\":1,\"nextId\":7,\"xp\":50,\"bp\":40,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[{\"id\":\"8405fb59-e2f7-4064-a0ab-414cb0fdc590\",\"source\":\"simulation\",\"minutes\":50,\"occurredAt\":\"2026-10-14T15:31:22.850Z\"}],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"bush\",\"x\":0,\"y\":6,\"stage\":\"bush\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}",
+        "attempts": [
+          "{\"schemaVersion\":1,\"revision\":1,\"nextId\":7,\"xp\":50,\"bp\":40,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[{\"id\":\"8405fb59-e2f7-4064-a0ab-414cb0fdc590\",\"source\":\"simulation\",\"minutes\":50,\"occurredAt\":\"2026-10-14T15:31:22.850Z\"}],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"bush\",\"x\":0,\"y\":6,\"stage\":\"bush\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}",
+          "{\"schemaVersion\":1,\"revision\":1,\"nextId\":7,\"xp\":50,\"bp\":40,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[{\"id\":\"8405fb59-e2f7-4064-a0ab-414cb0fdc590\",\"source\":\"simulation\",\"minutes\":50,\"occurredAt\":\"2026-10-14T15:31:22.850Z\"}],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"bush\",\"x\":0,\"y\":6,\"stage\":\"bush\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}"
+        ],
+        "world": {
+          "schemaVersion": 1,
+          "revision": 1,
+          "nextId": 7,
+          "xp": 50,
+          "bp": 40,
+          "chunks": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "efforts": [
+            {
+              "id": "8405fb59-e2f7-4064-a0ab-414cb0fdc590",
+              "source": "simulation",
+              "minutes": 50,
+              "occurredAt": "2026-10-14T15:31:22.850Z"
+            }
+          ],
+          "objects": [
+            {
+              "id": "o-1",
+              "asset": "cabin-terracotta",
+              "x": 2,
+              "y": 2,
+              "stored": false
+            }
+          ],
+          "nature": [
+            {
+              "id": "n-2",
+              "asset": "oak-broad",
+              "x": 0,
+              "y": 2,
+              "stage": "mature"
+            },
+            {
+              "id": "n-3",
+              "asset": "pine-slender",
+              "x": 6,
+              "y": 3,
+              "stage": "mature"
+            },
+            {
+              "id": "n-4",
+              "asset": "bush",
+              "x": 0,
+              "y": 6,
+              "stage": "bush"
+            },
+            {
+              "id": "n-5",
+              "asset": "grass-tuft",
+              "x": 6,
+              "y": 6,
+              "stage": "young"
+            },
+            {
+              "id": "n-6",
+              "asset": "wildflowers",
+              "x": 2,
+              "y": 5,
+              "stage": "static"
+            }
+          ],
+          "path": [
+            {
+              "x": 3,
+              "y": 4
+            },
+            {
+              "x": 3,
+              "y": 5
+            },
+            {
+              "x": 3,
+              "y": 6
+            },
+            {
+              "x": 3,
+              "y": 7
+            }
+          ]
+        },
+        "message": "初始世界已可靠保存，可以开始布置。",
+        "selected": ""
+      },
+      "sameCandidate": true,
+      "correctFeedback": false,
+      "status": "failed"
+    },
+    {
+      "name": "effort-reload-390",
+      "width": 390,
+      "height": 700,
+      "checkpointPending": true,
+      "originalCandidate": "{\"schemaVersion\":1,\"revision\":1,\"nextId\":7,\"xp\":50,\"bp\":40,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[{\"id\":\"ba9ff47c-e778-42ed-86d5-0a9b8aec5f52\",\"source\":\"simulation\",\"minutes\":50,\"occurredAt\":\"2026-10-14T15:31:23.531Z\"}],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"bush\",\"x\":0,\"y\":6,\"stage\":\"bush\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}",
+      "reloadPreserved": true,
+      "after": {
+        "raw": "{\"schemaVersion\":1,\"revision\":1,\"nextId\":7,\"xp\":50,\"bp\":40,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[{\"id\":\"ba9ff47c-e778-42ed-86d5-0a9b8aec5f52\",\"source\":\"simulation\",\"minutes\":50,\"occurredAt\":\"2026-10-14T15:31:23.531Z\"}],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"bush\",\"x\":0,\"y\":6,\"stage\":\"bush\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}",
+        "attempts": [
+          "{\"schemaVersion\":1,\"revision\":1,\"nextId\":7,\"xp\":50,\"bp\":40,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[{\"id\":\"ba9ff47c-e778-42ed-86d5-0a9b8aec5f52\",\"source\":\"simulation\",\"minutes\":50,\"occurredAt\":\"2026-10-14T15:31:23.531Z\"}],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"bush\",\"x\":0,\"y\":6,\"stage\":\"bush\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}",
+          "{\"schemaVersion\":1,\"revision\":1,\"nextId\":7,\"xp\":50,\"bp\":40,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[{\"id\":\"ba9ff47c-e778-42ed-86d5-0a9b8aec5f52\",\"source\":\"simulation\",\"minutes\":50,\"occurredAt\":\"2026-10-14T15:31:23.531Z\"}],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"bush\",\"x\":0,\"y\":6,\"stage\":\"bush\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}"
+        ],
+        "world": {
+          "schemaVersion": 1,
+          "revision": 1,
+          "nextId": 7,
+          "xp": 50,
+          "bp": 40,
+          "chunks": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "efforts": [
+            {
+              "id": "ba9ff47c-e778-42ed-86d5-0a9b8aec5f52",
+              "source": "simulation",
+              "minutes": 50,
+              "occurredAt": "2026-10-14T15:31:23.531Z"
+            }
+          ],
+          "objects": [
+            {
+              "id": "o-1",
+              "asset": "cabin-terracotta",
+              "x": 2,
+              "y": 2,
+              "stored": false
+            }
+          ],
+          "nature": [
+            {
+              "id": "n-2",
+              "asset": "oak-broad",
+              "x": 0,
+              "y": 2,
+              "stage": "mature"
+            },
+            {
+              "id": "n-3",
+              "asset": "pine-slender",
+              "x": 6,
+              "y": 3,
+              "stage": "mature"
+            },
+            {
+              "id": "n-4",
+              "asset": "bush",
+              "x": 0,
+              "y": 6,
+              "stage": "bush"
+            },
+            {
+              "id": "n-5",
+              "asset": "grass-tuft",
+              "x": 6,
+              "y": 6,
+              "stage": "young"
+            },
+            {
+              "id": "n-6",
+              "asset": "wildflowers",
+              "x": 2,
+              "y": 5,
+              "stage": "static"
+            }
+          ],
+          "path": [
+            {
+              "x": 3,
+              "y": 4
+            },
+            {
+              "x": 3,
+              "y": 5
+            },
+            {
+              "x": 3,
+              "y": 6
+            },
+            {
+              "x": 3,
+              "y": 7
+            }
+          ]
+        },
+        "message": "初始世界已可靠保存，可以开始布置。",
+        "selected": ""
+      },
+      "sameCandidate": true,
+      "correctFeedback": false,
+      "status": "failed"
+    },
+    {
+      "name": "build-both-320",
+      "width": 320,
+      "height": 568,
+      "error": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main[data-readonly=\"true\"] .game-save-error') to be visible\u001b[22m\n",
+      "status": "error"
+    }
+  ],
+  "failures": [
+    "effort-cancel-320: cancelPreserved",
+    "effort-cancel-320: correctFeedback",
+    "effort-reload-390: correctFeedback",
+    "build-both-320: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main[data-readonly=\"true\"] .game-save-error') to be visible\u001b[22m\n"
+  ]
+}
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: refused recovery must retain UI attempt/preview and same-candidate retry feedback
++ actual - expected
+
++ [
++   'effort-cancel-320: cancelPreserved',
++   'effort-cancel-320: correctFeedback',
++   'effort-reload-390: correctFeedback',
++   'build-both-320: locator.waitFor: Timeout 30000ms exceeded.\n' +
++     'Call log:\n' +
++     `\x1B[2m  - waiting for locator('main[data-readonly="true"] .game-save-error') to be visible\x1B[22m\n`
++ ]
+- []
+
+    at file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/docs/growth-game-verification/2026-10-14/release-game-guard-ui.mjs:112:8 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: [
+    'effort-cancel-320: cancelPreserved',
+    'effort-cancel-320: correctFeedback',
+    'effort-reload-390: correctFeedback',
+    'build-both-320: locator.waitFor: Timeout 30000ms exceeded.\n' +
+      'Call log:\n' +
+      `\x1B[2m  - waiting for locator('main[data-readonly="true"] .game-save-error') to be visible\x1B[22m\n`
+  ],
+  expected: [],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.16.0

@@ -1,0 +1,274 @@
+{
+  "chrome": "155.0.8059.40",
+  "runs": [
+    {
+      "i": 0,
+      "initialTokensEqual": true,
+      "initialA": {
+        "main": {
+          "worldRevision": "0",
+          "saveStatus": "ready",
+          "saved": "true",
+          "readonly": "false"
+        },
+        "resources": "0 XP30 BP",
+        "message": "先摆一簇花，或记录一次模拟努力。",
+        "error": null,
+        "raw": "{\"schemaVersion\":1,\"revision\":0,\"nextId\":7,\"xp\":0,\"bp\":30,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"grass-tuft\",\"x\":0,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}",
+        "events": []
+      },
+      "initialB": {
+        "main": {
+          "worldRevision": "0",
+          "saveStatus": "ready",
+          "saved": "true",
+          "readonly": "false"
+        },
+        "resources": "0 XP30 BP",
+        "message": "先摆一簇花，或记录一次模拟努力。",
+        "error": null,
+        "raw": "{\"schemaVersion\":1,\"revision\":0,\"nextId\":7,\"xp\":0,\"bp\":30,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"grass-tuft\",\"x\":0,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}",
+        "events": []
+      },
+      "queue": {
+        "held": [
+          {
+            "clientId": "95A880EE4A7DC2B51431348445E085EB",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "CC0C1939C0645C3873FBACB28B6DC68B",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "95A880EE4A7DC2B51431348445E085EB",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "a": {
+        "main": {
+          "worldRevision": "1",
+          "saveStatus": "ready",
+          "saved": "true",
+          "readonly": "false"
+        },
+        "resources": "10 XP32 BP",
+        "message": "模拟努力 +10 XP · +2 BP。",
+        "error": null,
+        "raw": "{\"schemaVersion\":1,\"revision\":1,\"nextId\":7,\"xp\":10,\"bp\":32,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[{\"id\":\"bececa8e-5077-401e-aa54-f347f36d0573\",\"source\":\"simulation\",\"minutes\":10,\"occurredAt\":\"2026-10-14T14:57:24.995Z\",\"label\":\"A native\"}],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"grass-tuft\",\"x\":0,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}",
+        "events": [
+          {
+            "at": 1791989845049,
+            "newValue": "{\"schemaVersion\":1,\"revision\":1,\"nextId\":7,\"xp\":25,\"bp\":35,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[{\"id\":\"2bb71e8c-1eeb-4c4f-81ec-2413ed1e111d\",\"source\":\"simulation\",\"minutes\":25,\"occurredAt\":\"2026-10-14T14:57:24.955Z\",\"label\":\"B native\"}],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"grass-tuft\",\"x\":0,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}"
+          }
+        ]
+      },
+      "b": {
+        "main": {
+          "worldRevision": "1",
+          "saveStatus": "ready",
+          "saved": "true",
+          "readonly": "false"
+        },
+        "resources": "25 XP35 BP",
+        "message": "模拟努力 +25 XP · +5 BP。",
+        "error": null,
+        "raw": "{\"schemaVersion\":1,\"revision\":1,\"nextId\":7,\"xp\":10,\"bp\":32,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[{\"id\":\"bececa8e-5077-401e-aa54-f347f36d0573\",\"source\":\"simulation\",\"minutes\":10,\"occurredAt\":\"2026-10-14T14:57:24.995Z\",\"label\":\"A native\"}],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"grass-tuft\",\"x\":0,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}",
+        "events": [
+          {
+            "at": 1791989845049,
+            "newValue": "{\"schemaVersion\":1,\"revision\":1,\"nextId\":7,\"xp\":10,\"bp\":32,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[{\"id\":\"bececa8e-5077-401e-aa54-f347f36d0573\",\"source\":\"simulation\",\"minutes\":10,\"occurredAt\":\"2026-10-14T14:57:24.995Z\",\"label\":\"A native\"}],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"grass-tuft\",\"x\":0,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}"
+          }
+        ]
+      },
+      "bothSucceeded": true,
+      "reopened": {
+        "main": {
+          "worldRevision": "1",
+          "saveStatus": "ready",
+          "saved": "true",
+          "readonly": "false"
+        },
+        "resources": "10 XP32 BP",
+        "message": "先摆一簇花，或记录一次模拟努力。",
+        "error": null,
+        "raw": "{\"schemaVersion\":1,\"revision\":1,\"nextId\":7,\"xp\":10,\"bp\":32,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[{\"id\":\"bececa8e-5077-401e-aa54-f347f36d0573\",\"source\":\"simulation\",\"minutes\":10,\"occurredAt\":\"2026-10-14T14:57:24.995Z\",\"label\":\"A native\"}],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"grass-tuft\",\"x\":0,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}",
+        "events": []
+      }
+    },
+    {
+      "i": 1,
+      "initialTokensEqual": true,
+      "initialA": {
+        "main": {
+          "worldRevision": "0",
+          "saveStatus": "ready",
+          "saved": "true",
+          "readonly": "false"
+        },
+        "resources": "0 XP30 BP",
+        "message": "先摆一簇花，或记录一次模拟努力。",
+        "error": null,
+        "raw": "{\"schemaVersion\":1,\"revision\":0,\"nextId\":7,\"xp\":0,\"bp\":30,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"grass-tuft\",\"x\":0,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}",
+        "events": []
+      },
+      "initialB": {
+        "main": {
+          "worldRevision": "0",
+          "saveStatus": "ready",
+          "saved": "true",
+          "readonly": "false"
+        },
+        "resources": "0 XP30 BP",
+        "message": "先摆一簇花，或记录一次模拟努力。",
+        "error": null,
+        "raw": "{\"schemaVersion\":1,\"revision\":0,\"nextId\":7,\"xp\":0,\"bp\":30,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"grass-tuft\",\"x\":0,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}",
+        "events": []
+      },
+      "queue": {
+        "held": [
+          {
+            "clientId": "25B3C2043B8DFA005706F632A329C0B0",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "573BE9616F5DFFEA8AEE8B0139103B6A",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "25B3C2043B8DFA005706F632A329C0B0",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "a": {
+        "main": {
+          "worldRevision": "0",
+          "saveStatus": "ready",
+          "saved": "true",
+          "readonly": "true"
+        },
+        "resources": "0 XP30 BP",
+        "message": "本次模拟努力尚未保存，重试会沿用同一事件。",
+        "error": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。取消未保存操作重新读取下载原始记录",
+        "raw": "{\"schemaVersion\":1,\"revision\":1,\"nextId\":7,\"xp\":25,\"bp\":35,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[{\"id\":\"b7fae362-b644-4507-91dc-663d631d6b84\",\"source\":\"simulation\",\"minutes\":25,\"occurredAt\":\"2026-10-14T14:57:25.800Z\",\"label\":\"B native\"}],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"grass-tuft\",\"x\":0,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}",
+        "events": [
+          {
+            "at": 1791989845833,
+            "newValue": "{\"schemaVersion\":1,\"revision\":1,\"nextId\":7,\"xp\":25,\"bp\":35,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[{\"id\":\"b7fae362-b644-4507-91dc-663d631d6b84\",\"source\":\"simulation\",\"minutes\":25,\"occurredAt\":\"2026-10-14T14:57:25.800Z\",\"label\":\"B native\"}],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"grass-tuft\",\"x\":0,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}"
+          }
+        ]
+      },
+      "b": {
+        "main": {
+          "worldRevision": "1",
+          "saveStatus": "ready",
+          "saved": "true",
+          "readonly": "false"
+        },
+        "resources": "25 XP35 BP",
+        "message": "模拟努力 +25 XP · +5 BP。",
+        "error": null,
+        "raw": "{\"schemaVersion\":1,\"revision\":1,\"nextId\":7,\"xp\":25,\"bp\":35,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[{\"id\":\"b7fae362-b644-4507-91dc-663d631d6b84\",\"source\":\"simulation\",\"minutes\":25,\"occurredAt\":\"2026-10-14T14:57:25.800Z\",\"label\":\"B native\"}],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"grass-tuft\",\"x\":0,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}",
+        "events": []
+      },
+      "bothSucceeded": false,
+      "reopened": null
+    },
+    {
+      "i": 2,
+      "initialTokensEqual": true,
+      "initialA": {
+        "main": {
+          "worldRevision": "0",
+          "saveStatus": "ready",
+          "saved": "true",
+          "readonly": "false"
+        },
+        "resources": "0 XP30 BP",
+        "message": "先摆一簇花，或记录一次模拟努力。",
+        "error": null,
+        "raw": "{\"schemaVersion\":1,\"revision\":0,\"nextId\":7,\"xp\":0,\"bp\":30,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"grass-tuft\",\"x\":0,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}",
+        "events": []
+      },
+      "initialB": {
+        "main": {
+          "worldRevision": "0",
+          "saveStatus": "ready",
+          "saved": "true",
+          "readonly": "false"
+        },
+        "resources": "0 XP30 BP",
+        "message": "先摆一簇花，或记录一次模拟努力。",
+        "error": null,
+        "raw": "{\"schemaVersion\":1,\"revision\":0,\"nextId\":7,\"xp\":0,\"bp\":30,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"grass-tuft\",\"x\":0,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}",
+        "events": []
+      },
+      "queue": {
+        "held": [
+          {
+            "clientId": "298694D35207F24CF391990CC28DCFCC",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "68AEA25523FA5A65CCE81E6CDB389204",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "298694D35207F24CF391990CC28DCFCC",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "a": {
+        "main": {
+          "worldRevision": "0",
+          "saveStatus": "ready",
+          "saved": "true",
+          "readonly": "true"
+        },
+        "resources": "0 XP30 BP",
+        "message": "本次模拟努力尚未保存，重试会沿用同一事件。",
+        "error": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。取消未保存操作重新读取下载原始记录",
+        "raw": "{\"schemaVersion\":1,\"revision\":1,\"nextId\":7,\"xp\":25,\"bp\":35,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[{\"id\":\"9a9dfeaa-9621-4972-9c2a-d32a5d97071f\",\"source\":\"simulation\",\"minutes\":25,\"occurredAt\":\"2026-10-14T14:57:26.407Z\",\"label\":\"B native\"}],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"grass-tuft\",\"x\":0,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}",
+        "events": [
+          {
+            "at": 1791989846446,
+            "newValue": "{\"schemaVersion\":1,\"revision\":1,\"nextId\":7,\"xp\":25,\"bp\":35,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[{\"id\":\"9a9dfeaa-9621-4972-9c2a-d32a5d97071f\",\"source\":\"simulation\",\"minutes\":25,\"occurredAt\":\"2026-10-14T14:57:26.407Z\",\"label\":\"B native\"}],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"grass-tuft\",\"x\":0,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}"
+          }
+        ]
+      },
+      "b": {
+        "main": {
+          "worldRevision": "1",
+          "saveStatus": "ready",
+          "saved": "true",
+          "readonly": "false"
+        },
+        "resources": "25 XP35 BP",
+        "message": "模拟努力 +25 XP · +5 BP。",
+        "error": null,
+        "raw": "{\"schemaVersion\":1,\"revision\":1,\"nextId\":7,\"xp\":25,\"bp\":35,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[{\"id\":\"9a9dfeaa-9621-4972-9c2a-d32a5d97071f\",\"source\":\"simulation\",\"minutes\":25,\"occurredAt\":\"2026-10-14T14:57:26.407Z\",\"label\":\"B native\"}],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"grass-tuft\",\"x\":0,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-5\",\"asset\":\"grass-tuft\",\"x\":6,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}",
+        "events": []
+      },
+      "bothSucceeded": false,
+      "reopened": null
+    }
+  ]
+}

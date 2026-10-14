@@ -50,13 +50,49 @@ class Locks {
 
 function service(storage = new Storage(), locks = new Locks()) {
   assert.equal(typeof api.createGamePersistence, 'function', 'the save service must exist');
-  return api.createGamePersistence({storage, locks});
+  return api.createGamePersistence({storage, locks, checkpoint: checkpoint(storage)});
 }
 function controller(storage = new Storage(), locks = new Locks()) {
   assert.equal(typeof api.createGameWorldController, 'function', 'the transaction controller must exist');
   return api.createGameWorldController({persistence: service(storage, locks)});
 }
 const rejectsCode = (operation, code) => assert.rejects(operation, error => error.code === code);
+
+const checkpointBackends = new WeakMap();
+let checkpointOwner = 0;
+class Checkpoint {
+  constructor(backend = {record: null}) {this.backend = backend; this.owner = `test-owner-${++checkpointOwner}`; this.readonly = false;}
+  async fingerprint(raw, revision) {
+    const digest = raw === null ? null : [...new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(raw)))].map(byte => byte.toString(16).padStart(2, '0')).join('');
+    return {digest, revision: raw === null ? null : revision};
+  }
+  async verify(point) {
+    const current = this.backend.record;
+    if (this.backend.unavailable) throw Object.assign(new Error('guard unavailable'), {code: 'storage_unavailable'});
+    if (current && (current.digest !== point.digest || current.revision !== point.revision)) throw Object.assign(new Error('guard conflict'), {code: 'conflict'});
+  }
+  async reserve(expected, next) {
+    if (this.backend.reserveFault) throw Object.assign(new Error('guard commit aborted'), {code: 'storage_unavailable'});
+    if (this.backend.pause) await this.backend.pause;
+    const current = this.backend.record;
+    if (current && (current.digest !== expected.digest || current.revision !== expected.revision)) {
+      if (current.owner === this.owner && current.digest === next.digest && current.revision === next.revision && current.previousDigest === expected.digest && current.previousRevision === expected.revision) return {record: current, previous: expected.digest === null ? null : {...current, ...expected, previousDigest: null, previousRevision: null}};
+      throw Object.assign(new Error('guard conflict'), {code: 'conflict'});
+    }
+    const record = {schemaVersion: 1, ...next, previousDigest: expected.digest, previousRevision: expected.revision, owner: this.owner};
+    this.backend.record = record;
+    return {record, previous: current};
+  }
+  async rollback(reservation) {
+    if (this.backend.rollbackFault) throw Object.assign(new Error('guard rollback aborted'), {code: 'storage_unavailable'});
+    if (this.backend.record !== reservation.record) throw Object.assign(new Error('another reservation'), {code: 'conflict'});
+    this.backend.record = reservation.previous;
+  }
+}
+function checkpoint(storage) {
+  if (!checkpointBackends.has(storage)) checkpointBackends.set(storage, {record: null});
+  return new Checkpoint(checkpointBackends.get(storage));
+}
 
 test('first seed and built world survive fresh service reads without duplicate gifts or old-key access', async () => {
   const storage = new Storage(), first = service(storage);
@@ -122,7 +158,7 @@ test('localStorage getter denial is caught by lazy default access', () => {
   Object.defineProperty(globalThis, 'localStorage', {configurable: true, get() { throw new DOMException('blocked', 'SecurityError'); }});
   try {
     assert.equal(typeof api.createGamePersistence, 'function');
-    const persist = api.createGamePersistence({locks: new Locks()});
+    const persist = api.createGamePersistence({locks: new Locks(), checkpoint: new Checkpoint()});
     assert.throws(() => persist.read(), error => error.code === 'storage_unavailable' && error.raw === null);
   } finally {
     if (descriptor) Object.defineProperty(globalThis, 'localStorage', descriptor);
@@ -432,7 +468,7 @@ test('default storage getter permission recovery reloads the complete old world 
     return storage;
   }});
   try {
-    const app = api.createGameWorldController({persistence: api.createGamePersistence({locks: new Locks()})});
+    const app = api.createGameWorldController({persistence: api.createGamePersistence({locks: new Locks(), checkpoint: new Checkpoint()})});
     assert.equal(await app.initialize(), false);
     assert.equal(app.getSnapshot().error.code, 'storage_unavailable');
     assert.equal(app.getSnapshot().readonly, true);
@@ -465,7 +501,7 @@ test('persistent default storage getter denial keeps repeated reloads read-only 
   const descriptor = Object.getOwnPropertyDescriptor(globalThis, 'localStorage');
   Object.defineProperty(globalThis, 'localStorage', {configurable: true, get() {throw new DOMException('still blocked', 'SecurityError');}});
   try {
-    const app = api.createGameWorldController({persistence: api.createGamePersistence({locks: new Locks()})});
+    const app = api.createGameWorldController({persistence: api.createGamePersistence({locks: new Locks(), checkpoint: new Checkpoint()})});
     assert.equal(await app.initialize(), false);
     for (let i = 0; i < 2; i++) {
       assert.equal(await app.reload(), false);
@@ -485,7 +521,7 @@ test('persistent default storage getter denial keeps repeated reloads read-only 
 
 test('explicit storage injection remains stable when options and ambient default storage change', async () => {
   const raw = JSON.stringify(createGameWorld()), original = new Storage(raw), unrelated = new Storage(raw);
-  const options = {storage: original, locks: new Locks()}, persist = api.createGamePersistence(options);
+  const options = {storage: original, locks: new Locks(), checkpoint: new Checkpoint()}, persist = api.createGamePersistence(options);
   const loaded = persist.read();
   options.storage = unrelated;
   const descriptor = Object.getOwnPropertyDescriptor(globalThis, 'localStorage');
@@ -514,7 +550,7 @@ test('locked default storage save captures one storage object for both token rea
   };
   Object.defineProperty(globalThis, 'localStorage', {configurable: true, get() {return active;}});
   try {
-    const persist = api.createGamePersistence({locks: new Locks()}), loaded = persist.read();
+    const persist = api.createGamePersistence({locks: new Locks(), checkpoint: new Checkpoint()}), loaded = persist.read();
     switchDuringRead = true;
     const saved = await persist.save(applyGameCommand(loaded.world, flower), loaded.token);
     assert.equal(active, second, 'default getter changes after the locked read');
@@ -527,4 +563,126 @@ test('locked default storage save captures one storage object for both token rea
     if (descriptor) Object.defineProperty(globalThis, 'localStorage', descriptor);
     else delete globalThis.localStorage;
   }
+});
+
+test('atomic checkpoint rejects the second stale renderer even when its native storage cache still holds the seed', async () => {
+  const raw = JSON.stringify(createGameWorld()), aStore = new Storage(raw), bStore = new Storage(raw), locks = new Locks(), backend = {record: null};
+  const a = api.createGamePersistence({storage: aStore, locks, checkpoint: new Checkpoint(backend)}), b = api.createGamePersistence({storage: bStore, locks, checkpoint: new Checkpoint(backend)});
+  const wa = a.read(), wb = b.read();
+  const result = await Promise.allSettled([a.save(applyGameCommand(wa.world, flower), wa.token), b.save(applyGameCommand(wb.world, {...flower, x: 5}), wb.token)]);
+  assert.equal(result.filter(item => item.status === 'fulfilled').length, 1, 'a stale local cache must not authorize a second successful save');
+  assert.equal(result.find(item => item.status === 'rejected').reason.code, 'conflict');
+  assert.equal(aStore.writes + bStore.writes, 1);
+  assert.equal(bStore.values.get(KEY), raw);
+});
+
+test('checkpoint precommit abort leaves the original raw and visible world untouched until a same-command retry', async () => {
+  const storage = new Storage(JSON.stringify(createGameWorld())), guard = new Checkpoint(), app = api.createGameWorldController({persistence: api.createGamePersistence({storage, locks: new Locks(), checkpoint: guard})});
+  await app.initialize();
+  const original = storage.values.get(KEY);
+  guard.backend.reserveFault = true;
+  assert.equal(await app.run(flower), false);
+  assert.equal(storage.writes, 0);
+  assert.equal(storage.values.get(KEY), original);
+  assert.equal(app.getSnapshot().world.bp, 30);
+  assert.deepEqual(app.getSnapshot().pending.command, flower);
+  guard.backend.reserveFault = false;
+  assert.equal(await app.retry(), true);
+  assert.equal(app.getSnapshot().world.bp, 28);
+  assert.equal(storage.writes, 1);
+});
+
+test('localStorage is never written while checkpoint commit remains outstanding', async () => {
+  const storage = new Storage(JSON.stringify(createGameWorld())), guard = new Checkpoint();
+  const persist = api.createGamePersistence({storage, locks: new Locks(), checkpoint: guard}), loaded = persist.read();
+  let release;
+  guard.backend.pause = new Promise(resolve => {release = resolve;});
+  const saving = persist.save(applyGameCommand(loaded.world, flower), loaded.token);
+  await new Promise(resolve => setImmediate(resolve));
+  assert.equal(storage.writes, 0, 'request success or a queued guard operation is not a committed fence');
+  release();
+  assert.equal((await saving).world.bp, 28);
+  assert.equal(storage.writes, 1);
+});
+
+test('LS failure plus metadata rollback failure keeps raw, freezes new commands, and retries only the same owner candidate', async () => {
+  const raw = JSON.stringify(createGameWorld()), storage = new Storage(raw), locks = new Locks(), backend = {record: null, rollbackFault: true}, guard = new Checkpoint(backend);
+  const app = api.createGameWorldController({persistence: api.createGamePersistence({storage, locks, checkpoint: guard})});
+  await app.initialize();storage.failWrite = true;
+  assert.equal(await app.run(flower), false);
+  assert.equal(app.getSnapshot().error.code, 'checkpoint_pending');
+  assert.equal(app.getSnapshot().readonly, true);
+  assert.equal(app.getSnapshot().world.bp, 30);
+  assert.equal(storage.values.get(KEY), raw);assert.equal(storage.writes, 0);
+  assert.equal(await app.run({...flower, x: 5}), false);
+  const other = api.createGamePersistence({storage: new Storage(raw), locks, checkpoint: new Checkpoint(backend)});
+  await rejectsCode(other.save(applyGameCommand(createGameWorld(), flower), raw), 'conflict');
+  const snapshot = app.getSnapshot();
+  const canceled = app.cancel(), reloaded = await app.reload();
+  assert.deepEqual({canceled, reloaded}, {canceled: false, reloaded: false}, 'unsafe checkpoint recovery cannot abandon its owner/pending identity');
+  assert.equal(app.getSnapshot(), snapshot);
+  const request = locks.request;
+  locks.request = () => Promise.reject(new DOMException('temporary lock error', 'AbortError'));
+  assert.equal(await app.retry(), false);
+  assert.equal(app.getSnapshot().error.code, 'lock_failed');
+  assert.equal(app.getSnapshot().readonly, true, 'recovering reservation stays read-only across later errors');
+  assert.equal(app.cancel(), false);assert.equal(await app.reload(), false);
+  assert.equal(app.getSnapshot().pending, snapshot.pending);
+  locks.request = request;
+  backend.reserveFault = true;
+  assert.equal(await app.retry(), false);
+  assert.equal(app.getSnapshot().readonly, true);
+  assert.equal(app.cancel(), false);assert.equal(await app.reload(), false);
+  assert.equal(app.getSnapshot().pending, snapshot.pending);
+  backend.reserveFault = false;
+  storage.failWrite = false;
+  assert.equal(await app.retry(), true);
+  assert.equal(app.getSnapshot().world.bp, 28);assert.equal(app.getSnapshot().readonly, false);
+  assert.equal(storage.writes, 1);
+});
+
+test('a recovering owner may cancel only after an actual successful metadata rollback restores the old fence', async () => {
+  const raw = JSON.stringify(createGameWorld()), storage = new Storage(raw), backend = {record: null, rollbackFault: true};
+  const app = api.createGameWorldController({persistence: api.createGamePersistence({storage, locks: new Locks(), checkpoint: new Checkpoint(backend)})});
+  await app.initialize();storage.failWrite = true;
+  await app.run(flower);assert.equal(app.getSnapshot().error.code, 'checkpoint_pending');
+  backend.rollbackFault = false;
+  assert.equal(await app.retry(), false);
+  assert.equal(app.getSnapshot().error.code, 'write_failed');
+  assert.equal(app.getSnapshot().readonly, false, 'committed rollback removes the unsafe recovery marker');
+  assert.equal(app.cancel(), true);assert.equal(await app.reload(), true);
+  assert.equal(storage.values.get(KEY), raw);assert.equal(storage.writes, 0);
+});
+
+test('load verification faults on a leading checkpoint without publishing or replacing the valid old record', async () => {
+  const raw = JSON.stringify(createGameWorld()), storage = new Storage(raw), guard = new Checkpoint();
+  guard.backend.record = {schemaVersion: 1, ...(await guard.fingerprint(JSON.stringify(applyGameCommand(createGameWorld(), flower)), 1)), previousDigest: (await guard.fingerprint(raw, 0)).digest, previousRevision: 0, owner: 'closed-owner'};
+  const app = api.createGameWorldController({persistence: api.createGamePersistence({storage, locks: new Locks(), checkpoint: guard})});
+  assert.equal(await app.initialize(), false);
+  assert.equal(app.getSnapshot().status, 'fault');assert.equal(app.getSnapshot().readonly, true);assert.equal(app.getSnapshot().saved, false);
+  assert.equal(app.getSnapshot().raw, raw);assert.equal(storage.values.get(KEY), raw);assert.equal(storage.writes, 0);
+  assert.equal(await app.run(flower), false);
+  assert.equal(await app.reload(), false);
+});
+
+test('absent checkpoint capability is explicit read-only and cannot bootstrap unsafe saves', async () => {
+  const storage = new Storage(JSON.stringify(createGameWorld())), persist = api.createGamePersistence({storage, locks: new Locks(), checkpoint: null});
+  assert.equal(persist.readonly, true);
+  await rejectsCode(persist.save(applyGameCommand(persist.read().world, flower), persist.read().token), 'readonly');
+  const app = api.createGameWorldController({persistence: persist});await app.initialize();
+  assert.equal(app.getSnapshot().readonly, true);assert.equal(storage.writes, 0);
+});
+
+test('initial seed conflict re-read must also verify its checkpoint before publishing a saved world', async () => {
+  const storage = new Storage(), guard = new Checkpoint(), seed = createGameWorld(), seedRaw = JSON.stringify(seed);
+  guard.reserve = async () => {
+    const next = applyGameCommand(seed, {type: 'effort', event: {id: 'other-page-advance', source: 'simulation', minutes: 10, occurredAt: '2026-10-14T00:00:00.000Z'}});
+    guard.backend.record = {schemaVersion: 1, ...(await guard.fingerprint(JSON.stringify(next), 1)), previousDigest: (await guard.fingerprint(seedRaw, 0)).digest, previousRevision: 0, owner: 'another-page'};
+    storage.values.set(KEY, seedRaw);
+    throw Object.assign(new Error('another-page conflict'), {code: 'conflict'});
+  };
+  const app = api.createGameWorldController({persistence: api.createGamePersistence({storage, locks: new Locks(), checkpoint: guard})});
+  assert.equal(await app.initialize(), false);
+  assert.equal(app.getSnapshot().status, 'fault');assert.equal(app.getSnapshot().saved, false);assert.equal(app.getSnapshot().readonly, true);
+  assert.equal(storage.values.get(KEY), seedRaw);assert.equal(storage.writes, 0);
 });

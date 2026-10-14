@@ -1,0 +1,5 @@
+desktop PASS
+touch-390 PASS
+touch-320 PASS
+WebKit unavailable; skipped.
+All P1 browser checks passed; no page errors.

@@ -1,0 +1,22 @@
+{
+  "src/growth/game/GameApp.jsx": "20bec0ec365694797ecaa26cbf719bbe39190f10a9c2a36a27a928a72bbf44ef",
+  "src/growth/game/WorldCanvas.jsx": "f4db16f198641bbf5afee4090262b54417b32c5be27ac8dcd3a5ce2ddc849214",
+  "src/growth/game/balance.js": "b0722bbbfed39abfea312420abd250e93fdef0e1916f5a6deb0ed65c79f2b8e1",
+  "src/growth/game/checkpoint.js": "094c4b3c6e099bc3bd1bfb8080e02171c75cbf8b893f02bd4fe2efdcd7b12398",
+  "src/growth/game/growth.js": "40880a5c22ab27ff006bf61da32cbffbe5b34be55c656bf28fe34c4a4dd6d98c",
+  "src/growth/game/main.jsx": "7b19f6f1f5446cde2c09c43d09cb0f9c07354444cc035cf2531683bc1d871f15",
+  "src/growth/game/persistence.js": "b44b293cc654654752dbbd2b04b7086b29ad07b498881596566c0069175dfcb7",
+  "src/growth/game/renderer.js": "dfc0e91f1d9fe907e5cb83fdeed69b09fb0226f80372d4fe35a260fe624f673e",
+  "src/growth/game/scene.js": "827abdc2aff7b94fb5359fd27e2f1fa0ee1b1bc8d6f51404dc70b0ec5f63896b",
+  "src/growth/game/spatial.js": "365cac3f58820a571f0e8b78b64256c97d30122b744bc450a11c6e212607afad",
+  "src/growth/game/styles.css": "82912452d76d1ead123e1e4078af253e09903e372d288adf5d0b8218403369e3",
+  "src/growth/game/useGameWorld.js": "f9589a1fc809e911c04682ae3d8dc23960b2eeb672b99f370b1e4a9f446d2f99",
+  "src/growth/game/world.js": "99c34c152b8b0b0771b22a19195f9a9d3302e788b3538a7b0e6b66e8c1dff267",
+  "tests/game-build.test.mjs": "37cd72f345e4767f7aaad6123b3a79a129308bf6b501b700a9f45e8f1a5d2810",
+  "tests/game-checkpoint.test.mjs": "bc1939169e44c2d97165c79f8bde7c5b2bec5124f803ca1f3af50489bf0b9c27",
+  "tests/game-growth.test.mjs": "acbe1f86d1b648418836b8a0e1721ea004fc5c5bf5945e990f3a8fc1a2335489",
+  "tests/game-integration.test.mjs": "c216ac21424a08bc514b7c6ed990a3f829bde2e4f61520414db4837b5a19596e",
+  "tests/game-persistence.test.mjs": "776b3357fa0b9dc7a0290bb66d5eac5c1e793c534484c2bf602fbbbf1520849b",
+  "tests/game-view.test.mjs": "cf5a8d960df0639935adec2582c6da67559af09a5a0f56bf7c5e7fb9fd43357d",
+  "tests/game-world.test.mjs": "3bcdb59cfc9b57b8ab217111e7e353ea7a3dd0d77f790d8dcf6d9777ae11da4b"
+}

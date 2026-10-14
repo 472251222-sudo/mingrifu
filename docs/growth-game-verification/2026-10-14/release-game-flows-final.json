@@ -1,0 +1,929 @@
+{
+  "chrome": "155.0.8059.40",
+  "results": [
+    {
+      "name": "desktop",
+      "base": "http://127.0.0.1:5189/",
+      "width": 1280,
+      "height": 900,
+      "mobile": false,
+      "layout": {
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1280,
+        "scrollHeight": 900,
+        "mapHeight": 615,
+        "actionBottom": 900
+      },
+      "initial": {
+        "schemaVersion": 1,
+        "revision": 0,
+        "nextId": 7,
+        "xp": 0,
+        "bp": 30,
+        "chunks": [
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "efforts": [],
+        "objects": [
+          {
+            "id": "o-1",
+            "asset": "cabin-terracotta",
+            "x": 2,
+            "y": 2,
+            "stored": false
+          }
+        ],
+        "nature": [
+          {
+            "id": "n-2",
+            "asset": "oak-broad",
+            "x": 0,
+            "y": 2,
+            "stage": "mature"
+          },
+          {
+            "id": "n-3",
+            "asset": "pine-slender",
+            "x": 6,
+            "y": 3,
+            "stage": "mature"
+          },
+          {
+            "id": "n-4",
+            "asset": "grass-tuft",
+            "x": 0,
+            "y": 6,
+            "stage": "young"
+          },
+          {
+            "id": "n-5",
+            "asset": "grass-tuft",
+            "x": 6,
+            "y": 6,
+            "stage": "young"
+          },
+          {
+            "id": "n-6",
+            "asset": "wildflowers",
+            "x": 2,
+            "y": 5,
+            "stage": "static"
+          }
+        ],
+        "path": [
+          {
+            "x": 3,
+            "y": 4
+          },
+          {
+            "x": 3,
+            "y": 5
+          },
+          {
+            "x": 3,
+            "y": 6
+          },
+          {
+            "x": 3,
+            "y": 7
+          }
+        ]
+      },
+      "final": {
+        "schemaVersion": 1,
+        "revision": 11,
+        "nextId": 11,
+        "xp": 300,
+        "bp": 42,
+        "chunks": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ],
+        "efforts": [
+          {
+            "id": "aa8cb214-6180-4ff6-8dfa-e1957350354d",
+            "source": "simulation",
+            "minutes": 50,
+            "occurredAt": "2026-10-14T15:43:42.949Z"
+          },
+          {
+            "id": "5e9ab866-a0f4-4df2-9e44-01d3b1185cc2",
+            "source": "simulation",
+            "minutes": 50,
+            "occurredAt": "2026-10-14T15:43:43.182Z"
+          },
+          {
+            "id": "4b042b22-d805-4e2c-96eb-ebcdc2225860",
+            "source": "simulation",
+            "minutes": 25,
+            "occurredAt": "2026-10-14T15:43:43.384Z"
+          },
+          {
+            "id": "687481c8-11e8-4cca-b9c3-49327715c744",
+            "source": "simulation",
+            "minutes": 175,
+            "occurredAt": "2026-10-14T15:43:44.750Z",
+            "label": "候选闭环演练"
+          }
+        ],
+        "objects": [
+          {
+            "id": "o-1",
+            "asset": "cabin-terracotta",
+            "x": 2,
+            "y": 2,
+            "stored": false
+          },
+          {
+            "id": "o-7",
+            "asset": "wildflowers",
+            "x": 5,
+            "y": 5,
+            "stored": false
+          },
+          {
+            "id": "o-8",
+            "asset": "wildflowers",
+            "x": 10,
+            "y": 6,
+            "stored": false
+          },
+          {
+            "id": "o-9",
+            "asset": "cabin-terracotta",
+            "x": 7,
+            "y": 0,
+            "stored": false
+          }
+        ],
+        "nature": [
+          {
+            "id": "n-2",
+            "asset": "oak-broad",
+            "x": 0,
+            "y": 2,
+            "stage": "mature"
+          },
+          {
+            "id": "n-3",
+            "asset": "pine-slender",
+            "x": 6,
+            "y": 3,
+            "stage": "mature"
+          },
+          {
+            "id": "n-4",
+            "asset": "oak-broad",
+            "x": 0,
+            "y": 6,
+            "stage": "mature"
+          },
+          {
+            "id": "n-5",
+            "asset": "oak-broad",
+            "x": 6,
+            "y": 6,
+            "stage": "mature"
+          },
+          {
+            "id": "n-6",
+            "asset": "wildflowers",
+            "x": 2,
+            "y": 5,
+            "stage": "static"
+          },
+          {
+            "id": "n-10",
+            "asset": "bush",
+            "stage": "bush",
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "path": [
+          {
+            "x": 3,
+            "y": 4
+          },
+          {
+            "x": 3,
+            "y": 5
+          },
+          {
+            "x": 3,
+            "y": 6
+          },
+          {
+            "x": 3,
+            "y": 7
+          }
+        ]
+      },
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "phone320",
+      "base": "http://127.0.0.1:5189/",
+      "width": 320,
+      "height": 568,
+      "mobile": true,
+      "layout": {
+        "width": 320,
+        "height": 568,
+        "scrollWidth": 320,
+        "scrollHeight": 568,
+        "mapHeight": 307.5,
+        "actionBottom": 568
+      },
+      "initial": {
+        "schemaVersion": 1,
+        "revision": 0,
+        "nextId": 7,
+        "xp": 0,
+        "bp": 30,
+        "chunks": [
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "efforts": [],
+        "objects": [
+          {
+            "id": "o-1",
+            "asset": "cabin-terracotta",
+            "x": 2,
+            "y": 2,
+            "stored": false
+          }
+        ],
+        "nature": [
+          {
+            "id": "n-2",
+            "asset": "oak-broad",
+            "x": 0,
+            "y": 2,
+            "stage": "mature"
+          },
+          {
+            "id": "n-3",
+            "asset": "pine-slender",
+            "x": 6,
+            "y": 3,
+            "stage": "mature"
+          },
+          {
+            "id": "n-4",
+            "asset": "grass-tuft",
+            "x": 0,
+            "y": 6,
+            "stage": "young"
+          },
+          {
+            "id": "n-5",
+            "asset": "grass-tuft",
+            "x": 6,
+            "y": 6,
+            "stage": "young"
+          },
+          {
+            "id": "n-6",
+            "asset": "wildflowers",
+            "x": 2,
+            "y": 5,
+            "stage": "static"
+          }
+        ],
+        "path": [
+          {
+            "x": 3,
+            "y": 4
+          },
+          {
+            "x": 3,
+            "y": 5
+          },
+          {
+            "x": 3,
+            "y": 6
+          },
+          {
+            "x": 3,
+            "y": 7
+          }
+        ]
+      },
+      "final": {
+        "schemaVersion": 1,
+        "revision": 11,
+        "nextId": 11,
+        "xp": 300,
+        "bp": 42,
+        "chunks": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ],
+        "efforts": [
+          {
+            "id": "4ccc848f-e77d-4224-aae8-bf72a75c0d59",
+            "source": "simulation",
+            "minutes": 50,
+            "occurredAt": "2026-10-14T15:43:48.238Z"
+          },
+          {
+            "id": "48c069fa-e446-4e04-aa5c-70e5030995df",
+            "source": "simulation",
+            "minutes": 50,
+            "occurredAt": "2026-10-14T15:43:48.422Z"
+          },
+          {
+            "id": "b4d1f53e-8658-4bd4-836d-4b90043f2b0e",
+            "source": "simulation",
+            "minutes": 25,
+            "occurredAt": "2026-10-14T15:43:48.589Z"
+          },
+          {
+            "id": "81aaec68-aea4-424a-98f8-136a933f2737",
+            "source": "simulation",
+            "minutes": 175,
+            "occurredAt": "2026-10-14T15:43:49.723Z",
+            "label": "候选闭环演练"
+          }
+        ],
+        "objects": [
+          {
+            "id": "o-1",
+            "asset": "cabin-terracotta",
+            "x": 2,
+            "y": 2,
+            "stored": false
+          },
+          {
+            "id": "o-7",
+            "asset": "wildflowers",
+            "x": 5,
+            "y": 5,
+            "stored": false
+          },
+          {
+            "id": "o-8",
+            "asset": "wildflowers",
+            "x": 10,
+            "y": 6,
+            "stored": false
+          },
+          {
+            "id": "o-9",
+            "asset": "cabin-terracotta",
+            "x": 7,
+            "y": 0,
+            "stored": false
+          }
+        ],
+        "nature": [
+          {
+            "id": "n-2",
+            "asset": "oak-broad",
+            "x": 0,
+            "y": 2,
+            "stage": "mature"
+          },
+          {
+            "id": "n-3",
+            "asset": "pine-slender",
+            "x": 6,
+            "y": 3,
+            "stage": "mature"
+          },
+          {
+            "id": "n-4",
+            "asset": "oak-broad",
+            "x": 0,
+            "y": 6,
+            "stage": "mature"
+          },
+          {
+            "id": "n-5",
+            "asset": "oak-broad",
+            "x": 6,
+            "y": 6,
+            "stage": "mature"
+          },
+          {
+            "id": "n-6",
+            "asset": "wildflowers",
+            "x": 2,
+            "y": 5,
+            "stage": "static"
+          },
+          {
+            "id": "n-10",
+            "asset": "bush",
+            "stage": "bush",
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "path": [
+          {
+            "x": 3,
+            "y": 4
+          },
+          {
+            "x": 3,
+            "y": 5
+          },
+          {
+            "x": 3,
+            "y": 6
+          },
+          {
+            "x": 3,
+            "y": 7
+          }
+        ]
+      },
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "phone390",
+      "base": "http://127.0.0.1:5189/",
+      "width": 390,
+      "height": 700,
+      "mobile": true,
+      "layout": {
+        "width": 390,
+        "height": 700,
+        "scrollWidth": 390,
+        "scrollHeight": 700,
+        "mapHeight": 435,
+        "actionBottom": 700
+      },
+      "initial": {
+        "schemaVersion": 1,
+        "revision": 0,
+        "nextId": 7,
+        "xp": 0,
+        "bp": 30,
+        "chunks": [
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "efforts": [],
+        "objects": [
+          {
+            "id": "o-1",
+            "asset": "cabin-terracotta",
+            "x": 2,
+            "y": 2,
+            "stored": false
+          }
+        ],
+        "nature": [
+          {
+            "id": "n-2",
+            "asset": "oak-broad",
+            "x": 0,
+            "y": 2,
+            "stage": "mature"
+          },
+          {
+            "id": "n-3",
+            "asset": "pine-slender",
+            "x": 6,
+            "y": 3,
+            "stage": "mature"
+          },
+          {
+            "id": "n-4",
+            "asset": "grass-tuft",
+            "x": 0,
+            "y": 6,
+            "stage": "young"
+          },
+          {
+            "id": "n-5",
+            "asset": "grass-tuft",
+            "x": 6,
+            "y": 6,
+            "stage": "young"
+          },
+          {
+            "id": "n-6",
+            "asset": "wildflowers",
+            "x": 2,
+            "y": 5,
+            "stage": "static"
+          }
+        ],
+        "path": [
+          {
+            "x": 3,
+            "y": 4
+          },
+          {
+            "x": 3,
+            "y": 5
+          },
+          {
+            "x": 3,
+            "y": 6
+          },
+          {
+            "x": 3,
+            "y": 7
+          }
+        ]
+      },
+      "final": {
+        "schemaVersion": 1,
+        "revision": 11,
+        "nextId": 11,
+        "xp": 300,
+        "bp": 42,
+        "chunks": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ],
+        "efforts": [
+          {
+            "id": "8aa2d0f6-2f35-4f87-a15c-695621534dd1",
+            "source": "simulation",
+            "minutes": 50,
+            "occurredAt": "2026-10-14T15:43:52.861Z"
+          },
+          {
+            "id": "731e4bcd-3bf4-472b-ae49-399adfa75599",
+            "source": "simulation",
+            "minutes": 50,
+            "occurredAt": "2026-10-14T15:43:53.043Z"
+          },
+          {
+            "id": "b1154d08-6d68-49d9-a945-09e9cb6ccb90",
+            "source": "simulation",
+            "minutes": 25,
+            "occurredAt": "2026-10-14T15:43:53.211Z"
+          },
+          {
+            "id": "0094d0a3-35ac-436c-bf4c-bd7354e5cfc9",
+            "source": "simulation",
+            "minutes": 175,
+            "occurredAt": "2026-10-14T15:43:54.344Z",
+            "label": "候选闭环演练"
+          }
+        ],
+        "objects": [
+          {
+            "id": "o-1",
+            "asset": "cabin-terracotta",
+            "x": 2,
+            "y": 2,
+            "stored": false
+          },
+          {
+            "id": "o-7",
+            "asset": "wildflowers",
+            "x": 5,
+            "y": 5,
+            "stored": false
+          },
+          {
+            "id": "o-8",
+            "asset": "wildflowers",
+            "x": 10,
+            "y": 6,
+            "stored": false
+          },
+          {
+            "id": "o-9",
+            "asset": "cabin-terracotta",
+            "x": 7,
+            "y": 0,
+            "stored": false
+          }
+        ],
+        "nature": [
+          {
+            "id": "n-2",
+            "asset": "oak-broad",
+            "x": 0,
+            "y": 2,
+            "stage": "mature"
+          },
+          {
+            "id": "n-3",
+            "asset": "pine-slender",
+            "x": 6,
+            "y": 3,
+            "stage": "mature"
+          },
+          {
+            "id": "n-4",
+            "asset": "oak-broad",
+            "x": 0,
+            "y": 6,
+            "stage": "mature"
+          },
+          {
+            "id": "n-5",
+            "asset": "oak-broad",
+            "x": 6,
+            "y": 6,
+            "stage": "mature"
+          },
+          {
+            "id": "n-6",
+            "asset": "wildflowers",
+            "x": 2,
+            "y": 5,
+            "stage": "static"
+          },
+          {
+            "id": "n-10",
+            "asset": "bush",
+            "stage": "bush",
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "path": [
+          {
+            "x": 3,
+            "y": 4
+          },
+          {
+            "x": 3,
+            "y": 5
+          },
+          {
+            "x": 3,
+            "y": 6
+          },
+          {
+            "x": 3,
+            "y": 7
+          }
+        ]
+      },
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "production",
+      "base": "http://127.0.0.1:5190/",
+      "width": 1280,
+      "height": 900,
+      "mobile": false,
+      "layout": {
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1280,
+        "scrollHeight": 900,
+        "mapHeight": 615,
+        "actionBottom": 900
+      },
+      "initial": {
+        "schemaVersion": 1,
+        "revision": 0,
+        "nextId": 7,
+        "xp": 0,
+        "bp": 30,
+        "chunks": [
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "efforts": [],
+        "objects": [
+          {
+            "id": "o-1",
+            "asset": "cabin-terracotta",
+            "x": 2,
+            "y": 2,
+            "stored": false
+          }
+        ],
+        "nature": [
+          {
+            "id": "n-2",
+            "asset": "oak-broad",
+            "x": 0,
+            "y": 2,
+            "stage": "mature"
+          },
+          {
+            "id": "n-3",
+            "asset": "pine-slender",
+            "x": 6,
+            "y": 3,
+            "stage": "mature"
+          },
+          {
+            "id": "n-4",
+            "asset": "grass-tuft",
+            "x": 0,
+            "y": 6,
+            "stage": "young"
+          },
+          {
+            "id": "n-5",
+            "asset": "grass-tuft",
+            "x": 6,
+            "y": 6,
+            "stage": "young"
+          },
+          {
+            "id": "n-6",
+            "asset": "wildflowers",
+            "x": 2,
+            "y": 5,
+            "stage": "static"
+          }
+        ],
+        "path": [
+          {
+            "x": 3,
+            "y": 4
+          },
+          {
+            "x": 3,
+            "y": 5
+          },
+          {
+            "x": 3,
+            "y": 6
+          },
+          {
+            "x": 3,
+            "y": 7
+          }
+        ]
+      },
+      "final": {
+        "schemaVersion": 1,
+        "revision": 11,
+        "nextId": 11,
+        "xp": 300,
+        "bp": 42,
+        "chunks": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ],
+        "efforts": [
+          {
+            "id": "11405c2b-2f7a-4803-bdac-062a35f1979b",
+            "source": "simulation",
+            "minutes": 50,
+            "occurredAt": "2026-10-14T15:43:57.176Z"
+          },
+          {
+            "id": "5e4bdfa9-ea5d-4de5-ac93-6899c4fe6424",
+            "source": "simulation",
+            "minutes": 50,
+            "occurredAt": "2026-10-14T15:43:57.407Z"
+          },
+          {
+            "id": "3ba34ad1-6ff2-4b57-bfd5-e573d4936005",
+            "source": "simulation",
+            "minutes": 25,
+            "occurredAt": "2026-10-14T15:43:57.611Z"
+          },
+          {
+            "id": "62a40e97-8055-49d4-afbc-c31ca49c2df4",
+            "source": "simulation",
+            "minutes": 175,
+            "occurredAt": "2026-10-14T15:43:58.958Z",
+            "label": "候选闭环演练"
+          }
+        ],
+        "objects": [
+          {
+            "id": "o-1",
+            "asset": "cabin-terracotta",
+            "x": 2,
+            "y": 2,
+            "stored": false
+          },
+          {
+            "id": "o-7",
+            "asset": "wildflowers",
+            "x": 5,
+            "y": 5,
+            "stored": false
+          },
+          {
+            "id": "o-8",
+            "asset": "wildflowers",
+            "x": 10,
+            "y": 6,
+            "stored": false
+          },
+          {
+            "id": "o-9",
+            "asset": "cabin-terracotta",
+            "x": 7,
+            "y": 0,
+            "stored": false
+          }
+        ],
+        "nature": [
+          {
+            "id": "n-2",
+            "asset": "oak-broad",
+            "x": 0,
+            "y": 2,
+            "stage": "mature"
+          },
+          {
+            "id": "n-3",
+            "asset": "pine-slender",
+            "x": 6,
+            "y": 3,
+            "stage": "mature"
+          },
+          {
+            "id": "n-4",
+            "asset": "oak-broad",
+            "x": 0,
+            "y": 6,
+            "stage": "mature"
+          },
+          {
+            "id": "n-5",
+            "asset": "oak-broad",
+            "x": 6,
+            "y": 6,
+            "stage": "mature"
+          },
+          {
+            "id": "n-6",
+            "asset": "wildflowers",
+            "x": 2,
+            "y": 5,
+            "stage": "static"
+          },
+          {
+            "id": "n-10",
+            "asset": "bush",
+            "stage": "bush",
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "path": [
+          {
+            "x": 3,
+            "y": 4
+          },
+          {
+            "x": 3,
+            "y": 5
+          },
+          {
+            "x": 3,
+            "y": 6
+          },
+          {
+            "x": 3,
+            "y": 7
+          }
+        ]
+      },
+      "status": "passed",
+      "errors": []
+    }
+  ]
+}

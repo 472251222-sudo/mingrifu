@@ -14,6 +14,30 @@ button:focus-visible, canvas:focus-visible { outline: 3px solid #795643; outline
 .game-stage { display: flex; align-items: center; gap: 10px; font-size: 12px; flex-shrink: 0; }
 .game-stage progress { width: 120px; height: 8px; accent-color: #588455; }
 .game-temporary { margin: 6px 0 10px; font-size: 11px; color: #795643; flex-shrink: 0; }
+.game-next-unlock { margin: 5px 0 0; color: #586253; font-size: 10px; line-height: 1.35; flex-shrink: 0; }
+.game-save-notice { margin: 5px 0 8px; color: #795643; font-size: 10px; line-height: 1.35; flex-shrink: 0; }
+.game-save-error { border-left: 3px solid #995347; padding: 0 0 8px 8px; margin: 0 0 8px; }
+.game-save-error p { margin: 0 0 6px; font-size: 11px; line-height: 1.45; color: #995347; }
+.game-recovery-buttons { display: flex; flex-wrap: wrap; gap: 5px; }
+.game-recovery-buttons button { flex: 1; padding: 6px 8px; font-size: 11px; min-width: 68px; }
+.game-main-buttons { gap: 5px; }
+.game-main-buttons button { padding: 8px 6px; font-size: 12px; white-space: nowrap; }
+.game-frontier-list { display: flex; gap: 5px; overflow-x: auto; padding: 6px 0 0; overscroll-behavior: contain; }
+.game-frontier-list button { flex: 1 0 60px; padding: 4px 6px; font-size: 11px; }
+.game-frontier-list button[aria-pressed="true"] { background: #cadb8c; border-color: #3b6550; }
+.game-frontier-list small { display: block; font-size: 10px; }
+.game-field { display: grid; gap: 5px; font-size: 12px; }
+.game-field input { width: 100%; min-height: 44px; border: 1px solid #a4aa8b; border-radius: 8px; padding: 8px; background: #fffdf3; font: inherit; }
+.game-effort-note { margin: 0 0 4px; font-size: 11px; line-height: 1.6; color: #586253; }
+.game-effort-presets { display: flex; gap: 6px; }
+.game-effort-presets button { flex: 1; padding: 8px 6px; font-size: 12px; }
+.game-effort-form { display: grid; grid-template-columns: 1fr 1.2fr; gap: 8px; align-items: end; }
+.game-form-error { font-size: 12px; line-height: 1.5; color: #995347; margin: 0; }
+.game-effort-history h3 { margin: 6px 0; font-size: 14px; }
+.game-effort-history p { margin: 6px 0; font-size: 11px; color: #586253; }
+.game-effort-history ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 7px; }
+.game-effort-history li { display: grid; gap: 3px; font-size: 12px; padding-bottom: 7px; border-bottom: 1px solid #d1cfaa; }
+.game-effort-history li span { color: #586253; font-size: 11px; }
 .game-map-panel { position: relative; flex: 1; min-height: 120px; border: 1px solid #d1cfaa; border-radius: 14px; overflow: hidden; background: #e8e7d3; }
 .game-world-host { position: absolute; inset: 0; }
 .game-world-host canvas { display: block; width: 100%; height: 100%; image-rendering: pixelated; touch-action: none; cursor: grab; }

@@ -1,0 +1,59 @@
+{
+  "chrome": "155.0.8059.40",
+  "results": [
+    {
+      "name": "initial-quota-retry",
+      "status": "passed",
+      "revision": 0,
+      "gifts": 1,
+      "sameSeed": true
+    },
+    {
+      "name": "build-quota-retry-cancel",
+      "status": "passed",
+      "sameCandidate": true,
+      "bp": 28,
+      "cancelPreserved": true
+    },
+    {
+      "name": "corrupt",
+      "status": "passed",
+      "preserved": true,
+      "downloadExact": true,
+      "writes": 0
+    },
+    {
+      "name": "unknown",
+      "status": "passed",
+      "preserved": true,
+      "downloadExact": true,
+      "writes": 0
+    },
+    {
+      "name": "storage-getter-recovery",
+      "status": "passed",
+      "restoredXP": 25,
+      "noSeedRewrite": true
+    },
+    {
+      "name": "no-WebLocks-readonly",
+      "status": "passed",
+      "readonly": true,
+      "writes": 0
+    },
+    {
+      "name": "two-tabs-real-lock-race",
+      "status": "passed",
+      "successes": 1,
+      "efforts": 1,
+      "xp": 25,
+      "loserReloaded": true
+    },
+    {
+      "name": "resource404-retry-production",
+      "status": "passed",
+      "renderedAfterRetry": true,
+      "noWorldRewrite": true
+    }
+  ]
+}

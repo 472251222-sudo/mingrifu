@@ -1,0 +1,112 @@
+[
+  {
+    "file": "qa-guard-r1-final-report.txt",
+    "bytes": 7838,
+    "sha256": "f0687d3aad059182178f2fb7d7e53fc8bad8963d68160674fdc4b5e797b04d06"
+  },
+  {
+    "file": "qa-guard-r1-final-native.json",
+    "bytes": 17418,
+    "sha256": "d03229010c44cec0fcbe162c0c5db6c32a8b232288b7c04661a176f4b413335f"
+  },
+  {
+    "file": "qa-guard-r1-final-null.json",
+    "bytes": 1358,
+    "sha256": "74d92acd1eec45c897d277942ea69a4f8e79d371ace78fe5c49362595a2cd672"
+  },
+  {
+    "file": "qa-guard-r1-final-faults.json",
+    "bytes": 5499,
+    "sha256": "37c4adaade9477ed78d505889566562e1bd4b527ac61261cc6fc27966358d07f"
+  },
+  {
+    "file": "qa-guard-r1-final-core.json",
+    "bytes": 2646,
+    "sha256": "82912eb4db91da26e2cd5567f65a51c292f77435d37c2efb7bf1b1e182e2355f"
+  },
+  {
+    "file": "qa-guard-r1-final-native.mjs",
+    "bytes": 10483,
+    "sha256": "420e871b319a7a82120a62f8f64b6e897cc69b7471426588ca7b4c969cd4625c"
+  },
+  {
+    "file": "qa-guard-r1-final-null.mjs",
+    "bytes": 10566,
+    "sha256": "6c0152fe33a14d0333eeb231772ec272166569ed1584ee8cce1667654e02ffaf"
+  },
+  {
+    "file": "qa-guard-r1-final-faults.mjs",
+    "bytes": 15014,
+    "sha256": "ee946cfaf1aa02f476bb1d05327bd78ea2ddacf9f78e2763bb7937a1a81d4ddd"
+  },
+  {
+    "file": "qa-guard-r1-final-core.mjs",
+    "bytes": 8773,
+    "sha256": "ef23d26550a6b46f2905c43fff8a560a080d0bfa3e58858a6f38a3d401272610"
+  },
+  {
+    "file": "qa-guard-r1-final-native-0-conflict.png",
+    "bytes": 70859,
+    "sha256": "9a1228ff33e0fcd93db13032d5e162907a3b5a49c6bdce4acb527fe27cb8ccd3"
+  },
+  {
+    "file": "qa-guard-r1-final-native-0-reloaded.png",
+    "bytes": 53489,
+    "sha256": "eedc81a4c2d1131a6b58b1841636bcb250a6c38f4cf60b0c580702cce1763ada"
+  },
+  {
+    "file": "qa-guard-r1-final-native-1-winner.png",
+    "bytes": 53205,
+    "sha256": "cfb2e2eae33c4af48311600edf69a27ed64dbf5131d364fb97a8b8aa42391cdf"
+  },
+  {
+    "file": "qa-guard-r1-final-null-null-initial-unsaved.png",
+    "bytes": 52827,
+    "sha256": "28eb93df3ee70c396b8f6606bdec81ef7c499afbab8ee3563f4ead5eb4223ac8"
+  },
+  {
+    "file": "qa-guard-r1-final-null-null-initial-saved.png",
+    "bytes": 54684,
+    "sha256": "6b066c6bbbf9728bf597105b05042df5bd2663accf75de69a9a164cee091b592"
+  },
+  {
+    "file": "qa-guard-r1-final-faults-320-protected.png",
+    "bytes": 59205,
+    "sha256": "33084371898df55cc9ca1fadbd1086428b09f0fc3ca6adb0b5bc87a4f6aa221c"
+  },
+  {
+    "file": "qa-guard-r1-final-faults-320-recovered.png",
+    "bytes": 44822,
+    "sha256": "bb5887495ec5f831bc5226f4b81b911040818f094b3de99f2ce4909603173528"
+  },
+  {
+    "file": "qa-guard-r1-final-faults-390-protected.png",
+    "bytes": 65044,
+    "sha256": "64c8385b489de5ba01cc9d4a19a47641de60e3a18105aafa4e3483dffb99db23"
+  },
+  {
+    "file": "qa-guard-r1-final-faults-390-recovered.png",
+    "bytes": 46943,
+    "sha256": "9e8019295bd26b8bdd296a28aaa8fd5826fd8458488443398b01d3f599c3371e"
+  },
+  {
+    "file": "qa-guard-r1-final-faults-idb-abort.png",
+    "bytes": 68981,
+    "sha256": "ccbd084dd1fcf61026e7de7f531c7506f8dbec4094f5cc9852786b966d11f11c"
+  },
+  {
+    "file": "qa-guard-r1-final-faults-crash-leading.png",
+    "bytes": 58212,
+    "sha256": "a4f24160b326cc21cb9108826a4a5be77e1e1c5766940529641040288d3f3fe8"
+  },
+  {
+    "file": "qa-guard-r1-final-faults-crash-original.txt",
+    "bytes": 1052,
+    "sha256": "e1aa3a464c48545809ccacd07eefe70561fdad737c08d4556569e01f64b98c04"
+  },
+  {
+    "file": "qa-guard-r1-final-core-restored.png",
+    "bytes": 56139,
+    "sha256": "bf1f6c28b13ba6049ed6829a1f13304b7e0365c5fdedd8dad85f041efa281933"
+  }
+]

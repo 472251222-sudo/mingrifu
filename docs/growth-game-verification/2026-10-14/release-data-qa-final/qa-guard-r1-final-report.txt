@@ -1,0 +1,55 @@
+RELEASE-QA-GUARD-R1-FINAL / 独立 QA 最终复验
+日期：2026-10-15（本轮跨日连续执行）；Owner：/root/game_data_qa。业务/配置/仓库文档/测试/素材/Git均只读，仅写授权仓库外新证据；全部 Chrome 隔离上下文，无用户世界/profile访问，无再分派。
+
+结论
+规格符合性：通过。质量审核：通过。建议 Manager 将 QA-DATAUI-002 / P1 在第1轮（累计1/3）关闭，A11原生双页阻断解除；本审核范围剩余阻断缺陷0。QA-DATA-001/P2 与 QA-DATAUI-001/P2 仍各 closed 1/3，最终恢复影响域未见复发。技术通过与美术 candidate、用户产品/视觉验收分开；本报告不把新增素材或整幅构图标 approved。
+
+最终被测版本
+GameApp.jsx SHA256 20bec0ec365694797ecaa26cbf719bbe39190f10a9c2a36a27a928a72bbf44ef
+persistence.js SHA256 b44b293cc654654752dbbd2b04b7086b29ad07b498881596566c0069175dfcb7
+checkpoint.js SHA256 094c4b3c6e099bc3bd1bfb8080e02171c75cbf8b893f02bd4fe2efdcd7b12398
+useGameWorld.js SHA256 f9589a1fc809e911c04682ae3d8dc23960b2eeb672b99f370b1e4a9f446d2f99
+测试前后及最后独立 shasum 均一致。Dev http://127.0.0.1:5189/；生产 http://127.0.0.1:5190/，生产实际加载 index-Dro1WYHz.js，248.43kB。Chrome155.0.8059.40 / Node24.16.0。未在测试期间改源码或构建。
+
+亲跑证据：47 Node + 21 个实际 GameApp 浏览器 case
+1. node --test tests/game-checkpoint.test.mjs tests/game-persistence.test.mjs：exit0，47/47、0fail/skip，duration184ms。实际 stdout 为当前 QA 工具输出；本报告是结果记录，非伪造原始日志。纯内存边界，未写仓库。
+2. native.json：12/12。B→A、A→B 各6组，Dev/production各6。每组全新同 BrowserContext/同origin，控制页一次 seed，两页初始token相同；Storage/getter/WebLocks/IDB/crypto均原生，无替换。真实外部同名锁 held1/pending2 后释放，恰1成功、1冲突。失败页仍0XP30BP/rev0，只读且不能重试；成功页仅1事件/rev1。失败页实际重读仅显示“已重新读取当前世界。”，无重复奖励；成功页refresh raw/资源/metadata一致。每组原生IDBcount1，仅6个metadata字段，摘要等于原raw SHA、previous等于seed；旧键哨兵保持，errors[]。
+3. null.json：1/1。生产原生两页 NULL 竞争、pending2；锁释放前 saved=false/raw=null，释放后仅1次storage-event seed写、1栋赠屋/30BP/rev0、1条metadata，两页相同raw；refresh无重复赠送或改原文。
+4. faults.json：7/7，故障注入仅在独立专用context，未混入native竞争。320×568 Dev 与390×700 production各1条完整 protected-recovery：LS失败+原生rollback事务abort→取消/重读均拒绝→锁再失败→IDB再失败→LS+rollback再失败，始终同owner/candidate/raw、旧XP/BP、恢复marker；错误与真实可点击按钮同屏。恢复后同candidate JSON/UUID仅1次LS成功，50XP/40BP/rev1/1event，正确努力+50XP/+10BP及自然1步反馈，无误报初始gift，refresh一致。原LS成功后trace无第二guard事务。其余5条：普通Quota rollback成功后可取消、随后新10分钟事件与被取消25分钟ID不同；原生IDB put request-success后tx.abort时LS0写，恢复重试只1事件；缺IDB与缺crypto均只读禁努力；native leading/crash guard保留带空白旧raw与metadata，下载原文精确，重读不清除guard。各case errors[]/旧键保持。
+5. core.json：1/1。fresh生产桌面原生短核心：赠屋→建花→免费收纳重摆同屋ID→125分钟努力/扎根→东扩张→新地建花→refresh。最终125XP/31BP/rev6/3人工对象/1event，原人工布局与path保留；metadata rev6/digest对应raw，errors[]。已目视复核恢复截图。此短流程不冒称本轮重跑完整4环境或9M Alpha。
+
+原驱动失败保留
+qa-guard-r1-final-native.mjs 的12组矩阵均完成，随后附带NULL段的ready条件（line9/44）在外部锁仍held时要求saveStatus不为loading，导致waitForFunction超时，命令整体exit1。native.json是12已完成case结果，不能称该整条命令exit0。原驱动/JSON保持原字节，不删除失败。新qa-guard-r1-final-null.mjs仅修驱动前提为canvas-ready，单独NULL case实际exit0通过；未重复12矩阵、未修改业务。本错误是驱动等待前提自相矛盾，不是业务故障。
+
+代码审核与原P1验收
+PRD §8(78–84)已批准最小metadata协议。checkpoint.js:64/78 仅tx.oncomplete决定commit；99跨renderer CAS、相同owner/next/previous才恢复，118回滚只允许同owner精确reservation；fingerprint为精确UTF8文本SHA256，未知metadata拒绝，bootstrap只在合法已有world首次write。persistence.js:90锁内capture同Storage/token/revision，IDB CAS先完成，LS同步setItem成功立即receipt；LS失败CASrollback，rollback失败保留pending；174 sticky recoveryRequired不被后续lock/DB错误清除；204 load和initialconflict发布前verify；261禁止恢复前cancel。GameApp.jsx:83/91尊重cancel/reload结果保留UIattempt，77重试沿用原command/before，正确成功反馈。正式world键/schema未迁移，IDB仅schemaVersion/digest/revision/previousDigest/previousRevision/owner一条记录，无world/journal、依赖或权限增加。
+原QA-DATAUI-002/P1最小复现是同Context/同origin、相同seed token，两页真实同WebLock排队努力；旧版间歇双方成功rev1，刷新丢失已宣称成功的另一事件。预期同前驱至多一成功、另一只读重读且无扣发。当前两排队顺序12组及NULL场景、真实刷新/重读与故障恢复全部达到该预期；验收满足，修复累计第1轮，建议关闭。
+
+审阅证据与未执行范围
+已独立读 owner concurrency-report.md/23场景JSON和真实RED→GREEN记录，作为补充，不用owner口头报告替代上述亲跑。已核对Manager release-final-r2-npm-test.txt 180/180、release-final-r2-build.txt Dro1WYHz成功及release-browser-reopen-final.json正常关闭Chrome→新进程同隔离profile raw与metadata一致/25XP35BP/单event/errors[]；这些为审证据，非QA本轮亲跑。此前本QA真实320/390/production完整核心及独立core-extra仍有效，证据见production-core-qa-report.txt；本轮只对guard影响域补实测。
+没有重跑Blender、9,698,112 Alpha、V3/P1回归或完整四环境核心；Manager/已有独立QA证据负责这些范围。未测物理手机、Safari/WebKit、OS重启、断电或长期大地图。崩溃领先guard按批准边界保守只读/原文下载，不宣称跨LS+IDB通用ACID。所有写页需运行带guard版本；旧代码/DevTools写不遵循CAS。独立端口origin存档不跨来源共享。
+
+供Manager归档：仅如下顶层必要文件，拒绝整目录/profile/cache
+qa-guard-r1-final-report.txt
+qa-guard-r1-final-native.json
+qa-guard-r1-final-null.json
+qa-guard-r1-final-faults.json
+qa-guard-r1-final-core.json
+qa-guard-r1-final-native.mjs（原等待失败驱动，保留实际失败来源）
+qa-guard-r1-final-null.mjs（修正单场景驱动）
+qa-guard-r1-final-faults.mjs
+qa-guard-r1-final-core.mjs
+qa-guard-r1-final-native-0-conflict.png
+qa-guard-r1-final-native-0-reloaded.png
+qa-guard-r1-final-native-1-winner.png
+qa-guard-r1-final-null-null-initial-unsaved.png
+qa-guard-r1-final-null-null-initial-saved.png
+qa-guard-r1-final-faults-320-protected.png
+qa-guard-r1-final-faults-320-recovered.png
+qa-guard-r1-final-faults-390-protected.png
+qa-guard-r1-final-faults-390-recovered.png
+qa-guard-r1-final-faults-idb-abort.png
+qa-guard-r1-final-faults-crash-leading.png
+qa-guard-r1-final-faults-crash-original.txt
+qa-guard-r1-final-core-restored.png
+以上文件均位于 /tmp/mingrifu-dataui-qa.u6Ge35/；复现脚本是测试证据，不属生产源码。Manager统一记录状态和Git，本QA不自行关闭主记录或提交。

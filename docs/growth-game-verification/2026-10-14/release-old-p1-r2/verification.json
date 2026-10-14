@@ -1,0 +1,118 @@
+{
+  "verifiedAt": "2026-10-14T13:29:24.930Z",
+  "base": "http://127.0.0.1:5191/",
+  "results": [
+    {
+      "label": "desktop-extra",
+      "passed": true,
+      "checks": [
+        "mouse pan",
+        "save failure rollback and retry",
+        "keyboard placement",
+        "multi-tab conflict and reload"
+      ]
+    },
+    {
+      "label": "v3-regression",
+      "passed": true,
+      "checks": [
+        "task completion and undo",
+        "month plan editing",
+        "goal creation, research, review and daily task generation"
+      ]
+    },
+    {
+      "label": "desktop",
+      "passed": true,
+      "checks": [
+        "initial world",
+        "isometric grid picking",
+        "place",
+        "overlap and boundary rejection",
+        "move",
+        "store and refresh",
+        "replace same object",
+        "visible growth without changing buildings",
+        "north expansion",
+        "build on new land",
+        "reload and reopen",
+        "zoom out below 100%",
+        "zoom back in",
+        "full world fit including roofs",
+        "viewport sized drawing buffer",
+        "V3 storage isolation",
+        "no horizontal overflow"
+      ]
+    },
+    {
+      "label": "touch-390",
+      "passed": true,
+      "checks": [
+        "initial world",
+        "isometric grid picking",
+        "place",
+        "overlap and boundary rejection",
+        "move",
+        "store and refresh",
+        "replace same object",
+        "visible growth without changing buildings",
+        "north expansion",
+        "build on new land",
+        "reload and reopen",
+        "zoom out below 100%",
+        "zoom back in",
+        "full world fit including roofs",
+        "viewport sized drawing buffer",
+        "V3 storage isolation",
+        "no horizontal overflow"
+      ]
+    },
+    {
+      "label": "touch-320",
+      "passed": true,
+      "checks": [
+        "initial world",
+        "isometric grid picking",
+        "place",
+        "overlap and boundary rejection",
+        "move",
+        "store and refresh",
+        "replace same object",
+        "visible growth without changing buildings",
+        "north expansion",
+        "build on new land",
+        "reload and reopen",
+        "zoom out below 100%",
+        "zoom back in",
+        "full world fit including roofs",
+        "viewport sized drawing buffer",
+        "V3 storage isolation",
+        "no horizontal overflow"
+      ]
+    },
+    {
+      "label": "recovery",
+      "passed": true,
+      "checks": [
+        "asset failure retry",
+        "corrupt save preserved and read-only"
+      ]
+    },
+    {
+      "label": "expanded-overview",
+      "passed": true,
+      "checks": [
+        "four-direction expansion",
+        "five-region overview on 320px screen",
+        "camera does not rewrite save",
+        "negative-land placement at small zoom"
+      ]
+    },
+    {
+      "label": "webkit",
+      "skipped": true,
+      "reason": "browserType.launch: Executable doesn't exist at /Users/lyc/Library/Caches/ms-playwright/webkit-2336/pw_run.sh"
+    }
+  ],
+  "pageErrors": []
+}

@@ -1,0 +1,121 @@
+{
+  "baseCommit": "a9ca5d0",
+  "count": 19,
+  "unchanged": 19,
+  "checks": [
+    {
+      "path": "src/main.jsx",
+      "baseSha256": "8c9968d80c64d3f4a24c04727a03e21617d9dddbca703211aa4aed1150e61982",
+      "currentSha256": "8c9968d80c64d3f4a24c04727a03e21617d9dddbca703211aa4aed1150e61982",
+      "unchanged": true
+    },
+    {
+      "path": "src/App.jsx",
+      "baseSha256": "34d2e4fe1d405b7a2abe2c5c3accb9aca6148e060e9eae9b475760cdc1f3d58d",
+      "currentSha256": "34d2e4fe1d405b7a2abe2c5c3accb9aca6148e060e9eae9b475760cdc1f3d58d",
+      "unchanged": true
+    },
+    {
+      "path": "vite.config.mjs",
+      "baseSha256": "5f20ad6ef5aa89956c8791d8caefa224bc80718ca38df213b5e0c9c883d4bfee",
+      "currentSha256": "5f20ad6ef5aa89956c8791d8caefa224bc80718ca38df213b5e0c9c883d4bfee",
+      "unchanged": true
+    },
+    {
+      "path": "src/growth/homestead/HomesteadPreview.jsx",
+      "baseSha256": "65678eeb6c2eecc837d254a1930c78fb60e05c8ffe9dcc7e06b8181fed36339e",
+      "currentSha256": "65678eeb6c2eecc837d254a1930c78fb60e05c8ffe9dcc7e06b8181fed36339e",
+      "unchanged": true
+    },
+    {
+      "path": "src/growth/homestead/renderer.js",
+      "baseSha256": "820070fe5d9a5324bfced90eb99712b7ddac0064542c1604e4ffec123248e2d2",
+      "currentSha256": "820070fe5d9a5324bfced90eb99712b7ddac0064542c1604e4ffec123248e2d2",
+      "unchanged": true
+    },
+    {
+      "path": "src/growth/homestead/world.js",
+      "baseSha256": "40969d7e3d4a37d6c467e0fb07197f85871e7dc26ace0cd4b6b5bb98e0683ebe",
+      "currentSha256": "40969d7e3d4a37d6c467e0fb07197f85871e7dc26ace0cd4b6b5bb98e0683ebe",
+      "unchanged": true
+    },
+    {
+      "path": "src/growth/homestead/scene.json",
+      "baseSha256": "a4876b954b06c04f956476bb7eac8f9ecac2516fe931c888f730226c0ddf03c6",
+      "currentSha256": "a4876b954b06c04f956476bb7eac8f9ecac2516fe931c888f730226c0ddf03c6",
+      "unchanged": true
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/manifest.json",
+      "baseSha256": "ea89829e0b8e1dad65b0031a5f8b96fff9fba90cd3d8efeb088299a7c00874e1",
+      "currentSha256": "ea89829e0b8e1dad65b0031a5f8b96fff9fba90cd3d8efeb088299a7c00874e1",
+      "unchanged": true
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/bush.png",
+      "baseSha256": "5ece58545c0b9756b1d9f682db1fbf6e251fb2a826768483aa4c09d19bb18be0",
+      "currentSha256": "5ece58545c0b9756b1d9f682db1fbf6e251fb2a826768483aa4c09d19bb18be0",
+      "unchanged": true
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/cabin-terracotta.png",
+      "baseSha256": "457c20ad6f0876aa8498912038d3b36a55baabfa426c8125c49c3ecd783ca0fe",
+      "currentSha256": "457c20ad6f0876aa8498912038d3b36a55baabfa426c8125c49c3ecd783ca0fe",
+      "unchanged": true
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/fence-horizontal.png",
+      "baseSha256": "9c096a048f41574491c109e1ed38b2f356281aafb855d39b32cf16ce75882c15",
+      "currentSha256": "9c096a048f41574491c109e1ed38b2f356281aafb855d39b32cf16ce75882c15",
+      "unchanged": true
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/fence-vertical.png",
+      "baseSha256": "a72beba8977d71d227627119d662bed4f33145fc89e878867453b7131c7c2afe",
+      "currentSha256": "a72beba8977d71d227627119d662bed4f33145fc89e878867453b7131c7c2afe",
+      "unchanged": true
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/grass-tuft.png",
+      "baseSha256": "eaa9d8cd48640584b81912d30385ec0680416df1106315865dac7e67415a764b",
+      "currentSha256": "eaa9d8cd48640584b81912d30385ec0680416df1106315865dac7e67415a764b",
+      "unchanged": true
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/mailbox.png",
+      "baseSha256": "b226178b6192477399ab35dbaccd7e7a9af7f856a24b1e426aed06e2dcaebff1",
+      "currentSha256": "b226178b6192477399ab35dbaccd7e7a9af7f856a24b1e426aed06e2dcaebff1",
+      "unchanged": true
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/oak-broad.png",
+      "baseSha256": "b613b54598d11f6dd00bcf55f7cd9a5de894b583a8429670da5fe8009750f5f3",
+      "currentSha256": "b613b54598d11f6dd00bcf55f7cd9a5de894b583a8429670da5fe8009750f5f3",
+      "unchanged": true
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/pine-slender.png",
+      "baseSha256": "36ee71f75046c5e608922e5eadde339440efd63bee6a257bca6f68538f159fd4",
+      "currentSha256": "36ee71f75046c5e608922e5eadde339440efd63bee6a257bca6f68538f159fd4",
+      "unchanged": true
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/rock.png",
+      "baseSha256": "1bb349a9073ce02fb476a9aacafe041c76f3e7718a54f3362aec80a03b7d2ffb",
+      "currentSha256": "1bb349a9073ce02fb476a9aacafe041c76f3e7718a54f3362aec80a03b7d2ffb",
+      "unchanged": true
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/terrain-atlas.png",
+      "baseSha256": "6bdb538465a4c35912e04497840c782564c179fcca0dcb5f2a5441d2357e70b5",
+      "currentSha256": "6bdb538465a4c35912e04497840c782564c179fcca0dcb5f2a5441d2357e70b5",
+      "unchanged": true
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/wildflowers.png",
+      "baseSha256": "98a8c6684d8602f6d58103692f921b1d5e51add5751817f75260f5580f989ff7",
+      "currentSha256": "98a8c6684d8602f6d58103692f921b1d5e51add5751817f75260f5580f989ff7",
+      "unchanged": true
+    }
+  ]
+}

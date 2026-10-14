@@ -1,0 +1,38 @@
+生产 GameApp 存档故障与核心综合 QA，2026-10-14
+规格符合性：changes_requested。代码质量：changes_requested。唯一剩余确认阻断为 QA-DATAUI-002/P1；QA-DATAUI-001 已关闭，累计修复1/3。技术完成、美术candidate、用户approved分开，不能宣布完整独立游戏技术完成或新增美术已验收。
+
+审核基线
+feature/growth-rebuild，HEAD a9ca5d093bb1051baeed561c20c6040c953ebd29。
+GameApp.jsx SHA256 fc3ec93af4364068187b06ee91c16de080f7b77d3d50059b340087dd3447b226
+persistence.js SHA256 5358530f9fc3d723521c9f2376b51431dbba06e379636d58bf5eac5db9d4087e
+useGameWorld.js SHA256 f9589a1fc809e911c04682ae3d8dc23960b2eeb672b99f370b1e4a9f446d2f99
+styles.css SHA256 82912452d76d1ead123e1e4078af253e09903e372d288adf5d0b8218403369e3
+各亲跑前后及最终哈希一致。生产dev5189、preview5190由Manager运行。Chrome155.0.8059.40，所有测试新建隔离BrowserContext，不使用用户profile，不读写用户世界。QA业务/仓库/Git只读；写入仅本新仓库外临时目录的脚本/截图/报告，未再派Agent、生成素材或调用收费服务。
+
+QA-DATAUI-002 / P1（高） / open / 修复0/3
+关联实际文件 src/growth/game/persistence.js:98-108 的独占锁内读token/revision与写入协议；精确根因仍由原数据负责人调查，未凭猜测归因或提出盲延时。
+最小复现：单控制页在隔离ctx同origin5189只预置一个合法revision0 raw；两生产页A/B初始化后原生getItem token逐字一致。A使用原生navigator.locks.request持mingrifu-growth-game-v1:save锁。B实际UI25分钟先排队，A实际UI10分钟后排队；navigator.locks.query证明同锁exclusive held1/pending2。释放A持锁，等待两页面显示revision1或conflict。
+预期：至多一项保存成功；失败页保持旧XP0/BP30、readonly冲突，只能明确reload，不扣发、不覆盖已成功页的事件。
+实际：native-clean-races.json runs[0]（3次中1次）两页均saved=true/readonly=false/revision1，各显示成功奖励A10XP32BP、B25XP35BP；两页原生存储仅A事件。B真实刷新变10XP32BP，自己的已确认25分钟努力丢失。其余2次正常1成功1冲突。另无包装native-races.json也3次中1次同症状。纯native测试完全没有override Storage、localStorage getter或WebLocks；不存在不同Context/不同origin、缓存副本fixture或双导航预置raw竞争。证据包含锁clientID队列及原生storage事件时戳。已亲看clean-race-0-b.png与clean-race-0-b-reopened.png，保存成功反馈与刷新后丢失一致。
+影响：已确认努力/资源丢失，且失败页错误宣称持久保存；PRD A11阻断。
+复验条件：可靠最小修复后，用无包装原生API、单控制页预置、一致token和实际双页UI排队复验两个顺序；必须一成功一冲突，存储/成功反馈/重开一致；冲突reload不复用失败attempt产生对页奖励toast；初始nulltoken、Quota、坏档/权限恢复与无锁安全回归。最多3轮；目前未修复。
+
+QA-DATAUI-001 / P2 / closed / 修复1/3
+旧版本GameApp6d642dbd中320x568努力Quota失败仍显示模态，恢复区位于其下并被disabled分钟input拦截，实际click超时。初始证据modal-probe.json+02-quota-effort-drawer.png保留。fc3ec93a仅在effortdrawer+pending+error+!busy收起模态，未丢弃attempt/UUID/candidate。独立audit-r2真实UI复验通过：无需X关闭，固定retry/cancel直达，同候选JSON历次重试不变，50XP+10BP仅1次，随后失败25分钟cancel保持原raw。22/23/24截图及audit-r2相符。此前QA-DATA-001默认getter恢复缺陷仍关闭（另一个ID，第1轮），真实生产UI权限恢复也本轮通过。
+
+亲跑与证据
+1. 生产数据其他10场景通过，audit-r2.json：初始Quota失败明确saved=false/只读预览，retry只写1gift；努力同candidate retry/cancel；5190/390建造失败retry只扣2BP一次；坏JSON、未知schema、非法world保持原raw且下载逐字符一致；无锁新/旧世界readonly0writes；getter持续拒绝后恢复，点击重新读取完整旧档0gift写；同步两初始nulltoken仅1gift。P1/V3/V4哨兵不变；存储失败旧可见世界/资源保持不变。初始 broad runner r1的命名/等待/closed helper问题是测试driver错误而非业务缺陷，原日志保留；竞争最终确证来自native-clean-races而非包装测试。
+2. 核心fresh3完整loop通过，qa-core-mobile-r1.json：320x568、390x700、生产preview1280x900，0 page/console errors。从XP0/BP30初始世界完成取消/重叠/越界、真实touch拖动不建造、野花BP28、初始木屋同IDmove/store/place免费、努力50/125/300/生态/阶段/历史、20BP扩张原布局不移、新土地花建造与跨区木屋、刷新/关闭重开后4对象与全部记录恢复。最终XP300/BP42/revision11。初始布局scrollWidth/scrollHeight等于viewport，动作底部同屏；使用正常目录scroll/Canvas pan避开浮动控制，未强制点击或修改产品。
+3. 核心额外fresh2流程通过，qa-core-extra-r1.json：320锁定树拒绝；真实150×2成长至300XP90BP后西/北/东三扩张每次20BP、原人工/道路不变；世界总览的四区地面bounds全部在Canvas内，map至少120px、操作不滚页；新地24BP木屋后BP6，已解锁10BP树余额不足拒绝且cancel raw不变；隔离页面时钟推进5天刷新，XP300/BP6/raw不变。390木屋资源404显示恢复按钮，正常资源重试恢复且raw不变。
+4. 本QA先前已亲跑31数据Node测试全过（同当前persistence/hook源码），并原始getter恢复反例成功0写、原文不变。纯Node不替代真实浏览器并发，本轮A11发现表明之前fake Storage/Lock正例覆盖有限。
+
+PRD覆盖与限制
+A01/02/05/07/09/10/12：本轮生产mobile/preview亲跑覆盖核心正向闭环。A03：重叠/越界、锁定、余额不足及取消分别实际拒绝。A06：UI快捷/自定义实际资源、失败重试同ID；幂等/坏事件详细纯规则与数据测试证据已审，未新增任意事件导入界面。A08：实际50XP自然step与125→300跨边界、人工保护；拥挤安全详细纯规则由前规则QA验证，本轮不重复。A11：其他故障通过，QA-DATAUI-002保持失败。A13：本轮三扩张总览、新地/接缝、资源404重试；像素/Alpha/脚点与9M数学前QA验过，本轮未重复完整Alpha扫描，不主张主观美术通过。A14：本轮5天时钟推进旧raw不变，并源代码未发现时钟自动奖励/扣资源入口。A15：本轮新旧键隔离哨兵与受保护main/App/P1 tracked工作区无diff；审看release-old-p1-r2.txt及verification.json中P1桌面/320/390/V3回归、WebKit跳过记录，本QA未重跑旧回归。
+Builder完整release-game-flows/faults和构建/全套日志是审证据，不作为本QA亲跑全套构建；核心三流程是QA另起独立Context亲跑。没有Safari/WebKit、真机或完整辅助技术审计；404控制台错误是故障注入预期。本报告不验收新增树/地形/构图主观视觉，素材继续candidate，木屋维持既有用户approved。
+
+归档建议（全部顶层必要文件，禁止整个profile/cache复制）
+production-core-qa-report.txt；data-preaudit-report.txt；modal-probe.json；audit-r2.json；native-races.json；native-clean-races.json；qa-core-mobile-r1.json；qa-core-extra-r1.json。
+必须截图：02-quota-effort-drawer.png（RED）；22-effort-quota-actions.png、23-effort-retry-success.png、24-effort-cancel.png（修复）；clean-race-0-a.png、clean-race-0-b.png、clean-race-0-b-reopened.png（P1确证）；27-bad-json.png、33-getter-recovered.png、37-null-seed-saved.png；qa-core-mobile-r1-phone320-expand-preview.png、qa-core-mobile-r1-phone390-restored.png、qa-core-mobile-r1-production-restored.png；qa-core-extra-r1-three-expansions-overview.png、qa-core-extra-r1-insufficient-bp.png、qa-core-extra-r1-resource404.png、qa-core-extra-r1-resource-recovered.png。
+重现脚本仍在本外部tmp目录：native-two-tabs-clean.mjs、data-ui-audit-r2.mjs、qa-core-mobile-r1.mjs、qa-core-extra-r1.mjs；Manager若需要可显式纳入证据范围。原始r1/r3诊断脚本和失败记录保持原字节，非当前通过报告，不覆盖、不删除。浏览器与上下文全部已关闭；不复制其他临时浏览器目录。
+
+收束补充：已独立读取数据负责人新原生时序证据 game-003-data/concurrency-investigation/native-visibility-r2.json（同Chrome155/源码5358530f）。production-service12次中2次双成功；native-protocol12次中3次双成功。native-protocol index1显示B独占锁内read XP0 at1791990360505.5，setItem25返回at0505.6；A后一个独占锁read仍XP0 at0505.8，setItem10返回；A的storage-event25直到0506才到达，届时nativeXP已10。该时序证据支持“锁确实串行，但跨renderer localStorage可见性尚未更新，后锁读到旧值”的根因；并非锁名不一致或QA注入缓存副本。修复尚未实施，计数仍0/3。方案选择由Manager处理，本QA未修改协议或建议盲延时。

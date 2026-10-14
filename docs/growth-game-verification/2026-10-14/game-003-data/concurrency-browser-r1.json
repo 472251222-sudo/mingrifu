@@ -1,0 +1,579 @@
+{
+  "chrome": "155.0.8059.40",
+  "origin": "http://127.0.0.1:5194/",
+  "cacheDir": "/var/folders/zq/rtrjt2x968x9j_49jf08r3jr0000gn/T/mingrifu-concurrency-vite-gsvfIz",
+  "hashes": {
+    "persistence.js": "90fc810c25fa6f8f1f186397ca3a85026d48ec44bec890ba1446c45f98906f72",
+    "checkpoint.js": "094c4b3c6e099bc3bd1bfb8080e02171c75cbf8b893f02bd4fe2efdcd7b12398",
+    "useGameWorld.js": "f9589a1fc809e911c04682ae3d8dc23960b2eeb672b99f370b1e4a9f446d2f99",
+    "GameApp.jsx": "20bec0ec365694797ecaa26cbf719bbe39190f10a9c2a36a27a928a72bbf44ef"
+  },
+  "results": [
+    {
+      "name": "native-ui-two-tabs",
+      "index": 0,
+      "status": "passed",
+      "queue": {
+        "held": [
+          {
+            "clientId": "D9499C277A3C11322C6FE19E6F63FC27",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "3F36CE5D0705990785252ED01B2C4EC0",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "D9499C277A3C11322C6FE19E6F63FC27",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "winnerXP": 25,
+      "loserBeforeReloadXP": 0,
+      "finalXP": 25,
+      "events": [
+        "0c3191f4-1b94-4219-b9b2-550348cacc26"
+      ]
+    },
+    {
+      "name": "native-ui-two-tabs",
+      "index": 1,
+      "status": "passed",
+      "queue": {
+        "held": [
+          {
+            "clientId": "4CF8137313CDAE0165449AD54F852A83",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "4CF8137313CDAE0165449AD54F852A83",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "EB9B1E00D730883D94088DCC8B4463EC",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "winnerXP": 10,
+      "loserBeforeReloadXP": 0,
+      "finalXP": 10,
+      "events": [
+        "bdd05bc0-27e5-484e-9510-87519438beed"
+      ]
+    },
+    {
+      "name": "native-ui-two-tabs",
+      "index": 2,
+      "status": "passed",
+      "queue": {
+        "held": [
+          {
+            "clientId": "F9E4D238886459B036A767B23FF07E62",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "199C2DAA9C78B1071EF9808B5CAB283B",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "F9E4D238886459B036A767B23FF07E62",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "winnerXP": 25,
+      "loserBeforeReloadXP": 0,
+      "finalXP": 25,
+      "events": [
+        "15f0517e-b05b-4fad-95a6-21615631a96b"
+      ]
+    },
+    {
+      "name": "native-ui-two-tabs",
+      "index": 3,
+      "status": "passed",
+      "queue": {
+        "held": [
+          {
+            "clientId": "1E5872AAC02973EA6F450FCE279D22AE",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "1E5872AAC02973EA6F450FCE279D22AE",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "243D65113C38D90E3E4CE52B0E114C62",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "winnerXP": 10,
+      "loserBeforeReloadXP": 0,
+      "finalXP": 10,
+      "events": [
+        "8d88d2d9-2eef-40e6-8f4e-76a776bd5ac8"
+      ]
+    },
+    {
+      "name": "native-ui-two-tabs",
+      "index": 4,
+      "status": "passed",
+      "queue": {
+        "held": [
+          {
+            "clientId": "58D2D073FA14810BA35B03772A975E53",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "EFA1318B19AE5ADDAFA4508E964A119D",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "58D2D073FA14810BA35B03772A975E53",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "winnerXP": 25,
+      "loserBeforeReloadXP": 0,
+      "finalXP": 25,
+      "events": [
+        "2b76e442-1e03-4308-ae1c-fa082b701676"
+      ]
+    },
+    {
+      "name": "native-ui-two-tabs",
+      "index": 5,
+      "status": "passed",
+      "queue": {
+        "held": [
+          {
+            "clientId": "34C0A11EDD61AB13234C66FAD7951BD6",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "34C0A11EDD61AB13234C66FAD7951BD6",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "CE87E6601C3673A4A6BCDD2471769650",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "winnerXP": 10,
+      "loserBeforeReloadXP": 0,
+      "finalXP": 10,
+      "events": [
+        "b2961dfe-3baa-4839-aecb-655a51ad7ac3"
+      ]
+    },
+    {
+      "name": "native-ui-two-tabs",
+      "index": 6,
+      "status": "passed",
+      "queue": {
+        "held": [
+          {
+            "clientId": "A889C4D9A4471318FE5CADC8582A297F",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "9020D62C03A3221D6F666ECFF8A1DEF6",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "A889C4D9A4471318FE5CADC8582A297F",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "winnerXP": 25,
+      "loserBeforeReloadXP": 0,
+      "finalXP": 25,
+      "events": [
+        "22282878-1e49-4edd-8c55-4a72bacfdb3e"
+      ]
+    },
+    {
+      "name": "native-ui-two-tabs",
+      "index": 7,
+      "status": "passed",
+      "queue": {
+        "held": [
+          {
+            "clientId": "A2E91D5E4C4683E7FBAB06C0664B51F7",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "A2E91D5E4C4683E7FBAB06C0664B51F7",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "808D0881F0A0F8814980DD3EAA43FD0A",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "winnerXP": 10,
+      "loserBeforeReloadXP": 0,
+      "finalXP": 10,
+      "events": [
+        "30a9c6a5-327b-4cbb-8066-c335680824a5"
+      ]
+    },
+    {
+      "name": "native-ui-two-tabs",
+      "index": 8,
+      "status": "passed",
+      "queue": {
+        "held": [
+          {
+            "clientId": "DFBA0B49EBB837F6CBB2AABD69564623",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "F92B9FF90F95366FCD399196B3682EFE",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "DFBA0B49EBB837F6CBB2AABD69564623",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "winnerXP": 25,
+      "loserBeforeReloadXP": 0,
+      "finalXP": 25,
+      "events": [
+        "a4d696d5-2abe-42c6-a0e1-4ceffc7813fa"
+      ]
+    },
+    {
+      "name": "native-ui-two-tabs",
+      "index": 9,
+      "status": "passed",
+      "queue": {
+        "held": [
+          {
+            "clientId": "03302AF639145FBFC4854451947044B7",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "03302AF639145FBFC4854451947044B7",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "28790C8BD504B1AD25440B421F952191",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "winnerXP": 10,
+      "loserBeforeReloadXP": 0,
+      "finalXP": 10,
+      "events": [
+        "e04fa3b2-dfb3-4dab-bfb1-21d36c948e57"
+      ]
+    },
+    {
+      "name": "native-ui-two-tabs",
+      "index": 10,
+      "status": "passed",
+      "queue": {
+        "held": [
+          {
+            "clientId": "722F6446B1EB4937D733691E79461DB6",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "E37621C3B4E09C870C64756332978B01",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "722F6446B1EB4937D733691E79461DB6",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "winnerXP": 25,
+      "loserBeforeReloadXP": 0,
+      "finalXP": 25,
+      "events": [
+        "8aba960a-1122-44ef-a367-342aee4ba119"
+      ]
+    },
+    {
+      "name": "native-ui-two-tabs",
+      "index": 11,
+      "status": "passed",
+      "queue": {
+        "held": [
+          {
+            "clientId": "A8A20A0450B60CF4142FA9CB3A12AEE9",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "A8A20A0450B60CF4142FA9CB3A12AEE9",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "6EF2E348F0523ED441325B5BC5E09D25",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "winnerXP": 10,
+      "loserBeforeReloadXP": 0,
+      "finalXP": 10,
+      "events": [
+        "1e592ee7-38c8-4c78-b31f-9712ee2681b5"
+      ]
+    },
+    {
+      "name": "native-ui-two-tabs",
+      "index": 12,
+      "status": "passed",
+      "queue": {
+        "held": [
+          {
+            "clientId": "F2E9043893FD1FB746303B0D508C4ED8",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "2B2225742ABA5F6E5A857BBF2F61E689",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "F2E9043893FD1FB746303B0D508C4ED8",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "winnerXP": 25,
+      "loserBeforeReloadXP": 0,
+      "finalXP": 25,
+      "events": [
+        "f07ee9e4-5a63-49b6-9569-ee511f7d8727"
+      ]
+    },
+    {
+      "name": "native-ui-two-tabs",
+      "index": 13,
+      "status": "passed",
+      "queue": {
+        "held": [
+          {
+            "clientId": "AFE01A84D2B1E97FABEE38E65619662E",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "AFE01A84D2B1E97FABEE38E65619662E",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "CEBFCC82CD7B29FC8905DD08EE3D7B0E",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "winnerXP": 10,
+      "loserBeforeReloadXP": 0,
+      "finalXP": 10,
+      "events": [
+        "e5faf4a5-c4ee-4ed4-a7fa-7942d2b2987e"
+      ]
+    },
+    {
+      "name": "native-ui-two-tabs",
+      "index": 14,
+      "status": "passed",
+      "queue": {
+        "held": [
+          {
+            "clientId": "A4EE7AAD0195FCB8446A9A06BF4880B9",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "68C4770C193688F755067F53CF23D7E3",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "A4EE7AAD0195FCB8446A9A06BF4880B9",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "winnerXP": 25,
+      "loserBeforeReloadXP": 0,
+      "finalXP": 25,
+      "events": [
+        "7668ea93-d5a1-4b32-ace0-a59f909c22d3"
+      ]
+    },
+    {
+      "name": "native-ui-two-tabs",
+      "index": 15,
+      "status": "passed",
+      "queue": {
+        "held": [
+          {
+            "clientId": "F54612054980754D467F7BD2493B2A17",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "F54612054980754D467F7BD2493B2A17",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "1887139EB97645C0BEA6F0AE1D8A1E78",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "winnerXP": 10,
+      "loserBeforeReloadXP": 0,
+      "finalXP": 10,
+      "events": [
+        "081b4635-f182-4623-8d0c-5e1536fbcaed"
+      ]
+    },
+    {
+      "name": "native-null-seed-once-refresh",
+      "status": "passed",
+      "objects": 1,
+      "bp": 30,
+      "revision": 0,
+      "storageEvents": 1
+    },
+    {
+      "name": "guard-abort",
+      "status": "passed",
+      "failedRawPreserved": true,
+      "failedReadonly": "true",
+      "sameEventID": false,
+      "finalXP": 25,
+      "finalBP": 35
+    },
+    {
+      "name": "quota",
+      "status": "passed",
+      "failedRawPreserved": true,
+      "failedReadonly": "false",
+      "sameEventID": true,
+      "finalXP": 25,
+      "finalBP": 35
+    },
+    {
+      "name": "rollback-abort",
+      "status": "passed",
+      "failedRawPreserved": true,
+      "failedReadonly": "true",
+      "sameEventID": true,
+      "finalXP": 25,
+      "finalBP": 35
+    },
+    {
+      "name": "missing-idb",
+      "status": "passed",
+      "readonly": true,
+      "rawPreserved": true
+    },
+    {
+      "name": "missing-crypto",
+      "status": "passed",
+      "readonly": true,
+      "rawPreserved": true
+    },
+    {
+      "name": "leading-checkpoint-crash-readonly",
+      "status": "passed",
+      "rawPreserved": true,
+      "metadataPreserved": true,
+      "downloadedExactRaw": true
+    }
+  ]
+}

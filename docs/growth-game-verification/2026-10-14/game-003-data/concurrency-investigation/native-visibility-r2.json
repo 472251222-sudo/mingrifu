@@ -1,0 +1,2143 @@
+{
+  "chrome": "155.0.8059.40",
+  "persistenceSHA": "5358530f9fc3d723521c9f2376b51431dbba06e379636d58bf5eac5db9d4087e",
+  "origin": "http://127.0.0.1:5189",
+  "key": "mingrifu-growth-game-v1",
+  "lockName": "mingrifu-growth-game-v1:save",
+  "runs": [
+    {
+      "kind": "production-service",
+      "index": 0,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "372C2CAA29995D1D45EFF852C5512344",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "BAB11CAFAB15007A046FD0DADEE65D55",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "372C2CAA29995D1D45EFF852C5512344",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": false,
+          "code": "conflict",
+          "message": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。"
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": false,
+      "finalXP": 25,
+      "traces": [
+        {
+          "at": 1791990353354,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990353370,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990353386.5999,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990353386.9001,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990353387.6,
+          "client": "A",
+          "phase": "resolved",
+          "ok": false,
+          "code": "conflict",
+          "message": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。"
+        }
+      ]
+    },
+    {
+      "kind": "production-service",
+      "index": 1,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "29A15554271D3A033C6E961E4174E3CD",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "D6BA43A068D8D43A0CFFB26C05B25A42",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "29A15554271D3A033C6E961E4174E3CD",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": false,
+          "code": "conflict",
+          "message": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。"
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": false,
+      "finalXP": 25,
+      "traces": [
+        {
+          "at": 1791990353969.0999,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990353990.4001,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990354004.9,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990354005,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990354005.2,
+          "client": "A",
+          "phase": "resolved",
+          "ok": false,
+          "code": "conflict",
+          "message": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。"
+        }
+      ]
+    },
+    {
+      "kind": "production-service",
+      "index": 2,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "4F8233087B529B4BC604A4D23ACD88EC",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "7E3D484DDD0B77AF616C2B0A92E78B88",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "4F8233087B529B4BC604A4D23ACD88EC",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": false,
+          "code": "conflict",
+          "message": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。"
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": false,
+      "finalXP": 25,
+      "traces": [
+        {
+          "at": 1791990354539.7002,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990354575.2,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990354588.7002,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990354589,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990354589.3,
+          "client": "A",
+          "phase": "resolved",
+          "ok": false,
+          "code": "conflict",
+          "message": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。"
+        }
+      ]
+    },
+    {
+      "kind": "production-service",
+      "index": 3,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "E8025965C71E326CD8E8463281F8AA85",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "27C3DBADA10484F5D913D0F25D53C494",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "E8025965C71E326CD8E8463281F8AA85",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": false,
+          "code": "conflict",
+          "message": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。"
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": false,
+      "finalXP": 25,
+      "traces": [
+        {
+          "at": 1791990355078.4001,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990355129,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990355143.4001,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990355143.7,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990355143.9,
+          "client": "A",
+          "phase": "resolved",
+          "ok": false,
+          "code": "conflict",
+          "message": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。"
+        }
+      ]
+    },
+    {
+      "kind": "production-service",
+      "index": 4,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "F803A41A95426B217974E1B42F45226F",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "D72072822F9E2B9E2F488C48996F9ED4",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "F803A41A95426B217974E1B42F45226F",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": false,
+          "code": "conflict",
+          "message": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。"
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": false,
+      "finalXP": 25,
+      "traces": [
+        {
+          "at": 1791990355575.2002,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990355593.8,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990355608.4001,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990355608.6,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990355608.9001,
+          "client": "A",
+          "phase": "resolved",
+          "ok": false,
+          "code": "conflict",
+          "message": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。"
+        }
+      ]
+    },
+    {
+      "kind": "production-service",
+      "index": 5,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "5F7FD60C263EA5F3597498759466932A",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "0EEED0858B33D2756275C65AFAA20F83",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "5F7FD60C263EA5F3597498759466932A",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": false,
+          "code": "conflict",
+          "message": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。"
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": false,
+      "finalXP": 25,
+      "traces": [
+        {
+          "at": 1791990356095.4001,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990356118.4001,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990356132.8,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990356132.9001,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990356133.1,
+          "client": "A",
+          "phase": "resolved",
+          "ok": false,
+          "code": "conflict",
+          "message": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。"
+        }
+      ]
+    },
+    {
+      "kind": "production-service",
+      "index": 6,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "C8B24ECE436A7147D3977BCEA5ADD890",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "61F1E8EFC9DD4579D4A6AAB23F806796",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "C8B24ECE436A7147D3977BCEA5ADD890",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": false,
+          "code": "conflict",
+          "message": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。"
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": false,
+      "finalXP": 25,
+      "traces": [
+        {
+          "at": 1791990356621.1,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990356656.7,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990356672.2,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990356672.2,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990356672.5,
+          "client": "A",
+          "phase": "resolved",
+          "ok": false,
+          "code": "conflict",
+          "message": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。"
+        }
+      ]
+    },
+    {
+      "kind": "production-service",
+      "index": 7,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "496BB0B6F7ED41FC94C754883CE592E2",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "CF339AB4A6B5EFCA301A827182E0EA8F",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "496BB0B6F7ED41FC94C754883CE592E2",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": true,
+          "xp": 10
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": true,
+      "finalXP": 10,
+      "traces": [
+        {
+          "at": 1791990357154.9,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990357189.8,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990357205.7998,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990357206.2,
+          "client": "B",
+          "phase": "storage-event",
+          "xp": 10,
+          "nativeXP": 10
+        },
+        {
+          "at": 1791990357206.2002,
+          "client": "A",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 10
+        },
+        {
+          "at": 1791990357206.3,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 10
+        }
+      ]
+    },
+    {
+      "kind": "production-service",
+      "index": 8,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "823CF6BD644BAC2D678EF87441B86D92",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "683B18721F24BE3F2E1945AE28E47070",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "823CF6BD644BAC2D678EF87441B86D92",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": false,
+          "code": "conflict",
+          "message": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。"
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": false,
+      "finalXP": 25,
+      "traces": [
+        {
+          "at": 1791990357694.2,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990357746.2002,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990357760.8,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990357761.2002,
+          "client": "A",
+          "phase": "resolved",
+          "ok": false,
+          "code": "conflict",
+          "message": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。"
+        },
+        {
+          "at": 1791990357761.4001,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 25
+        }
+      ]
+    },
+    {
+      "kind": "production-service",
+      "index": 9,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "3E273675D6A3966E8BF7319FCEC463C8",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "9FCCEEA419E246844316F946B4241784",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "3E273675D6A3966E8BF7319FCEC463C8",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": true,
+          "xp": 10
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": true,
+      "finalXP": 10,
+      "traces": [
+        {
+          "at": 1791990358294.0999,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990358344.1,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990358357.2,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990358357.4001,
+          "client": "A",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 10
+        },
+        {
+          "at": 1791990358357.5,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 10
+        },
+        {
+          "at": 1791990358357.5,
+          "client": "B",
+          "phase": "storage-event",
+          "xp": 10,
+          "nativeXP": 10
+        }
+      ]
+    },
+    {
+      "kind": "production-service",
+      "index": 10,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "AF60FC5B94E93A0DF1AD4E7B0837B03A",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "BDE6197766DDAF24602D066D2A70B2CA",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "AF60FC5B94E93A0DF1AD4E7B0837B03A",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": false,
+          "code": "conflict",
+          "message": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。"
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": false,
+      "finalXP": 25,
+      "traces": [
+        {
+          "at": 1791990358838.2998,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990358860.1,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990358873.5999,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990358874.1,
+          "client": "A",
+          "phase": "resolved",
+          "ok": false,
+          "code": "conflict",
+          "message": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。"
+        },
+        {
+          "at": 1791990358874.2,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 25
+        }
+      ]
+    },
+    {
+      "kind": "production-service",
+      "index": 11,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "853A70EEEC9B6DEFD4D17931A4F9DED9",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "B8D255483E89F71807BF4FA730620EFA",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "853A70EEEC9B6DEFD4D17931A4F9DED9",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": false,
+          "code": "conflict",
+          "message": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。"
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": false,
+      "finalXP": 25,
+      "traces": [
+        {
+          "at": 1791990359402.9,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990359420.6,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990359434.8,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990359435.1,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990359435.3,
+          "client": "A",
+          "phase": "resolved",
+          "ok": false,
+          "code": "conflict",
+          "message": "另一页面已保存新的世界。请重新读取后再操作，当前操作尚未保存。"
+        }
+      ]
+    },
+    {
+      "kind": "native-protocol",
+      "index": 0,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "711910BE3B33DBDBF1FFD7E9704712C3",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "BC00E746D4BC13FD092EFEE26C6E105F",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "711910BE3B33DBDBF1FFD7E9704712C3",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": false,
+          "code": "conflict"
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": false,
+      "finalXP": 25,
+      "traces": [
+        {
+          "at": 1791990359940.3,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990359968.5,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990359983.4001,
+          "client": "B",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 0,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990359983.4001,
+          "client": "B",
+          "phase": "write-return",
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990359983.4001,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990359983.5,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990359983.5999,
+          "client": "A",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 25,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990359983.5999,
+          "client": "A",
+          "phase": "conflict"
+        },
+        {
+          "at": 1791990359983.5999,
+          "client": "A",
+          "phase": "resolved",
+          "ok": false,
+          "code": "conflict"
+        }
+      ]
+    },
+    {
+      "kind": "native-protocol",
+      "index": 1,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "14C6A4950615DB426CE39039B562E37F",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "7944A8AA557569C2E420A907B37A1E2F",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "14C6A4950615DB426CE39039B562E37F",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": true,
+          "xp": 10
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": true,
+      "finalXP": 10,
+      "traces": [
+        {
+          "at": 1791990360472.8,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990360491.1,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990360505.5,
+          "client": "B",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 0,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990360505.6,
+          "client": "B",
+          "phase": "write-return",
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990360505.6,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990360505.8,
+          "client": "A",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 0,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990360505.8,
+          "client": "A",
+          "phase": "write-return",
+          "nativeXP": 10
+        },
+        {
+          "at": 1791990360505.8,
+          "client": "A",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 10
+        },
+        {
+          "at": 1791990360505.8,
+          "client": "B",
+          "phase": "storage-event",
+          "xp": 10,
+          "nativeXP": 10
+        },
+        {
+          "at": 1791990360506,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 10
+        }
+      ]
+    },
+    {
+      "kind": "native-protocol",
+      "index": 2,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "70E2D5A1B8CB81C0EBED28E27B7BB307",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "A2D2FCC116A6C918FE5732172985F088",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "70E2D5A1B8CB81C0EBED28E27B7BB307",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": true,
+          "xp": 10
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": true,
+      "finalXP": 10,
+      "traces": [
+        {
+          "at": 1791990360985.1,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990361033.2,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990361046.8,
+          "client": "B",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 0,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990361046.8,
+          "client": "B",
+          "phase": "write-return",
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990361046.8,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990361046.9,
+          "client": "A",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 0,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990361046.9,
+          "client": "A",
+          "phase": "write-return",
+          "nativeXP": 10
+        },
+        {
+          "at": 1791990361046.9,
+          "client": "A",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 10
+        },
+        {
+          "at": 1791990361047.0999,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 10
+        },
+        {
+          "at": 1791990361047.1,
+          "client": "B",
+          "phase": "storage-event",
+          "xp": 10,
+          "nativeXP": 10
+        }
+      ]
+    },
+    {
+      "kind": "native-protocol",
+      "index": 3,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "F1D5E1B9E1E3AE638EF9917924008C80",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "CDEB2D65CAA133B3B05BED5AA8CB70A7",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "F1D5E1B9E1E3AE638EF9917924008C80",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": false,
+          "code": "conflict"
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": false,
+      "finalXP": 25,
+      "traces": [
+        {
+          "at": 1791990361507.5999,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990361526.1,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990361540.2,
+          "client": "B",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 0,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990361540.2,
+          "client": "B",
+          "phase": "write-return",
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990361540.3,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990361540.4001,
+          "client": "A",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 25,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990361540.4001,
+          "client": "A",
+          "phase": "conflict"
+        },
+        {
+          "at": 1791990361540.5,
+          "client": "A",
+          "phase": "resolved",
+          "ok": false,
+          "code": "conflict"
+        },
+        {
+          "at": 1791990361540.5,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 25
+        }
+      ]
+    },
+    {
+      "kind": "native-protocol",
+      "index": 4,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "A42811491F972DCC5E56957DEC942022",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "235B7CA70FB56C8E88551887726A5861",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "A42811491F972DCC5E56957DEC942022",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": false,
+          "code": "conflict"
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": false,
+      "finalXP": 25,
+      "traces": [
+        {
+          "at": 1791990362021.5,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990362036.7,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990362050.8,
+          "client": "B",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 0,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990362050.9,
+          "client": "B",
+          "phase": "write-return",
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990362050.9,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990362051,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990362051.0999,
+          "client": "A",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 25,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990362051.0999,
+          "client": "A",
+          "phase": "conflict"
+        },
+        {
+          "at": 1791990362051.2,
+          "client": "A",
+          "phase": "resolved",
+          "ok": false,
+          "code": "conflict"
+        }
+      ]
+    },
+    {
+      "kind": "native-protocol",
+      "index": 5,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "20ABF117061A5E76A3ACC77BCB6EDF64",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "2C91DE9E446F950E738384AC2C9B18A0",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "20ABF117061A5E76A3ACC77BCB6EDF64",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": false,
+          "code": "conflict"
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": false,
+      "finalXP": 25,
+      "traces": [
+        {
+          "at": 1791990362582.8,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990362606.4,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990362620.5,
+          "client": "B",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 0,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990362620.6,
+          "client": "B",
+          "phase": "write-return",
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990362620.6,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990362620.7,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990362620.7,
+          "client": "A",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 25,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990362620.8,
+          "client": "A",
+          "phase": "conflict"
+        },
+        {
+          "at": 1791990362620.9,
+          "client": "A",
+          "phase": "resolved",
+          "ok": false,
+          "code": "conflict"
+        }
+      ]
+    },
+    {
+      "kind": "native-protocol",
+      "index": 6,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "11F954C813653BD594CE1795576AA65D",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "25D42FEC4EC9E2AE9623177624DA1A65",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "11F954C813653BD594CE1795576AA65D",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": false,
+          "code": "conflict"
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": false,
+      "finalXP": 25,
+      "traces": [
+        {
+          "at": 1791990363150.3,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990363172.0999,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990363187,
+          "client": "B",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 0,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990363187,
+          "client": "B",
+          "phase": "write-return",
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990363187,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990363187.2998,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990363187.4,
+          "client": "A",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 25,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990363187.4,
+          "client": "A",
+          "phase": "conflict"
+        },
+        {
+          "at": 1791990363187.4,
+          "client": "A",
+          "phase": "resolved",
+          "ok": false,
+          "code": "conflict"
+        }
+      ]
+    },
+    {
+      "kind": "native-protocol",
+      "index": 7,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "BFA66ACEFADCC48D53C2563561B2E52F",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "128184D65741228F9667B56417B91E32",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "BFA66ACEFADCC48D53C2563561B2E52F",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": false,
+          "code": "conflict"
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": false,
+      "finalXP": 25,
+      "traces": [
+        {
+          "at": 1791990363682.2,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990363728.2,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990363742.5,
+          "client": "B",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 0,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990363742.5,
+          "client": "B",
+          "phase": "write-return",
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990363742.5,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990363742.6,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990363742.7,
+          "client": "A",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 25,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990363742.7,
+          "client": "A",
+          "phase": "conflict"
+        },
+        {
+          "at": 1791990363742.7,
+          "client": "A",
+          "phase": "resolved",
+          "ok": false,
+          "code": "conflict"
+        }
+      ]
+    },
+    {
+      "kind": "native-protocol",
+      "index": 8,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "FBFD5B48D44CFEC3A25FE9251C00A74A",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "EC6E14F5233D150890995EED09D342BB",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "FBFD5B48D44CFEC3A25FE9251C00A74A",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": false,
+          "code": "conflict"
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": false,
+      "finalXP": 25,
+      "traces": [
+        {
+          "at": 1791990364206.5,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990364236.9,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990364251.2002,
+          "client": "B",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 0,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990364251.3,
+          "client": "B",
+          "phase": "write-return",
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990364251.3,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990364251.5999,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990364251.7,
+          "client": "A",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 25,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990364251.7,
+          "client": "A",
+          "phase": "conflict"
+        },
+        {
+          "at": 1791990364251.7,
+          "client": "A",
+          "phase": "resolved",
+          "ok": false,
+          "code": "conflict"
+        }
+      ]
+    },
+    {
+      "kind": "native-protocol",
+      "index": 9,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "E9F2B55FD1E822EC24C109951AC56170",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "86F45F22E91AADF931B8FA20F565E20E",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "E9F2B55FD1E822EC24C109951AC56170",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": true,
+          "xp": 10
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": true,
+      "finalXP": 10,
+      "traces": [
+        {
+          "at": 1791990364723.2002,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990364739.4001,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990364753.8,
+          "client": "B",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 0,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990364753.8,
+          "client": "B",
+          "phase": "write-return",
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990364753.8,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990364753.9001,
+          "client": "A",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 0,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990364753.9001,
+          "client": "A",
+          "phase": "write-return",
+          "nativeXP": 10
+        },
+        {
+          "at": 1791990364753.9001,
+          "client": "A",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 10
+        },
+        {
+          "at": 1791990364754,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 10
+        },
+        {
+          "at": 1791990364754.2002,
+          "client": "B",
+          "phase": "storage-event",
+          "xp": 10,
+          "nativeXP": 10
+        }
+      ]
+    },
+    {
+      "kind": "native-protocol",
+      "index": 10,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "C0A0645833D849EC35BE413E2977B7D4",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "FDDCCF893BC830E0209091F537601E87",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "C0A0645833D849EC35BE413E2977B7D4",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": false,
+          "code": "conflict"
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": false,
+      "finalXP": 25,
+      "traces": [
+        {
+          "at": 1791990365272.0999,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990365304.0999,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990365318.5,
+          "client": "B",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 0,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990365318.5,
+          "client": "B",
+          "phase": "write-return",
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990365318.5999,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990365318.7998,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990365318.7998,
+          "client": "A",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 25,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990365318.7998,
+          "client": "A",
+          "phase": "conflict"
+        },
+        {
+          "at": 1791990365318.7998,
+          "client": "A",
+          "phase": "resolved",
+          "ok": false,
+          "code": "conflict"
+        }
+      ]
+    },
+    {
+      "kind": "native-protocol",
+      "index": 11,
+      "initialTokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "85FAA87721900705073882B0FFDA75E4",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "EBFCDD4E4248BBC05612B5A9DF77FA50",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "85FAA87721900705073882B0FFDA75E4",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "outcomes": [
+        {
+          "ok": false,
+          "code": "conflict"
+        },
+        {
+          "ok": true,
+          "xp": 25
+        }
+      ],
+      "bothSucceeded": false,
+      "finalXP": 25,
+      "traces": [
+        {
+          "at": 1791990365839.6,
+          "client": "B",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990365855.8,
+          "client": "A",
+          "phase": "queued",
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990365871.4,
+          "client": "B",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 0,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990365871.5,
+          "client": "B",
+          "phase": "write-return",
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990365871.5,
+          "client": "B",
+          "phase": "resolved",
+          "ok": true,
+          "xp": 25
+        },
+        {
+          "at": 1791990365871.8,
+          "client": "A",
+          "phase": "storage-event",
+          "xp": 25,
+          "nativeXP": 25
+        },
+        {
+          "at": 1791990365871.8,
+          "client": "A",
+          "phase": "lock-enter-read",
+          "lockName": "mingrifu-growth-game-v1:save",
+          "actualXP": 25,
+          "expectedXP": 0
+        },
+        {
+          "at": 1791990365871.8,
+          "client": "A",
+          "phase": "conflict"
+        },
+        {
+          "at": 1791990365871.9001,
+          "client": "A",
+          "phase": "resolved",
+          "ok": false,
+          "code": "conflict"
+        }
+      ]
+    }
+  ]
+}

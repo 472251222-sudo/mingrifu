@@ -1,0 +1,184 @@
+{
+  "chrome": "155.0.8059.40",
+  "start": {
+    "GameApp.jsx": "20bec0ec365694797ecaa26cbf719bbe39190f10a9c2a36a27a928a72bbf44ef",
+    "persistence.js": "b44b293cc654654752dbbd2b04b7086b29ad07b498881596566c0069175dfcb7",
+    "checkpoint.js": "094c4b3c6e099bc3bd1bfb8080e02171c75cbf8b893f02bd4fe2efdcd7b12398",
+    "useGameWorld.js": "f9589a1fc809e911c04682ae3d8dc23960b2eeb672b99f370b1e4a9f446d2f99"
+  },
+  "end": {
+    "GameApp.jsx": "20bec0ec365694797ecaa26cbf719bbe39190f10a9c2a36a27a928a72bbf44ef",
+    "persistence.js": "b44b293cc654654752dbbd2b04b7086b29ad07b498881596566c0069175dfcb7",
+    "checkpoint.js": "094c4b3c6e099bc3bd1bfb8080e02171c75cbf8b893f02bd4fe2efdcd7b12398",
+    "useGameWorld.js": "f9589a1fc809e911c04682ae3d8dc23960b2eeb672b99f370b1e4a9f446d2f99"
+  },
+  "sourceStable": true,
+  "results": [
+    {
+      "name": "protected-recovery-320",
+      "status": "passed",
+      "base": "http://127.0.0.1:5189/",
+      "evidence": {
+        "view": {
+          "width": 320,
+          "height": 568,
+          "scrollWidth": 320,
+          "scrollHeight": 568,
+          "buttons": [
+            {
+              "text": "重试保存",
+              "x": 21,
+              "y": 386,
+              "bottom": 432,
+              "reachable": true
+            },
+            {
+              "text": "取消未保存操作",
+              "x": 94.5,
+              "y": 386,
+              "bottom": 432,
+              "reachable": true
+            },
+            {
+              "text": "重新读取",
+              "x": 168,
+              "y": 386,
+              "bottom": 432,
+              "reachable": true
+            },
+            {
+              "text": "下载原始记录",
+              "x": 241.5,
+              "y": 386,
+              "bottom": 432,
+              "reachable": true
+            }
+          ]
+        },
+        "candidateEventID": "ccf9edbf-8a0a-44c7-84dc-aead0d76630f",
+        "attempts": 3,
+        "oneReward": true,
+        "pendingSurvivesCancelReloadAndLaterErrors": true,
+        "noGuardAwaitAfterLS": true,
+        "metadata": {
+          "record": {
+            "schemaVersion": 1,
+            "digest": "61ff35bb5ab393dca5dc6929b9d8603c88cc082d38e2f831053d97d954522458",
+            "revision": 1,
+            "previousDigest": "a72f5ceb91107fc820deaee708c74b3238d882d094d101caecee93d715b441e3",
+            "previousRevision": 0,
+            "owner": "1f8e4d8a-50cb-4468-b40e-93c3b7e956ed"
+          },
+          "count": 1
+        },
+        "message": "模拟努力 +50 XP · +10 BP。自然成长 1 步，1 株变化。"
+      }
+    },
+    {
+      "name": "protected-recovery-390",
+      "status": "passed",
+      "base": "http://127.0.0.1:5190/",
+      "evidence": {
+        "view": {
+          "width": 390,
+          "height": 700,
+          "scrollWidth": 390,
+          "scrollHeight": 700,
+          "buttons": [
+            {
+              "text": "重试保存",
+              "x": 21,
+              "y": 514,
+              "bottom": 560,
+              "reachable": true
+            },
+            {
+              "text": "取消未保存操作",
+              "x": 112,
+              "y": 514,
+              "bottom": 560,
+              "reachable": true
+            },
+            {
+              "text": "重新读取",
+              "x": 203,
+              "y": 514,
+              "bottom": 560,
+              "reachable": true
+            },
+            {
+              "text": "下载原始记录",
+              "x": 294,
+              "y": 514,
+              "bottom": 560,
+              "reachable": true
+            }
+          ]
+        },
+        "candidateEventID": "7b43d5f8-a94d-4c31-8fd6-1ebdba3323e1",
+        "attempts": 3,
+        "oneReward": true,
+        "pendingSurvivesCancelReloadAndLaterErrors": true,
+        "noGuardAwaitAfterLS": true,
+        "metadata": {
+          "record": {
+            "schemaVersion": 1,
+            "digest": "09b6615fa55fc7a84950edc7339fa47dd9e6b0cafe67ee4320f7ea82aa72d74d",
+            "revision": 1,
+            "previousDigest": "a72f5ceb91107fc820deaee708c74b3238d882d094d101caecee93d715b441e3",
+            "previousRevision": 0,
+            "owner": "4daed958-73e7-4929-9087-c2c341f8a7f5"
+          },
+          "count": 1
+        },
+        "message": "模拟努力 +50 XP · +10 BP。自然成长 1 步，1 株变化。"
+      }
+    },
+    {
+      "name": "ordinary-quota-cancel",
+      "status": "passed",
+      "base": "http://127.0.0.1:5190/",
+      "evidence": {
+        "cancelRawPreserved": true,
+        "finalXP": 10,
+        "events": 1
+      }
+    },
+    {
+      "name": "native-idb-request-abort",
+      "status": "passed",
+      "base": "http://127.0.0.1:5190/",
+      "evidence": {
+        "requestSuccessWasNotCommit": true,
+        "zeroLSUntilCommit": true,
+        "oneReward": true
+      }
+    },
+    {
+      "name": "missing-idb",
+      "status": "passed",
+      "base": "http://127.0.0.1:5190/",
+      "evidence": {
+        "readonly": true,
+        "rawPreserved": true
+      }
+    },
+    {
+      "name": "missing-crypto",
+      "status": "passed",
+      "base": "http://127.0.0.1:5190/",
+      "evidence": {
+        "readonly": true,
+        "rawPreserved": true
+      }
+    },
+    {
+      "name": "leading-crash-guard",
+      "status": "passed",
+      "base": "http://127.0.0.1:5190/",
+      "rawExact": true,
+      "metadataUnchanged": true,
+      "download": "/tmp/mingrifu-dataui-qa.u6Ge35/qa-guard-r1-final-faults-crash-original.txt"
+    }
+  ]
+}

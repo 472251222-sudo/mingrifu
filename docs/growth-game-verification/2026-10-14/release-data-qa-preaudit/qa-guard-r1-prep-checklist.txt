@@ -1,0 +1,31 @@
+RELEASE-QA-GUARD-R1-PREP，2026-10-14。只读QA准备记录。
+依据：已读更新PRD§8（growth-product-spec.md:78-84）、development-plan GAME003、concurrency-fix-plan.md、原生根因报告、现有persistence/controller及GameApp接口。Manager已批准metadata预commit方案；无需再请用户确认同一技术决定。实现尚未冻结，本轮没有运行半成品测试、重复原生根因、Alpha/Blender/V3或浏览器。仅新增本仓库外qa-guard-r1-prep前缀证据，不改业务/主记录/Git，不再派Agent。
+QA-DATAUI-002仍changes_requested/P1；本轮第1次修复在进行，最大3轮。QA-DATAUI-001关闭1/3；QA-DATA-001关闭1/3。prep不是实现技术通过或新美术验收。
+
+协议审核边界
+主世界仍mingrifu-growth-game-v1/schemaVersion1；原生IDB仅单条schemaVersion/digest/revision/previousDigest/previousRevision/owner小metadata，不复制world，不加journal/任意回滚/迁移/云。原文SHA256+revision的原子比较必须在一个IDB事务内完成；metadata事务oncomplete后才LS同步写，LS成功后直接receipt，不再做第二持久await。LSfail CAS回滚；rollbackfail原文旧值不动，同owner同candidate安全retry。load发布前异步verify；能力/摘要缺失只读；中断导致metadata超前只读/重读/下载，不自动reset或超时失效释放。
+
+已指出并由Manager协调的确定接口集成风险（未完成实现，不另记缺陷）
+1. read改异步：现controller.reload(persistence旧184)和初始conflict采用旧档(旧167)必须await verify，不可把Promise当世界，不可request-success后提前saved/ready。
+2. checkpoint_pending必须readonly+保留同pending，错误分类与retry白名单需适配；不可cancel后恢复普通写入。
+3. 原GameApp.clearOperation忽略game.cancel返回值且清UIattempt，retry失去努力before会误报初始gift；原reload也先清attempt。Manager已明确checkpoint_pending下controller.cancel/reload均false保留pending；UI clearOperation尊重false、reload成功后才清UIattempt。这属于DATAUI002第1轮必要集成。
+
+冻结后复验清单
+01 基线/范围：记录业务与guard/test/build真实SHA；旧主键/schema/世界字段不变，DB只一metadata记录、不含world；旧P1/V3/V4哨兵不动，来源隔离；不可把事先已存在的新guard误当空记录bootstrap/reset。
+02 原子提交事件：适配器request成功后transaction abort仍零LS写、旧raw/world；transaction.oncomplete才可写LS；transaction.onerror/onabort/open失败/onblocked能力失败均明确safe故障，不能只因request.onsuccess判成功。
+03 异步加载：旧raw与metadata verify挂起时status/loading/busy、saved/写入口不可提前ready；getter拒绝/unknown/bad/8MiB先保持原文；valid旧世界bootstrap metadata不重写world/不送gift；StrictMode与重复initialize共用一次初始化。
+04 原生两页竞争：同一新BrowserContext/来源，单控制页预置一次世界，tokensEqual。无Storage/getter/locks包装，A持实际save锁，分别B→A与A→B排队，query验证held1/pending2。每次必须1成功1冲突，旧页不加XP/BP、readonly，fresh读取/刷新与获胜UI一致。有限重复有任意双成功即失败，不用通过率掩盖。
+05 冲突UI：只有reload可恢复，retry/cancel不能解除写保护；reload不能把获胜页资源差当失败页成功奖励，不出现第二努力toast；GameApp completion/attempt引用清理正确。
+06 同时初始nulltoken：持锁后两新生产页均看到未保存初始预览；仅一gift写，loser采用唯一存档需await verified read；raw/revision0/ID一致，两页最终saved可写且不开第二赠礼。
+07 缺能力：无WebLocks、无IDB/访问getter拒绝、无安全摘要/digest拒绝保持显式只读，零LS写；真实权限故障注入只在新context，不能申请系统持久存储权限。恢复可读路径必须按实际文案验证，不能用刷新绕过错误re-read。
+08 IDB预commit失败：compare失败或abort都不碰LS/资源/生态；同token/revision重新格式化raw会变SHA，旧缓存不能通过metadata校验；record schema/nonce/point格式未知或损坏保守只读不覆盖。
+09 普通LS Quota：precommit后LS抛，metadata rollback成功；旧raw/world/资源不变，pending深冻结；retry同candidate原文/UUID一字不变，只奖励/收费一次；普通cancel仍能取消，原metadata恢复后后续合法新命令可用。
+10 LS+rollback双失败：metadata超前，旧LS/world/resources保留；state只读+相同pending，真实UI仍保留努力before/UUID；点击cancel和reload均拒绝且不得清backend/UI attempt。恢复故障后同owner同candidate retry一次提交，正确努力奖励反馈一次，不能显示“初始gift已保存”；成功后guard无需额外持久提交。
+11 错owner/错candidate：另controller即使猜到相同old token，不得借pending guard占位完成/回滚；原owner替换command或candidate被拒绝，旧值保留；owner nonce每service稳定，不随retry重建。
+12 进程中断：预commit完成、LS写前中断后，新controller看到有效旧raw+超前metadata只读，下载仍旧原文；不能reset metadata、猜测推进/回退或重复gift。LS已成功、UIreceipt前中断，重开验证raw与metadata一致，恢复已提交事件，不重复奖励。
+13 输出原子性：预commit或LS写挂起/失败，Canvas/XP/BP/阶段保持旧提交；只有LS同步成功的receipt允许发布新snapshot。世界/pending仍不可被UI外部修改，同tick双run/重复按钮/正在保存cancel reload guard稳定。
+14 数据故障与真实界面：坏JSON/未知schema/非法world、超过8MiB、下载原文逐字符一致；生产320/390恢复操作固定同屏且模态不挡，素材404恢复不重写存档；ordinary quota cancel与ordinary conflict reload行为不能因checkpoint_pending特别分支退化。
+15 影响域回归：原数据/checkpoint纯Node、有意义RED→GREEN原日志、当前全套与独立build由Manager捕获；QA亲跑获明确授权的只读或隔离测试，源码冻结后只重跑guard/controller/故障反馈/双页与必要single-page保存恢复，不重复已通过9MAlpha/Blender/V3完整工作。
+16 交付：分开规格/质量结论、candidate/用户approved；报告真实命令/Chrome版本/源码SHA、亲跑vs审证据、未覆盖Safari/真机；QA不自行关闭DATAUI002，只有冻结实现满足原生竞态及所有影响域才能通过。任一阻断留changes_requested；同缺陷累计最多3轮，不跨任务重置。
+
+预计证据边界：后续另建新的仓库外qa-guard-r1-*目录/前缀，仅顶层必要JSON/PNG/TXT和明确范围重现脚本；不复制profile/cache，不覆盖本次prep或旧native/故障记录。

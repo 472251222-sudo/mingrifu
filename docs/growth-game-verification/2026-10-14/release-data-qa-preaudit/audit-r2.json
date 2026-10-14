@@ -1,0 +1,130 @@
+{
+  "start": {
+    "GameApp.jsx": "fc3ec93af4364068187b06ee91c16de080f7b77d3d50059b340087dd3447b226",
+    "persistence.js": "5358530f9fc3d723521c9f2376b51431dbba06e379636d58bf5eac5db9d4087e",
+    "useGameWorld.js": "f9589a1fc809e911c04682ae3d8dc23960b2eeb672b99f370b1e4a9f446d2f99",
+    "styles.css": "82912452d76d1ead123e1e4078af253e09903e372d288adf5d0b8218403369e3"
+  },
+  "end": {
+    "GameApp.jsx": "fc3ec93af4364068187b06ee91c16de080f7b77d3d50059b340087dd3447b226",
+    "persistence.js": "5358530f9fc3d723521c9f2376b51431dbba06e379636d58bf5eac5db9d4087e",
+    "useGameWorld.js": "f9589a1fc809e911c04682ae3d8dc23960b2eeb672b99f370b1e4a9f446d2f99",
+    "styles.css": "82912452d76d1ead123e1e4078af253e09903e372d288adf5d0b8218403369e3"
+  },
+  "chrome": "155.0.8059.40",
+  "results": [
+    {
+      "name": "initial-quota-retry",
+      "status": "passed",
+      "evidence": {
+        "fault": "/tmp/mingrifu-dataui-qa.u6Ge35/20-initial-quota.png",
+        "saved": "/tmp/mingrifu-dataui-qa.u6Ge35/21-initial-retry-saved.png",
+        "writes": 1
+      }
+    },
+    {
+      "name": "effort-quota-retry-cancel",
+      "status": "passed",
+      "evidence": {
+        "failure": "/tmp/mingrifu-dataui-qa.u6Ge35/22-effort-quota-actions.png",
+        "success": "/tmp/mingrifu-dataui-qa.u6Ge35/23-effort-retry-success.png",
+        "cancel": "/tmp/mingrifu-dataui-qa.u6Ge35/24-effort-cancel.png",
+        "sameCandidate": true,
+        "oneReward": true,
+        "eventID": "35298463-d7ec-41bf-adeb-b4c5a1b21dd9"
+      }
+    },
+    {
+      "name": "preview-build-quota-retry",
+      "status": "passed",
+      "evidence": {
+        "failed": "/tmp/mingrifu-dataui-qa.u6Ge35/25-preview-build-quota.png",
+        "saved": "/tmp/mingrifu-dataui-qa.u6Ge35/26-preview-build-retry.png",
+        "sameCandidate": true,
+        "chargedOnce": true,
+        "domBeforeWrite": {
+          "raw": "{\"schemaVersion\":1,\"revision\":1,\"nextId\":8,\"xp\":0,\"bp\":28,\"chunks\":[{\"x\":0,\"y\":0}],\"efforts\":[],\"objects\":[{\"id\":\"o-1\",\"asset\":\"cabin-terracotta\",\"x\":2,\"y\":2,\"stored\":false},{\"id\":\"o-7\",\"asset\":\"wildflowers\",\"x\":6,\"y\":6,\"stored\":false}],\"nature\":[{\"id\":\"n-2\",\"asset\":\"oak-broad\",\"x\":0,\"y\":2,\"stage\":\"mature\"},{\"id\":\"n-3\",\"asset\":\"pine-slender\",\"x\":6,\"y\":3,\"stage\":\"mature\"},{\"id\":\"n-4\",\"asset\":\"grass-tuft\",\"x\":0,\"y\":6,\"stage\":\"young\"},{\"id\":\"n-6\",\"asset\":\"wildflowers\",\"x\":2,\"y\":5,\"stage\":\"static\"}],\"path\":[{\"x\":3,\"y\":4},{\"x\":3,\"y\":5},{\"x\":3,\"y\":6},{\"x\":3,\"y\":7}]}",
+          "xp": "0 XP",
+          "bp": "30 BP",
+          "revision": "0"
+        }
+      }
+    },
+    {
+      "name": "bad-json",
+      "status": "passed",
+      "evidence": {
+        "screen": "/tmp/mingrifu-dataui-qa.u6Ge35/27-bad-json.png",
+        "download": "/tmp/mingrifu-dataui-qa.u6Ge35/r2-bad-json-original.txt",
+        "rawExact": true,
+        "writes": 0
+      }
+    },
+    {
+      "name": "unknown-version",
+      "status": "passed",
+      "evidence": {
+        "screen": "/tmp/mingrifu-dataui-qa.u6Ge35/28-unknown-version.png",
+        "download": "/tmp/mingrifu-dataui-qa.u6Ge35/r2-unknown-version-original.txt",
+        "rawExact": true,
+        "writes": 0
+      }
+    },
+    {
+      "name": "invalid-world",
+      "status": "passed",
+      "evidence": {
+        "screen": "/tmp/mingrifu-dataui-qa.u6Ge35/29-invalid-world.png",
+        "download": "/tmp/mingrifu-dataui-qa.u6Ge35/r2-invalid-world-original.txt",
+        "rawExact": true,
+        "writes": 0
+      }
+    },
+    {
+      "name": "no-locks-new",
+      "status": "passed",
+      "evidence": {
+        "screen": "/tmp/mingrifu-dataui-qa.u6Ge35/30-no-locks-new.png",
+        "writes": 0,
+        "saved": "false"
+      }
+    },
+    {
+      "name": "no-locks-existing",
+      "status": "passed",
+      "evidence": {
+        "screen": "/tmp/mingrifu-dataui-qa.u6Ge35/31-no-locks-existing.png",
+        "writes": 0,
+        "saved": "true"
+      }
+    },
+    {
+      "name": "getter-restored-production",
+      "status": "passed",
+      "evidence": {
+        "fault": "/tmp/mingrifu-dataui-qa.u6Ge35/32-getter-denied.png",
+        "recovered": "/tmp/mingrifu-dataui-qa.u6Ge35/33-getter-recovered.png",
+        "rawExact": true,
+        "noGiftWrites": true
+      }
+    },
+    {
+      "name": "simultaneous-effort-tabs",
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'1' !== '0'\n\n    at file:///private/tmp/mingrifu-dataui-qa.u6Ge35/data-ui-audit-r2.mjs:42:1347\n    at async scenario (file:///private/tmp/mingrifu-dataui-qa.u6Ge35/data-ui-audit-r2.mjs:33:136)\n    at async file:///private/tmp/mingrifu-dataui-qa.u6Ge35/data-ui-audit-r2.mjs:42:2",
+      "errors": [],
+      "screenshot": "/tmp/mingrifu-dataui-qa.u6Ge35/35-simultaneous-effort-tabs-failure.png"
+    },
+    {
+      "name": "simultaneous-null-seed",
+      "status": "passed",
+      "evidence": {
+        "pending": "/tmp/mingrifu-dataui-qa.u6Ge35/36-null-seed-waiting.png",
+        "saved": "/tmp/mingrifu-dataui-qa.u6Ge35/37-null-seed-saved.png",
+        "totalSeedWrites": 1,
+        "objects": 1,
+        "bp": 30
+      }
+    }
+  ]
+}

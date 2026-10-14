@@ -1,0 +1,26 @@
+{
+  "chrome": "155.0.8059.40",
+  "results": [
+    {
+      "name": "desktop",
+      "status": "passed"
+    },
+    {
+      "name": "phone320",
+      "status": "failed",
+      "error": "page.waitForFunction: Timeout 30000ms exceeded.\n    at saved (/Users/lyc/Desktop/明日复3.0/docs/growth-game-verification/2026-10-14/release-game-flows.mjs:12:49)\n    at /Users/lyc/Desktop/明日复3.0/docs/growth-game-verification/2026-10-14/release-game-flows.mjs:34:405"
+    }
+  ]
+}
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+page.waitForFunction: Timeout 30000ms exceeded.
+    at saved (/Users/lyc/Desktop/明日复3.0/docs/growth-game-verification/2026-10-14/release-game-flows.mjs:12:49)
+    at /Users/lyc/Desktop/明日复3.0/docs/growth-game-verification/2026-10-14/release-game-flows.mjs:34:405 {
+  log: [],
+  name: 'TimeoutError'
+}
+
+Node.js v24.16.0

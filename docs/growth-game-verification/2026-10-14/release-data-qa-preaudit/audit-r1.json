@@ -1,0 +1,105 @@
+{
+  "start": {
+    "GameApp.jsx": "fc3ec93af4364068187b06ee91c16de080f7b77d3d50059b340087dd3447b226",
+    "persistence.js": "5358530f9fc3d723521c9f2376b51431dbba06e379636d58bf5eac5db9d4087e",
+    "useGameWorld.js": "f9589a1fc809e911c04682ae3d8dc23960b2eeb672b99f370b1e4a9f446d2f99",
+    "styles.css": "82912452d76d1ead123e1e4078af253e09903e372d288adf5d0b8218403369e3"
+  },
+  "end": {
+    "GameApp.jsx": "fc3ec93af4364068187b06ee91c16de080f7b77d3d50059b340087dd3447b226",
+    "persistence.js": "5358530f9fc3d723521c9f2376b51431dbba06e379636d58bf5eac5db9d4087e",
+    "useGameWorld.js": "f9589a1fc809e911c04682ae3d8dc23960b2eeb672b99f370b1e4a9f446d2f99",
+    "styles.css": "82912452d76d1ead123e1e4078af253e09903e372d288adf5d0b8218403369e3"
+  },
+  "chrome": "155.0.8059.40",
+  "results": [
+    {
+      "name": "initial-quota-retry",
+      "status": "passed",
+      "evidence": {
+        "fault": "/tmp/mingrifu-dataui-qa.u6Ge35/03-initial-quota.png",
+        "saved": "/tmp/mingrifu-dataui-qa.u6Ge35/04-initial-retry-saved.png",
+        "writes": 1
+      }
+    },
+    {
+      "name": "effort-quota-retry-cancel",
+      "status": "failed",
+      "error": "locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '重试保存', exact: true })\u001b[22m\n\n    at click (/private/tmp/mingrifu-dataui-qa.u6Ge35/data-ui-audit.mjs:29:121)\n    at async file:///private/tmp/mingrifu-dataui-qa.u6Ge35/data-ui-audit.mjs:36:760\n    at async scenario (/private/tmp/mingrifu-dataui-qa.u6Ge35/data-ui-audit.mjs:33:136)\n    at async file:///private/tmp/mingrifu-dataui-qa.u6Ge35/data-ui-audit.mjs:36:2",
+      "errors": [],
+      "screenshot": "/tmp/mingrifu-dataui-qa.u6Ge35/06-effort-quota-retry-cancel-failure.png"
+    },
+    {
+      "name": "preview-build-quota-retry",
+      "status": "failed",
+      "error": "locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '选择野花', exact: true })\u001b[22m\n\n    at click (/private/tmp/mingrifu-dataui-qa.u6Ge35/data-ui-audit.mjs:29:121)\n    at async file:///private/tmp/mingrifu-dataui-qa.u6Ge35/data-ui-audit.mjs:37:179\n    at async scenario (/private/tmp/mingrifu-dataui-qa.u6Ge35/data-ui-audit.mjs:33:136)\n    at async file:///private/tmp/mingrifu-dataui-qa.u6Ge35/data-ui-audit.mjs:37:2",
+      "errors": [],
+      "screenshot": "/tmp/mingrifu-dataui-qa.u6Ge35/07-preview-build-quota-retry-failure.png"
+    },
+    {
+      "name": "bad-json",
+      "status": "passed",
+      "evidence": {
+        "screen": "/tmp/mingrifu-dataui-qa.u6Ge35/08-bad-json.png",
+        "download": "/tmp/mingrifu-dataui-qa.u6Ge35/bad-json-original.txt",
+        "rawExact": true,
+        "writes": 0
+      }
+    },
+    {
+      "name": "unknown-version",
+      "status": "passed",
+      "evidence": {
+        "screen": "/tmp/mingrifu-dataui-qa.u6Ge35/09-unknown-version.png",
+        "download": "/tmp/mingrifu-dataui-qa.u6Ge35/unknown-version-original.txt",
+        "rawExact": true,
+        "writes": 0
+      }
+    },
+    {
+      "name": "invalid-world",
+      "status": "passed",
+      "evidence": {
+        "screen": "/tmp/mingrifu-dataui-qa.u6Ge35/10-invalid-world.png",
+        "download": "/tmp/mingrifu-dataui-qa.u6Ge35/invalid-world-original.txt",
+        "rawExact": true,
+        "writes": 0
+      }
+    },
+    {
+      "name": "no-locks-new",
+      "status": "passed",
+      "evidence": {
+        "screen": "/tmp/mingrifu-dataui-qa.u6Ge35/11-no-locks-new.png",
+        "writes": 0,
+        "saved": "false"
+      }
+    },
+    {
+      "name": "no-locks-existing",
+      "status": "passed",
+      "evidence": {
+        "screen": "/tmp/mingrifu-dataui-qa.u6Ge35/12-no-locks-existing.png",
+        "writes": 0,
+        "saved": "true"
+      }
+    },
+    {
+      "name": "getter-restored-production",
+      "status": "passed",
+      "evidence": {
+        "fault": "/tmp/mingrifu-dataui-qa.u6Ge35/13-getter-denied.png",
+        "recovered": "/tmp/mingrifu-dataui-qa.u6Ge35/14-getter-recovered.png",
+        "rawExact": true,
+        "noGiftWrites": true
+      }
+    },
+    {
+      "name": "simultaneous-effort-tabs",
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'1' !== '0'\n\n    at file:///private/tmp/mingrifu-dataui-qa.u6Ge35/data-ui-audit.mjs:42:1197\n    at async scenario (file:///private/tmp/mingrifu-dataui-qa.u6Ge35/data-ui-audit.mjs:33:136)\n    at async file:///private/tmp/mingrifu-dataui-qa.u6Ge35/data-ui-audit.mjs:42:2",
+      "errors": [],
+      "screenshot": "/tmp/mingrifu-dataui-qa.u6Ge35/16-simultaneous-effort-tabs-failure.png"
+    }
+  ]
+}

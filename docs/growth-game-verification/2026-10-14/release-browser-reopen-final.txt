@@ -1,0 +1,5 @@
+{
+  "status": "passed",
+  "errors": [],
+  "scope": "clean owned Chrome shutdown and new process using the same isolated temporary profile; not OS restart, crash or power loss"
+}

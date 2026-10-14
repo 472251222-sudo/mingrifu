@@ -1,0 +1,16 @@
+{
+  "baselineFiles": 998,
+  "missing": [],
+  "unchanged": 994,
+  "authorizedChanged": [
+    ".codex/agents/builder.toml",
+    "AGENTS.md",
+    "docs/growth-game.md",
+    "package.json"
+  ],
+  "main": "990f7ff11718a0131ca1b96f34fbc049317ad95d",
+  "v4": "44d16da058c2ff8259459d35f8464f01dd7e995d",
+  "frozenSourceFilesChecked": 20,
+  "frozenSourceChanged": false,
+  "approvedCabinByteIdentical": true
+}

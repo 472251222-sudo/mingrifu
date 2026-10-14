@@ -1,9 +1,12 @@
 import React, {useEffect, useMemo, useRef, useState} from 'react';
-import {cameraOrigin, constrainSceneCamera, fitSceneCamera, screenToCell, worldToScene, zoomSceneCamera, ZOOMS} from './scene.js';
+import {cameraOrigin, constrainSceneCamera, fitSceneCamera, screenToCell, withExpansionBounds, worldToScene, zoomSceneCamera, ZOOMS} from './scene.js';
 import {hitScreenScene, paintGame} from './renderer.js';
+import {BALANCE} from './balance.js';
 
-export default function WorldCanvas({world, resources, preview, placement, selectedId, onCell, onSelect, onConfirm, onCancel}) {
-  const scene = useMemo(() => worldToScene(world, resources.manifest), [world, resources]);
+export default function WorldCanvas({world, resources, preview, placement, selectedId, onCell, onSelect, onConfirm, onCancel, expansionCandidates = [], overviewToken = 0}) {
+  const baseScene = useMemo(() => worldToScene(world, resources.manifest), [world, resources]);
+  const expand = preview?.type === 'expand';
+  const scene = useMemo(() => expand ? withExpansionBounds(baseScene, Number.isInteger(preview.x) ? [{x: preview.x, y: preview.y}] : expansionCandidates) : baseScene, [baseScene, expand, expand ? preview.x : null, expand ? preview.y : null, expansionCandidates]);
   const [size, setSize] = useState({width: 1, height: 1}), [camera, setCamera] = useState(null);
   const host = useRef(null), canvas = useRef(null), gesture = useRef(null);
   const latest = useRef({camera, scene, size}); latest.current = {camera, scene, size};
@@ -13,11 +16,12 @@ export default function WorldCanvas({world, resources, preview, placement, selec
     return () => observer.disconnect();
   }, []);
   useEffect(() => {setCamera(fitSceneCamera(scene, size.width, size.height));}, [size.width, size.height]);
+  useEffect(() => {setCamera(fitSceneCamera(scene, size.width, size.height));}, [overviewToken, expand, expand ? preview.x : null, expand ? preview.y : null]);
   useEffect(() => {setCamera(current => current ? constrainSceneCamera(current, scene, size.width, size.height) : fitSceneCamera(scene, size.width, size.height));}, [scene]);
   useEffect(() => {
     if (!camera || !canvas.current) return;
     const element = canvas.current; element.width = size.width; element.height = size.height;
-    paintGame(element.getContext('2d'), scene, resources, camera, size.width, size.height, {preview, placement, selectedId});
+    paintGame(element.getContext('2d'), scene, resources, camera, size.width, size.height, {preview, placement, selectedId, expansionCandidates});
   }, [scene, resources, camera, size, preview, placement, selectedId]);
   useEffect(() => {if (preview) canvas.current?.focus({preventScroll: true});}, [preview?.type, preview?.id, preview?.assetId]);
   useEffect(() => {
@@ -55,7 +59,8 @@ export default function WorldCanvas({world, resources, preview, placement, selec
     const direction = {ArrowLeft: [-1,0], ArrowRight: [1,0], ArrowUp: [0,-1], ArrowDown: [0,1]}[event.key];
     if (!direction || !camera) return;
     event.preventDefault();
-    if (preview) onCell({x: (preview.x ?? Math.floor(camera.x / 32)) + direction[0], y: (preview.y ?? Math.floor(camera.y / 32)) + direction[1]});
+    if (expand) {const side = BALANCE.chunkSize; onCell({x: ((preview.x ?? Math.floor(camera.x / (side * 32))) + direction[0]) * side + side / 2, y: ((preview.y ?? Math.floor(camera.y / (side * 32))) + direction[1]) * side + side / 2});}
+    else if (preview) onCell({x: (preview.x ?? Math.floor(camera.x / 32)) + direction[0], y: (preview.y ?? Math.floor(camera.y / 32)) + direction[1]});
     else setCamera(constrainSceneCamera({...camera, x: camera.x + direction[0] * 16, y: camera.y + direction[1] * 16}, scene, size.width, size.height));
   };
   const origin = camera ? cameraOrigin(camera, size.width, size.height) : [0,0];

@@ -1,0 +1,13 @@
+{
+  "baselineFiles": 998,
+  "missing": 0,
+  "unchanged": 994,
+  "authorizedChanged": [
+    ".codex/agents/builder.toml",
+    "AGENTS.md",
+    "docs/growth-game.md",
+    "package.json"
+  ],
+  "mainUnchanged": true,
+  "v4Unchanged": true
+}

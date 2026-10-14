@@ -1,0 +1,56 @@
+✖ growth feedback distinguishes ecological steps from final changed plants (1.571167ms)
+✖ no-op effort feedback never announces new resources or ecological progress (0.306708ms)
+✖ free adjustments and paid building feedback leave permanent XP unchanged (0.414583ms)
+✖ expansion preview extends overview into negative candidates without granting tiles or moving objects (0.451625ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 0
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 85.208083
+
+✖ failing tests:
+
+test at tests/game-integration.test.mjs:8:1
+✖ growth feedback distinguishes ecological steps from final changed plants (1.571167ms)
+  TypeError: view.gameChangeSummary is not a function
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-integration.test.mjs:10:21)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.start (node:internal/test_runner/test:1177:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17)
+
+test at tests/game-integration.test.mjs:13:1
+✖ no-op effort feedback never announces new resources or ecological progress (0.306708ms)
+  TypeError: view.gameChangeSummary is not a function
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-integration.test.mjs:15:24)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3)
+
+test at tests/game-integration.test.mjs:17:1
+✖ free adjustments and paid building feedback leave permanent XP unchanged (0.414583ms)
+  TypeError: view.gameChangeSummary is not a function
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-integration.test.mjs:19:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-integration.test.mjs:21:1
+✖ expansion preview extends overview into negative candidates without granting tiles or moving objects (0.451625ms)
+  TypeError: view.withExpansionBounds is not a function
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-integration.test.mjs:22:70)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)

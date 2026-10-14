@@ -1,0 +1,208 @@
+✖ fingerprints hash exact original UTF-8 text and distinguish absent records from JSON text (4.186042ms)
+✖ missing IndexedDB or crypto makes the safety guard explicitly unavailable without writes (0.128834ms)
+✖ bootstrap and subsequent atomic CAS retain metadata only and refuse an obsolete expected token (0.100709ms)
+✖ reserve waits for transaction complete even after request success; aborted commit publishes no checkpoint (0.460917ms)
+✖ failed reservation rollback keeps the fence; only the original owner and identical candidate may resume (0.127417ms)
+✖ rollback never changes a checkpoint already replaced by a newer owner reservation (0.084833ms)
+✖ leading, malformed and unknown checkpoint metadata stays intact and blocks unsafe verification (0.087959ms)
+✖ transient native database open denial can be retried without clearing or migrating any record (0.071875ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 0
+ℹ fail 8
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 80.062333
+
+✖ failing tests:
+
+test at tests/game-checkpoint.test.mjs:73:1
+✖ fingerprints hash exact original UTF-8 text and distinguish absent records from JSON text (4.186042ms)
+  AssertionError [ERR_ASSERTION]: the native checkpoint adapter must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at checkpoint (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-checkpoint.test.mjs:68:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-checkpoint.test.mjs:74:17)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.start (node:internal/test_runner/test:1177:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-checkpoint.test.mjs:80:1
+✖ missing IndexedDB or crypto makes the safety guard explicitly unavailable without writes (0.128834ms)
+  AssertionError [ERR_ASSERTION]: the native checkpoint adapter must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at checkpoint (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-checkpoint.test.mjs:68:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-checkpoint.test.mjs:82:19)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-checkpoint.test.mjs:89:1
+✖ bootstrap and subsequent atomic CAS retain metadata only and refuse an obsolete expected token (0.100709ms)
+  AssertionError [ERR_ASSERTION]: the native checkpoint adapter must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at checkpoint (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-checkpoint.test.mjs:68:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-checkpoint.test.mjs:90:44)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-checkpoint.test.mjs:103:1
+✖ reserve waits for transaction complete even after request success; aborted commit publishes no checkpoint (0.460917ms)
+  AssertionError [ERR_ASSERTION]: the native checkpoint adapter must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at checkpoint (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-checkpoint.test.mjs:68:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-checkpoint.test.mjs:104:44)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-checkpoint.test.mjs:119:1
+✖ failed reservation rollback keeps the fence; only the original owner and identical candidate may resume (0.127417ms)
+  AssertionError [ERR_ASSERTION]: the native checkpoint adapter must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at checkpoint (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-checkpoint.test.mjs:68:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-checkpoint.test.mjs:120:47)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-checkpoint.test.mjs:135:1
+✖ rollback never changes a checkpoint already replaced by a newer owner reservation (0.084833ms)
+  AssertionError [ERR_ASSERTION]: the native checkpoint adapter must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at checkpoint (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-checkpoint.test.mjs:68:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-checkpoint.test.mjs:136:40)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-checkpoint.test.mjs:144:1
+✖ leading, malformed and unknown checkpoint metadata stays intact and blocks unsafe verification (0.087959ms)
+  AssertionError [ERR_ASSERTION]: the native checkpoint adapter must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at checkpoint (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-checkpoint.test.mjs:68:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-checkpoint.test.mjs:145:44)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/game-checkpoint.test.mjs:156:1
+✖ transient native database open denial can be retried without clearing or migrating any record (0.071875ms)
+  AssertionError [ERR_ASSERTION]: the native checkpoint adapter must exist
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at checkpoint (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-checkpoint.test.mjs:68:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-checkpoint.test.mjs:157:44)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

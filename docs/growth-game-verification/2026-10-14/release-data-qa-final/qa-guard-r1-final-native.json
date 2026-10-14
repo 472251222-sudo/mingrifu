@@ -1,0 +1,582 @@
+{
+  "chrome": "155.0.8059.40",
+  "start": {
+    "GameApp.jsx": "20bec0ec365694797ecaa26cbf719bbe39190f10a9c2a36a27a928a72bbf44ef",
+    "persistence.js": "b44b293cc654654752dbbd2b04b7086b29ad07b498881596566c0069175dfcb7",
+    "checkpoint.js": "094c4b3c6e099bc3bd1bfb8080e02171c75cbf8b893f02bd4fe2efdcd7b12398",
+    "useGameWorld.js": "f9589a1fc809e911c04682ae3d8dc23960b2eeb672b99f370b1e4a9f446d2f99"
+  },
+  "end": {
+    "GameApp.jsx": "20bec0ec365694797ecaa26cbf719bbe39190f10a9c2a36a27a928a72bbf44ef",
+    "persistence.js": "b44b293cc654654752dbbd2b04b7086b29ad07b498881596566c0069175dfcb7",
+    "checkpoint.js": "094c4b3c6e099bc3bd1bfb8080e02171c75cbf8b893f02bd4fe2efdcd7b12398",
+    "useGameWorld.js": "f9589a1fc809e911c04682ae3d8dc23960b2eeb672b99f370b1e4a9f446d2f99"
+  },
+  "sourceStable": true,
+  "results": [
+    {
+      "name": "native-production-race",
+      "index": 0,
+      "base": "http://127.0.0.1:5189/",
+      "order": "B-A",
+      "tokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "615C28ECFE9261BF9A724BC8D11BB722",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "C1247AFA13F2A88F7B176F15F116319E",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "615C28ECFE9261BF9A724BC8D11BB722",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "status": "passed",
+      "winnerXP": 25,
+      "loserOldXP": 0,
+      "eventIDs": [
+        "a68b248c-b3a1-49f0-b78a-f52dfa8db494"
+      ],
+      "metadata": {
+        "record": {
+          "schemaVersion": 1,
+          "digest": "f4d51baf5b207fa7f3eaaa5fcccf7f3a99bdb427ff556bd7134cda30bc19524c",
+          "revision": 1,
+          "previousDigest": "a72f5ceb91107fc820deaee708c74b3238d882d094d101caecee93d715b441e3",
+          "previousRevision": 0,
+          "owner": "4956d1c0-a829-4fcd-bc0f-af3a965e26bc"
+        },
+        "count": 1
+      },
+      "reloadMessage": "已重新读取当前世界。",
+      "errors": []
+    },
+    {
+      "name": "native-production-race",
+      "index": 1,
+      "base": "http://127.0.0.1:5189/",
+      "order": "A-B",
+      "tokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "B39590B52C8241517F3C1705CE0632D5",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "B39590B52C8241517F3C1705CE0632D5",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "644CB94337D270A5C2D30B270835D433",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "status": "passed",
+      "winnerXP": 10,
+      "loserOldXP": 0,
+      "eventIDs": [
+        "f70c7e5e-85c0-4a17-a20d-87e9d9a1861b"
+      ],
+      "metadata": {
+        "record": {
+          "schemaVersion": 1,
+          "digest": "1450433688974119d2db5cac1586aef7bede002dbdd35a34458c192ef6cb1a11",
+          "revision": 1,
+          "previousDigest": "a72f5ceb91107fc820deaee708c74b3238d882d094d101caecee93d715b441e3",
+          "previousRevision": 0,
+          "owner": "108f0ecb-c3ca-41b5-b917-6b1b991792a3"
+        },
+        "count": 1
+      },
+      "reloadMessage": "已重新读取当前世界。",
+      "errors": []
+    },
+    {
+      "name": "native-production-race",
+      "index": 2,
+      "base": "http://127.0.0.1:5189/",
+      "order": "B-A",
+      "tokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "7B79E07C8F87ABEE8CF0381507062D63",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "D8F12944C033A9B89EBA86B8E92727F5",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "7B79E07C8F87ABEE8CF0381507062D63",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "status": "passed",
+      "winnerXP": 25,
+      "loserOldXP": 0,
+      "eventIDs": [
+        "2b3778f3-58e0-4cac-a337-cf40fb62c925"
+      ],
+      "metadata": {
+        "record": {
+          "schemaVersion": 1,
+          "digest": "d56e644270c8ec055654e81c0ae0ee721347b5e8b74832a4535da2125c5f62a1",
+          "revision": 1,
+          "previousDigest": "a72f5ceb91107fc820deaee708c74b3238d882d094d101caecee93d715b441e3",
+          "previousRevision": 0,
+          "owner": "892efe54-394a-4c35-a10f-89deff127802"
+        },
+        "count": 1
+      },
+      "reloadMessage": "已重新读取当前世界。",
+      "errors": []
+    },
+    {
+      "name": "native-production-race",
+      "index": 3,
+      "base": "http://127.0.0.1:5189/",
+      "order": "A-B",
+      "tokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "47135D4941EDB4BDA3DC93A5C9F174C0",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "47135D4941EDB4BDA3DC93A5C9F174C0",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "DA89CEC6D4C63D33D1F1F83683DDB516",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "status": "passed",
+      "winnerXP": 10,
+      "loserOldXP": 0,
+      "eventIDs": [
+        "597257e0-2f55-49c4-9d38-f4d62457624e"
+      ],
+      "metadata": {
+        "record": {
+          "schemaVersion": 1,
+          "digest": "401bfe3ebaab6b1aa05c130e896e8458827d8db41c11967841eaebd19be96f4c",
+          "revision": 1,
+          "previousDigest": "a72f5ceb91107fc820deaee708c74b3238d882d094d101caecee93d715b441e3",
+          "previousRevision": 0,
+          "owner": "32652050-f570-4961-8092-baf3059fdfae"
+        },
+        "count": 1
+      },
+      "reloadMessage": "已重新读取当前世界。",
+      "errors": []
+    },
+    {
+      "name": "native-production-race",
+      "index": 4,
+      "base": "http://127.0.0.1:5189/",
+      "order": "B-A",
+      "tokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "86AFA4B3EC5ACE5F01D406300E7C4032",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "C4A4913AF9B98DD9EA8AEC3D9F6950B3",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "86AFA4B3EC5ACE5F01D406300E7C4032",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "status": "passed",
+      "winnerXP": 25,
+      "loserOldXP": 0,
+      "eventIDs": [
+        "4dc7d05e-6644-460e-9968-0f1a1251409b"
+      ],
+      "metadata": {
+        "record": {
+          "schemaVersion": 1,
+          "digest": "7f742bee0571f189dbcd3f80f92485af97b5200e617f4a23b48c88e56a08aa68",
+          "revision": 1,
+          "previousDigest": "a72f5ceb91107fc820deaee708c74b3238d882d094d101caecee93d715b441e3",
+          "previousRevision": 0,
+          "owner": "1612cf30-77c9-492b-beaf-34a3148fdd05"
+        },
+        "count": 1
+      },
+      "reloadMessage": "已重新读取当前世界。",
+      "errors": []
+    },
+    {
+      "name": "native-production-race",
+      "index": 5,
+      "base": "http://127.0.0.1:5189/",
+      "order": "A-B",
+      "tokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "10E9D6960DB8808034C59B542972BB85",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "10E9D6960DB8808034C59B542972BB85",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "4D70FE618CAF5E43224B9689E23207F7",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "status": "passed",
+      "winnerXP": 10,
+      "loserOldXP": 0,
+      "eventIDs": [
+        "f8e82929-228d-4551-9390-6f661d5b45d5"
+      ],
+      "metadata": {
+        "record": {
+          "schemaVersion": 1,
+          "digest": "3e7f8a476a3f4806c285872fddd67ede436dba077d8d5caf31c0aeedc4b6473d",
+          "revision": 1,
+          "previousDigest": "a72f5ceb91107fc820deaee708c74b3238d882d094d101caecee93d715b441e3",
+          "previousRevision": 0,
+          "owner": "33c7449c-b3a4-4d46-8fa8-642f832d9161"
+        },
+        "count": 1
+      },
+      "reloadMessage": "已重新读取当前世界。",
+      "errors": []
+    },
+    {
+      "name": "native-production-race",
+      "index": 6,
+      "base": "http://127.0.0.1:5190/",
+      "order": "B-A",
+      "tokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "1FC65C572BB6759DD9306C30C42B51BA",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "E7CDBEAA505A29176E67E10150D7FDF0",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "1FC65C572BB6759DD9306C30C42B51BA",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "status": "passed",
+      "winnerXP": 25,
+      "loserOldXP": 0,
+      "eventIDs": [
+        "2a36160a-46c5-4d02-991d-b291fd403d61"
+      ],
+      "metadata": {
+        "record": {
+          "schemaVersion": 1,
+          "digest": "c0085c4526373364e83f4977a79f6a16111d3fd5ff54128b5d077d06d05c9d3d",
+          "revision": 1,
+          "previousDigest": "a72f5ceb91107fc820deaee708c74b3238d882d094d101caecee93d715b441e3",
+          "previousRevision": 0,
+          "owner": "086943cf-f2ad-4ca1-8687-a05f4a9afe1e"
+        },
+        "count": 1
+      },
+      "reloadMessage": "已重新读取当前世界。",
+      "errors": []
+    },
+    {
+      "name": "native-production-race",
+      "index": 7,
+      "base": "http://127.0.0.1:5190/",
+      "order": "A-B",
+      "tokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "74339599269F2500D15A797B74118279",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "74339599269F2500D15A797B74118279",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "97173814C548551EB1011C1869429B4D",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "status": "passed",
+      "winnerXP": 10,
+      "loserOldXP": 0,
+      "eventIDs": [
+        "536bb629-30f3-4f87-b085-56ce4e2c1f51"
+      ],
+      "metadata": {
+        "record": {
+          "schemaVersion": 1,
+          "digest": "ddb9f5e91b0d6b8e1c99d2933c6a9b021ac0f06be6c19c8179bcd18cbf5ed5c7",
+          "revision": 1,
+          "previousDigest": "a72f5ceb91107fc820deaee708c74b3238d882d094d101caecee93d715b441e3",
+          "previousRevision": 0,
+          "owner": "cd2936df-98f6-40e5-94b3-d44e1533b07f"
+        },
+        "count": 1
+      },
+      "reloadMessage": "已重新读取当前世界。",
+      "errors": []
+    },
+    {
+      "name": "native-production-race",
+      "index": 8,
+      "base": "http://127.0.0.1:5190/",
+      "order": "B-A",
+      "tokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "01FFC4BD93969B713A77CB6EDF88D9DB",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "A04EC9697833E06D0BA5C13B102EA2B4",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "01FFC4BD93969B713A77CB6EDF88D9DB",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "status": "passed",
+      "winnerXP": 25,
+      "loserOldXP": 0,
+      "eventIDs": [
+        "cc0e1a5e-f0e7-4ea8-b620-1fca0a1d3620"
+      ],
+      "metadata": {
+        "record": {
+          "schemaVersion": 1,
+          "digest": "93038986dbc6deac965607d026884360c43fd611025b687f512778cfcd553d41",
+          "revision": 1,
+          "previousDigest": "a72f5ceb91107fc820deaee708c74b3238d882d094d101caecee93d715b441e3",
+          "previousRevision": 0,
+          "owner": "f131784f-2037-4449-be9e-7e216810c63f"
+        },
+        "count": 1
+      },
+      "reloadMessage": "已重新读取当前世界。",
+      "errors": []
+    },
+    {
+      "name": "native-production-race",
+      "index": 9,
+      "base": "http://127.0.0.1:5190/",
+      "order": "A-B",
+      "tokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "71CBDC39157E0693F817A17B2E4FC55B",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "71CBDC39157E0693F817A17B2E4FC55B",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "D89F8319938AEE12F012067898C7E062",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "status": "passed",
+      "winnerXP": 10,
+      "loserOldXP": 0,
+      "eventIDs": [
+        "4d8dae27-a68c-43e7-9e58-440a237e1dab"
+      ],
+      "metadata": {
+        "record": {
+          "schemaVersion": 1,
+          "digest": "8c78483138fa623ce7767cd2f3a54d33982266809e832c404a57c7e5347fd88c",
+          "revision": 1,
+          "previousDigest": "a72f5ceb91107fc820deaee708c74b3238d882d094d101caecee93d715b441e3",
+          "previousRevision": 0,
+          "owner": "63186007-e37d-4f9f-acd6-6759ef8b0e76"
+        },
+        "count": 1
+      },
+      "reloadMessage": "已重新读取当前世界。",
+      "errors": []
+    },
+    {
+      "name": "native-production-race",
+      "index": 10,
+      "base": "http://127.0.0.1:5190/",
+      "order": "B-A",
+      "tokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "35B99D8E61FF44F5D1D0816C3B2EF48B",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "01CB45C91ADD5A0AB0930C468F62180A",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "35B99D8E61FF44F5D1D0816C3B2EF48B",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "status": "passed",
+      "winnerXP": 25,
+      "loserOldXP": 0,
+      "eventIDs": [
+        "e3d94775-86a5-4461-ac03-895d00eff069"
+      ],
+      "metadata": {
+        "record": {
+          "schemaVersion": 1,
+          "digest": "e75dd40eae8f88243dcad18ace9d64cd851c312bf818e6a77afb67160c16ddc8",
+          "revision": 1,
+          "previousDigest": "a72f5ceb91107fc820deaee708c74b3238d882d094d101caecee93d715b441e3",
+          "previousRevision": 0,
+          "owner": "3393d69a-faa6-42e2-8708-bdef1f16d94e"
+        },
+        "count": 1
+      },
+      "reloadMessage": "已重新读取当前世界。",
+      "errors": []
+    },
+    {
+      "name": "native-production-race",
+      "index": 11,
+      "base": "http://127.0.0.1:5190/",
+      "order": "A-B",
+      "tokensEqual": true,
+      "queue": {
+        "held": [
+          {
+            "clientId": "1B03223D24F9DD2053F4064A42D3834F",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ],
+        "pending": [
+          {
+            "clientId": "1B03223D24F9DD2053F4064A42D3834F",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          },
+          {
+            "clientId": "807B80F57734FEB14549C938A4A2D022",
+            "mode": "exclusive",
+            "name": "mingrifu-growth-game-v1:save"
+          }
+        ]
+      },
+      "status": "passed",
+      "winnerXP": 10,
+      "loserOldXP": 0,
+      "eventIDs": [
+        "210f1847-2931-405f-a68a-7e6ba20a1a71"
+      ],
+      "metadata": {
+        "record": {
+          "schemaVersion": 1,
+          "digest": "b838dbbdd33de20045a6f39374547b01e44faf6825c94df0c0fb01df20fd0274",
+          "revision": 1,
+          "previousDigest": "a72f5ceb91107fc820deaee708c74b3238d882d094d101caecee93d715b441e3",
+          "previousRevision": 0,
+          "owner": "c987ce24-7fc2-4929-a415-5180c087bbff"
+        },
+        "count": 1
+      },
+      "reloadMessage": "已重新读取当前世界。",
+      "errors": []
+    }
+  ]
+}
