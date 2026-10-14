@@ -1,0 +1,122 @@
+{
+  "reopened": [
+    {
+      "id": "oak-broad",
+      "sourceSize": [
+        96,
+        128
+      ],
+      "reopenedSize": [
+        96,
+        128
+      ],
+      "changedPixels": 0
+    },
+    {
+      "id": "pine-slender",
+      "sourceSize": [
+        80,
+        144
+      ],
+      "reopenedSize": [
+        80,
+        144
+      ],
+      "changedPixels": 0
+    },
+    {
+      "id": "grass-tuft",
+      "sourceSize": [
+        32,
+        32
+      ],
+      "reopenedSize": [
+        32,
+        32
+      ],
+      "changedPixels": 0
+    },
+    {
+      "id": "wildflowers",
+      "sourceSize": [
+        32,
+        48
+      ],
+      "reopenedSize": [
+        32,
+        48
+      ],
+      "changedPixels": 0
+    },
+    {
+      "id": "bush",
+      "sourceSize": [
+        48,
+        48
+      ],
+      "reopenedSize": [
+        48,
+        48
+      ],
+      "changedPixels": 0
+    },
+    {
+      "id": "rock",
+      "sourceSize": [
+        32,
+        40
+      ],
+      "reopenedSize": [
+        32,
+        40
+      ],
+      "changedPixels": 0
+    },
+    {
+      "id": "fence-horizontal",
+      "sourceSize": [
+        64,
+        40
+      ],
+      "reopenedSize": [
+        64,
+        40
+      ],
+      "changedPixels": 0
+    },
+    {
+      "id": "fence-vertical",
+      "sourceSize": [
+        32,
+        80
+      ],
+      "reopenedSize": [
+        32,
+        80
+      ],
+      "changedPixels": 0
+    },
+    {
+      "id": "mailbox",
+      "sourceSize": [
+        40,
+        48
+      ],
+      "reopenedSize": [
+        40,
+        48
+      ],
+      "changedPixels": 0
+    }
+  ],
+  "rebuilt": {
+    "id": "oak-broad",
+    "pixelsIdentical": true,
+    "size": [
+      96,
+      128
+    ]
+  },
+  "passed": true,
+  "scope": "all 9 projects reopened; oak rebuilt from script; same Blender/CPU settings only"
+}

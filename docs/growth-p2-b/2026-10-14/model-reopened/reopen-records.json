@@ -1,0 +1,56 @@
+[
+  {
+    "id": "bush",
+    "openedExistingBlend": true,
+    "meshObjects": 10,
+    "seconds": 0.047
+  },
+  {
+    "id": "fence-horizontal",
+    "openedExistingBlend": true,
+    "meshObjects": 9,
+    "seconds": 0.013
+  },
+  {
+    "id": "fence-vertical",
+    "openedExistingBlend": true,
+    "meshObjects": 9,
+    "seconds": 0.011
+  },
+  {
+    "id": "grass-tuft",
+    "openedExistingBlend": true,
+    "meshObjects": 6,
+    "seconds": 0.007
+  },
+  {
+    "id": "mailbox",
+    "openedExistingBlend": true,
+    "meshObjects": 8,
+    "seconds": 0.01
+  },
+  {
+    "id": "oak-broad",
+    "openedExistingBlend": true,
+    "meshObjects": 19,
+    "seconds": 0.033
+  },
+  {
+    "id": "pine-slender",
+    "openedExistingBlend": true,
+    "meshObjects": 12,
+    "seconds": 0.03
+  },
+  {
+    "id": "rock",
+    "openedExistingBlend": true,
+    "meshObjects": 3,
+    "seconds": 0.008
+  },
+  {
+    "id": "wildflowers",
+    "openedExistingBlend": true,
+    "meshObjects": 32,
+    "seconds": 0.011
+  }
+]

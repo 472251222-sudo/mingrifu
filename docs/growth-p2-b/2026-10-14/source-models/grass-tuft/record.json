@@ -1,0 +1,135 @@
+{
+  "blenderVersion": "4.5.14 LTS",
+  "semanticObjectCounts": {
+    "Leaves": 6
+  },
+  "objects": {
+    "Blade_0": {
+      "semanticPart": "Leaves",
+      "vertices": 5,
+      "faces": 1,
+      "sha256": "dfcb84658c56a438f1f9034e6166678735699cddeb535c98d7a3bb656b30488f",
+      "materials": [
+        "Leaves#588455"
+      ]
+    },
+    "Blade_1": {
+      "semanticPart": "Leaves",
+      "vertices": 5,
+      "faces": 1,
+      "sha256": "cae202089f3c95661f21f231e16df99a745d84c7b7ccf45ec3b177b0940603ff",
+      "materials": [
+        "Leaves#7da55e"
+      ]
+    },
+    "Blade_2": {
+      "semanticPart": "Leaves",
+      "vertices": 5,
+      "faces": 1,
+      "sha256": "30a50a2a209b428dcbc8b9ebd3072f19b73e0733746d441f7939b6e0c2f22b00",
+      "materials": [
+        "Leaves#a9c36e"
+      ]
+    },
+    "Blade_3": {
+      "semanticPart": "Leaves",
+      "vertices": 5,
+      "faces": 1,
+      "sha256": "36cf58d06de373c36d96b4d0d30159bf52bf072334a0e5eb68a8e60938078a4e",
+      "materials": [
+        "Leaves#588455"
+      ]
+    },
+    "Blade_4": {
+      "semanticPart": "Leaves",
+      "vertices": 5,
+      "faces": 1,
+      "sha256": "4e6d7b318b35039564785f1bcddb530d83b8635ba2d7d7829471b659566d1dd7",
+      "materials": [
+        "Leaves#7da55e"
+      ]
+    },
+    "Blade_5": {
+      "semanticPart": "Leaves",
+      "vertices": 5,
+      "faces": 1,
+      "sha256": "e0a7a09d83e250cb01af8834661a0ebbc37bd07fdbef63b30ba7166aa343c028",
+      "materials": [
+        "Leaves#a9c36e"
+      ]
+    }
+  },
+  "materials": {
+    "Leaves#588455": "#588455",
+    "Leaves#7da55e": "#7da55e",
+    "Leaves#a9c36e": "#a9c36e"
+  },
+  "camera": {
+    "type": "ORTHO",
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.6156614422798157,
+        -0.7880107760429382,
+        -7.880107879638672
+      ],
+      [
+        0.0,
+        0.7880107760429382,
+        0.6156614422798157,
+        6.632497310638428
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "orthoScale": 1.0,
+    "elevationDegrees": 38,
+    "azimuthDegrees": 0,
+    "projectedAnchor": [
+      16.0,
+      28.000030517578125
+    ]
+  },
+  "render": {
+    "engine": "CYCLES",
+    "resolution": [
+      32,
+      32
+    ],
+    "samples": 48,
+    "device": "CPU",
+    "filmTransparent": true
+  },
+  "hiddenInteriorsBuilt": false,
+  "id": "grass-tuft",
+  "name": "弯叶草丛",
+  "kind": "vegetation",
+  "size": [
+    32,
+    32
+  ],
+  "anchor": [
+    16,
+    28
+  ],
+  "footprint": [
+    1,
+    1
+  ],
+  "status": "candidate",
+  "version": "p2-b-v1",
+  "constructionScript": "build_assets.py",
+  "renderSeconds": 0.003,
+  "buildAndRenderSeconds": 0.029,
+  "originalEngineering": "docs/growth-p2-b/2026-10-14/source-models/grass-tuft/grass-tuft.blend"
+}

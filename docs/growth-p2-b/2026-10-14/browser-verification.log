@@ -1,0 +1,17 @@
+file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/docs/growth-p2-b/2026-10-14/verify_browser.mjs:39
+ const {context,page}=await create(1000,1000);try{await context.route('**/oak-broad.png',r=>r.fulfill({status:404,body:''}));await page.goto(url);await page.getByRole('heading',{name:'家园素材没有完整加载'}).waitFor();assert.equal(await page.locator('.hs-world-host canvas').count(),0);await shot(page,'missing-asset-error');await context.unroute('**/oak-broad.png');await page.getByRole('button',{name:'重新加载素材',exact:true}).click();await page.locator('canvas[data-ready="true"]').waitFor();await untouched(page);results.push({name:'asset failure and recovery',passed:true})}finally{await context.close()}
+        ^
+
+SyntaxError: Identifier 'context' has already been declared
+    at compileSourceTextModule (node:internal/modules/esm/utils:318:16)
+    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:90:18)
+    at #translate (node:internal/modules/esm/loader:435:20)
+    at afterLoad (node:internal/modules/esm/loader:491:29)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:496:12)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:549:36)
+    at afterResolve (node:internal/modules/esm/loader:597:52)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:12)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:622:32)
+    at TracingChannel.tracePromise (node:diagnostics_channel:362:14)
+
+Node.js v24.16.0

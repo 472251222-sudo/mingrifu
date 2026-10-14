@@ -1,0 +1,193 @@
+{
+  "blenderVersion": "4.5.14 LTS",
+  "semanticObjectCounts": {
+    "Canopy": 8,
+    "Roots": 3,
+    "Trunk": 1
+  },
+  "objects": {
+    "Bough_tier_0": {
+      "semanticPart": "Canopy",
+      "vertices": 49,
+      "faces": 49,
+      "sha256": "9eee0aae1c7ffd11626751623bf94c19c2fc39a1c291736f1f2ac5d06b0eae3f",
+      "materials": [
+        "Canopy#3b6550"
+      ]
+    },
+    "Bough_tier_1": {
+      "semanticPart": "Canopy",
+      "vertices": 49,
+      "faces": 49,
+      "sha256": "c6738f71ac6fad8255b06409d31cf070f5380bbf6b2de34bc3ef5d07268312f4",
+      "materials": [
+        "Canopy#588455"
+      ]
+    },
+    "Bough_tier_2": {
+      "semanticPart": "Canopy",
+      "vertices": 49,
+      "faces": 49,
+      "sha256": "faf39b78a6446b26cc61fc96671b3702e89ed5f94c7bec923a2b22fdfbd5817f",
+      "materials": [
+        "Canopy#588455"
+      ]
+    },
+    "Bough_tier_3": {
+      "semanticPart": "Canopy",
+      "vertices": 49,
+      "faces": 49,
+      "sha256": "5c52dccef8a03a837a1e13e939277198dc9c2687942ea9e418557916455567e7",
+      "materials": [
+        "Canopy#7da55e"
+      ]
+    },
+    "Bough_tier_4": {
+      "semanticPart": "Canopy",
+      "vertices": 49,
+      "faces": 49,
+      "sha256": "87c1fe129c0497c53387f4a9be1f1847461c580e3b5f89eff34c7541e6ccf8a6",
+      "materials": [
+        "Canopy#7da55e"
+      ]
+    },
+    "Bough_tip_0": {
+      "semanticPart": "Canopy",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "05e03a7786a6f4fcab379338c5049394d2418b592b0f166f4cd589312d3f9d68",
+      "materials": [
+        "Canopy#588455"
+      ]
+    },
+    "Bough_tip_1": {
+      "semanticPart": "Canopy",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "b0e4f63873784f5ebd1e85dfe22367cd6c03985c4431e7c1819f522d27807975",
+      "materials": [
+        "Canopy#588455"
+      ]
+    },
+    "Bough_tip_2": {
+      "semanticPart": "Canopy",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "de7034046aa92436a27a837d381c4729048ae2c033a5404fc2553ebe0d0d83f3",
+      "materials": [
+        "Canopy#588455"
+      ]
+    },
+    "Root_0": {
+      "semanticPart": "Roots",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "246dd23104ffa7795c7563e56936350090964d195b3eb072ad17e96933762d83",
+      "materials": [
+        "Roots#795643"
+      ]
+    },
+    "Root_1": {
+      "semanticPart": "Roots",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "bebc198bdc0b5c00d0fc21ba2280a75dbcd736ab134ec8ff3cecfc20b0212179",
+      "materials": [
+        "Roots#795643"
+      ]
+    },
+    "Root_2": {
+      "semanticPart": "Roots",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "6fcf5850a67d062221494b19ac1df4dbf522b8e09076286fb352b7b2f0f3cb73",
+      "materials": [
+        "Roots#795643"
+      ]
+    },
+    "Slender_trunk": {
+      "semanticPart": "Trunk",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "cfe8b8adf6b4b6285db8d3232e979c8d13eaa39b3c211a47ea3a5f235b840e58",
+      "materials": [
+        "Trunk#795643"
+      ]
+    }
+  },
+  "materials": {
+    "Canopy#3b6550": "#3b6550",
+    "Canopy#588455": "#588455",
+    "Canopy#7da55e": "#7da55e",
+    "Roots#795643": "#795643",
+    "Trunk#795643": "#795643"
+  },
+  "camera": {
+    "type": "ORTHO",
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.6156614422798157,
+        -0.7880107760429382,
+        -7.880107879638672
+      ],
+      [
+        0.0,
+        0.7880107760429382,
+        0.6156614422798157,
+        8.53602409362793
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "orthoScale": 4.5,
+    "elevationDegrees": 38,
+    "azimuthDegrees": 0,
+    "projectedAnchor": [
+      40.0,
+      132.00001573562622
+    ]
+  },
+  "render": {
+    "engine": "CYCLES",
+    "resolution": [
+      80,
+      144
+    ],
+    "samples": 48,
+    "device": "CPU",
+    "filmTransparent": true
+  },
+  "hiddenInteriorsBuilt": false,
+  "id": "pine-slender",
+  "name": "高冠青杉",
+  "kind": "tree",
+  "size": [
+    80,
+    144
+  ],
+  "anchor": [
+    40,
+    132
+  ],
+  "footprint": [
+    1,
+    1
+  ],
+  "status": "candidate",
+  "version": "p2-b-v1",
+  "constructionScript": "build_assets.py",
+  "renderSeconds": 0.027,
+  "buildAndRenderSeconds": 0.055,
+  "originalEngineering": "docs/growth-p2-b/2026-10-14/source-models/pine-slender/pine-slender.blend"
+}

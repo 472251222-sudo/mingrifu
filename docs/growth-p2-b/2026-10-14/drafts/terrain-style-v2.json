@@ -1,0 +1,10 @@
+{
+  "version":"p2-b-v1",
+  "tileSize":32,
+  "paletteSource":"docs/growth-blender-experiment/2026-10-13/cabin-config.json",
+  "grass":{"base":"#7da55e","leafShadow":"#588455","leafLight":"#a9c36e","softLeaf":"#75835a","variants":8,"clusterCounts":[4,6,8,5,7,4,6,9]},
+  "dirt":{"base":"#a07652","edge":"#795643","light":"#c39b6a","patch":"#795643"},
+  "path":{"base":"#c39b6a","edge":"#a07652","light":"#e2bd86","patch":"#a07652"},
+  "transition":{"grassRim":"#75835a","vergePixels":3,"outsideCornerRadius":6,"insideCornerRadius":3},
+  "construction":"Designed integer pixel clusters and 47-state corner rules. No blur or random single-pixel noise; interior texture leaves a shared edge signature."
+}

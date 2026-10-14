@@ -1,0 +1,33 @@
+{
+  "tileSize": 32,
+  "worldCells": [
+    10,
+    8
+  ],
+  "origin": [
+    3,
+    4
+  ],
+  "footprint": [
+    3,
+    2
+  ],
+  "spriteAnchor": [
+    48,
+    112
+  ],
+  "worldAnchor": [
+    144,
+    192
+  ],
+  "spriteTopLeft": [
+    96,
+    80
+  ],
+  "groundProjection": "orthogonal-square",
+  "cameraAzimuthDegrees": 0,
+  "cameraElevationDegrees": 38,
+  "groundSource": "original deterministic diagnostic tile, not a production tileset",
+  "castShadow": "separate stylized scene-compositing layer, not baked into sprite",
+  "detail": "Sprite depth is intentionally foreshortened; 3x2 logical placement does not imply physically identical Y scale to a square ground tile."
+}

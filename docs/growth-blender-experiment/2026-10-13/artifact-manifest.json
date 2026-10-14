@@ -1,0 +1,1251 @@
+{
+  "fileCount": 249,
+  "totalBytes": 61774747,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 15090,
+      "sha256": "942bc0e3b227bfe1d88982b38a56c76ae82f57c20f59038ed6f29894e16026f9"
+    },
+    {
+      "path": "build_cabin.py",
+      "bytes": 29455,
+      "sha256": "5d35f1003b2f3cfc9243b1b3d7ed93eef61945105523ed9a9e348f22488b2688"
+    },
+    {
+      "path": "cabin-config.json",
+      "bytes": 2918,
+      "sha256": "6323195ba0bc04621f336c26daea5e69be126848f51624742cfdab749e7ef6fe"
+    },
+    {
+      "path": "candidate/blue-reopened/cabin-deep-blue-raw.png",
+      "bytes": 16814,
+      "sha256": "151cc779cba835a5799d113d6c614374aae5449c265292e86643e2feb983d8b9"
+    },
+    {
+      "path": "candidate/blue-reopened/cabin-deep-blue-scene.json",
+      "bytes": 70342,
+      "sha256": "afeb33738a02bb19db35e635e8fc77e8cbcc58e6eeccc5ef2f9232dc8fa113d4"
+    },
+    {
+      "path": "candidate/blue-reopened/cabin-deep-blue-sprite-quality.json",
+      "bytes": 2311,
+      "sha256": "8679be24bec3ab71c9105b4f6f77d5fdf9c7785c8e3dd60adf8c51cd2c8d7fc7"
+    },
+    {
+      "path": "candidate/blue-reopened/cabin-deep-blue-sprite.png",
+      "bytes": 5247,
+      "sha256": "1b91a60b97195160938190a61db928b698b7c2d1dde092e38984489380fd9d19"
+    },
+    {
+      "path": "candidate/blue-reopened/cabin-deep-blue.blend",
+      "bytes": 2607843,
+      "sha256": "b9d49c2b965d9a9391d3e02a9b22726b610964e32f73ab9a45de2b919bf5ab1c"
+    },
+    {
+      "path": "candidate/blue-reopened/pixel-export-deep-blue.log",
+      "bytes": 2311,
+      "sha256": "8679be24bec3ab71c9105b4f6f77d5fdf9c7785c8e3dd60adf8c51cd2c8d7fc7"
+    },
+    {
+      "path": "candidate/blue-reopened/reopen-blue-rerender.log",
+      "bytes": 35214,
+      "sha256": "18c820412e4e07b446987ad06e564092a788956f138bcd0bfb3d9f680adb9441"
+    },
+    {
+      "path": "candidate/build-original.log",
+      "bytes": 102856,
+      "sha256": "b1a19395398973d1143889e44a0334bff0de164856300e2bb1f1ec157e1c716a"
+    },
+    {
+      "path": "candidate/build_cabin.py",
+      "bytes": 29333,
+      "sha256": "e73a0a16b38491d3c853d5d0f6e2b24237b9af5ef828946bdf8dff4f7431c510"
+    },
+    {
+      "path": "candidate/cabin-config.json",
+      "bytes": 2563,
+      "sha256": "4c4e64c24063a9f6073a3621873cc84743d26f1720ad286605a765222c309eea"
+    },
+    {
+      "path": "candidate/cabin-deep-blue-close.png",
+      "bytes": 8137,
+      "sha256": "aba32f21b1027ceb26e882ebd73b45d9f56242de49158900789676228be20978"
+    },
+    {
+      "path": "candidate/cabin-terracotta-close.png",
+      "bytes": 8455,
+      "sha256": "b53f37b46ec0201afd4cfae6c06213985f11600a3abdbae4e10935f834002c50"
+    },
+    {
+      "path": "candidate/cabin-terracotta-raw.png",
+      "bytes": 16848,
+      "sha256": "5f94b2d2637e22d4b606cf5a2df5823dab8d3eda6b38f74cbef9974d3dc464fc"
+    },
+    {
+      "path": "candidate/cabin-terracotta-scene.json",
+      "bytes": 70417,
+      "sha256": "1e2c73d070898e1d135c20eee44a3e06c350469ac04811dce5d9d499ce5c7710"
+    },
+    {
+      "path": "candidate/cabin-terracotta-sprite-quality.json",
+      "bytes": 2285,
+      "sha256": "e791beb658798e34d9c4f5040fbf7d0bc339d54943a567447b41e665499e51ef"
+    },
+    {
+      "path": "candidate/cabin-terracotta-sprite.png",
+      "bytes": 6336,
+      "sha256": "3fd36abe2f6624fa00a9508a71ecc7cde58e88c0826f6596f502e66bffc538ca"
+    },
+    {
+      "path": "candidate/cabin-terracotta.blend",
+      "bytes": 2607844,
+      "sha256": "5875426f22e6574d6741e81def0cefcab8fce0a77792a4b45535b8b6019438f8"
+    },
+    {
+      "path": "candidate/deep-blue/cabin-deep-blue-raw.png",
+      "bytes": 16810,
+      "sha256": "bb339890e75df9eb5b5ecdab2b76788869aa99ec1a77209b7063f1f0d07c4b31"
+    },
+    {
+      "path": "candidate/deep-blue/cabin-deep-blue-scene.json",
+      "bytes": 70343,
+      "sha256": "19e0923483f1121d4ad53c8d5d4eb222857f2126e1e59db3daeb7074da27f055"
+    },
+    {
+      "path": "candidate/deep-blue/cabin-deep-blue-sprite-quality.json",
+      "bytes": 2303,
+      "sha256": "9b1b33851688a580d66c2ff678cd7a5c6731c46e7630405dfa744e6853bc3253"
+    },
+    {
+      "path": "candidate/deep-blue/cabin-deep-blue-sprite.png",
+      "bytes": 5247,
+      "sha256": "1b91a60b97195160938190a61db928b698b7c2d1dde092e38984489380fd9d19"
+    },
+    {
+      "path": "candidate/deep-blue/cabin-deep-blue.blend",
+      "bytes": 2607843,
+      "sha256": "d10cf81f9f41a5ae753de54a1c3cd0592a037184bf3ee3d74a54be78f1054172"
+    },
+    {
+      "path": "candidate/deep-blue/pixel-export-deep-blue.log",
+      "bytes": 2303,
+      "sha256": "9b1b33851688a580d66c2ff678cd7a5c6731c46e7630405dfa744e6853bc3253"
+    },
+    {
+      "path": "candidate/deep-blue/reopen-change-roof.log",
+      "bytes": 35045,
+      "sha256": "1a7f5479ad2a04380f5e851923610da82100b35a52ac203edd371d18916c27a0"
+    },
+    {
+      "path": "candidate/model-preview.png",
+      "bytes": 121653,
+      "sha256": "b730b63c4b57233df17c479461dbc66f8d6862a453f7c9c524f12155932ec380"
+    },
+    {
+      "path": "candidate/pipeline-jobs.json",
+      "bytes": 8159,
+      "sha256": "695225421398ad4ec1374cbec93868b3f9c79a957097b23dbda55268b7cf7d62"
+    },
+    {
+      "path": "candidate/pixel-export-terracotta.log",
+      "bytes": 2285,
+      "sha256": "e791beb658798e34d9c4f5040fbf7d0bc339d54943a567447b41e665499e51ef"
+    },
+    {
+      "path": "candidate/pixel_export.mjs",
+      "bytes": 5428,
+      "sha256": "b0f6440fa379964f2aac5b85df78c444bd51c447de48e9907ac7ef0730debaae"
+    },
+    {
+      "path": "candidate/rebuilt/cabin-terracotta-raw.png",
+      "bytes": 16856,
+      "sha256": "a21a5f662e58ac2b9e01076788c465475a4e457fd9d9eec064a9f7def7b24c2e"
+    },
+    {
+      "path": "candidate/rebuilt/cabin-terracotta-scene.json",
+      "bytes": 70353,
+      "sha256": "2705af5b9a0abe917f3e4a7f006eb28903d79d0e3ae67c47f0f924a2a7e4d075"
+    },
+    {
+      "path": "candidate/rebuilt/cabin-terracotta-sprite-quality.json",
+      "bytes": 2301,
+      "sha256": "dd9e7aa3998f56aa21a0a4cdf043a5b78ae8b51298fb64e8856df207febb66ce"
+    },
+    {
+      "path": "candidate/rebuilt/cabin-terracotta-sprite.png",
+      "bytes": 6336,
+      "sha256": "3fd36abe2f6624fa00a9508a71ecc7cde58e88c0826f6596f502e66bffc538ca"
+    },
+    {
+      "path": "candidate/rebuilt/cabin-terracotta.blend",
+      "bytes": 2607844,
+      "sha256": "a6175facebb714707d7de676de17fb1f4306149832475af6415dcb6ef2aeb4e3"
+    },
+    {
+      "path": "candidate/rebuilt/pixel-export-terracotta.log",
+      "bytes": 2301,
+      "sha256": "dd9e7aa3998f56aa21a0a4cdf043a5b78ae8b51298fb64e8856df207febb66ce"
+    },
+    {
+      "path": "candidate/rebuilt/rebuild-from-script.log",
+      "bytes": 34772,
+      "sha256": "8a01e4e468102bd07e0af206e1805c75285ceb5c6c2b033b011337a008e1f659"
+    },
+    {
+      "path": "candidate/reopened/cabin-terracotta-raw.png",
+      "bytes": 16857,
+      "sha256": "c9728ae5a5e1dc373085e30cf252089baeaa76765a2300fad515e2ccf80f0c02"
+    },
+    {
+      "path": "candidate/reopened/cabin-terracotta-scene.json",
+      "bytes": 70346,
+      "sha256": "6c35105aa3cb146ed83e99a22fd86cfc5db9169a945ca104efe73cc88a630c7c"
+    },
+    {
+      "path": "candidate/reopened/cabin-terracotta-sprite-quality.json",
+      "bytes": 2303,
+      "sha256": "2c4048596bd701c275bd06c6e06d95c7b4966de08bc164945892f3f18b6ff0fb"
+    },
+    {
+      "path": "candidate/reopened/cabin-terracotta-sprite.png",
+      "bytes": 6336,
+      "sha256": "3fd36abe2f6624fa00a9508a71ecc7cde58e88c0826f6596f502e66bffc538ca"
+    },
+    {
+      "path": "candidate/reopened/cabin-terracotta.blend",
+      "bytes": 2607844,
+      "sha256": "94aa4479057e7f57c5ee33ced900e7f4679f5ec0fce31a441224b28193dcbc34"
+    },
+    {
+      "path": "candidate/reopened/pixel-export-terracotta.log",
+      "bytes": 2303,
+      "sha256": "2c4048596bd701c275bd06c6e06d95c7b4966de08bc164945892f3f18b6ff0fb"
+    },
+    {
+      "path": "candidate/reopened/reopen-original-rerender.log",
+      "bytes": 34268,
+      "sha256": "059db57de2593a0a21aad9796c0e0515bc4d4dcaf471665f1c24b3a18845a878"
+    },
+    {
+      "path": "candidate/roof-visible-mask-raw.png",
+      "bytes": 4469,
+      "sha256": "472f2f7d5f4fd8b600bb233d6908ab031dad9eab4451ecb98b623f0284c6a9cf"
+    },
+    {
+      "path": "candidate/roof-visible-mask.png",
+      "bytes": 797,
+      "sha256": "92a988066d2c6c9613e0c8f417ee3d8df00c48dadcaae0f09f9086a9e9797211"
+    },
+    {
+      "path": "candidate/run_pipeline.py",
+      "bytes": 4192,
+      "sha256": "f880e4554071405fb3453817629128fb6fbde26c6e742c39c74051271474ee37"
+    },
+    {
+      "path": "candidate/verification.json",
+      "bytes": 2867,
+      "sha256": "078cdf41d1fe69acc3ebab33f506dcd74423504e5f4b080bd44ce8d112a07c0a"
+    },
+    {
+      "path": "candidate/verify_outputs.mjs",
+      "bytes": 5384,
+      "sha256": "7a29820d7808c7e1bd4ab943cc6335815d2564586972e4849f50f15399c5bee9"
+    },
+    {
+      "path": "delivery/blue-reopened/cabin-deep-blue-raw.png",
+      "bytes": 17501,
+      "sha256": "95ef0c66a3f2589354a18d7e13d0bae14e6b6fec2cb50b80406711cf3fed91c0"
+    },
+    {
+      "path": "delivery/blue-reopened/cabin-deep-blue-scene.json",
+      "bytes": 70732,
+      "sha256": "a8de68ea17eeb6a67e13301bcc3b65c7e098485983dd0c29740187a6d4750b51"
+    },
+    {
+      "path": "delivery/blue-reopened/cabin-deep-blue-sprite-quality.json",
+      "bytes": 2343,
+      "sha256": "4863536eb8604c3c8d019394f06b949dc79a8c1fc088de226148e6adbc58ad04"
+    },
+    {
+      "path": "delivery/blue-reopened/cabin-deep-blue-sprite.png",
+      "bytes": 6773,
+      "sha256": "c21a88eba6bec9144be85fdc7132efb094344d463b78ff0badb89b1dc4a2015f"
+    },
+    {
+      "path": "delivery/blue-reopened/cabin-deep-blue.blend",
+      "bytes": 2607843,
+      "sha256": "b47f10b8ab0dbd88905f55e0eaaaa8cc05b7939dc1d07859b653513b55f24b21"
+    },
+    {
+      "path": "delivery/blue-reopened/pixel-export-deep-blue.log",
+      "bytes": 2343,
+      "sha256": "4863536eb8604c3c8d019394f06b949dc79a8c1fc088de226148e6adbc58ad04"
+    },
+    {
+      "path": "delivery/blue-reopened/reopen-blue-rerender.log",
+      "bytes": 34138,
+      "sha256": "0af9acd4fa93eb9b8b078bf46a8e5d97309c34d3aecca5c6201a4e9153fe54ed"
+    },
+    {
+      "path": "delivery/build-original.log",
+      "bytes": 100240,
+      "sha256": "7ed600a4a7aa16b85c7271300aacb20d845e72a312e488e07dfb05c367eeece9"
+    },
+    {
+      "path": "delivery/cabin-terracotta-raw.png",
+      "bytes": 17565,
+      "sha256": "7239494185d258dc57e83e434293157aec0983306c13e3e6d1ef93e5b58d3c44"
+    },
+    {
+      "path": "delivery/cabin-terracotta-scene.json",
+      "bytes": 70806,
+      "sha256": "e19028a211dc4fabb4a07bfbccf18d45b8d9d517b92b1936ee1ec697c852c792"
+    },
+    {
+      "path": "delivery/cabin-terracotta-sprite-quality.json",
+      "bytes": 2317,
+      "sha256": "576f8c29afe1b1697de1bd7a37b3d31fee9f63878fc7aa783f6510b2cdb2108e"
+    },
+    {
+      "path": "delivery/cabin-terracotta-sprite.png",
+      "bytes": 6581,
+      "sha256": "457c20ad6f0876aa8498912038d3b36a55baabfa426c8125c49c3ecd783ca0fe"
+    },
+    {
+      "path": "delivery/cabin-terracotta.blend",
+      "bytes": 2607844,
+      "sha256": "e2276c41b6b7d3063d67da6bd137e9285576c5001c6a76a07cca3510634f41a0"
+    },
+    {
+      "path": "delivery/deep-blue/cabin-deep-blue-raw.png",
+      "bytes": 17497,
+      "sha256": "481e48a71ebe33c552731bd40875b0889127d6572549b38e3f58e7982eb9095e"
+    },
+    {
+      "path": "delivery/deep-blue/cabin-deep-blue-scene.json",
+      "bytes": 70732,
+      "sha256": "950f152646bbbe7be86475ad73f4355cddfca33fb39b3f4d16974a3a22bdb183"
+    },
+    {
+      "path": "delivery/deep-blue/cabin-deep-blue-sprite-quality.json",
+      "bytes": 2335,
+      "sha256": "3b5d56043c5b3219e05318ff315d1a34588d8a0b03d5d3a861a68b35dbed7767"
+    },
+    {
+      "path": "delivery/deep-blue/cabin-deep-blue-sprite.png",
+      "bytes": 6773,
+      "sha256": "c21a88eba6bec9144be85fdc7132efb094344d463b78ff0badb89b1dc4a2015f"
+    },
+    {
+      "path": "delivery/deep-blue/cabin-deep-blue.blend",
+      "bytes": 2607843,
+      "sha256": "a88c9cd9c5bfd5c8de932cafd0b5a03d6345198baf8fd63c00aae3a79c6fef98"
+    },
+    {
+      "path": "delivery/deep-blue/pixel-export-deep-blue.log",
+      "bytes": 2335,
+      "sha256": "3b5d56043c5b3219e05318ff315d1a34588d8a0b03d5d3a861a68b35dbed7767"
+    },
+    {
+      "path": "delivery/deep-blue/reopen-change-roof.log",
+      "bytes": 34291,
+      "sha256": "a5e4a3153d96aeec33038827b92cbffcd76f61c95ab281830dd9af13853d9e05"
+    },
+    {
+      "path": "delivery/model-preview.png",
+      "bytes": 124095,
+      "sha256": "0d47c24ea4ace8288fa121396596418073f32c47fa5f4ab57314fd37cb2da533"
+    },
+    {
+      "path": "delivery/pipeline-jobs.json",
+      "bytes": 9082,
+      "sha256": "9b56164d2e722ff42c8305930edd588eb63090fd86598c24f26fdf5c1ec08558"
+    },
+    {
+      "path": "delivery/pixel-export-terracotta.log",
+      "bytes": 2317,
+      "sha256": "576f8c29afe1b1697de1bd7a37b3d31fee9f63878fc7aa783f6510b2cdb2108e"
+    },
+    {
+      "path": "delivery/rebuilt/cabin-terracotta-raw.png",
+      "bytes": 17573,
+      "sha256": "bb620a6325677ce2086607e69d1ace901b6af0b7ceb6f060f48b98c332265200"
+    },
+    {
+      "path": "delivery/rebuilt/cabin-terracotta-scene.json",
+      "bytes": 70742,
+      "sha256": "4797d9081d372fa20cc4b42b45f45ea0f365379d8388915e3660b197a193c96c"
+    },
+    {
+      "path": "delivery/rebuilt/cabin-terracotta-sprite-quality.json",
+      "bytes": 2333,
+      "sha256": "81b084e9a75fff04e7cd2d260a98e3dd59e772444c64745e11789cbb92272026"
+    },
+    {
+      "path": "delivery/rebuilt/cabin-terracotta-sprite.png",
+      "bytes": 6581,
+      "sha256": "457c20ad6f0876aa8498912038d3b36a55baabfa426c8125c49c3ecd783ca0fe"
+    },
+    {
+      "path": "delivery/rebuilt/cabin-terracotta.blend",
+      "bytes": 2607844,
+      "sha256": "f8bff32b0da8843f7047a30f566a80ff93c9809d2691eede99f63e7d1ad80483"
+    },
+    {
+      "path": "delivery/rebuilt/pixel-export-terracotta.log",
+      "bytes": 2333,
+      "sha256": "81b084e9a75fff04e7cd2d260a98e3dd59e772444c64745e11789cbb92272026"
+    },
+    {
+      "path": "delivery/rebuilt/rebuild-from-script.log",
+      "bytes": 36019,
+      "sha256": "e6a2fc3de30c611ea433a2107ff1708359e317f43ce61bb20d3aeb24157c07d9"
+    },
+    {
+      "path": "delivery/reopened/cabin-terracotta-raw.png",
+      "bytes": 17574,
+      "sha256": "d01141ee827e97e0eb6296314fc86c731b0ce81ae84d0f14ec13a34af9b3f3dd"
+    },
+    {
+      "path": "delivery/reopened/cabin-terracotta-scene.json",
+      "bytes": 70735,
+      "sha256": "52b2d90d23c782fe139ade1bfe05b1dd07a272c2a90529ffcf75e49f6b253cf7"
+    },
+    {
+      "path": "delivery/reopened/cabin-terracotta-sprite-quality.json",
+      "bytes": 2335,
+      "sha256": "ff8e60c6270af945c3d3ab45497fc5698047af6f8de373ed9c4d576380de425b"
+    },
+    {
+      "path": "delivery/reopened/cabin-terracotta-sprite.png",
+      "bytes": 6581,
+      "sha256": "457c20ad6f0876aa8498912038d3b36a55baabfa426c8125c49c3ecd783ca0fe"
+    },
+    {
+      "path": "delivery/reopened/cabin-terracotta.blend",
+      "bytes": 2607844,
+      "sha256": "9481d10f64aeaf342cab4c20ecc77d2a25835c9e8e8b03c61fc24d8c8fa16889"
+    },
+    {
+      "path": "delivery/reopened/pixel-export-terracotta.log",
+      "bytes": 2335,
+      "sha256": "ff8e60c6270af945c3d3ab45497fc5698047af6f8de373ed9c4d576380de425b"
+    },
+    {
+      "path": "delivery/reopened/reopen-original-rerender.log",
+      "bytes": 35596,
+      "sha256": "2f629ecd5f024a0621a54574cdb665cae200ba45a62511e0febb46611c64bbff"
+    },
+    {
+      "path": "delivery/roof-visible-mask-raw.png",
+      "bytes": 4630,
+      "sha256": "d618fc97267970fac50935090e5d83695237e34115338e44b87a6ec5c5fa856c"
+    },
+    {
+      "path": "delivery/roof-visible-mask.png",
+      "bytes": 730,
+      "sha256": "3bf1b2b607e348509507f1794c21621a589241ffe7aba82c1d2d20b0c1a1088e"
+    },
+    {
+      "path": "delivery/verification.json",
+      "bytes": 2867,
+      "sha256": "8e22940a52b405e447544de4f92dfa430f8ffb3bc20bd26424b0907771d3924d"
+    },
+    {
+      "path": "drafts/design-01/build_cabin.py",
+      "bytes": 26708,
+      "sha256": "b2148bc2d1205ec0f4c2bdd474d9443d9ef37a90f7fa46de381a67343f7e2a61"
+    },
+    {
+      "path": "drafts/design-01/cabin-config.json",
+      "bytes": 1907,
+      "sha256": "809f521e93775eb15e767ed634ba1825e2b36a84fe75ba4a3d1c4cf5a3438c65"
+    },
+    {
+      "path": "drafts/design-01/cabin-terracotta-close.png",
+      "bytes": 9444,
+      "sha256": "5e4d8a3d89be04c749a772c1dceeb0d9e74dc2862e4e72106730c7ed42587b4f"
+    },
+    {
+      "path": "drafts/design-01/cabin-terracotta-raw.png",
+      "bytes": 20173,
+      "sha256": "c6c58ca3ddb4490d05ee59b7181768f9f00d4129a234b9a70e622d485836a4e6"
+    },
+    {
+      "path": "drafts/design-01/cabin-terracotta-scene.json",
+      "bytes": 68468,
+      "sha256": "785604fc9222a14f822c4745b0b40fce9b65308067a71069916473a4b8ee89c3"
+    },
+    {
+      "path": "drafts/design-01/cabin-terracotta-sprite-quality.json",
+      "bytes": 63682,
+      "sha256": "ebad4705aac0cc5cabe137e6aee027b6733250710af5796f2f74a8ae05bbdf73"
+    },
+    {
+      "path": "drafts/design-01/cabin-terracotta-sprite.png",
+      "bytes": 8765,
+      "sha256": "fc1a99f2ee43502e13eb16f28fdd5d3695a20628161809666aef96a2f47680bc"
+    },
+    {
+      "path": "drafts/design-01/cabin-terracotta.blend",
+      "bytes": 2465534,
+      "sha256": "8a2c953a851afa66d4c151dcff0d93f014763be64083755b0dae1ce8e7243483"
+    },
+    {
+      "path": "drafts/design-01/model-preview.png",
+      "bytes": 182092,
+      "sha256": "5ed9c38953790dd57ec644a3e905c5dcee9749128182d69f18f0e55245767fa5"
+    },
+    {
+      "path": "drafts/design-01/pixel_export.mjs",
+      "bytes": 5314,
+      "sha256": "7c469e695f46a3e7b220e28e6ab9f55c8dd6b28ddcb5d211055a2a5203f70dcd"
+    },
+    {
+      "path": "drafts/design-01/roof-visible-mask-raw.png",
+      "bytes": 4749,
+      "sha256": "0cabb25e9af8f04ac1b4a68018c440e9aa2b0d9738543a9d33f01e5d9fe88239"
+    },
+    {
+      "path": "drafts/design-01/roof-visible-mask.png",
+      "bytes": 776,
+      "sha256": "72d6549d185df30b1a182b923d374e7c2214c41f3f4cebf7dbe1cf4448add999"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 665,
+      "sha256": "20ae911ebc626c748806151802f810a1457eec1613d4f5c382d9e2a2527c79db"
+    },
+    {
+      "path": "final/blue-reopened/cabin-deep-blue-raw.png",
+      "bytes": 17569,
+      "sha256": "17aa5c7229c8abda4b274879e1975ab151cd5aa8a01511fc0016768c1f62af3d"
+    },
+    {
+      "path": "final/blue-reopened/cabin-deep-blue-scene.json",
+      "bytes": 70278,
+      "sha256": "94c6d01fee59eefb2dc607c5dae562e2f45a781c4bdb56b4038a01f87595e5c9"
+    },
+    {
+      "path": "final/blue-reopened/cabin-deep-blue-sprite-quality.json",
+      "bytes": 2303,
+      "sha256": "b9f5763c88a7804952f2c75c29f5338fa951db60c58059ef891b86dd70ecb3f3"
+    },
+    {
+      "path": "final/blue-reopened/cabin-deep-blue-sprite.png",
+      "bytes": 6654,
+      "sha256": "7f04bb0935ea1278f63566d0a1bdfd1112fed3c3ac20b719f66108fc2bb4bde9"
+    },
+    {
+      "path": "final/blue-reopened/cabin-deep-blue.blend",
+      "bytes": 2507661,
+      "sha256": "520c25f3e1ea8ffeb1a2cc731c8839e628358233182af8cbc5a4215de059903e"
+    },
+    {
+      "path": "final/blue-reopened/pixel-export-deep-blue.log",
+      "bytes": 2303,
+      "sha256": "b9f5763c88a7804952f2c75c29f5338fa951db60c58059ef891b86dd70ecb3f3"
+    },
+    {
+      "path": "final/blue-reopened/reopen-blue-rerender.log",
+      "bytes": 34636,
+      "sha256": "5b79c0139edf47f329f154342998193a8f623f89292f36c5b6548c948929daf0"
+    },
+    {
+      "path": "final/build-original.log",
+      "bytes": 102277,
+      "sha256": "b9a94acee91334669debf17b46f9ce23c6fd799ffd6ac717fbc00c3ac55d7740"
+    },
+    {
+      "path": "final/build_cabin.py",
+      "bytes": 26991,
+      "sha256": "51983b09e3e74eddcdc157c2095ed8f7486d8c1bc46eac75741921747703f509"
+    },
+    {
+      "path": "final/cabin-config.json",
+      "bytes": 2563,
+      "sha256": "6d61e6bfac1871e8571c12eb4bb3359da80f68b92d23b67ded7b4722624f3326"
+    },
+    {
+      "path": "final/cabin-deep-blue-close.png",
+      "bytes": 8676,
+      "sha256": "0c267a0be24c8aec5b36c9866ec3912b4eebf0577204ed18f4e2480b9a35b2ea"
+    },
+    {
+      "path": "final/cabin-terracotta-close.png",
+      "bytes": 8632,
+      "sha256": "0533e81288653389e1f68c37d65ccd64026dea89e6134e100ae01e470acb03e6"
+    },
+    {
+      "path": "final/cabin-terracotta-raw.png",
+      "bytes": 17427,
+      "sha256": "7b214979561b4ded7d7b78662b0372804bd66143e81770422b3ce84fc39bf68b"
+    },
+    {
+      "path": "final/cabin-terracotta-scene.json",
+      "bytes": 70416,
+      "sha256": "24d6953cee3e8d0dc3633bf9cb429bc08e4b247b1ae31247cead4db196e80dfa"
+    },
+    {
+      "path": "final/cabin-terracotta-sprite-quality.json",
+      "bytes": 2277,
+      "sha256": "626f96f2b65f86ed57ac5941a03d07a13ef441bf0855c8b16605278aa9245e3e"
+    },
+    {
+      "path": "final/cabin-terracotta-sprite.png",
+      "bytes": 6615,
+      "sha256": "7b7d2929ae40b9b2693c14c563d8fb054fc600ab2a029feaff951a3907d2006f"
+    },
+    {
+      "path": "final/cabin-terracotta.blend",
+      "bytes": 2507662,
+      "sha256": "94752e2f8bc2456ae1296a591258cc9f7c04cd24cc5c5c6f36ee63a4892baf87"
+    },
+    {
+      "path": "final/deep-blue/cabin-deep-blue-raw.png",
+      "bytes": 17565,
+      "sha256": "827bbf5049c119371165734346895e019f3ee6fc13bccd539bf6f0efa4b2f67b"
+    },
+    {
+      "path": "final/deep-blue/cabin-deep-blue-scene.json",
+      "bytes": 70279,
+      "sha256": "c9c781d7e9ceccc931bb0b6897434230488dc5842f316825ae81327779fb4361"
+    },
+    {
+      "path": "final/deep-blue/cabin-deep-blue-sprite-quality.json",
+      "bytes": 2295,
+      "sha256": "d6e8a894e1a6ba98f8f41e5c93617a21233c0d734eb3fb1efc58d6250d170393"
+    },
+    {
+      "path": "final/deep-blue/cabin-deep-blue-sprite.png",
+      "bytes": 6654,
+      "sha256": "7f04bb0935ea1278f63566d0a1bdfd1112fed3c3ac20b719f66108fc2bb4bde9"
+    },
+    {
+      "path": "final/deep-blue/cabin-deep-blue.blend",
+      "bytes": 2507661,
+      "sha256": "56c86d5be3199f136a52557a57ce0ae4db638096307fbebeea546cb91e6dfeb3"
+    },
+    {
+      "path": "final/deep-blue/pixel-export-deep-blue.log",
+      "bytes": 2295,
+      "sha256": "d6e8a894e1a6ba98f8f41e5c93617a21233c0d734eb3fb1efc58d6250d170393"
+    },
+    {
+      "path": "final/deep-blue/reopen-change-roof.log",
+      "bytes": 34792,
+      "sha256": "21ca4f0dcc66f6fe5e44c5d6a99d8772b0edd187a7aa499e85cc519502c60cf3"
+    },
+    {
+      "path": "final/model-preview.png",
+      "bytes": 137813,
+      "sha256": "465b0241f7152c5e3bb405fe494f5f68386863f5ca3acad9f678d12145a2b62c"
+    },
+    {
+      "path": "final/pipeline-jobs.json",
+      "bytes": 8083,
+      "sha256": "b353057b8103c1d888b1233f1d478d396dc457b06a0b926e7442f28c8defdc03"
+    },
+    {
+      "path": "final/pixel-export-terracotta.log",
+      "bytes": 2277,
+      "sha256": "626f96f2b65f86ed57ac5941a03d07a13ef441bf0855c8b16605278aa9245e3e"
+    },
+    {
+      "path": "final/pixel_export.mjs",
+      "bytes": 5428,
+      "sha256": "b0f6440fa379964f2aac5b85df78c444bd51c447de48e9907ac7ef0730debaae"
+    },
+    {
+      "path": "final/rebuilt/cabin-terracotta-raw.png",
+      "bytes": 17435,
+      "sha256": "3735aa523127f5498456c84c67ceedafa8fb10c5d159861e43cbea73612fd443"
+    },
+    {
+      "path": "final/rebuilt/cabin-terracotta-scene.json",
+      "bytes": 70352,
+      "sha256": "72c7ed0e4df62b30e7789f821f2c0d81d06b49e2d8253a8b4d9f3d2a49ffb6de"
+    },
+    {
+      "path": "final/rebuilt/cabin-terracotta-sprite-quality.json",
+      "bytes": 2293,
+      "sha256": "d961a447c111e52bc9cb716a2a75ee2af69edd4a259bfe68b02254e640ccb321"
+    },
+    {
+      "path": "final/rebuilt/cabin-terracotta-sprite.png",
+      "bytes": 6615,
+      "sha256": "7b7d2929ae40b9b2693c14c563d8fb054fc600ab2a029feaff951a3907d2006f"
+    },
+    {
+      "path": "final/rebuilt/cabin-terracotta.blend",
+      "bytes": 2507662,
+      "sha256": "8cd298c3e26e0fb06ef0f9114da4fe17866115b8dc0de3083a862c843664320b"
+    },
+    {
+      "path": "final/rebuilt/pixel-export-terracotta.log",
+      "bytes": 2293,
+      "sha256": "d961a447c111e52bc9cb716a2a75ee2af69edd4a259bfe68b02254e640ccb321"
+    },
+    {
+      "path": "final/rebuilt/rebuild-from-script.log",
+      "bytes": 32631,
+      "sha256": "b22d7960e2ea10a9d32319d545ffab6127b8d0966ffda1968b692d4d8e7c0ddd"
+    },
+    {
+      "path": "final/reopened/cabin-terracotta-raw.png",
+      "bytes": 17436,
+      "sha256": "256a437391caf07d589e8eb489ca128a882b962a69c6ecffdc1d0c32a8570506"
+    },
+    {
+      "path": "final/reopened/cabin-terracotta-scene.json",
+      "bytes": 70282,
+      "sha256": "4a9d165e07b9d5b48a1830260ec72681b238972ca98ab3fbf500ff00e512f076"
+    },
+    {
+      "path": "final/reopened/cabin-terracotta-sprite-quality.json",
+      "bytes": 2295,
+      "sha256": "c431c6b817ea40c1b72026c6317b20c545372c07dff3057686bb07126f288e91"
+    },
+    {
+      "path": "final/reopened/cabin-terracotta-sprite.png",
+      "bytes": 6615,
+      "sha256": "7b7d2929ae40b9b2693c14c563d8fb054fc600ab2a029feaff951a3907d2006f"
+    },
+    {
+      "path": "final/reopened/cabin-terracotta.blend",
+      "bytes": 2507662,
+      "sha256": "a4c12984e587f612f16da1c059150c7455acdb30a7dfcb4c5a10ef6758916c95"
+    },
+    {
+      "path": "final/reopened/pixel-export-terracotta.log",
+      "bytes": 2295,
+      "sha256": "c431c6b817ea40c1b72026c6317b20c545372c07dff3057686bb07126f288e91"
+    },
+    {
+      "path": "final/reopened/reopen-original-rerender.log",
+      "bytes": 34907,
+      "sha256": "9409cf2c0c34697e8eb16f4620bd3cbefaa6d22940bb14f89fded4e9baee6eb3"
+    },
+    {
+      "path": "final/roof-visible-mask-raw.png",
+      "bytes": 4465,
+      "sha256": "c229a1f41deb39eef0d79d173ac8382e8252c64254a73e8a70bf0eec884d09af"
+    },
+    {
+      "path": "final/roof-visible-mask.png",
+      "bytes": 797,
+      "sha256": "92a988066d2c6c9613e0c8f417ee3d8df00c48dadcaae0f09f9086a9e9797211"
+    },
+    {
+      "path": "final/verification.json",
+      "bytes": 3051,
+      "sha256": "4791c6980ee0f44d9c644a5643c4e7ffd0073d932daca109b53116705708e89e"
+    },
+    {
+      "path": "final/verify_outputs.mjs",
+      "bytes": 5384,
+      "sha256": "7a29820d7808c7e1bd4ab943cc6335815d2564586972e4849f50f15399c5bee9"
+    },
+    {
+      "path": "installation.json",
+      "bytes": 810,
+      "sha256": "88d7f391834e91e84cd9e5dd58ae43cf384f01b728a066d57e2db0ac8f18bd7c"
+    },
+    {
+      "path": "make_previews.mjs",
+      "bytes": 4976,
+      "sha256": "a6b60bf84715c94411741e4afaa7fc9cfa52bbf392a9b029c60baa676a903cfe"
+    },
+    {
+      "path": "output/build-original.log",
+      "bytes": 101485,
+      "sha256": "5ea6f9d9b069acb0fa5628b272cebe8af1de8511750b683b3b2d2e6379cd2380"
+    },
+    {
+      "path": "output/build_cabin.py",
+      "bytes": 26711,
+      "sha256": "978032b2381a86eec89a906913332820fe3513ea408d3c5d2dca06209621862f"
+    },
+    {
+      "path": "output/cabin-config.json",
+      "bytes": 2533,
+      "sha256": "2e15101a67c45f0b922d22fdf6066aab91a57bf15c8bacf9dde9599bffd4180c"
+    },
+    {
+      "path": "output/cabin-terracotta-close.png",
+      "bytes": 9064,
+      "sha256": "20e36de7f87a6f765ffe77a0f8878bab375e88e896290735886c42dc2ab6c78f"
+    },
+    {
+      "path": "output/cabin-terracotta-raw.png",
+      "bytes": 18409,
+      "sha256": "df143cbe2633a6d2d18c50f1104fbabbbc5a6961725ba534dcf37a0de95cc8bd"
+    },
+    {
+      "path": "output/cabin-terracotta-scene.json",
+      "bytes": 68468,
+      "sha256": "f46fdfc4ab8bafee7a55296667fe9860d2e0daa788997dae301a440ea457dbca"
+    },
+    {
+      "path": "output/cabin-terracotta-sprite-quality.json",
+      "bytes": 2215,
+      "sha256": "e83a6fdc9bab683004c2d5818b959c91637736f3765f26f820c97da6584e58e8"
+    },
+    {
+      "path": "output/cabin-terracotta-sprite.png",
+      "bytes": 6842,
+      "sha256": "28f9bb697d4ecf09fba70bb32b8489f9d6d57562eeedf4fa1108e4f388a655ab"
+    },
+    {
+      "path": "output/cabin-terracotta.blend",
+      "bytes": 2465534,
+      "sha256": "fef444a8b7965dbf3e5c100495f3823be84e18517c4db6b3ff779600705ab489"
+    },
+    {
+      "path": "output/model-preview.png",
+      "bytes": 172472,
+      "sha256": "3a74205dff0d2dce1513e7cb0e7a89d3349d61157dfdf8833e4e238857341d46"
+    },
+    {
+      "path": "output/pixel_export.mjs",
+      "bytes": 5428,
+      "sha256": "b0f6440fa379964f2aac5b85df78c444bd51c447de48e9907ac7ef0730debaae"
+    },
+    {
+      "path": "output/roof-visible-mask-raw.png",
+      "bytes": 4612,
+      "sha256": "4e15a44e5aff4a67a638c99895996b32a8a133b20a167f888bf028f43de5a151"
+    },
+    {
+      "path": "output/roof-visible-mask.png",
+      "bytes": 720,
+      "sha256": "733b43ab79ca8b658dfc50bb2f54ad59e77fbee09a74f220bfe85e1d6b6794da"
+    },
+    {
+      "path": "pixel_export.mjs",
+      "bytes": 5979,
+      "sha256": "47d5e4e25988063de958bb6115217c497f4e356f6f9eeec36ce587bf53b32c8d"
+    },
+    {
+      "path": "preview.html",
+      "bytes": 8878,
+      "sha256": "bf1e0ac079425ed3e5619811fdf8394b8af1dcae93bd505eb542d53c9da41a71"
+    },
+    {
+      "path": "previews/blender-model-preview.png",
+      "bytes": 124095,
+      "sha256": "0d47c24ea4ace8288fa121396596418073f32c47fa5f4ab57314fd37cb2da533"
+    },
+    {
+      "path": "previews/blue-close-4x.png",
+      "bytes": 9732,
+      "sha256": "47f6164db6977e3fbad34a8515b48be937045634fb5593533b0cd19a1734faf3"
+    },
+    {
+      "path": "previews/cabin-close-4x.png",
+      "bytes": 9672,
+      "sha256": "f16d8cde55834457676c1ac46b062fd98f4c5c57d64cb225ec13437d94fe8a60"
+    },
+    {
+      "path": "previews/diagnostic-grass-32.png",
+      "bytes": 342,
+      "sha256": "602a89f6439f90e10b7657c49d5a8c59c6ff6b32182b6294a2f60259791f5dd5"
+    },
+    {
+      "path": "previews/grass-seam-check.json",
+      "bytes": 122,
+      "sha256": "a22cb46151911a201d2abf96c148e959d5dc6351660162b9fae6639aa29e29fa"
+    },
+    {
+      "path": "previews/old-p11-cabin.png",
+      "bytes": 1957,
+      "sha256": "3cb42452b4646eb6e6963eb05d981b844ecb5f796f147284597768fc99a8547d"
+    },
+    {
+      "path": "previews/placement.json",
+      "bytes": 673,
+      "sha256": "980d12a68e7242083ef026d7b9dc3cf987233481fdca8468bc11c81485c6d799"
+    },
+    {
+      "path": "previews/roof-comparison-4x.png",
+      "bytes": 21975,
+      "sha256": "0d359c243e38c32acdfcceb8b3dc0138fdb5022628711d335ecb8343be0b7fc7"
+    },
+    {
+      "path": "previews/scene-deep-blue-1x.png",
+      "bytes": 20154,
+      "sha256": "b17be6ff635c4d97a3a330b1d92a24140ee9d0e7453d4445eea304d1e2255d61"
+    },
+    {
+      "path": "previews/scene-deep-blue-2x.png",
+      "bytes": 25312,
+      "sha256": "fa6b1e2bcbf08d8692de33a89ac02b424d301506746ad139ba9377c7c55b4d58"
+    },
+    {
+      "path": "previews/scene-deep-blue-grid-1x.png",
+      "bytes": 22796,
+      "sha256": "16b0d0a54ffff9a73526a76899805ead626d9555bde2b3bda407e9cb51ea369c"
+    },
+    {
+      "path": "previews/scene-deep-blue-grid-2x.png",
+      "bytes": 27598,
+      "sha256": "46964b8db8919307bfdb24d77dd00f28ec96ef7c79ef39613539b5e6bb80e0cc"
+    },
+    {
+      "path": "previews/scene-terracotta-1x.png",
+      "bytes": 20127,
+      "sha256": "9fb26f6b8d89d040b320722adda4de4d1efa923a276212abb3f31e4677aa834b"
+    },
+    {
+      "path": "previews/scene-terracotta-2x.png",
+      "bytes": 25263,
+      "sha256": "0d3f564e6486b0b529d36f44800cd36ad914600961ead24e3e568f03fcf285c2"
+    },
+    {
+      "path": "previews/scene-terracotta-grid-1x.png",
+      "bytes": 22823,
+      "sha256": "c0d76bffad24bbdf2f838d56c2f7e6d6470eda6eabb7db12a0791f0c72551936"
+    },
+    {
+      "path": "previews/scene-terracotta-grid-2x.png",
+      "bytes": 27559,
+      "sha256": "38d914811db33a2d0e85b13142065680faadce2981b5e79685c9f48340c454b5"
+    },
+    {
+      "path": "protected-files-before.json",
+      "bytes": 24790,
+      "sha256": "b993b4dc89155c3a037914c9f12db052bfe04c183dd59799be1f977ade34c38b"
+    },
+    {
+      "path": "protection-verification.json",
+      "bytes": 751,
+      "sha256": "5c926b3d4be647fe1060b1dc5bf669a9b84a2b8529c25933e88b617b0b701ec0"
+    },
+    {
+      "path": "release/blue-reopened/cabin-deep-blue-raw.png",
+      "bytes": 17237,
+      "sha256": "d9d61bada88c00a1f03f4f1d5b1266553e222b5aca747f4287a601c2ffcba200"
+    },
+    {
+      "path": "release/blue-reopened/cabin-deep-blue-scene.json",
+      "bytes": 70343,
+      "sha256": "0b2798ccca5bd14649ab45c3849e2e480f3b5a32d552dc0d818fd113823c1cf2"
+    },
+    {
+      "path": "release/blue-reopened/cabin-deep-blue-sprite-quality.json",
+      "bytes": 2307,
+      "sha256": "03c536f43e4369b0d3229634b71b337c595a4aaacb1109f2b03ac04eaf0171f9"
+    },
+    {
+      "path": "release/blue-reopened/cabin-deep-blue-sprite.png",
+      "bytes": 6276,
+      "sha256": "81fb498214688d6bf21f5e939c6e629621728c1c35229bfc07f9a53eb79822e8"
+    },
+    {
+      "path": "release/blue-reopened/cabin-deep-blue.blend",
+      "bytes": 2563181,
+      "sha256": "5ae9c58ac3c966d95473704caa8f1b23d4bfa49d4029d78330c6c59fae40c6d9"
+    },
+    {
+      "path": "release/blue-reopened/pixel-export-deep-blue.log",
+      "bytes": 2307,
+      "sha256": "03c536f43e4369b0d3229634b71b337c595a4aaacb1109f2b03ac04eaf0171f9"
+    },
+    {
+      "path": "release/blue-reopened/reopen-blue-rerender.log",
+      "bytes": 35990,
+      "sha256": "c74b562c23779376c05377c37feb2760ba0537371a420e88f442017d835f606c"
+    },
+    {
+      "path": "release/build-original.log",
+      "bytes": 100506,
+      "sha256": "ff9c040a8c291a9b9d6b4ad2ac5237842b009a744598f55429a395dac21983a3"
+    },
+    {
+      "path": "release/build_cabin.py",
+      "bytes": 27302,
+      "sha256": "c480e290df4fc85b019d20cca02ce23c17b4f85c9bd87239e6b0c9ba4aeeaefb"
+    },
+    {
+      "path": "release/cabin-config.json",
+      "bytes": 2563,
+      "sha256": "4c4e64c24063a9f6073a3621873cc84743d26f1720ad286605a765222c309eea"
+    },
+    {
+      "path": "release/cabin-deep-blue-close.png",
+      "bytes": 8510,
+      "sha256": "770e60a7e6d707b5aec6cbbe588de19333b3ba3d243f17420f3edf19334181a5"
+    },
+    {
+      "path": "release/cabin-terracotta-close.png",
+      "bytes": 8632,
+      "sha256": "21caeda6677bd0515f640f03f3812f94d304d851e4ca429f5c36665dcbb51061"
+    },
+    {
+      "path": "release/cabin-terracotta-raw.png",
+      "bytes": 17429,
+      "sha256": "d579543801aa8a46105ce4b7d15d302d860627e46f84b61911e100b6464ac32b"
+    },
+    {
+      "path": "release/cabin-terracotta-scene.json",
+      "bytes": 70416,
+      "sha256": "ead18e2d9dfca083402f5e522e3d01e8f03fb6eb7f3b0e86651cd718c6b08f15"
+    },
+    {
+      "path": "release/cabin-terracotta-sprite-quality.json",
+      "bytes": 2281,
+      "sha256": "f11d0f5241272ac631fa6850eb920301d39276eec0d805ad6e762c0ffd8cc171"
+    },
+    {
+      "path": "release/cabin-terracotta-sprite.png",
+      "bytes": 6614,
+      "sha256": "298735323f076b2eb41835ee9e5218b94c99b226c1165b77c0320723b18f3d57"
+    },
+    {
+      "path": "release/cabin-terracotta.blend",
+      "bytes": 2563182,
+      "sha256": "d35a6a51a96253fd16e3b28af3a3ef26a7c1f62ec68241835ac00906e1a61afa"
+    },
+    {
+      "path": "release/deep-blue/cabin-deep-blue-raw.png",
+      "bytes": 17233,
+      "sha256": "98b305d8cc2fa82f0c0fc22a1169ebcf1ad79b27fe8eff540e6e7bb84f5441a6"
+    },
+    {
+      "path": "release/deep-blue/cabin-deep-blue-scene.json",
+      "bytes": 70342,
+      "sha256": "2494127647dfebf4497494b88571bd8d7cfb6a29cb678899c73ae18b68db4a3d"
+    },
+    {
+      "path": "release/deep-blue/cabin-deep-blue-sprite-quality.json",
+      "bytes": 2299,
+      "sha256": "eb9bbfc6d69ecb4455f54561392d1bfca0e5009e5692d2c2834ec4cb4fc15263"
+    },
+    {
+      "path": "release/deep-blue/cabin-deep-blue-sprite.png",
+      "bytes": 6276,
+      "sha256": "81fb498214688d6bf21f5e939c6e629621728c1c35229bfc07f9a53eb79822e8"
+    },
+    {
+      "path": "release/deep-blue/cabin-deep-blue.blend",
+      "bytes": 2563181,
+      "sha256": "51ffa4fdca83050a5eb6fc7da00270dfdb95e67f37e0287323752acc2337797b"
+    },
+    {
+      "path": "release/deep-blue/pixel-export-deep-blue.log",
+      "bytes": 2299,
+      "sha256": "eb9bbfc6d69ecb4455f54561392d1bfca0e5009e5692d2c2834ec4cb4fc15263"
+    },
+    {
+      "path": "release/deep-blue/reopen-change-roof.log",
+      "bytes": 35177,
+      "sha256": "60d70905f35ecdc637d4842be63e2235dc17694961abeb65fe9771c78d29150f"
+    },
+    {
+      "path": "release/model-preview.png",
+      "bytes": 137815,
+      "sha256": "e27dd9b29c48c2612e5dc7413db6fe633cf698e4d2c3f89644e4145395448e23"
+    },
+    {
+      "path": "release/pipeline-jobs.json",
+      "bytes": 8121,
+      "sha256": "a49d52452c2fb1ec6b70dc07e59b53b01c87149233289ff16d64cacb9f6bdf0b"
+    },
+    {
+      "path": "release/pixel-export-terracotta.log",
+      "bytes": 2281,
+      "sha256": "f11d0f5241272ac631fa6850eb920301d39276eec0d805ad6e762c0ffd8cc171"
+    },
+    {
+      "path": "release/pixel_export.mjs",
+      "bytes": 5428,
+      "sha256": "b0f6440fa379964f2aac5b85df78c444bd51c447de48e9907ac7ef0730debaae"
+    },
+    {
+      "path": "release/rebuilt/cabin-terracotta-raw.png",
+      "bytes": 17437,
+      "sha256": "c3b592baa1ffa818733c50a01f629e53fc7820e5ab31b80db8a98a78802b10a7"
+    },
+    {
+      "path": "release/rebuilt/cabin-terracotta-scene.json",
+      "bytes": 70352,
+      "sha256": "13e8a607d59cf87e1968a64e3ce78abcb13bc3b56d0f38a3ff8e66edcc3319f2"
+    },
+    {
+      "path": "release/rebuilt/cabin-terracotta-sprite-quality.json",
+      "bytes": 2297,
+      "sha256": "7d1749eebe08fb05d377ca373cfcc3ad8421c398bc34028af0d6bfe42411d430"
+    },
+    {
+      "path": "release/rebuilt/cabin-terracotta-sprite.png",
+      "bytes": 6614,
+      "sha256": "298735323f076b2eb41835ee9e5218b94c99b226c1165b77c0320723b18f3d57"
+    },
+    {
+      "path": "release/rebuilt/cabin-terracotta.blend",
+      "bytes": 2563182,
+      "sha256": "17c82d8c21d1b01a5c7a56468a5482338bf720b27b5f1b700c51366730c2ac3c"
+    },
+    {
+      "path": "release/rebuilt/pixel-export-terracotta.log",
+      "bytes": 2297,
+      "sha256": "7d1749eebe08fb05d377ca373cfcc3ad8421c398bc34028af0d6bfe42411d430"
+    },
+    {
+      "path": "release/rebuilt/rebuild-from-script.log",
+      "bytes": 40564,
+      "sha256": "62722658b4c71b3a4bf343b1db8094080f72c6d1ed17f5db1f088bd59cdf32bb"
+    },
+    {
+      "path": "release/reopened/cabin-terracotta-raw.png",
+      "bytes": 17438,
+      "sha256": "4efaa896c3bcb4e483ca19c8ecb73365bda93995a47d6086a365897b5e44e281"
+    },
+    {
+      "path": "release/reopened/cabin-terracotta-scene.json",
+      "bytes": 70345,
+      "sha256": "64fe4dd66999dc8d0bf7bd5f708a6251fafc046f78d9ffa4ed8a1026d3a22373"
+    },
+    {
+      "path": "release/reopened/cabin-terracotta-sprite-quality.json",
+      "bytes": 2299,
+      "sha256": "c7a56799390c470c3bdf3e8a0683e5105e9dc0a95d64188dd4b2fff70056ff37"
+    },
+    {
+      "path": "release/reopened/cabin-terracotta-sprite.png",
+      "bytes": 6614,
+      "sha256": "298735323f076b2eb41835ee9e5218b94c99b226c1165b77c0320723b18f3d57"
+    },
+    {
+      "path": "release/reopened/cabin-terracotta.blend",
+      "bytes": 2563182,
+      "sha256": "4d56cee016975c5daa67bc3eac7d0369e1f95875869d9062665f3bfba16b4aae"
+    },
+    {
+      "path": "release/reopened/pixel-export-terracotta.log",
+      "bytes": 2299,
+      "sha256": "c7a56799390c470c3bdf3e8a0683e5105e9dc0a95d64188dd4b2fff70056ff37"
+    },
+    {
+      "path": "release/reopened/reopen-original-rerender.log",
+      "bytes": 36126,
+      "sha256": "af842d4e90a2974428b8e3e1e333b675b71ed3c42db895368cf676d022742b33"
+    },
+    {
+      "path": "release/roof-visible-mask-raw.png",
+      "bytes": 4467,
+      "sha256": "41ae89ebbd8c0712263d4e914e24ed363a9290d6a51d8f9507d6c7ee34c69caa"
+    },
+    {
+      "path": "release/roof-visible-mask.png",
+      "bytes": 797,
+      "sha256": "92a988066d2c6c9613e0c8f417ee3d8df00c48dadcaae0f09f9086a9e9797211"
+    },
+    {
+      "path": "release/verification.json",
+      "bytes": 2939,
+      "sha256": "6914807ae98de5e6fe2d72a7b6b872175cd29b593d34ac34794edbce19c24bd1"
+    },
+    {
+      "path": "release/verify_outputs.mjs",
+      "bytes": 5384,
+      "sha256": "7a29820d7808c7e1bd4ab943cc6335815d2564586972e4849f50f15399c5bee9"
+    },
+    {
+      "path": "run_pipeline.py",
+      "bytes": 4286,
+      "sha256": "142655fde5702387b135ff2a863626879127aa2a3cd9ca586613438413525d7d"
+    },
+    {
+      "path": "screenshots/browser-verification.json",
+      "bytes": 689,
+      "sha256": "eaca37053e96abcde0380f325953bdfc2bf397af7ce8e67dd8f25988cfa1997d"
+    },
+    {
+      "path": "screenshots/desktop-normal.png",
+      "bytes": 81382,
+      "sha256": "2ea8bf04a97aebe9638c9b57c1267346717e110aa502f3c217493b980304e67f"
+    },
+    {
+      "path": "screenshots/mobile-320.png",
+      "bytes": 38092,
+      "sha256": "50f2ef5c176d4c12f731eda24ba298486a5fe15887919a648308a5e81d370278"
+    },
+    {
+      "path": "screenshots/mobile-390.png",
+      "bytes": 35247,
+      "sha256": "9d66244836b62bff55e2df4292dd0ef90d6617bc31c8a793fa12f41ded34f82d"
+    },
+    {
+      "path": "screenshots/scene-close.png",
+      "bytes": 17074,
+      "sha256": "ba41fc81d05c486b0a9790fe2ecf7a7924ed4b05dfe6b80241e022365c2e2c88"
+    },
+    {
+      "path": "screenshots/scene-deep-blue.png",
+      "bytes": 12805,
+      "sha256": "7f77ede32cc6e3527bca5ba756828e76f47c55286449f08731086f37316b1cd6"
+    },
+    {
+      "path": "screenshots/scene-normal.png",
+      "bytes": 12715,
+      "sha256": "49b311c13a642c71fd72b33e679ee63fba73260a125f27bb7e767976017b2516"
+    },
+    {
+      "path": "screenshots-centered/browser-verification.json",
+      "bytes": 689,
+      "sha256": "eaca37053e96abcde0380f325953bdfc2bf397af7ce8e67dd8f25988cfa1997d"
+    },
+    {
+      "path": "screenshots-centered/desktop-normal.png",
+      "bytes": 81382,
+      "sha256": "2ea8bf04a97aebe9638c9b57c1267346717e110aa502f3c217493b980304e67f"
+    },
+    {
+      "path": "screenshots-centered/mobile-320.png",
+      "bytes": 41434,
+      "sha256": "19523c4d0e27d590a1a4b6161f7f170935c5c7fc090c45a9681bb2f0717f4590"
+    },
+    {
+      "path": "screenshots-centered/mobile-390.png",
+      "bytes": 54442,
+      "sha256": "f160d0791f1df6fd8fd0ac3cd3b52aec0b19e4a6c619b711eb7708e619ce8990"
+    },
+    {
+      "path": "screenshots-centered/scene-close.png",
+      "bytes": 17216,
+      "sha256": "a587a87525f8ae77d280036f3cf61d54a8b815acb6ac27fac423a6e7866bd015"
+    },
+    {
+      "path": "screenshots-centered/scene-deep-blue.png",
+      "bytes": 12805,
+      "sha256": "b1b1b82e158dbc14ad4c12a0bb32b4241e7046bb5e0855fd3221542c3e7cbc46"
+    },
+    {
+      "path": "screenshots-centered/scene-normal.png",
+      "bytes": 12715,
+      "sha256": "49b311c13a642c71fd72b33e679ee63fba73260a125f27bb7e767976017b2516"
+    },
+    {
+      "path": "script-smoke-verification.json",
+      "bytes": 317,
+      "sha256": "a4992a3a2e295ac5ff596dd41058e0dd27b297457607552f3b3c1c0b779c163d"
+    },
+    {
+      "path": "timing-summary.json",
+      "bytes": 886,
+      "sha256": "b0fd8972c4081e636d58a2db0eea41c9ad4c5a9b1883c8b0b611661013e7b7f0"
+    },
+    {
+      "path": "verify_browser.mjs",
+      "bytes": 3572,
+      "sha256": "d13126a9fc00ec05cc1132ba3a2e962322c4d7f78c62df0472cb7fb68d62f83a"
+    },
+    {
+      "path": "verify_outputs.mjs",
+      "bytes": 5387,
+      "sha256": "8f23864c4e6a50befde3b3a2ec170e051b8c51b8850c83fa8365d9d9cb27dc6d"
+    }
+  ]
+}

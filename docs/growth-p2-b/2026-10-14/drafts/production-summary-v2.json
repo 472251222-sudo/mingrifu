@@ -1,0 +1,11 @@
+{
+  "objectAssets": 10,
+  "grassVariants": 8,
+  "masksPerEarthMaterial": 47,
+  "terrainTiles": 102,
+  "atlasSize": [
+    512,
+    224
+  ],
+  "approvedCabinBytesUnchanged": true
+}

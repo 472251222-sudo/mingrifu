@@ -1,0 +1,161 @@
+{
+  "blenderVersion": "4.5.14 LTS",
+  "semanticObjectCounts": {
+    "Box": 1,
+    "Flag": 2,
+    "Door": 3,
+    "Post": 2
+  },
+  "objects": {
+    "Arched_mailbox_shell": {
+      "semanticPart": "Box",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "54c2d832d6d14894fc43325c2014f0a66fd9d26479e011fc490136d45284dfd6",
+      "materials": [
+        "Box#588455"
+      ]
+    },
+    "Flag_pole": {
+      "semanticPart": "Flag",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "07208c01549f3bdbce7b08ee2f89bbe6d4affc6d182e5a23fd3d6ff0c84abf7c",
+      "materials": [
+        "Flag#594036"
+      ]
+    },
+    "Front_panel": {
+      "semanticPart": "Door",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "0dc0c2a5e213e6b5436c2e4ff6fcc5ac02e8081b0f7cf430918ceab47aadf9bf",
+      "materials": [
+        "Door#7da55e"
+      ]
+    },
+    "Letter_opening": {
+      "semanticPart": "Door",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "6375027594fc6209ccf5a23639ec24cf06ebcf57cff02160d32fca87bd3bc6ba",
+      "materials": [
+        "Door#264b40"
+      ]
+    },
+    "Mailbox_foot": {
+      "semanticPart": "Post",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "2f8484836d1cbd18664641b486759642b66cf4bf9e5b46d54a3cb57b1c7da7e9",
+      "materials": [
+        "Post#78816c"
+      ]
+    },
+    "Mailbox_handle": {
+      "semanticPart": "Door",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "0266984b46002eab0dea257779e8d0df1d52bef535f77c67d83c3832b58950a9",
+      "materials": [
+        "Door#e2bd86"
+      ]
+    },
+    "Mailbox_post": {
+      "semanticPart": "Post",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "e99feaef6ed0a99558ce219cfe8a6c157df12504a84090a7a2483a859b134872",
+      "materials": [
+        "Post#a07652"
+      ]
+    },
+    "Raised_flag": {
+      "semanticPart": "Flag",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "d54c764c1710b8c24337d01ef2d29edd8a828af51f84af7a6fc8cd95e288d1a9",
+      "materials": [
+        "Flag#bd7055"
+      ]
+    }
+  },
+  "materials": {
+    "Box#588455": "#588455",
+    "Door#264b40": "#264b40",
+    "Door#7da55e": "#7da55e",
+    "Door#e2bd86": "#e2bd86",
+    "Flag#594036": "#594036",
+    "Flag#bd7055": "#bd7055",
+    "Post#78816c": "#78816c",
+    "Post#a07652": "#a07652"
+  },
+  "camera": {
+    "type": "ORTHO",
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.6156614422798157,
+        -0.7880107760429382,
+        -7.880107879638672
+      ],
+      [
+        0.0,
+        0.7880107760429382,
+        0.6156614422798157,
+        6.910094738006592
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "orthoScale": 1.5,
+    "elevationDegrees": 38,
+    "azimuthDegrees": 0,
+    "projectedAnchor": [
+      20.0,
+      43.00001513957977
+    ]
+  },
+  "render": {
+    "engine": "CYCLES",
+    "resolution": [
+      40,
+      48
+    ],
+    "samples": 48,
+    "device": "CPU",
+    "filmTransparent": true
+  },
+  "hiddenInteriorsBuilt": false,
+  "id": "mailbox",
+  "name": "林间信箱",
+  "kind": "decoration",
+  "size": [
+    40,
+    48
+  ],
+  "anchor": [
+    20,
+    43
+  ],
+  "footprint": [
+    1,
+    1
+  ],
+  "status": "candidate",
+  "version": "p2-b-v1",
+  "constructionScript": "build_assets.py",
+  "renderSeconds": 0.005,
+  "buildAndRenderSeconds": 0.03,
+  "originalEngineering": "docs/growth-p2-b/2026-10-14/source-models-v2/mailbox/mailbox.blend"
+}

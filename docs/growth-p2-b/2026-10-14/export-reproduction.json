@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "file": "bush.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "cabin-terracotta.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "fence-horizontal.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "fence-vertical.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "grass-tuft.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "mailbox.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "oak-broad.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "pine-slender.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "rock.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "terrain-atlas.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "wildflowers.png",
+      "byteIdentical": true
+    }
+  ],
+  "allPNGExportsIdentical": true,
+  "temporaryOutput": "/var/folders/zq/rtrjt2x968x9j_49jf08r3jr0000gn/T/mingrifu-p2-export-reproduction-x75rtpni",
+  "temporaryManifestUsedInGame": false,
+  "existingOutputsOverwritten": false
+}

@@ -1,0 +1,173 @@
+{
+  "blenderVersion": "4.5.14 LTS",
+  "semanticObjectCounts": {
+    "Branches": 5,
+    "Canopy": 5
+  },
+  "objects": {
+    "Bush_branch_0": {
+      "semanticPart": "Branches",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "045598d6f5d6f9c8fa8c123d74ecd7ff9ab94ffcd9b99407d57002093e573500",
+      "materials": [
+        "Branches#795643"
+      ]
+    },
+    "Bush_branch_1": {
+      "semanticPart": "Branches",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "61324a15515a019e80af303b1144cee7863a77ee3f84b3316103bc9943277166",
+      "materials": [
+        "Branches#795643"
+      ]
+    },
+    "Bush_branch_2": {
+      "semanticPart": "Branches",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "1c10ab9c1ec9a7ab4a2f88732bd2a2aed3616448317d05e8a35b1418ecc0a2af",
+      "materials": [
+        "Branches#795643"
+      ]
+    },
+    "Bush_branch_3": {
+      "semanticPart": "Branches",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "415b2616238205e9bcedfaa5bfc85f8e16f3446db56936ec080ab466b23d067c",
+      "materials": [
+        "Branches#795643"
+      ]
+    },
+    "Bush_branch_4": {
+      "semanticPart": "Branches",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "7ebeff3c11aebc9d080073f7c80a0c25a2c05d761b4648c1e558f6b92f5706b2",
+      "materials": [
+        "Branches#795643"
+      ]
+    },
+    "Bush_mass_0": {
+      "semanticPart": "Canopy",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "76f0612730bc41b99aaa60718bbbfe60c25406de3f18fe51956c90ab8c0ddb3a",
+      "materials": [
+        "Canopy#588455"
+      ]
+    },
+    "Bush_mass_1": {
+      "semanticPart": "Canopy",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "bee47a7b1c97d493e49e988662e165ff0414a8fe3143b9972656ed4474b29bb6",
+      "materials": [
+        "Canopy#7da55e"
+      ]
+    },
+    "Bush_mass_2": {
+      "semanticPart": "Canopy",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "c3a1a6cdf9d55a0a75f1ae8eb568e5dd7b66023ce4eacd0a2f7a21fab38c4fc0",
+      "materials": [
+        "Canopy#588455"
+      ]
+    },
+    "Bush_mass_3": {
+      "semanticPart": "Canopy",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "7f192efb7632b92102b8f7fd49ae995ea50d5d3d786ef795dae7585b1d9cdd4d",
+      "materials": [
+        "Canopy#3b6550"
+      ]
+    },
+    "Bush_mass_4": {
+      "semanticPart": "Canopy",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "24cb87157e84a3182209c72f40929b2e999476ad0e59484b37c625fa6d9dc4a8",
+      "materials": [
+        "Canopy#588455"
+      ]
+    }
+  },
+  "materials": {
+    "Branches#795643": "#795643",
+    "Canopy#3b6550": "#3b6550",
+    "Canopy#588455": "#588455",
+    "Canopy#7da55e": "#7da55e"
+  },
+  "camera": {
+    "type": "ORTHO",
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.6156614422798157,
+        -0.7880107760429382,
+        -7.880107879638672
+      ],
+      [
+        0.0,
+        0.7880107760429382,
+        0.6156614422798157,
+        6.870438098907471
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "orthoScale": 1.5,
+    "elevationDegrees": 38,
+    "azimuthDegrees": 0,
+    "projectedAnchor": [
+      24.0,
+      42.00001537799835
+    ]
+  },
+  "render": {
+    "engine": "CYCLES",
+    "resolution": [
+      48,
+      48
+    ],
+    "samples": 48,
+    "device": "CPU",
+    "filmTransparent": true
+  },
+  "hiddenInteriorsBuilt": false,
+  "id": "bush",
+  "name": "圆叶灌木",
+  "kind": "vegetation",
+  "size": [
+    48,
+    48
+  ],
+  "anchor": [
+    24,
+    42
+  ],
+  "footprint": [
+    1,
+    1
+  ],
+  "status": "candidate",
+  "version": "p2-b-v1",
+  "constructionScript": "build_assets.py",
+  "renderSeconds": 0.009,
+  "buildAndRenderSeconds": 0.036,
+  "originalEngineering": "docs/growth-p2-b/2026-10-14/source-models-v2/bush/bush.blend"
+}

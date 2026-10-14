@@ -1,0 +1,51 @@
+{
+  "url": "http://127.0.0.1:5188/growth-p2-homestead",
+  "results": [
+    {
+      "name": "desktop",
+      "passed": true,
+      "pixelTests": {
+        "nearestNeighbourUnequalPixels": 0,
+        "frontTreeCheckedPixels": 3605,
+        "rearTreeCheckedPixels": 3641,
+        "occlusionErrors": 0
+      },
+      "extremePanRetainedGrassPixels": 238216,
+      "storageUnchanged": true
+    },
+    {
+      "name": "mobile-390",
+      "passed": true,
+      "checks": [
+        "full overview",
+        "native-pixel cabin close view",
+        "no page overflow",
+        "touch controls and real pointer pan events",
+        "existing saves unchanged"
+      ]
+    },
+    {
+      "name": "mobile-320",
+      "passed": true,
+      "checks": [
+        "full overview",
+        "native-pixel cabin close view",
+        "no page overflow",
+        "touch controls and real pointer pan events",
+        "existing saves unchanged"
+      ]
+    },
+    {
+      "name": "asset failure and recovery",
+      "passed": true
+    }
+  ],
+  "pageErrors": [],
+  "visualApproval": "pending for new assets and scene",
+  "unverified": [
+    "real iOS Safari/Android devices",
+    "screen reader",
+    "long-term performance on larger worlds",
+    "formal free-building integration"
+  ]
+}

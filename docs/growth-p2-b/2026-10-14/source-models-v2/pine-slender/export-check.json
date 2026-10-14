@@ -1,0 +1,80 @@
+{
+  "id": "pine-slender",
+  "name": "高冠青杉",
+  "type": "tree",
+  "status": "candidate",
+  "version": "p2-b-v1",
+  "nativeSize": [
+    80,
+    144
+  ],
+  "anchor": [
+    40,
+    132
+  ],
+  "footprint": [
+    1,
+    1
+  ],
+  "footprintOffset": [
+    -0.5,
+    -0.5
+  ],
+  "png": "/assets/growth-p2-homestead/pine-slender.png",
+  "pngPath": "public/assets/growth-p2-homestead/pine-slender.png",
+  "sourceEngineering": "docs/growth-p2-b/2026-10-14/source-models-v2/pine-slender/pine-slender.blend",
+  "sourceScript": "docs/growth-p2-b/2026-10-14/build_assets.py",
+  "rawPNG": "docs/growth-p2-b/2026-10-14/source-models-v2/pine-slender/pine-slender-raw.png",
+  "method": "Structured Blender model; 38deg south orthographic camera; same four-band light and 32-color palette; native alpha/palette/1px outline export",
+  "renderLayer": "objects",
+  "occlusion": "groundAnchorY; then priority; then instance ID",
+  "priority": 20,
+  "palette": [
+    "#26332d",
+    "#3c4940",
+    "#586253",
+    "#78816c",
+    "#a4aa8b",
+    "#d1cfaa",
+    "#eee2bf",
+    "#fff1d2",
+    "#3b2926",
+    "#594036",
+    "#795643",
+    "#a07652",
+    "#c39b6a",
+    "#e2bd86",
+    "#713d3a",
+    "#995347",
+    "#bd7055",
+    "#df9c6b",
+    "#264b40",
+    "#3b6550",
+    "#588455",
+    "#7da55e",
+    "#a9c36e",
+    "#cadb8c",
+    "#17283d",
+    "#26394f",
+    "#3a5575",
+    "#557a9f",
+    "#53694b",
+    "#75835a",
+    "#9aa26d",
+    "#c2bd87"
+  ],
+  "sha256": "36ee71f75046c5e608922e5eadde339440efd63bee6a257bca6f68538f159fd4",
+  "visualBounds": [
+    10,
+    35,
+    60,
+    101
+  ],
+  "colorCount": 11,
+  "alphaValues": [
+    0,
+    255
+  ],
+  "visiblePixels": 3570,
+  "outsidePalette": []
+}

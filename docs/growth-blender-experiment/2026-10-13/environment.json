@@ -1,0 +1,26 @@
+{
+  "blenderVersion": "4.5.14 LTS",
+  "pythonVersion": "3.11.15",
+  "renderEngines": [
+    "BLENDER_EEVEE_NEXT"
+  ],
+  "cyclesDevices": [
+    {
+      "name": "Apple M3",
+      "type": "CPU"
+    },
+    {
+      "name": "Apple M3 (GPU - 10 cores)",
+      "type": "METAL"
+    }
+  ],
+  "background": true,
+  "macOS": "26.6.2",
+  "architecture": "arm64",
+  "physicalRAMBytes": 8589934592,
+  "logicalCPUs": 8,
+  "actualVerifiedRenderEngine": "CYCLES",
+  "actualRenderDevice": "CPU",
+  "gpuRenderExecuted": false,
+  "enumNote": "The initial RNA engine enum returned EEVEE only; CYCLES was subsequently selected and successfully rendered via the registered Cycles addon."
+}

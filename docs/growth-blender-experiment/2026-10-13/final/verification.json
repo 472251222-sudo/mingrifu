@@ -1,0 +1,136 @@
+{
+  "checks": [
+    {
+      "name": "original native dimensions",
+      "passed": true
+    },
+    {
+      "name": "original binary alpha and transparency",
+      "passed": true
+    },
+    {
+      "name": "original fixed palette",
+      "passed": true
+    },
+    {
+      "name": "original margins",
+      "passed": true
+    },
+    {
+      "name": "blue native dimensions",
+      "passed": true
+    },
+    {
+      "name": "blue binary alpha and transparency",
+      "passed": true
+    },
+    {
+      "name": "blue fixed palette",
+      "passed": true
+    },
+    {
+      "name": "blue margins",
+      "passed": true
+    },
+    {
+      "name": "orthographic south camera without isometric yaw",
+      "passed": true
+    },
+    {
+      "name": "projected anchor",
+      "passed": true
+    },
+    {
+      "name": "semantic editable objects",
+      "passed": true
+    },
+    {
+      "name": "roof edit preserves all geometry and assignments",
+      "passed": true
+    },
+    {
+      "name": "roof edit preserves camera",
+      "passed": true
+    },
+    {
+      "name": "only four roof materials changed",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\n6 !== 4\n"
+    },
+    {
+      "name": "modified project reopened and rendered",
+      "passed": true
+    },
+    {
+      "name": "original project reopened and rendered",
+      "passed": true
+    },
+    {
+      "name": "script regenerated original geometry",
+      "passed": true
+    },
+    {
+      "name": "reopened original raw pixels identical",
+      "passed": true
+    },
+    {
+      "name": "reopened original sprite pixels identical",
+      "passed": true
+    },
+    {
+      "name": "rebuilt original raw pixels identical",
+      "passed": true
+    },
+    {
+      "name": "rebuilt original sprite pixels identical",
+      "passed": true
+    },
+    {
+      "name": "reopened blue raw pixels identical",
+      "passed": true
+    },
+    {
+      "name": "reopened blue sprite pixels identical",
+      "passed": true
+    },
+    {
+      "name": "roof visibly recoloured",
+      "passed": true
+    },
+    {
+      "name": "roof recolour preserves silhouette",
+      "passed": true
+    },
+    {
+      "name": "unrelated rendered pixels unchanged",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\n16 !== 0\n"
+    }
+  ],
+  "total": 26,
+  "passed": 24,
+  "failed": 2,
+  "changedMaterials": [
+    "Mat_glassShade_0",
+    "Mat_wood_3",
+    "Roof_Color_0",
+    "Roof_Color_1",
+    "Roof_Color_2",
+    "Roof_Color_3"
+  ],
+  "pixelDifference": {
+    "inside": {
+      "pixels": 3668,
+      "changedRGBA": 3450
+    },
+    "outside": {
+      "pixels": 8620,
+      "changedRGBA": 16
+    },
+    "changedAlpha": 0
+  },
+  "originalSpriteSha256": "7b7d2929ae40b9b2693c14c563d8fb054fc600ab2a029feaff951a3907d2006f",
+  "blueSpriteSha256": "7f04bb0935ea1278f63566d0a1bdfd1112fed3c3ac20b719f66108fc2bb4bde9",
+  "visualApproval": "pending-user-review",
+  "statement": "Checks establish structure and repeatability; they do not certify professional art quality."
+}

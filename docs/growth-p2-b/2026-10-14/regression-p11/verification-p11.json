@@ -1,0 +1,80 @@
+{
+  "verifiedAt": "2026-10-13T17:56:42.050Z",
+  "results": [
+    {
+      "label": "hit-and-layers",
+      "passed": true,
+      "checks": [
+        "roof/wall hits at 50/75/100/200/300/400 percent and after pan",
+        "foreground visible building wins overlap",
+        "footprint selection does not repaint opaque building pixels",
+        "rear preview cannot cover foreground",
+        "camera bounds after repeated drags",
+        "selection and camera leave save byte-identical"
+      ],
+      "layers": {
+        "changedSelected": 0,
+        "changedPreview": 0,
+        "checked": 12816
+      }
+    },
+    {
+      "label": "mobile-390-844",
+      "passed": true,
+      "checks": [
+        "no page scrolling through build/move/store/replace/expand",
+        "map, errors and actions in viewport",
+        "drawer collapses on selection",
+        "drag cannot choose or build",
+        "44px camera targets",
+        "no tag/control overlap",
+        "reload preserves save"
+      ]
+    },
+    {
+      "label": "mobile-320-740",
+      "passed": true,
+      "checks": [
+        "no page scrolling through build/move/store/replace/expand",
+        "map, errors and actions in viewport",
+        "drawer collapses on selection",
+        "drag cannot choose or build",
+        "44px camera targets",
+        "no tag/control overlap",
+        "reload preserves save"
+      ]
+    },
+    {
+      "label": "mobile-320-568",
+      "passed": true,
+      "checks": [
+        "no page scrolling through build/move/store/replace/expand",
+        "map, errors and actions in viewport",
+        "drawer collapses on selection",
+        "drag cannot choose or build",
+        "44px camera targets",
+        "no tag/control overlap",
+        "reload preserves save"
+      ]
+    },
+    {
+      "label": "art-sample",
+      "passed": true,
+      "checks": [
+        "normal 200%, close 400%, overall screenshots",
+        "same camera/layout P1 comparison and side-by-side boards",
+        "three exported sample bitmaps",
+        "sample does not seed/read/write world save"
+      ],
+      "visualApproval": "pending user review; tests do not judge art quality"
+    }
+  ],
+  "pageErrors": [],
+  "unverified": [
+    "real iOS Safari/Android/WeChat",
+    "multi-touch pinch",
+    "screen reader",
+    "long-lived large-world performance",
+    "art quality requires human approval"
+  ]
+}

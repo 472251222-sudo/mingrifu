@@ -1,0 +1,17 @@
+{
+  "startedUTC": "2026-10-13T10:29:14.699373+00:00",
+  "coreWorkFinishedUTC": "2026-10-13T11:14:37.032101+00:00",
+  "elapsedMinutesThroughGenerationAndBrowserVerification": 45.37,
+  "installationDownloadSeconds": 15.901,
+  "installationSeconds": 12.445,
+  "finalPipelineProcessSeconds": 5.299,
+  "initialBuildIncludingStartupNativeMaskAndModelPreviewSeconds": 2.217,
+  "initialPixelExportSeconds": 0.174,
+  "roofMaterialEditReopenRenderIncludingStartupSeconds": 0.462,
+  "bluePixelExportSeconds": 0.093,
+  "roofChangeTotalSeconds": 0.555,
+  "repeatabilityValidationIncluded": true,
+  "note": "Wall time includes research/installation, authoring, bounded design refinement and verification; final production timings exclude that preparation.",
+  "deliveryReportAndPreviewCompletedUTC": "2026-10-13T12:54:06.914970+00:00",
+  "elapsedMinutesIncludingReportAndPreviewRefinement": 144.87
+}

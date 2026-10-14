@@ -1,0 +1,109 @@
+{
+  "blenderVersion": "4.5.14 LTS",
+  "semanticObjectCounts": {
+    "Moss": 1,
+    "Stone": 2
+  },
+  "objects": {
+    "Moss_patch": {
+      "semanticPart": "Moss",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "33b9688cb46b8bded9450f0608200adcbca381bfda2fedb56de22cd2f0b7450e",
+      "materials": [
+        "Moss#75835a"
+      ]
+    },
+    "Rock_body": {
+      "semanticPart": "Stone",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "d1620736f423702a38abc1b01fe03a08fe2e5bf0ec973c4c23f0a22192c9124b",
+      "materials": [
+        "Stone#78816c"
+      ]
+    },
+    "Rock_smaller": {
+      "semanticPart": "Stone",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "f90528c06dbfba2e244afb08e3090e4bee6c5856ab6c0bf7da51b7ee3836cabf",
+      "materials": [
+        "Stone#586253"
+      ]
+    }
+  },
+  "materials": {
+    "Moss#75835a": "#75835a",
+    "Stone#586253": "#586253",
+    "Stone#78816c": "#78816c"
+  },
+  "camera": {
+    "type": "ORTHO",
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.6156614422798157,
+        -0.7880107760429382,
+        -7.880107879638672
+      ],
+      [
+        0.0,
+        0.7880107760429382,
+        0.6156614422798157,
+        6.632497310638428
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "orthoScale": 1.0,
+    "elevationDegrees": 38,
+    "azimuthDegrees": 0,
+    "projectedAnchor": [
+      16.0,
+      28.000030517578125
+    ]
+  },
+  "render": {
+    "engine": "CYCLES",
+    "resolution": [
+      32,
+      32
+    ],
+    "samples": 48,
+    "device": "CPU",
+    "filmTransparent": true
+  },
+  "hiddenInteriorsBuilt": false,
+  "id": "rock",
+  "name": "苔色岩石",
+  "kind": "decoration",
+  "size": [
+    32,
+    32
+  ],
+  "anchor": [
+    16,
+    28
+  ],
+  "footprint": [
+    1,
+    1
+  ],
+  "status": "candidate",
+  "version": "p2-b-v1",
+  "constructionScript": "build_assets.py",
+  "renderSeconds": 0.004,
+  "buildAndRenderSeconds": 0.027,
+  "originalEngineering": "docs/growth-p2-b/2026-10-14/source-models/rock/rock.blend"
+}

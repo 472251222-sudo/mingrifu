@@ -1,0 +1,2936 @@
+{
+  "files": [
+    {
+      "path": "docs/growth-p2-b/2026-10-14/ASSET-CATALOG.md",
+      "bytes": 5361,
+      "sha256": "c125603fae5ce0911f77ddee5ed6f034c5a97a10d5836e02f6269fb17a8fb655"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/README.md",
+      "bytes": 14111,
+      "sha256": "12561b563257437f386acfeedeaeeefd5807844f6eaacb55a6c2c0ed632cbe31"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/asset-verification-final.log",
+      "bytes": 5408,
+      "sha256": "f269fd8a999f436870e84a27d3b2e5a150939fe38a160b7194336d9b2ceb30b0"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/asset-verification.json",
+      "bytes": 5408,
+      "sha256": "f269fd8a999f436870e84a27d3b2e5a150939fe38a160b7194336d9b2ceb30b0"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/asset-verification.log",
+      "bytes": 5408,
+      "sha256": "be8488ac0f8dfe4426550ccb228feb474b2eafc75b740a034d660f21bd154538"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/assets-first-pass.png",
+      "bytes": 34058,
+      "sha256": "86f9de5d23ab72dbbf63d68ec124df76cf9f43f6365631ea6e20228bec872183"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/before.json",
+      "bytes": 57913,
+      "sha256": "ab3d53e11e51a30d8faa5466029639cac4a79e74d7510d23da1a6a73ee1671aa"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/blender-build-authorized.log",
+      "bytes": 53582,
+      "sha256": "dd5f79dc0ada8cbcc1a7cff85b5f0373edb99080e7cb64dbffa4c22d77c1b71a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/blender-build-v2.log",
+      "bytes": 53742,
+      "sha256": "c43cb00dbe639bf59c467f925f187ff560d750952a1ba38a3c0c8b87e9c7fb47"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/blender-build.log",
+      "bytes": 378,
+      "sha256": "f99200ef79aa9bd56ef9eb6fd633b4efda5e060191a545c5d523720f363625d6"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/browser-verification-delivery.log",
+      "bytes": 985,
+      "sha256": "83427b015f9a31e33922abacffcc6647c3b5caa1d875ac38683b691a77fce82e"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/browser-verification-final.log",
+      "bytes": 985,
+      "sha256": "b26a75b0f1f2b5022faaf3c7b692dd15f3731de931c60e7c2b705900873b7917"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/browser-verification-v2.log",
+      "bytes": 929,
+      "sha256": "3b325207d1f02404254319e3bcd7aa1cb9d7153bb5f69f138090ac4ee69fe466"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/browser-verification.log",
+      "bytes": 1553,
+      "sha256": "52a46a462f3a97da2f02d48db27abc2be02295ead758a1ac09514e709a2cd362"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/build-validation-final.json",
+      "bytes": 225,
+      "sha256": "16225c1870d047c6c2a4c3d12b458a4075a72d44c3888beaae966c46fdd1b3d0"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/build-validation-final.log",
+      "bytes": 1323,
+      "sha256": "f7518407184685265dc807a3848985848dcb4b007215ba2815332b609450e80e"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/build-validation.json",
+      "bytes": 226,
+      "sha256": "f0e7893b483a925aadbdd47247b0b858f7054909bf6406f3f680c230b2a06508"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/build-validation.log",
+      "bytes": 1281,
+      "sha256": "eadeaf803e87621386f63213e0364636eb5c241573fd729352f14cfeffbf0065"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/build_assets.py",
+      "bytes": 14694,
+      "sha256": "4a9ed801e346d1a3ed471c6eb1e873e25ec21fdee195230fb0e10f1643f9919c"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/asset-verification-v2.json",
+      "bytes": 5408,
+      "sha256": "be8488ac0f8dfe4426550ccb228feb474b2eafc75b740a034d660f21bd154538"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v1/bush.png",
+      "bytes": 1107,
+      "sha256": "5ece58545c0b9756b1d9f682db1fbf6e251fb2a826768483aa4c09d19bb18be0"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v1/cabin-terracotta.png",
+      "bytes": 6581,
+      "sha256": "457c20ad6f0876aa8498912038d3b36a55baabfa426c8125c49c3ecd783ca0fe"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v1/fence-horizontal.png",
+      "bytes": 380,
+      "sha256": "336ed6eb7ad350b376a6189c60bc0803b061c5215d4df9c50e55ef9648ed4c9b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v1/fence-vertical.png",
+      "bytes": 401,
+      "sha256": "bdca72f9424fed98693e3d5296d901216977261f088d9344a305831b92247548"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v1/grass-tuft.png",
+      "bytes": 535,
+      "sha256": "eaa9d8cd48640584b81912d30385ec0680416df1106315865dac7e67415a764b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v1/mailbox.png",
+      "bytes": 582,
+      "sha256": "b226178b6192477399ab35dbaccd7e7a9af7f856a24b1e426aed06e2dcaebff1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v1/manifest.json",
+      "bytes": 213383,
+      "sha256": "ec602d80a81c50123d6c0daeb50c86f958493cbc919bafa3d9a65980e8a984f8"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v1/oak-broad.png",
+      "bytes": 2694,
+      "sha256": "b613b54598d11f6dd00bcf55f7cd9a5de894b583a8429670da5fe8009750f5f3"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v1/pine-slender.png",
+      "bytes": 2809,
+      "sha256": "36ee71f75046c5e608922e5eadde339440efd63bee6a257bca6f68538f159fd4"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v1/rock.png",
+      "bytes": 473,
+      "sha256": "a33e2587904bb100cb6f4e392f3e7039051e4a4443bee9038a43d6354fdfc1a5"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v1/terrain-atlas.png",
+      "bytes": 25548,
+      "sha256": "ce10f91c6147e3c3074156e99e8d25310942d6af337cd47c181cbbfa9e699fb9"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v1/wildflowers.png",
+      "bytes": 919,
+      "sha256": "98a8c6684d8602f6d58103692f921b1d5e51add5751817f75260f5580f989ff7"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v2/bush.png",
+      "bytes": 1107,
+      "sha256": "5ece58545c0b9756b1d9f682db1fbf6e251fb2a826768483aa4c09d19bb18be0"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v2/cabin-terracotta.png",
+      "bytes": 6581,
+      "sha256": "457c20ad6f0876aa8498912038d3b36a55baabfa426c8125c49c3ecd783ca0fe"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v2/fence-horizontal.png",
+      "bytes": 563,
+      "sha256": "9c096a048f41574491c109e1ed38b2f356281aafb855d39b32cf16ce75882c15"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v2/fence-vertical.png",
+      "bytes": 442,
+      "sha256": "a72beba8977d71d227627119d662bed4f33145fc89e878867453b7131c7c2afe"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v2/grass-tuft.png",
+      "bytes": 535,
+      "sha256": "eaa9d8cd48640584b81912d30385ec0680416df1106315865dac7e67415a764b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v2/mailbox.png",
+      "bytes": 582,
+      "sha256": "b226178b6192477399ab35dbaccd7e7a9af7f856a24b1e426aed06e2dcaebff1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v2/manifest.json",
+      "bytes": 214056,
+      "sha256": "ac38e8a368eb941b0fe7deb83daa12a04d3a68422cca47424434b4b43e224852"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v2/oak-broad.png",
+      "bytes": 2694,
+      "sha256": "b613b54598d11f6dd00bcf55f7cd9a5de894b583a8429670da5fe8009750f5f3"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v2/pine-slender.png",
+      "bytes": 2809,
+      "sha256": "36ee71f75046c5e608922e5eadde339440efd63bee6a257bca6f68538f159fd4"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v2/rock.png",
+      "bytes": 483,
+      "sha256": "1bb349a9073ce02fb476a9aacafe041c76f3e7718a54f3362aec80a03b7d2ffb"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v2/terrain-atlas.png",
+      "bytes": 25548,
+      "sha256": "ce10f91c6147e3c3074156e99e8d25310942d6af337cd47c181cbbfa9e699fb9"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/assets-v2/wildflowers.png",
+      "bytes": 919,
+      "sha256": "98a8c6684d8602f6d58103692f921b1d5e51add5751817f75260f5580f989ff7"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/build-assets-v1.py",
+      "bytes": 14465,
+      "sha256": "8dd5b7abca4ef65933695d2a473e87ae154185e0a0727a41ec99c79740824e6e"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/export-before-blender/cabin-terracotta.png",
+      "bytes": 6581,
+      "sha256": "457c20ad6f0876aa8498912038d3b36a55baabfa426c8125c49c3ecd783ca0fe"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/export-terrain-retry/cabin-terracotta.png",
+      "bytes": 6581,
+      "sha256": "457c20ad6f0876aa8498912038d3b36a55baabfa426c8125c49c3ecd783ca0fe"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/export-terrain-retry/oak-broad.png",
+      "bytes": 2694,
+      "sha256": "b613b54598d11f6dd00bcf55f7cd9a5de894b583a8429670da5fe8009750f5f3"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/produce-assets-v1.mjs",
+      "bytes": 9616,
+      "sha256": "cfd2c572776ec41a9f08bdfa8984bc0861527f645b38c8d1832efd956a62a6cd"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/produce-assets-v2.mjs",
+      "bytes": 9691,
+      "sha256": "4b3187bd1ab3e03f8aa2df6e2444d778ae2b38463d4c2cb3faf9439f18a1d116"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/production-summary-v1.json",
+      "bytes": 179,
+      "sha256": "8d559bb5e395f7f5cd1d7b85831e8350ec1f7133f85c4baf508a9dadee964356"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/production-summary-v2.json",
+      "bytes": 179,
+      "sha256": "8d559bb5e395f7f5cd1d7b85831e8350ec1f7133f85c4baf508a9dadee964356"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-style-v2.json",
+      "bytes": 699,
+      "sha256": "821fc4761220aab5c55fb7c5972e99e62e70fa0b638c4987b20b3527c0c1e5b2"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-0.png",
+      "bytes": 508,
+      "sha256": "9b9b33ebf1a5d0f8f9090ede2c461e6a728cb307cdd0f888311a708f5ccb2de1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-1.png",
+      "bytes": 437,
+      "sha256": "dc46e6a2bb0d84a8f10bdc29ed29fdfbfcc61b51d2d661a2643ded685bda6da0"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-10.png",
+      "bytes": 350,
+      "sha256": "88ffa4fe1e0263e9c4d6428427887fe4b56fc0679c94365f22048b08b45fdf48"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-11.png",
+      "bytes": 377,
+      "sha256": "e6cc53877d0a88a98461b5898cdc34cc9f9aa33cb1dade313d8a5ea385e4d2b6"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-110.png",
+      "bytes": 338,
+      "sha256": "3649d9cb5322968b7a650593386af0ed24479981b4836367e8d9ac4579a68ff4"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-111.png",
+      "bytes": 384,
+      "sha256": "d79510f02460977e580e6a3bc04047a22f3fb1be8c6a0b2e716e88d0f73f5db8"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-12.png",
+      "bytes": 381,
+      "sha256": "79e96d5fe5d528c1cb5eed7aa9172ec3e1bf4e5b55c66faf216787b8996d9de8"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-127.png",
+      "bytes": 359,
+      "sha256": "c8f8b722331cf16b1135b18662eda1bc7b859b8445d9e042ef72067695cc54ed"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-13.png",
+      "bytes": 346,
+      "sha256": "922d40a45a534282756b46fcfa62bc41c85e9e58c7eb74ef87a385f2d58272e3"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-137.png",
+      "bytes": 377,
+      "sha256": "52c3441de64829934dfe4bd3a0babceec535ec8da3ba38fd87d2b1947e27eafa"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-139.png",
+      "bytes": 367,
+      "sha256": "06f5afa3976d8a2b3981e799fd95a62eccfb3ca328ce5d8a578f3b5b7ad6ed90"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-14.png",
+      "bytes": 368,
+      "sha256": "f826fb11f165e81ec7adae43f4ac7248ef659ff953a20328d1d9c7cdea421119"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-141.png",
+      "bytes": 335,
+      "sha256": "5edab9fb823be44175ab5dda97aa6cbb4e61026f7a29d8740b8bfc31e129994f"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-143.png",
+      "bytes": 378,
+      "sha256": "24feaf23afd7161f94cd6de0f394c02c7b9a0d4ffc274c13c7c6d5643b596d95"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-15.png",
+      "bytes": 416,
+      "sha256": "7ba0f9c098e38058a05d4af98f6e44a8775a00f7be246a838d0f7450762247fa"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-155.png",
+      "bytes": 313,
+      "sha256": "ebe681657fe9f7bed5331355f2c6319c3a889cc4d8532a6d76fb79d23749f163"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-159.png",
+      "bytes": 368,
+      "sha256": "e3b3ae4ed278e053f0ffffe78462edfe432e9fe6427a509992908bd6c33cd7c4"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-175.png",
+      "bytes": 380,
+      "sha256": "e85a3b4d524797ead60d2481a79f31649b908b5d39cad211668dd92d6f780179"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-19.png",
+      "bytes": 394,
+      "sha256": "e7778c87c506e54edb48df00552ce5600f9870416cd653a7f4fccd66762a9dd1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-191.png",
+      "bytes": 358,
+      "sha256": "3ed72e1c13a129f6e731b9c6d78f346840ed3d97e3c816b8329a0f51c6e851c1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-2.png",
+      "bytes": 419,
+      "sha256": "1d7c86b1bb7b347402388e56e43972ffb38f75847b745b0341dd15a55a067315"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-205.png",
+      "bytes": 326,
+      "sha256": "2551eb7420953d2665afd3563995a46c15cecf7bceaee5e23b6aa177173e0763"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-207.png",
+      "bytes": 383,
+      "sha256": "83aa092db430d7012a912c3da711ed7c4bf9ad75f59534b4de9c1cfbe687ab62"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-223.png",
+      "bytes": 334,
+      "sha256": "27e258ea624342e79b7e9b38656a7e1b7baf780c1222d23dff318567cca9a0a9"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-23.png",
+      "bytes": 347,
+      "sha256": "a7e23f42befff71dae729a116238f7c6455680b9c3d0d37ba270b9672197f51b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-239.png",
+      "bytes": 351,
+      "sha256": "794c39bf3e480b55c5d159be12738a9db5ff88fc01eae283b180aaad8b64a709"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-255.png",
+      "bytes": 300,
+      "sha256": "8da440179ed6f52702c80c69d690ccb657403f21431aa8b59661a351ace2a1d3"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-27.png",
+      "bytes": 362,
+      "sha256": "b6964588ce4560249efbe4ef439510bb0d13698732eb4c996554572ba8884631"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-3.png",
+      "bytes": 399,
+      "sha256": "fcb4f666ab5c85cfc38d994c17aabfe93162ae39ca1dcc06f08730d6b182003c"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-31.png",
+      "bytes": 386,
+      "sha256": "ae7d701c5e03f6cd85a7d831154ee004f3b1f59eebea99f6c53f8c8c77697544"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-38.png",
+      "bytes": 356,
+      "sha256": "161aa4780d425723bd8665774403002546c804d10c3ffe0d77a907bb12e3fee7"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-39.png",
+      "bytes": 332,
+      "sha256": "7e1708b9277cf9c4ed45aa8fa2007ef65f529d4dccfe3b6aaab4641eb06c1143"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-4.png",
+      "bytes": 419,
+      "sha256": "e1663550f3bc6ec73dea95b9722e75075b4c05ba00413237b49d8c9a2176079b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-46.png",
+      "bytes": 349,
+      "sha256": "c0b47e9d7c35ce9d92a76c64745798a357d9fa9b330b73a8c76b1971fbdbac07"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-47.png",
+      "bytes": 399,
+      "sha256": "cc1ffc1d7cc1dee9468d82835f0eff975a29def4cbea67ddbfec13d9f7edf84e"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-5.png",
+      "bytes": 354,
+      "sha256": "ef7047dccf29ee901afc824770f043ecba02471b60bebc0a7c809fbbc5c57026"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-55.png",
+      "bytes": 335,
+      "sha256": "340dc656eb1d56e0d2f083cfd1c4b351211f8ea393e9eb0486576dffe8ba3b13"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-6.png",
+      "bytes": 391,
+      "sha256": "72db5d74e5b7cfa71db805144fc5d20ea080a54e59c484ff716df340dec831c2"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-63.png",
+      "bytes": 359,
+      "sha256": "ccf00ec5ebb2863ee3d6c904bad6b4241da8422abe7510c657f4c3302605103c"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-7.png",
+      "bytes": 366,
+      "sha256": "b2d5bc6404f7e8f460183c0e0e691e52d2ff3a412657c80180e4722e3b9537c6"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-76.png",
+      "bytes": 395,
+      "sha256": "3dcd005342d4f6bda000052814aad20749b16dbbd35d239e0ee577e3d3bec98f"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-77.png",
+      "bytes": 351,
+      "sha256": "68bb609638ccbdc807cfed9d8e805a3a9f911a1b23f6fb502e4c0c986580c00d"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-78.png",
+      "bytes": 360,
+      "sha256": "fe400fd9de0706a211bbd338d728923d6938ecfda48a5f65bab0950d2e62fab1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-79.png",
+      "bytes": 354,
+      "sha256": "6fe5d3aea05cd302080ebd4ec7a4ccac315d710c761d09c2c3554cb99eac8ec1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-8.png",
+      "bytes": 420,
+      "sha256": "6c3ddf1dbff3a376103aaf2e01f6822686bd0fb33ea3b28186fe0ec6f32b6c13"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-9.png",
+      "bytes": 380,
+      "sha256": "4e82c2d10bf45b33d93f0fbac050eeaa60ea7b8cc8518f9b496c95ece5c8d729"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/dirt-95.png",
+      "bytes": 375,
+      "sha256": "d3c7704a8dc0c8382057534de23d6f4c8c1bd7bfd016e0a1f6775b9c71dc3550"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/grass-0.png",
+      "bytes": 297,
+      "sha256": "0f5e4d9a1c70c048f9be09ecb69fc6bcc78f7b567d949d929c34d80cca912e43"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/grass-1.png",
+      "bytes": 366,
+      "sha256": "6ef2f2050099483d2d2564666cb0ecb2f95a9e878ab51704fd7af72ecd67f25d"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/grass-2.png",
+      "bytes": 421,
+      "sha256": "9d670aba6898e49e43305526f4abd3a595302e1a7c4c524f476552cf4e9a0a0b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/grass-3.png",
+      "bytes": 317,
+      "sha256": "33b937ead68807ee77af85db95b61506a7f0e0ac936e4f10dd3d586b4dcafe4b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/grass-4.png",
+      "bytes": 395,
+      "sha256": "48c162bb199b6ea5c9a879e6b8aa1399f172e568161d4ce2361a1ca9a287e23c"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/grass-5.png",
+      "bytes": 296,
+      "sha256": "64d90a4770009bd62e30cc2fef4eda5fc39e821f873c6e99727c53bc766df606"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/grass-6.png",
+      "bytes": 351,
+      "sha256": "ec80bf4f8594a5b3f7a9fc8dbd5d5eecfc6853c2965d81ac24bdb14b73c41f99"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/grass-7.png",
+      "bytes": 417,
+      "sha256": "10a62f69132014367ac1e472428c653e147d0e0c229fa3653672991ef8620104"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-0.png",
+      "bytes": 543,
+      "sha256": "3f7dbea36b0a7cd38f7e5418967f3453029756a46addd41931864d5ca50c4b96"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-1.png",
+      "bytes": 492,
+      "sha256": "aee3485ccdfb7f28d02e819b20263f901f368bf97d081e711a1e7c8361fe92ad"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-10.png",
+      "bytes": 393,
+      "sha256": "e65d68321738898016cb10e07c7704dd50bad413d520cd9118bacbd98d7dc94a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-11.png",
+      "bytes": 434,
+      "sha256": "e3e572d918e0740e801ffd285f6d02485057d7992bc8d66ad90b0a6711fbbb89"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-110.png",
+      "bytes": 383,
+      "sha256": "e8babb8a44e5e893ff89b8f8a649f96001614be4f84e40d283c75279b2b11308"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-111.png",
+      "bytes": 435,
+      "sha256": "47607abb0becee4201d87e8bdc0ce1564fcf9f1b5f6d6aab36d87c69ed787828"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-12.png",
+      "bytes": 469,
+      "sha256": "6a88813c460a9f87596009ac16a1f2257e6158042dc5f2467e42af74dffb2064"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-127.png",
+      "bytes": 411,
+      "sha256": "2519f5f4a29d764ecbf81d2450f1c3ff29dca779b5084276fb3046b721698b00"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-13.png",
+      "bytes": 426,
+      "sha256": "c88753af5f1b976e6979b83ac56f1e29bb456588b6c1fa21d597d79fe513515a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-137.png",
+      "bytes": 415,
+      "sha256": "7a87774093c93a4f5a83f3c0ce69f34517fa884e300207fdbcc3aa979f378d7f"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-139.png",
+      "bytes": 411,
+      "sha256": "d0782ec9650935a578784b2cdd07540ded8f898cf915062f3b478d5b2840eb3b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-14.png",
+      "bytes": 426,
+      "sha256": "44d166847f728a20621383d8aca69a6b7a1492568d53727f49aa1e54793a86ef"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-141.png",
+      "bytes": 416,
+      "sha256": "bc247e29bb9c600f8fce52a3ef7b9d332a64b0be644e47df2ffd0052b08cb4e3"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-143.png",
+      "bytes": 415,
+      "sha256": "bb6130f3d40dc8cd8796ac77996126007f2f4ab5940d5d277c32b811d3101feb"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-15.png",
+      "bytes": 454,
+      "sha256": "7807363ba67edfa92c7d7feedf84b06d91a754d4391bda5369705bb9b00b5e62"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-155.png",
+      "bytes": 402,
+      "sha256": "40d58ca7d48ed51110ec4713fb3e1133651e57f241c205909dae6210e1270edd"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-159.png",
+      "bytes": 382,
+      "sha256": "14ab0f462deb982927c76527593341f574fed62089bf2f7c09685702b7e25e7a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-175.png",
+      "bytes": 420,
+      "sha256": "faec2680b7acb0e66f022d7629e40aa6a36fe03784040613b19718949df508ce"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-19.png",
+      "bytes": 424,
+      "sha256": "82dbf3aac48e7227774f3819cec8117fcd7dfa7c0e24010a9c400c1953e521af"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-191.png",
+      "bytes": 401,
+      "sha256": "7a986bbc58c41c3f723f745af9e63900cd4fdb675c40586c5a5400b7acb7bc95"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-2.png",
+      "bytes": 457,
+      "sha256": "e95a915bb5d207c560776162d26d4a381061cd83feb2cf872658e058fbb0b2b4"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-205.png",
+      "bytes": 382,
+      "sha256": "c776097a2bec07f7c1f5aa49205ddf5c798ad955c8fdf9696e4149aff1c2299b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-207.png",
+      "bytes": 432,
+      "sha256": "26470da5af2190036fb122b1d954a84fc2e73ff9df9a250b1ceba862836079a9"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-223.png",
+      "bytes": 369,
+      "sha256": "bdaefd432abad0decfa3e165134d8cc8d83f11a98bc0f694a51f5d10168c5722"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-23.png",
+      "bytes": 414,
+      "sha256": "567c02b046768d65e85f147655929418c0663bc8bbb0f509effa2b5128b387ab"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-239.png",
+      "bytes": 407,
+      "sha256": "623f73c8d5748ac47ba1388343b5e339c2a88eae403aa4095eb185c5aac20968"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-255.png",
+      "bytes": 377,
+      "sha256": "b3476864afa5b4522fa7e5a3bbae97c4003683babd6a691808b3501a9dc3d851"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-27.png",
+      "bytes": 400,
+      "sha256": "fca324f0b4e40356055514d55c0ddcc6791f8c28b676e8f642e2ec9b8104d781"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-3.png",
+      "bytes": 469,
+      "sha256": "ebe9e14150c3b526f6ae0fb9b4014ad558a056b291697769fc8116bf615dbb24"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-31.png",
+      "bytes": 428,
+      "sha256": "6c1b484c8bf3471b1ad26bc8b4004039c5cd1a1905a5dd6840ae09057f83702a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-38.png",
+      "bytes": 433,
+      "sha256": "207a64966d52a8c27fc27b1346c5db9f14c7c88e4ce7a54e6c4da52315b705f4"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-39.png",
+      "bytes": 424,
+      "sha256": "40b296799e5fcbe81ac781af0235b8f49a5cd87d350a1503c070a54e3a51f247"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-4.png",
+      "bytes": 489,
+      "sha256": "d4bd39b52b831023e712e1cbb9ab59252a2ab4fe75c545ccb597989d326a870a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-46.png",
+      "bytes": 387,
+      "sha256": "a7d072078120b40d3f671a6fdb9fd2d974a9f62cea13c82dbd454eff5a4b9f5d"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-47.png",
+      "bytes": 432,
+      "sha256": "ecdd9f366f374f907f9d7f1efd40a9eef30688b73bca258113c562b3f28119f9"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-5.png",
+      "bytes": 409,
+      "sha256": "f98b2e718ed75e7cd2af22589d7c323655d6cca6d0f7ca1892cb867aaebe11f5"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-55.png",
+      "bytes": 392,
+      "sha256": "c90f2d8f002268a6fbd90d98f0397592ff803adb1d6770d68bce0d88638bf487"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-6.png",
+      "bytes": 435,
+      "sha256": "3a2933bcbb918a77a9c945c50f582e4876f4e637451e0fefba86ef285de45cc8"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-63.png",
+      "bytes": 402,
+      "sha256": "cbc587155ce9a0ba29bec519f6bb20401aeab359b80b8932a5a60007d977ee11"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-7.png",
+      "bytes": 417,
+      "sha256": "743beee194b75735a708501acaeab0398cd3f01b09597b459f7ff5c7c2217191"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-76.png",
+      "bytes": 450,
+      "sha256": "681c103b312d3e12460862008f9d81477bbbd3de2222162291ccc03bc47133a1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-77.png",
+      "bytes": 418,
+      "sha256": "e6cfca9b3d968b3cb7211d026956b325ee4f3074009259e266f16421a414b346"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-78.png",
+      "bytes": 391,
+      "sha256": "77fdf38369ab3b6d9feaed7636cd5881810555caa83c385fcaff23dfdacad09d"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-79.png",
+      "bytes": 428,
+      "sha256": "41e51d3f26b2e2ae6083d1e7063c03ff2a168773705eab650beb52391babcd99"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-8.png",
+      "bytes": 427,
+      "sha256": "79ec4ea0e84a045b29384f3c78bfa6f1c6db8406b230074858c75dae4dee01cf"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-9.png",
+      "bytes": 423,
+      "sha256": "e70ca6dc4288f65a03560577b002bf8b0cc6365073961500e728ce2e2e0f0ce6"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v1/path-95.png",
+      "bytes": 402,
+      "sha256": "6a77080c5c7fc98e4cd22e4b8248a287ef9a7e04eec75099718d125718b21189"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-0.png",
+      "bytes": 508,
+      "sha256": "9b9b33ebf1a5d0f8f9090ede2c461e6a728cb307cdd0f888311a708f5ccb2de1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-1.png",
+      "bytes": 437,
+      "sha256": "dc46e6a2bb0d84a8f10bdc29ed29fdfbfcc61b51d2d661a2643ded685bda6da0"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-10.png",
+      "bytes": 350,
+      "sha256": "88ffa4fe1e0263e9c4d6428427887fe4b56fc0679c94365f22048b08b45fdf48"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-11.png",
+      "bytes": 377,
+      "sha256": "e6cc53877d0a88a98461b5898cdc34cc9f9aa33cb1dade313d8a5ea385e4d2b6"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-110.png",
+      "bytes": 338,
+      "sha256": "3649d9cb5322968b7a650593386af0ed24479981b4836367e8d9ac4579a68ff4"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-111.png",
+      "bytes": 384,
+      "sha256": "d79510f02460977e580e6a3bc04047a22f3fb1be8c6a0b2e716e88d0f73f5db8"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-12.png",
+      "bytes": 381,
+      "sha256": "79e96d5fe5d528c1cb5eed7aa9172ec3e1bf4e5b55c66faf216787b8996d9de8"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-127.png",
+      "bytes": 359,
+      "sha256": "c8f8b722331cf16b1135b18662eda1bc7b859b8445d9e042ef72067695cc54ed"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-13.png",
+      "bytes": 346,
+      "sha256": "922d40a45a534282756b46fcfa62bc41c85e9e58c7eb74ef87a385f2d58272e3"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-137.png",
+      "bytes": 377,
+      "sha256": "52c3441de64829934dfe4bd3a0babceec535ec8da3ba38fd87d2b1947e27eafa"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-139.png",
+      "bytes": 367,
+      "sha256": "06f5afa3976d8a2b3981e799fd95a62eccfb3ca328ce5d8a578f3b5b7ad6ed90"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-14.png",
+      "bytes": 368,
+      "sha256": "f826fb11f165e81ec7adae43f4ac7248ef659ff953a20328d1d9c7cdea421119"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-141.png",
+      "bytes": 335,
+      "sha256": "5edab9fb823be44175ab5dda97aa6cbb4e61026f7a29d8740b8bfc31e129994f"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-143.png",
+      "bytes": 378,
+      "sha256": "24feaf23afd7161f94cd6de0f394c02c7b9a0d4ffc274c13c7c6d5643b596d95"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-15.png",
+      "bytes": 416,
+      "sha256": "7ba0f9c098e38058a05d4af98f6e44a8775a00f7be246a838d0f7450762247fa"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-155.png",
+      "bytes": 313,
+      "sha256": "ebe681657fe9f7bed5331355f2c6319c3a889cc4d8532a6d76fb79d23749f163"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-159.png",
+      "bytes": 368,
+      "sha256": "e3b3ae4ed278e053f0ffffe78462edfe432e9fe6427a509992908bd6c33cd7c4"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-175.png",
+      "bytes": 380,
+      "sha256": "e85a3b4d524797ead60d2481a79f31649b908b5d39cad211668dd92d6f780179"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-19.png",
+      "bytes": 394,
+      "sha256": "e7778c87c506e54edb48df00552ce5600f9870416cd653a7f4fccd66762a9dd1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-191.png",
+      "bytes": 358,
+      "sha256": "3ed72e1c13a129f6e731b9c6d78f346840ed3d97e3c816b8329a0f51c6e851c1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-2.png",
+      "bytes": 419,
+      "sha256": "1d7c86b1bb7b347402388e56e43972ffb38f75847b745b0341dd15a55a067315"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-205.png",
+      "bytes": 326,
+      "sha256": "2551eb7420953d2665afd3563995a46c15cecf7bceaee5e23b6aa177173e0763"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-207.png",
+      "bytes": 383,
+      "sha256": "83aa092db430d7012a912c3da711ed7c4bf9ad75f59534b4de9c1cfbe687ab62"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-223.png",
+      "bytes": 334,
+      "sha256": "27e258ea624342e79b7e9b38656a7e1b7baf780c1222d23dff318567cca9a0a9"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-23.png",
+      "bytes": 347,
+      "sha256": "a7e23f42befff71dae729a116238f7c6455680b9c3d0d37ba270b9672197f51b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-239.png",
+      "bytes": 351,
+      "sha256": "794c39bf3e480b55c5d159be12738a9db5ff88fc01eae283b180aaad8b64a709"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-255.png",
+      "bytes": 300,
+      "sha256": "8da440179ed6f52702c80c69d690ccb657403f21431aa8b59661a351ace2a1d3"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-27.png",
+      "bytes": 362,
+      "sha256": "b6964588ce4560249efbe4ef439510bb0d13698732eb4c996554572ba8884631"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-3.png",
+      "bytes": 399,
+      "sha256": "fcb4f666ab5c85cfc38d994c17aabfe93162ae39ca1dcc06f08730d6b182003c"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-31.png",
+      "bytes": 386,
+      "sha256": "ae7d701c5e03f6cd85a7d831154ee004f3b1f59eebea99f6c53f8c8c77697544"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-38.png",
+      "bytes": 356,
+      "sha256": "161aa4780d425723bd8665774403002546c804d10c3ffe0d77a907bb12e3fee7"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-39.png",
+      "bytes": 332,
+      "sha256": "7e1708b9277cf9c4ed45aa8fa2007ef65f529d4dccfe3b6aaab4641eb06c1143"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-4.png",
+      "bytes": 419,
+      "sha256": "e1663550f3bc6ec73dea95b9722e75075b4c05ba00413237b49d8c9a2176079b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-46.png",
+      "bytes": 349,
+      "sha256": "c0b47e9d7c35ce9d92a76c64745798a357d9fa9b330b73a8c76b1971fbdbac07"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-47.png",
+      "bytes": 399,
+      "sha256": "cc1ffc1d7cc1dee9468d82835f0eff975a29def4cbea67ddbfec13d9f7edf84e"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-5.png",
+      "bytes": 354,
+      "sha256": "ef7047dccf29ee901afc824770f043ecba02471b60bebc0a7c809fbbc5c57026"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-55.png",
+      "bytes": 335,
+      "sha256": "340dc656eb1d56e0d2f083cfd1c4b351211f8ea393e9eb0486576dffe8ba3b13"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-6.png",
+      "bytes": 391,
+      "sha256": "72db5d74e5b7cfa71db805144fc5d20ea080a54e59c484ff716df340dec831c2"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-63.png",
+      "bytes": 359,
+      "sha256": "ccf00ec5ebb2863ee3d6c904bad6b4241da8422abe7510c657f4c3302605103c"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-7.png",
+      "bytes": 366,
+      "sha256": "b2d5bc6404f7e8f460183c0e0e691e52d2ff3a412657c80180e4722e3b9537c6"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-76.png",
+      "bytes": 395,
+      "sha256": "3dcd005342d4f6bda000052814aad20749b16dbbd35d239e0ee577e3d3bec98f"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-77.png",
+      "bytes": 351,
+      "sha256": "68bb609638ccbdc807cfed9d8e805a3a9f911a1b23f6fb502e4c0c986580c00d"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-78.png",
+      "bytes": 360,
+      "sha256": "fe400fd9de0706a211bbd338d728923d6938ecfda48a5f65bab0950d2e62fab1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-79.png",
+      "bytes": 354,
+      "sha256": "6fe5d3aea05cd302080ebd4ec7a4ccac315d710c761d09c2c3554cb99eac8ec1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-8.png",
+      "bytes": 420,
+      "sha256": "6c3ddf1dbff3a376103aaf2e01f6822686bd0fb33ea3b28186fe0ec6f32b6c13"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-9.png",
+      "bytes": 380,
+      "sha256": "4e82c2d10bf45b33d93f0fbac050eeaa60ea7b8cc8518f9b496c95ece5c8d729"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/dirt-95.png",
+      "bytes": 375,
+      "sha256": "d3c7704a8dc0c8382057534de23d6f4c8c1bd7bfd016e0a1f6775b9c71dc3550"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/grass-0.png",
+      "bytes": 297,
+      "sha256": "0f5e4d9a1c70c048f9be09ecb69fc6bcc78f7b567d949d929c34d80cca912e43"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/grass-1.png",
+      "bytes": 366,
+      "sha256": "6ef2f2050099483d2d2564666cb0ecb2f95a9e878ab51704fd7af72ecd67f25d"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/grass-2.png",
+      "bytes": 421,
+      "sha256": "9d670aba6898e49e43305526f4abd3a595302e1a7c4c524f476552cf4e9a0a0b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/grass-3.png",
+      "bytes": 317,
+      "sha256": "33b937ead68807ee77af85db95b61506a7f0e0ac936e4f10dd3d586b4dcafe4b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/grass-4.png",
+      "bytes": 395,
+      "sha256": "48c162bb199b6ea5c9a879e6b8aa1399f172e568161d4ce2361a1ca9a287e23c"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/grass-5.png",
+      "bytes": 296,
+      "sha256": "64d90a4770009bd62e30cc2fef4eda5fc39e821f873c6e99727c53bc766df606"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/grass-6.png",
+      "bytes": 351,
+      "sha256": "ec80bf4f8594a5b3f7a9fc8dbd5d5eecfc6853c2965d81ac24bdb14b73c41f99"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/grass-7.png",
+      "bytes": 417,
+      "sha256": "10a62f69132014367ac1e472428c653e147d0e0c229fa3653672991ef8620104"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-0.png",
+      "bytes": 543,
+      "sha256": "3f7dbea36b0a7cd38f7e5418967f3453029756a46addd41931864d5ca50c4b96"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-1.png",
+      "bytes": 492,
+      "sha256": "aee3485ccdfb7f28d02e819b20263f901f368bf97d081e711a1e7c8361fe92ad"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-10.png",
+      "bytes": 393,
+      "sha256": "e65d68321738898016cb10e07c7704dd50bad413d520cd9118bacbd98d7dc94a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-11.png",
+      "bytes": 434,
+      "sha256": "e3e572d918e0740e801ffd285f6d02485057d7992bc8d66ad90b0a6711fbbb89"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-110.png",
+      "bytes": 383,
+      "sha256": "e8babb8a44e5e893ff89b8f8a649f96001614be4f84e40d283c75279b2b11308"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-111.png",
+      "bytes": 435,
+      "sha256": "47607abb0becee4201d87e8bdc0ce1564fcf9f1b5f6d6aab36d87c69ed787828"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-12.png",
+      "bytes": 469,
+      "sha256": "6a88813c460a9f87596009ac16a1f2257e6158042dc5f2467e42af74dffb2064"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-127.png",
+      "bytes": 411,
+      "sha256": "2519f5f4a29d764ecbf81d2450f1c3ff29dca779b5084276fb3046b721698b00"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-13.png",
+      "bytes": 426,
+      "sha256": "c88753af5f1b976e6979b83ac56f1e29bb456588b6c1fa21d597d79fe513515a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-137.png",
+      "bytes": 415,
+      "sha256": "7a87774093c93a4f5a83f3c0ce69f34517fa884e300207fdbcc3aa979f378d7f"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-139.png",
+      "bytes": 411,
+      "sha256": "d0782ec9650935a578784b2cdd07540ded8f898cf915062f3b478d5b2840eb3b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-14.png",
+      "bytes": 426,
+      "sha256": "44d166847f728a20621383d8aca69a6b7a1492568d53727f49aa1e54793a86ef"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-141.png",
+      "bytes": 416,
+      "sha256": "bc247e29bb9c600f8fce52a3ef7b9d332a64b0be644e47df2ffd0052b08cb4e3"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-143.png",
+      "bytes": 415,
+      "sha256": "bb6130f3d40dc8cd8796ac77996126007f2f4ab5940d5d277c32b811d3101feb"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-15.png",
+      "bytes": 454,
+      "sha256": "7807363ba67edfa92c7d7feedf84b06d91a754d4391bda5369705bb9b00b5e62"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-155.png",
+      "bytes": 402,
+      "sha256": "40d58ca7d48ed51110ec4713fb3e1133651e57f241c205909dae6210e1270edd"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-159.png",
+      "bytes": 382,
+      "sha256": "14ab0f462deb982927c76527593341f574fed62089bf2f7c09685702b7e25e7a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-175.png",
+      "bytes": 420,
+      "sha256": "faec2680b7acb0e66f022d7629e40aa6a36fe03784040613b19718949df508ce"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-19.png",
+      "bytes": 424,
+      "sha256": "82dbf3aac48e7227774f3819cec8117fcd7dfa7c0e24010a9c400c1953e521af"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-191.png",
+      "bytes": 401,
+      "sha256": "7a986bbc58c41c3f723f745af9e63900cd4fdb675c40586c5a5400b7acb7bc95"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-2.png",
+      "bytes": 457,
+      "sha256": "e95a915bb5d207c560776162d26d4a381061cd83feb2cf872658e058fbb0b2b4"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-205.png",
+      "bytes": 382,
+      "sha256": "c776097a2bec07f7c1f5aa49205ddf5c798ad955c8fdf9696e4149aff1c2299b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-207.png",
+      "bytes": 432,
+      "sha256": "26470da5af2190036fb122b1d954a84fc2e73ff9df9a250b1ceba862836079a9"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-223.png",
+      "bytes": 369,
+      "sha256": "bdaefd432abad0decfa3e165134d8cc8d83f11a98bc0f694a51f5d10168c5722"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-23.png",
+      "bytes": 414,
+      "sha256": "567c02b046768d65e85f147655929418c0663bc8bbb0f509effa2b5128b387ab"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-239.png",
+      "bytes": 407,
+      "sha256": "623f73c8d5748ac47ba1388343b5e339c2a88eae403aa4095eb185c5aac20968"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-255.png",
+      "bytes": 377,
+      "sha256": "b3476864afa5b4522fa7e5a3bbae97c4003683babd6a691808b3501a9dc3d851"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-27.png",
+      "bytes": 400,
+      "sha256": "fca324f0b4e40356055514d55c0ddcc6791f8c28b676e8f642e2ec9b8104d781"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-3.png",
+      "bytes": 469,
+      "sha256": "ebe9e14150c3b526f6ae0fb9b4014ad558a056b291697769fc8116bf615dbb24"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-31.png",
+      "bytes": 428,
+      "sha256": "6c1b484c8bf3471b1ad26bc8b4004039c5cd1a1905a5dd6840ae09057f83702a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-38.png",
+      "bytes": 433,
+      "sha256": "207a64966d52a8c27fc27b1346c5db9f14c7c88e4ce7a54e6c4da52315b705f4"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-39.png",
+      "bytes": 424,
+      "sha256": "40b296799e5fcbe81ac781af0235b8f49a5cd87d350a1503c070a54e3a51f247"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-4.png",
+      "bytes": 489,
+      "sha256": "d4bd39b52b831023e712e1cbb9ab59252a2ab4fe75c545ccb597989d326a870a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-46.png",
+      "bytes": 387,
+      "sha256": "a7d072078120b40d3f671a6fdb9fd2d974a9f62cea13c82dbd454eff5a4b9f5d"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-47.png",
+      "bytes": 432,
+      "sha256": "ecdd9f366f374f907f9d7f1efd40a9eef30688b73bca258113c562b3f28119f9"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-5.png",
+      "bytes": 409,
+      "sha256": "f98b2e718ed75e7cd2af22589d7c323655d6cca6d0f7ca1892cb867aaebe11f5"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-55.png",
+      "bytes": 392,
+      "sha256": "c90f2d8f002268a6fbd90d98f0397592ff803adb1d6770d68bce0d88638bf487"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-6.png",
+      "bytes": 435,
+      "sha256": "3a2933bcbb918a77a9c945c50f582e4876f4e637451e0fefba86ef285de45cc8"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-63.png",
+      "bytes": 402,
+      "sha256": "cbc587155ce9a0ba29bec519f6bb20401aeab359b80b8932a5a60007d977ee11"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-7.png",
+      "bytes": 417,
+      "sha256": "743beee194b75735a708501acaeab0398cd3f01b09597b459f7ff5c7c2217191"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-76.png",
+      "bytes": 450,
+      "sha256": "681c103b312d3e12460862008f9d81477bbbd3de2222162291ccc03bc47133a1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-77.png",
+      "bytes": 418,
+      "sha256": "e6cfca9b3d968b3cb7211d026956b325ee4f3074009259e266f16421a414b346"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-78.png",
+      "bytes": 391,
+      "sha256": "77fdf38369ab3b6d9feaed7636cd5881810555caa83c385fcaff23dfdacad09d"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-79.png",
+      "bytes": 428,
+      "sha256": "41e51d3f26b2e2ae6083d1e7063c03ff2a168773705eab650beb52391babcd99"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-8.png",
+      "bytes": 427,
+      "sha256": "79ec4ea0e84a045b29384f3c78bfa6f1c6db8406b230074858c75dae4dee01cf"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-9.png",
+      "bytes": 423,
+      "sha256": "e70ca6dc4288f65a03560577b002bf8b0cc6365073961500e728ce2e2e0f0ce6"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/terrain-tiles-v2/path-95.png",
+      "bytes": 402,
+      "sha256": "6a77080c5c7fc98e4cd22e4b8248a287ef9a7e04eec75099718d125718b21189"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/drafts/tile-rules-v2.js",
+      "bytes": 1402,
+      "sha256": "7400bf11f3b79bb3813cc6e14c165a33b0a5b348ebb021b8325cc507c9b1b722"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/export-reproduction.json",
+      "bytes": 1075,
+      "sha256": "858ca8396fce9df74779c41ae4a49f0eaf958e16b0c57aa501eb6a065a0b324c"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/model-rebuild.log",
+      "bytes": 6806,
+      "sha256": "30063803ff5fc0a230442c9681575de2084e1d4cb3e65b2cd0b2f73fb5f43904"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/model-rebuilt/oak-broad/oak-broad-raw.png",
+      "bytes": 7439,
+      "sha256": "bef4c55345328358c692d9a4a9d8b9f0da3f4fae8d0b37aea6b12daee0fe147a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/model-rebuilt/oak-broad/oak-broad.blend",
+      "bytes": 740231,
+      "sha256": "f70b1cb1be0e8724f20ef76d009d10d32ce844ce78409a15e8c22a86b57b3d5a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/model-rebuilt/oak-broad/record.json",
+      "bytes": 6090,
+      "sha256": "8ebc3a9d31aa65a2a264bd47d91acb9962514b70950c5656e24cfc22d80c6aca"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/model-reopen.log",
+      "bytes": 55566,
+      "sha256": "42427d43438b39082a3b4fd7a8912004e2436f85ef3b53d5e101d7f504731c35"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/model-reopened/bush-raw.png",
+      "bytes": 2941,
+      "sha256": "64c41f9cee72a7fd44a5c69076a2098f7ec7e08286fa849d5254b5c184b3a907"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/model-reopened/fence-horizontal-raw.png",
+      "bytes": 2779,
+      "sha256": "25356d26d4b37cf0107d0f1e4448c4f623b4f561b419ab40b6b05799fca3e6fb"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/model-reopened/fence-vertical-raw.png",
+      "bytes": 1823,
+      "sha256": "f5f11209d6e8513a1e8200180b8a5617183d397f0c3c3cd1bf39a3c1ec80f611"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/model-reopened/grass-tuft-raw.png",
+      "bytes": 1609,
+      "sha256": "9d7f028ef85f161581fe629be7aeb9b3e633288635fd536d790474b9ed454c80"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/model-reopened/mailbox-raw.png",
+      "bytes": 2023,
+      "sha256": "858e62481d1a41e1fd83cd3618fbb6159668ee30b569edc9482166b1e1734501"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/model-reopened/oak-broad-raw.png",
+      "bytes": 7442,
+      "sha256": "07f516b2636b6ecaca90f59ea7c0018e15909ed0bde143af519445114909e37b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/model-reopened/pine-slender-raw.png",
+      "bytes": 7337,
+      "sha256": "b513bcb89bb6707666798589a9b594a5a49d6fd5eaa112dfac2255ea414fd0db"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/model-reopened/reopen-records.json",
+      "bytes": 983,
+      "sha256": "6eb5c65ce4edf15f9a3bfa90383584482dcafe6b6f62438d9bd80a9bc6aa9a47"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/model-reopened/rock-raw.png",
+      "bytes": 1736,
+      "sha256": "618d855b1cb42107ed65b758a954df559eb8cc1db33e6cf0f1f41e1a31d2b738"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/model-reopened/wildflowers-raw.png",
+      "bytes": 2425,
+      "sha256": "0349691046cc03e5a5c407df4389f67e7efd6debe37a598808da4cf65830c83a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/model-verification.json",
+      "bytes": 1815,
+      "sha256": "633a551b19af28a1bddc6690cc8f33ab3853dee96b252d90b47d6f2e179026ce"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/produce_assets.mjs",
+      "bytes": 10019,
+      "sha256": "01ea793c30834d2b10c533ab4ec935ce1fcc83cc317bf26054f1f657558c05ac"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/production-summary.json",
+      "bytes": 179,
+      "sha256": "92423b2996a86fbd14d0b846c5f73f65981f877c1d7fcdd62c37ac574b790c5f"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/project-tests-final.log",
+      "bytes": 4774,
+      "sha256": "21ac9a4bdcd57265df873178f5232b6165d0c8b5643ab3aad499ec5e1a184b35"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/project-tests.log",
+      "bytes": 4760,
+      "sha256": "6b8127a6b959aadc21cac63c896da8411db722e3af8d4e609d0d99c8421e9077"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p1/corrupt-save-readonly.png",
+      "bytes": 103682,
+      "sha256": "db72b3cc17ff8c9c56258ee9afd555e1077f7dcc5028ef4dd7e47559addfe435"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p1/desktop-expanded.png",
+      "bytes": 119020,
+      "sha256": "bfe1e507db047729c9372a7063b7a40afb08c056c435e662a24df4359f3b5bd5"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p1/desktop-initial.png",
+      "bytes": 114074,
+      "sha256": "d82b37f051e0193e7186ae522cf261f1bd5d7358b9e51d23a154aa266c3cb023"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p1/desktop-save-failure.png",
+      "bytes": 123346,
+      "sha256": "421141ea5785c35a14acda3c59787d0611d96c5fdddadc768f4325200520717c"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p1/touch-320-expanded.png",
+      "bytes": 34826,
+      "sha256": "914016ef532f7e1753cb5526844f70c8e927382b7cde2ead4dfc6d47c0acac38"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p1/touch-320-five-regions.png",
+      "bytes": 42968,
+      "sha256": "92b689ce805c16cdae3ad450b147b1d425edd5cedc42fbac4dab32d74e45ef7b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p1/touch-320-initial.png",
+      "bytes": 33656,
+      "sha256": "347c90787d07f9f6ab952c27f5f9f97321010b274bae34115dcd675c460b06fb"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p1/touch-390-expanded.png",
+      "bytes": 36942,
+      "sha256": "f3ad6582d1c914e9217869a9974800bbc40c238bfa42f06f2c44fe1915fc5aa5"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p1/touch-390-initial.png",
+      "bytes": 34528,
+      "sha256": "587e4a17d58b2a315f9d354ec4854fcea18f3bdf3a395235817d43e8be9a56c9"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p1/verification.json",
+      "bytes": 3070,
+      "sha256": "97fe6dc5d1c22a798c9688177208a9c74721880ce7bbe0cc7594557bc2d463c1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p1.log",
+      "bytes": 118,
+      "sha256": "4742d2714cc2689ba556c34e66ee00fe34dde578057b118efc49e6219842861f"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/art-candidate-close-world.png",
+      "bytes": 18413,
+      "sha256": "7932ca3782cb93ea241b9ff57ac24f919b4d905513501f8015ede53e0ec053b0"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/art-candidate-close.png",
+      "bytes": 73533,
+      "sha256": "078f2d70b6e55163f2130fad96ab9e54e18f1fc6bac1d283ac38ac4d571b3702"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/art-candidate-normal-world.png",
+      "bytes": 17902,
+      "sha256": "9a0faf891bf8859b7287ea0f0d183fea8f5c2ca601b9776b26cc0b8a7d6f4385"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/art-candidate-normal.png",
+      "bytes": 72917,
+      "sha256": "17eb01ec76d66bb86832c6aa39782e3be64c315870de88921d840eae4a76a709"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/art-candidate-overall.png",
+      "bytes": 73517,
+      "sha256": "5416c02019dc488a6f316e42af83cf0cbf35c58fee33b61a91b9976f2e81d225"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/art-comparison-close.png",
+      "bytes": 29884,
+      "sha256": "ee0efad70108ed9635ea9eb6911bdb5053e80316180a223474baa2ef25074492"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/art-comparison-normal.png",
+      "bytes": 30243,
+      "sha256": "a324c0ce8ef6cf37effb099bc3113481ef2490e4df7b2898e7ba83ca70f7052e"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/art-p1-close-world.png",
+      "bytes": 18060,
+      "sha256": "fb9fdc2b7f66f0c3cd766541e1c9a863a54801ec0d360b22ea7a951c9bcb09f9"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/art-p1-close.png",
+      "bytes": 73283,
+      "sha256": "03b5e8e7ba059ea494e463b02c9726f72af02036a1c41022515113874978689a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/art-p1-normal-world.png",
+      "bytes": 17972,
+      "sha256": "7b7b873d77bc348b966973364a0cf64f49d1cc993bb61bf342113980f6963887"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/art-p1-normal.png",
+      "bytes": 72826,
+      "sha256": "b6e39d7c9a17fc0718c1309dad03f62d8db5fdb13bf3cbabd00b87614fc161fe"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/desktop-camera-boundary.png",
+      "bytes": 103809,
+      "sha256": "5097df570d758b6a0cdb4f878a21f1982acaa8bc67ee5b80b3becaa1f3157755"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/desktop-overlap-front-selected.png",
+      "bytes": 108757,
+      "sha256": "874a26024a4960b906916ffbc9e2bde9c4bcac8694d73b2e8af569cb6214897d"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/desktop-roof-selected.png",
+      "bytes": 108913,
+      "sha256": "814b1a4721ff5d8205b51e9081759a5ba4427366fce98ec04cd80b084c4d8952"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/mobile-320-568-catalog.png",
+      "bytes": 34690,
+      "sha256": "951e99388c41193bb64bad38b93bd667590a70937a30a22714fd53cc94491de8"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/mobile-320-568-expansion.png",
+      "bytes": 39064,
+      "sha256": "1b6a9baac8a03596c890f0af570e1c54dee992b6478ad69a29b82b1ea1d2ee5e"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/mobile-320-568-invalid.png",
+      "bytes": 37770,
+      "sha256": "a144c2c044a35d5f32c4aabbc386b61fe2cd29e1b2cbbb47497471a28702dd3e"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/mobile-320-568-restored.png",
+      "bytes": 29387,
+      "sha256": "08c630d97972d31f80fb7a702300421c8e74252270c695251eb6e52a61b3e80d"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/mobile-320-568-valid.png",
+      "bytes": 37326,
+      "sha256": "bd9f5923c71766e18aab931f4503f8b2e830dec9e59d74cf719d5b4a3c808585"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/mobile-320-568-world.png",
+      "bytes": 28271,
+      "sha256": "6c23b4f2684b3e27ec3a1d286cd58c9d242e058e6cd02e9d3735f69d4a7fa94f"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/mobile-320-740-catalog.png",
+      "bytes": 39709,
+      "sha256": "9ea95f2fb1d9ff50ff2da787e93832d6197897bbed4f6264bf78542cfa48a7b2"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/mobile-320-740-expansion.png",
+      "bytes": 43739,
+      "sha256": "ec20002cade14209a57f72aa6125281e899154ad345fccfdadcf7a823ed7ea18"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/mobile-320-740-invalid.png",
+      "bytes": 42224,
+      "sha256": "8de42c16664f7a7b7b1362721cbec1f9bc3e732ff0d3348a5ff188b49a2a85e4"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/mobile-320-740-restored.png",
+      "bytes": 33984,
+      "sha256": "bed56a43b4ea80fa9fd655208e25718a5e35bc300e34bbdd1c9648555bc5aee8"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/mobile-320-740-valid.png",
+      "bytes": 41993,
+      "sha256": "1faab177e84a71ee1031947a225daa95878b7f75fe496fb149c7e0b19c66d042"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/mobile-320-740-world.png",
+      "bytes": 32981,
+      "sha256": "f575bb992d0af1b9a1fc6078c9c8f5bb0f60dff343b29d33311defd7e68cecfc"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/mobile-390-844-catalog.png",
+      "bytes": 41928,
+      "sha256": "e289026a0c51ac36ecef3d068520a3f39e9f70c58d8f21b56afc2ca3ca827ac1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/mobile-390-844-expansion.png",
+      "bytes": 48660,
+      "sha256": "df0170044b2848a71ace8c25e82705d1c7dcc8964aeb3440634a17dca98c5f03"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/mobile-390-844-invalid.png",
+      "bytes": 44633,
+      "sha256": "44cbd9db6d15b5a80f3b3c653ea3bbdf05f67ecf2c4d8c636dfdbeedc503fe2f"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/mobile-390-844-restored.png",
+      "bytes": 36711,
+      "sha256": "7fa0491e200bd7df4e475fc0df7c19a778cabba2ee2ea456d9c9b32e0e77a3e9"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/mobile-390-844-valid.png",
+      "bytes": 43850,
+      "sha256": "a3608e415f724686efedea9f742d69061be4f02e1e46cd11b4c8484d4d0346d0"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/mobile-390-844-world.png",
+      "bytes": 34528,
+      "sha256": "587e4a17d58b2a315f9d354ec4854fcea18f3bdf3a395235817d43e8be9a56c9"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/sample-cabin.png",
+      "bytes": 1957,
+      "sha256": "3cb42452b4646eb6e6963eb05d981b844ecb5f796f147284597768fc99a8547d"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/sample-grass.png",
+      "bytes": 2398,
+      "sha256": "3509028476ddc28555a7204cb3a6623abeba9ca506fbb5f173061e2fa42be12f"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/sample-tree.png",
+      "bytes": 947,
+      "sha256": "c3bfa3dab1c51433911ec97e05e87581a87a7c44eb88daddc951ca7e1b38ae21"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11/verification-p11.json",
+      "bytes": 2377,
+      "sha256": "4a424bff7e17276ffb02f5bad0d430fac1638e6e458902174803243f7bea2b67"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-p11.log",
+      "bytes": 85,
+      "sha256": "e6883f9f19c5a64e66146b5497754d1776e56eb1f4995df520bb60701cca3d01"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/regression-summary.json",
+      "bytes": 96,
+      "sha256": "722e694d08710bb030b875c210ea461384bad963ff09e9a8b96b6a3c20940c9b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/run-summary.json",
+      "bytes": 744,
+      "sha256": "c4458f122f217610abcc0b87ffa167c96779ffa310471a4582f801b88177f1e5"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/safety-verification.json",
+      "bytes": 928,
+      "sha256": "017ef249e5edbedd6e10fde350a9463a53a98ea32ccb64f2ed6906272c95cece"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots/browser-verification.json",
+      "bytes": 1263,
+      "sha256": "0e9d4d0f1392d11f3e1bd0ea8ef8c0776d450897aee52662525c4c24664cfb79"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots/cabin-near.png",
+      "bytes": 29506,
+      "sha256": "81541db241cba3e5b5bebee8fe8155d83e06db2e6da0ab746a558466e507313d"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots/debug-grid.png",
+      "bytes": 41001,
+      "sha256": "f391c2904e6cd0888f4f5bae0793d5645c49e7f8df1e28bc58182f2da08b7fb0"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots/desktop.png",
+      "bytes": 97068,
+      "sha256": "25309e2c8538bd2a311ffb173cfdb303a6f68d30e7a05b8c06296661974dba34"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots/homestead-complete.png",
+      "bytes": 35540,
+      "sha256": "7a1c6fbc5395a297a0011de6293f28d46f5a2e142187b6fe12006b21e66c8c9f"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots/missing-asset-error.png",
+      "bytes": 55500,
+      "sha256": "317d6e6dd898317b1f92b165bfaf188841fbd5ebace693352673f1a97d1d43b6"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots/mobile-320-cabin.png",
+      "bytes": 9206,
+      "sha256": "57c6ab47753dba5b392785e2d59a9c35f91d53e5f00e7978deb1c9218062e8ca"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots/mobile-320-overview.png",
+      "bytes": 15741,
+      "sha256": "9a3853c1e931c797361ee864a0270a86a45af3747de134beac1645d87fd2d8bf"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots/mobile-320.png",
+      "bytes": 57491,
+      "sha256": "f5078da97224c030e06585fb36471da0048f5a8216ede67b6765c65f68b77424"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots/mobile-390-cabin.png",
+      "bytes": 12059,
+      "sha256": "ca17bfd7d27e08a5536edc253a1a7f81721a921eddeb070ece70579db754c645"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots/mobile-390-overview.png",
+      "bytes": 16999,
+      "sha256": "0fb0fa44e0e03f797d7c00a4300dce0ea0b50172e66c56a10ffe0bc448e5e5f2"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots/mobile-390.png",
+      "bytes": 59267,
+      "sha256": "642aa4db837b7decc10bd2fa376b2c1f87002082b9d44aa181e7500caaa2df15"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots/normal-distance.png",
+      "bytes": 38699,
+      "sha256": "a020442afefa0ab5eb1cee060e812e201cc0e2a294641b249b63838cd0f3c909"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots/resource-gallery.png",
+      "bytes": 191191,
+      "sha256": "d07ea3c2b1e7715e052982b66365b696d29736873d2ee3f1188d4c1d86558ed7"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots/terrain-road-detail.png",
+      "bytes": 23277,
+      "sha256": "23e930de270f97d721891c94d531661c5166a555df1366b7816173a4bde3a93e"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-final/browser-verification.json",
+      "bytes": 1263,
+      "sha256": "334db990b0b2a47fb911fbac0102bebc99f1502610c5432682d9a29ff73448a7"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-final/cabin-near.png",
+      "bytes": 29745,
+      "sha256": "e6a952f714760b23a84758f5994419efe3d7e2a4ef52f48a8a06cc948867b3fe"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-final/debug-grid.png",
+      "bytes": 41451,
+      "sha256": "55346941e3e1ca8811c821c46d753a5bea3b3e97b0557d575074cfd933186d93"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-final/desktop.png",
+      "bytes": 97402,
+      "sha256": "1ece30e3d0a1222873bfbb9f1df2e7670e04a68ef88cf6d8c07804f63c8bf4e2"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-final/homestead-complete.png",
+      "bytes": 35912,
+      "sha256": "36ca065ffe7a1db0cd8d5ce747befcac6ae91833dab85c8c00a1aca625e61d00"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-final/missing-asset-error.png",
+      "bytes": 55500,
+      "sha256": "317d6e6dd898317b1f92b165bfaf188841fbd5ebace693352673f1a97d1d43b6"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-final/mobile-320-cabin.png",
+      "bytes": 9285,
+      "sha256": "2272a9e9450c5256ab6dab7f30b988ed044d1cc82578abb2b18e51f36f4079b2"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-final/mobile-320-overview.png",
+      "bytes": 16095,
+      "sha256": "a00ef4fda6f5ed968093849e6fb17c0a0c323104b9a2013b0d385ca1ed7c7dd2"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-final/mobile-320.png",
+      "bytes": 57908,
+      "sha256": "e771e6b75d34565d1ceb292e619e10b1bb03ffaf2e7be3561d601f2c737ac313"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-final/mobile-390-cabin.png",
+      "bytes": 12229,
+      "sha256": "71710f92287438be9ad994f9555326c5ee40c0aefe10ae91f740ce62a41329f2"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-final/mobile-390-overview.png",
+      "bytes": 17467,
+      "sha256": "9de7dd93306da21905073fa2e99ac4a2ee55ca9c12511a0745026acd83b69cb9"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-final/mobile-390.png",
+      "bytes": 59661,
+      "sha256": "7db63991d47fb5d361fef13359de078b3ca6750321158b53e03a8a1615937ac8"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-final/normal-distance.png",
+      "bytes": 39103,
+      "sha256": "90204a9cbe30b4987ab5f4f33c9eda3d4b63142b3ad1bc18d1c1b5381995e35c"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-final/resource-gallery.png",
+      "bytes": 191291,
+      "sha256": "7b2e3eff699dba895176677d1a538d582789e40222d84a192ed9c81e4acf277c"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-final/terrain-road-detail.png",
+      "bytes": 23483,
+      "sha256": "f34c836292b7cdfa12b47d7ec34b47349f113f35961e0324127ec143e233869b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-first-scene/browser-verification.json",
+      "bytes": 1207,
+      "sha256": "ce9b301c9e6fc41b612380a7ca62dc4a56440f3b66120ec73bc9a042e0760b8c"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-first-scene/cabin-near.png",
+      "bytes": 35813,
+      "sha256": "2df49ee091e67503c51ceaf79fb9448d281e0f1f41d7472bd0a35f3c2ca9cf9f"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-first-scene/debug-grid.png",
+      "bytes": 48218,
+      "sha256": "17fea2cbc5b5a2d310f51916e526a3bf58360f2e8a5f01f886c41056c73ed15c"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-first-scene/desktop.png",
+      "bytes": 103800,
+      "sha256": "de667fbcbfd05fd5ba028afc862f44a97c22fc0a0ce6818ac291cf8f6bf81f59"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-first-scene/homestead-complete.png",
+      "bytes": 40529,
+      "sha256": "5d41c0947922589c072fac9becb251c8bc25891c57a795323dcb284cb694337e"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-first-scene/missing-asset-error.png",
+      "bytes": 55500,
+      "sha256": "317d6e6dd898317b1f92b165bfaf188841fbd5ebace693352673f1a97d1d43b6"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-first-scene/mobile-320-cabin.png",
+      "bytes": 13378,
+      "sha256": "bdeb0a29b96b1487308f13f413a5770dff84211cec757ca2a7d5fe565f02ceff"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-first-scene/mobile-320-overview.png",
+      "bytes": 19027,
+      "sha256": "6f7da8d0a9d2f620b591ae16cf4ccb25df16a8fe402bc2ee0e7f93060afe622f"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-first-scene/mobile-320.png",
+      "bytes": 60564,
+      "sha256": "38a4f5a99152a274262cbd8af2f001430efc20d082b24f139c39448d9cef81a0"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-first-scene/mobile-390-cabin.png",
+      "bytes": 16689,
+      "sha256": "7394e1e613797bdac328a86355c52646c32c6d496292dcdf47a873830a1818d2"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-first-scene/mobile-390-overview.png",
+      "bytes": 20215,
+      "sha256": "3efc34e6d12e08ab147c03836b73ac9fffaf0adfff0b4d930c3c8d1596ee0d30"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-first-scene/mobile-390.png",
+      "bytes": 62383,
+      "sha256": "25387b85a580c3993c75243240e13bd370cf666f1ef8767a0c320f3e33672ed3"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-first-scene/normal-distance.png",
+      "bytes": 45600,
+      "sha256": "cd3d7b0b03b4c14ce33f5eeca2430fac4b4328fe2b2d7e264a2e12940006ac23"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-first-scene/resource-gallery.png",
+      "bytes": 189051,
+      "sha256": "c5dde14ad50d036f03a4e4f714f3b98d6f0e91e53a93796499c43bbe65fb61d6"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/screenshots-first-scene/terrain-road-detail.png",
+      "bytes": 29025,
+      "sha256": "3e934d48493eed3ccad390c21df8c5a33d12151c22ecc0e8f60d58af49636495"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/bush/bush-raw.png",
+      "bytes": 2938,
+      "sha256": "fad2281db8a9f8a84e5d724ae35c528692699df53d76e0d19d95190a16c86dcf"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/bush/bush.blend",
+      "bytes": 578464,
+      "sha256": "f0a2b41dba668a44e20773350d47c855477742707056f8e11390781acc65d71a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/bush/export-check.json",
+      "bytes": 1564,
+      "sha256": "cbf694280936c1715319e7f8847d3e300aac7ef44798d6811f4f92995ce0e630"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/bush/record.json",
+      "bytes": 3842,
+      "sha256": "90f9686aeb535e6047c45fd7d3a6c4e5ffabf82390c6f642c6899d29a56c593e"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/fence-horizontal/export-check.json",
+      "bytes": 1654,
+      "sha256": "41166478b2a5080fa5dc87985049498653ebeece3777ac9c7e22d3925488a8be"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/fence-horizontal/fence-horizontal-raw.png",
+      "bytes": 2441,
+      "sha256": "68ca21b61cce46697bf7deb1b45c8d23fcf9e388d1e53bafd8518de2e6ab0ec4"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/fence-horizontal/fence-horizontal.blend",
+      "bytes": 549834,
+      "sha256": "65e5cb16c2cbec8e8eb14370fe7d9f29a8371e6f3186aadd95341cdeaa4c8298"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/fence-horizontal/record.json",
+      "bytes": 3595,
+      "sha256": "967befcc08c914c956170226460a808e72efe994323c04c3a76faab56b0ad874"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/fence-vertical/export-check.json",
+      "bytes": 1639,
+      "sha256": "612eb14e4752da3024e9226ab0dc02fee03ebdbc803816bba96c06de86135aac"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/fence-vertical/fence-vertical-raw.png",
+      "bytes": 1638,
+      "sha256": "827c45f7672bcfc39fd9c89e0012018590aa595ba1d02b32c8792badda969916"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/fence-vertical/fence-vertical.blend",
+      "bytes": 549834,
+      "sha256": "86a6b339496a776394dd8de39391ac2c81973cfbf7eac0a402943b16d1a36268"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/fence-vertical/record.json",
+      "bytes": 3589,
+      "sha256": "f7e85db085df388e0333826a312c9a7f2135bd19f997078c8b04231202eb05eb"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/grass-tuft/export-check.json",
+      "bytes": 1606,
+      "sha256": "7a4b38f00f4a337203d3f981d0b893d54bc35a07c2cb2e3713ef2b56e5b9f1c0"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/grass-tuft/grass-tuft-raw.png",
+      "bytes": 1606,
+      "sha256": "53733100bf410ed1cbf8560020a330cd79f33c3ca28321ad2657b38f18b10e9c"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/grass-tuft/grass-tuft.blend",
+      "bytes": 497216,
+      "sha256": "02d596dac37eefbce64a0356d254c50407340889d44deb759bf1adc67e59a038"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/grass-tuft/record.json",
+      "bytes": 2795,
+      "sha256": "2c9ddd505ce1a1d4a54b5d776efb8d1c0926692ad30e955c1e535a4aa56ac7d9"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/mailbox/export-check.json",
+      "bytes": 1586,
+      "sha256": "60779c2a4dcb369adaaa25e6e3a1594d2e913b24d3cec3ce79f4deefb6520c77"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/mailbox/mailbox-raw.png",
+      "bytes": 2020,
+      "sha256": "726e107cfa7566dc5bfed96829124d753062c6716553bd6f89a0f5a562aae97f"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/mailbox/mailbox.blend",
+      "bytes": 643803,
+      "sha256": "c3e200eb495fcd218034e1c974c6687db0a7e87b4af1339520f40afc2a7e52c5"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/mailbox/record.json",
+      "bytes": 3448,
+      "sha256": "170a7db7467204015bb45fff1f9fa47d0121effe62b293e0e8f1e2d3e2d9aebc"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/oak-broad/export-check.json",
+      "bytes": 1601,
+      "sha256": "de6758d3e060a1a84b0a097e30d442307f6010a25e0453c313bfc221d3b8565a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/oak-broad/oak-broad-raw.png",
+      "bytes": 7439,
+      "sha256": "3808e5807534f365e2a2ce9c1051821dbf6b7d8581bce41eb5c2949d0eabe10c"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/oak-broad/oak-broad.blend",
+      "bytes": 740231,
+      "sha256": "f70d283cdcfbac6a18d6248106861b5415c8b4cd47f2c9756e094365e37b2d49"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/oak-broad/record.json",
+      "bytes": 6090,
+      "sha256": "c1369b1c6081a5a470176631fd8be284ce14383342d540569728264865e67bc3"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/pine-slender/export-check.json",
+      "bytes": 1621,
+      "sha256": "30e565f0f47cd9292fabd5abeeb03c578c89eda779c4f76649e771a27ff840b3"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/pine-slender/pine-slender-raw.png",
+      "bytes": 7334,
+      "sha256": "80ac2d847a29cec9ff8d0fad7211259fe174bd59f24edd093b210dd4f80a2367"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/pine-slender/pine-slender.blend",
+      "bytes": 617547,
+      "sha256": "4070717ad8d5a7ee2fa6160fdb20523731c92540718c4f6ed0c3a3c0e77bdc48"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/pine-slender/record.json",
+      "bytes": 4335,
+      "sha256": "f58c762573a03cd13bb368eaccaa3f53fe9574e61d31c76ae9f4d6111ad6cea7"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/rock/export-check.json",
+      "bytes": 1564,
+      "sha256": "7de2bcd3a26f0beeb997e245c57be2e9ebb2691d6637da6b975ceaad3d904df1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/rock/record.json",
+      "bytes": 2099,
+      "sha256": "60aa923433d55dbc489ef6345733671a489fff0307d38c56421b008e30d0f3a8"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/rock/rock-raw.png",
+      "bytes": 1719,
+      "sha256": "1718e2817648e9e31bbf0691788c8ecfbd92757eaa263f43fb77174fa64a6915"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/rock/rock.blend",
+      "bytes": 500622,
+      "sha256": "0b2410b7506e82e02aff8d22fc751720e5049fd312e61f59ea9c6e1934183e6c"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/wildflowers/export-check.json",
+      "bytes": 1614,
+      "sha256": "e6c4c337c33ed5b6dc36675db99aa2849ddd3cbc2b162edfa2a84371999c6cc3"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/wildflowers/record.json",
+      "bytes": 9098,
+      "sha256": "a38345a0ccf4ea6122b63f1a56d8c7102b2f79b94ecbefbde87cd1a26080d7b5"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/wildflowers/wildflowers-raw.png",
+      "bytes": 2422,
+      "sha256": "f08d853856929e128ef3c5d7299d829f1dc4fbd0c2cf85529a44cad3d314ee4a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models/wildflowers/wildflowers.blend",
+      "bytes": 849702,
+      "sha256": "fae0f98545123924c10abf8d15ac62755ea15ec04b6f5f8cf2cc1aef310ab5a1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/bush/bush-raw.png",
+      "bytes": 2941,
+      "sha256": "4a52da5809a02423d56bcafa8ed3f5265fe1ecd2acd2fa08178e9110b49bbeb4"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/bush/bush.blend",
+      "bytes": 578464,
+      "sha256": "8b27317956a2032a9373f1516220455357820c99382a819fc1de8c75a1a32e01"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/bush/export-check.json",
+      "bytes": 1617,
+      "sha256": "88772ae5e6784d9c2c21bbcd98cc0731b1339b8d6a0e92959423d2b7b5dd5789"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/bush/record.json",
+      "bytes": 3845,
+      "sha256": "aba7ab0ac21fbb20789699a9ea879069f397e0ec44c73383eab41fcb08e6ea45"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/fence-horizontal/export-check.json",
+      "bytes": 1704,
+      "sha256": "734c56d7d9c4e524133144634b53c021792a39bdb858f215a2d1bf5cb6fce966"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/fence-horizontal/fence-horizontal-raw.png",
+      "bytes": 2779,
+      "sha256": "dbedece89ea1d98e2d4f1e239bea53b934e1330d590c05dbda74f3e7fd1244f3"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/fence-horizontal/fence-horizontal.blend",
+      "bytes": 549834,
+      "sha256": "a15b4075366558ac909ce4f702cd1120c257a76f7ce9ad229a86c332f858303b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/fence-horizontal/record.json",
+      "bytes": 3597,
+      "sha256": "05c5d206f7a7f2d787f7a92dec46b6e96f0608ee9259f75935f3ffff63fe21e0"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/fence-vertical/export-check.json",
+      "bytes": 1690,
+      "sha256": "9fc2639fb9a1ba01398c19c863c35f9c572a02d2a98c7b0254f2e28cb775eda6"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/fence-vertical/fence-vertical-raw.png",
+      "bytes": 1823,
+      "sha256": "66c57e25d472186ba1ab46af425f6bb725d3e1f5f695384fd1c19946f00612d8"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/fence-vertical/fence-vertical.blend",
+      "bytes": 549834,
+      "sha256": "cecea4fc247ad6525a6df490d61da99a95db9ffdf6d49ade88e5b16dbda07ef5"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/fence-vertical/record.json",
+      "bytes": 3592,
+      "sha256": "4df79599b9ecbc5d06def430469b702222c79e9b788e95ff0758799407ead355"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/grass-tuft/export-check.json",
+      "bytes": 1659,
+      "sha256": "69c394b4c32b05eed85442dd48c93342f911c5cf1e019a66faa68b8f6b80d89d"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/grass-tuft/grass-tuft-raw.png",
+      "bytes": 1609,
+      "sha256": "dab49f0fe2113a51ac4e5c078c4af2c5cd7e6edb217501b563e4f859830393c5"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/grass-tuft/grass-tuft.blend",
+      "bytes": 497216,
+      "sha256": "8ab792e64f25ca7959ffdde3a47cb50b52b7a588b0f81fcb3ace4f9224ecffbb"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/grass-tuft/record.json",
+      "bytes": 2798,
+      "sha256": "8ca7cc6cdf527ae376bd371600ce6f8d281290fba8e0c8f3b7963f033b44052c"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/mailbox/export-check.json",
+      "bytes": 1639,
+      "sha256": "67f3a400bf36381eca116e02609f03380441accbdfa926cf679f38ccd9e1ab71"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/mailbox/mailbox-raw.png",
+      "bytes": 2023,
+      "sha256": "2ada1d581af36563bee1920f18614495d56a1c4ac3ec6d21e91262d83c0fd5aa"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/mailbox/mailbox.blend",
+      "bytes": 643803,
+      "sha256": "fd6e0826bbeeacffac34fb58026fb08daaeeac93716b9472403e1a33741c07ba"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/mailbox/record.json",
+      "bytes": 3450,
+      "sha256": "b0df841c48e68552179d61614b023653178c80f18ee86703552d2059c1413cb9"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/oak-broad/export-check.json",
+      "bytes": 1650,
+      "sha256": "c05a1d72cb0da33f8d11af987a6f647a7867ad68dc5419f1f9769a370dff9b8b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/oak-broad/oak-broad-raw.png",
+      "bytes": 7442,
+      "sha256": "177479692479984cb5ac4b15a3f41470f83f270f2cd12daab4d7b13996d41b94"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/oak-broad/oak-broad.blend",
+      "bytes": 740231,
+      "sha256": "7c3ca688aa06c17c68818e31d201542b0a97d84e8f2d4016153ee5c088e32183"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/oak-broad/record.json",
+      "bytes": 6093,
+      "sha256": "fcd1d199a7b30ec62b7dc91ddb4f266267dce73331c6d0237a4f9dee128ecd4d"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/pine-slender/export-check.json",
+      "bytes": 1674,
+      "sha256": "ee44feeda48b0128493aa3e89cc0966329d567a9a2268ddf75dc0cd32be0793e"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/pine-slender/pine-slender-raw.png",
+      "bytes": 7337,
+      "sha256": "8f541ecf1f1c77d229d7aed438a7fc3d66507866118e64657834b9ac8af49b74"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/pine-slender/pine-slender.blend",
+      "bytes": 617547,
+      "sha256": "512ad6004f755f84057eecd10bbe3685a73807c5a35132e4649945b7d4d8eb33"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/pine-slender/record.json",
+      "bytes": 4338,
+      "sha256": "43b2a14e71618f72e7820cfe441b246de48822504fdfec8ec2ac6eb90b547347"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/rock/export-check.json",
+      "bytes": 1617,
+      "sha256": "869cf32090a9c3b494e102a97c55d6e6ecd09d7030494e4e13f7dbf8e3e7d7ef"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/rock/record.json",
+      "bytes": 2102,
+      "sha256": "eba2cef8c8854bf92672693624d77fa69a81555d78c2bb74545051a2dcf510d8"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/rock/rock-raw.png",
+      "bytes": 1736,
+      "sha256": "b4974e2585b3124427cbc1ff25c2eb73784b202aa7edf8b2daf256c27fd7d42d"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/rock/rock.blend",
+      "bytes": 500622,
+      "sha256": "904214b41d65bca0a61b9bd8f73bc6064f0529f1ffe5df68243d2b118227a096"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/wildflowers/export-check.json",
+      "bytes": 1667,
+      "sha256": "38a416b7dca401d3f2930b36d3bc57e8fbadb35e8ab1cb9b8a0d00138f151311"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/wildflowers/record.json",
+      "bytes": 9101,
+      "sha256": "b057cd92d8fc0893a70fd953806104a55ca3be260deb61b1d8f8c6c144a07b1d"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/wildflowers/wildflowers-raw.png",
+      "bytes": 2425,
+      "sha256": "2a67a4d42b6e918df827fc8519fe68436d0888339b2cd07cdfd5745ccf673879"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/source-models-v2/wildflowers/wildflowers.blend",
+      "bytes": 849702,
+      "sha256": "4e6fa53b695a29b35fa870c3679a4bfff1ad5078eae86ecaea53840317291f73"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-style.json",
+      "bytes": 699,
+      "sha256": "54c3d097b7df5b7ff6fdc50889ebddcaf4588f374790d24b477f4409633f7922"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-0.png",
+      "bytes": 583,
+      "sha256": "db25f825d073ae3abf451a5997795b35aaff4f2044a50361c4a19e815ce64652"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-1.png",
+      "bytes": 527,
+      "sha256": "7c77183fa72c8f628af2737942ae5c5609dbc1ca26c4ad679d21121ceda7aebb"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-10.png",
+      "bytes": 481,
+      "sha256": "6ba8fb3ee728bf321503034a46816e895215917b746d345d3404255b15d3643b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-11.png",
+      "bytes": 446,
+      "sha256": "afc5033aa8521ce0a694c0cc4678359ece0ef706f948d1448aa5247c8bc17c55"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-110.png",
+      "bytes": 410,
+      "sha256": "92ddb1cc54570e73f6f92bb7491bd21836359a8e5ebdcc39c039fac9a816353d"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-111.png",
+      "bytes": 384,
+      "sha256": "d79510f02460977e580e6a3bc04047a22f3fb1be8c6a0b2e716e88d0f73f5db8"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-12.png",
+      "bytes": 454,
+      "sha256": "5a3064111b210bbf071745c19fef6e53439a3ccbc6f1d3f0c164fdbdc6bd3ea8"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-127.png",
+      "bytes": 359,
+      "sha256": "c8f8b722331cf16b1135b18662eda1bc7b859b8445d9e042ef72067695cc54ed"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-13.png",
+      "bytes": 399,
+      "sha256": "8ab304b833a9622871d55991b4c8d1c9eabcd838cf3d5c272ebd19a120daca50"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-137.png",
+      "bytes": 456,
+      "sha256": "e1d7e922d5c14f454d4d5531824d547877ca9e24aa3197ab66ae47131f672c89"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-139.png",
+      "bytes": 438,
+      "sha256": "4b1d4298bd850687cf16f5ecb47299215e685f04260bb4b4d321863d13030760"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-14.png",
+      "bytes": 437,
+      "sha256": "a5acbad4f1c38b1629b9bec0b3c84177eee25e6e7ad9a0e91c8669cf4c03b36a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-141.png",
+      "bytes": 389,
+      "sha256": "2f7569963678d22dbbc815f3b5eb636dd8bd7069db0570858bdf40ce5fe30a36"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-143.png",
+      "bytes": 378,
+      "sha256": "24feaf23afd7161f94cd6de0f394c02c7b9a0d4ffc274c13c7c6d5643b596d95"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-15.png",
+      "bytes": 416,
+      "sha256": "7ba0f9c098e38058a05d4af98f6e44a8775a00f7be246a838d0f7450762247fa"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-155.png",
+      "bytes": 377,
+      "sha256": "eebdbddb57c96a56fb56a58e03025f828dcb672846b1a0b664ecb061795c0695"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-159.png",
+      "bytes": 368,
+      "sha256": "e3b3ae4ed278e053f0ffffe78462edfe432e9fe6427a509992908bd6c33cd7c4"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-175.png",
+      "bytes": 380,
+      "sha256": "e85a3b4d524797ead60d2481a79f31649b908b5d39cad211668dd92d6f780179"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-19.png",
+      "bytes": 474,
+      "sha256": "60842a9049743743e78214d8662e096736ca83f685ac3bd464ffafd3e0f63e0b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-191.png",
+      "bytes": 358,
+      "sha256": "3ed72e1c13a129f6e731b9c6d78f346840ed3d97e3c816b8329a0f51c6e851c1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-2.png",
+      "bytes": 523,
+      "sha256": "651c4123167278442287996cbb8a6962a8b1d2a2ef592e271d557e73a16f7ead"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-205.png",
+      "bytes": 382,
+      "sha256": "b9269dc4c763d592abbda3125c64688d38fd48cbfb3fb8944b19d35e20dc7cd6"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-207.png",
+      "bytes": 383,
+      "sha256": "83aa092db430d7012a912c3da711ed7c4bf9ad75f59534b4de9c1cfbe687ab62"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-223.png",
+      "bytes": 334,
+      "sha256": "27e258ea624342e79b7e9b38656a7e1b7baf780c1222d23dff318567cca9a0a9"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-23.png",
+      "bytes": 402,
+      "sha256": "ec861821112b6e3c4df33a9de2eb61948a90c36e231b8281e0c6f6325749da91"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-239.png",
+      "bytes": 351,
+      "sha256": "794c39bf3e480b55c5d159be12738a9db5ff88fc01eae283b180aaad8b64a709"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-255.png",
+      "bytes": 300,
+      "sha256": "8da440179ed6f52702c80c69d690ccb657403f21431aa8b59661a351ace2a1d3"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-27.png",
+      "bytes": 434,
+      "sha256": "6d7995ba16816772a00dc9debd87b9cbc3900b2e4ca23449f81e665708f89256"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-3.png",
+      "bytes": 479,
+      "sha256": "93d8d45689f381908c887460d0a9006cdc9838c9eeac8a3e418fbc3831aad6cf"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-31.png",
+      "bytes": 386,
+      "sha256": "ae7d701c5e03f6cd85a7d831154ee004f3b1f59eebea99f6c53f8c8c77697544"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-38.png",
+      "bytes": 441,
+      "sha256": "bea2af6f5e7ccf67fbb4ec571fdf9c18391bfcc1cd8fd1692960a9e1e6a2337e"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-39.png",
+      "bytes": 387,
+      "sha256": "fc501dcaa37c039a6b567bcecd0e86703e4575435d5a5b6f058039290db56244"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-4.png",
+      "bytes": 506,
+      "sha256": "3695825b2b904dd9b4adaad8fe1c0ab764a7cf4e77c7a7ee9e9aaa4647ae56ae"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-46.png",
+      "bytes": 418,
+      "sha256": "4be156dfaa7e37f38e94639cdfcb47261d6a1cafd5629ddca5cdd12ddd6efdf7"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-47.png",
+      "bytes": 399,
+      "sha256": "cc1ffc1d7cc1dee9468d82835f0eff975a29def4cbea67ddbfec13d9f7edf84e"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-5.png",
+      "bytes": 458,
+      "sha256": "fad00907c5eb8410ea7eab9fb1912dabb889fd7220a358e4ec80ce81c0238643"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-55.png",
+      "bytes": 393,
+      "sha256": "d7b94cffea9a579858827acc234b19c9e20d7fe0fd0362ebf070afe7e8b25982"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-6.png",
+      "bytes": 469,
+      "sha256": "da2578dee5c32653c3bcdbcb9fc2e19fd8c080d199631a6c02f998580d0014e9"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-63.png",
+      "bytes": 359,
+      "sha256": "ccf00ec5ebb2863ee3d6c904bad6b4241da8422abe7510c657f4c3302605103c"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-7.png",
+      "bytes": 420,
+      "sha256": "a518da1faa95f6b3459a7e71ccfdc4354ee57973d4b000d2448f6464ece4f713"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-76.png",
+      "bytes": 474,
+      "sha256": "3d64ef24416f83c7094e9f99858b5e825b397cf08b6c4b07cf4a9456fc679847"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-77.png",
+      "bytes": 394,
+      "sha256": "909d2ece4ca4fc29f0b872ab0a5391be1ef5c4e7fce246380d50ba973aaa8d52"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-78.png",
+      "bytes": 429,
+      "sha256": "de0e6eb8630ea823e356ca5ddf649676977b53250c76e7588799857ccbb3f9ab"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-79.png",
+      "bytes": 354,
+      "sha256": "6fe5d3aea05cd302080ebd4ec7a4ccac315d710c761d09c2c3554cb99eac8ec1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-8.png",
+      "bytes": 522,
+      "sha256": "8ef934dabe15ff0008015ba501e86e5e5cb1ed619ec26b2534252ed7d640b68c"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-9.png",
+      "bytes": 446,
+      "sha256": "56b33bed98c9df29faf734addac41075ad112a47fd1b8f2afb518ac1f6701bd3"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/dirt-95.png",
+      "bytes": 375,
+      "sha256": "d3c7704a8dc0c8382057534de23d6f4c8c1bd7bfd016e0a1f6775b9c71dc3550"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/grass-0.png",
+      "bytes": 220,
+      "sha256": "7da3d3a941d0325c299c2b7e6da9a2621cb7394f4cf3eac101b438e97f8fa335"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/grass-1.png",
+      "bytes": 282,
+      "sha256": "d48635a46cf45aed20763c0c9afdbb1b7d8af8fa8c1c60e7233c5852cb2efe93"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/grass-2.png",
+      "bytes": 250,
+      "sha256": "2298b37fe50d8e44360c832f12a725fbd1a3bf0aca25ec0f39297fad075b3972"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/grass-3.png",
+      "bytes": 302,
+      "sha256": "66a09a30a3717498847dd61dd2aead1cdce45f62ec37a1391f611a5892245262"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/grass-4.png",
+      "bytes": 229,
+      "sha256": "4eff3e4e9d754173e165b446ded904f7094737fa30180ee3025d3d18d5bd64e8"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/grass-5.png",
+      "bytes": 289,
+      "sha256": "1624d74315db627d4abf6572ff07a7d20c30ce04f0187b70766f1fdc4f3a6d42"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/grass-6.png",
+      "bytes": 247,
+      "sha256": "0035cfa568fad410a2daf89743c7ff1375ac136b9e31a2e16d198eea013bf4e5"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/grass-7.png",
+      "bytes": 298,
+      "sha256": "f116b37715e0ef5bfd7814e6bf4ee3b286def6a2915dc35122c38576f1ad94ff"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-0.png",
+      "bytes": 611,
+      "sha256": "32b8d9b68ddd29bfa4f2ac377b3ad676424015bb1fe8bb893413850a2a004ce1"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-1.png",
+      "bytes": 578,
+      "sha256": "08a1eeb6704f684afc5e4bbe74b69a1bfc05665a98ae6b3067d5f975bdbba51e"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-10.png",
+      "bytes": 519,
+      "sha256": "8f0243e217d38159d7f779134afe6162ad424d1ccbf8aad28bafd6df394fcd30"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-11.png",
+      "bytes": 501,
+      "sha256": "17c67b6fe3e25687decf6a8ca4d4943efd75e22785f987e81bc1050acf56f792"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-110.png",
+      "bytes": 454,
+      "sha256": "9be81b2814514010627fab3721c7bb10981bf033c1f4b7330c33e1bc17b411b9"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-111.png",
+      "bytes": 435,
+      "sha256": "47607abb0becee4201d87e8bdc0ce1564fcf9f1b5f6d6aab36d87c69ed787828"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-12.png",
+      "bytes": 544,
+      "sha256": "ac1d13a373559c698ac688bde23760252d2bf12d1546896f9417e27d9c937671"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-127.png",
+      "bytes": 411,
+      "sha256": "2519f5f4a29d764ecbf81d2450f1c3ff29dca779b5084276fb3046b721698b00"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-13.png",
+      "bytes": 469,
+      "sha256": "0ce7176ab1405f218d5ddbb2d6e1bd4948d59f3bd74c0007a539af00e0c9c6b0"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-137.png",
+      "bytes": 476,
+      "sha256": "4f3f5ea9f5e02f7c28af5119f16fa5f7862d188ed1d1f21b30cb58ac18bb3471"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-139.png",
+      "bytes": 479,
+      "sha256": "549e3d267dd8bb8a26d6a6da176cdf61e974499d8a78d2080bee218f83ddff1e"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-14.png",
+      "bytes": 489,
+      "sha256": "882e131e0ca1b300fbb567982bf542f06dccb674245e049471a80117f5424ac0"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-141.png",
+      "bytes": 461,
+      "sha256": "6422fefd2a6256b1490c404a2df3c2091cbd9973223f84c7eb6321e8a63eb05c"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-143.png",
+      "bytes": 415,
+      "sha256": "bb6130f3d40dc8cd8796ac77996126007f2f4ab5940d5d277c32b811d3101feb"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-15.png",
+      "bytes": 454,
+      "sha256": "7807363ba67edfa92c7d7feedf84b06d91a754d4391bda5369705bb9b00b5e62"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-155.png",
+      "bytes": 459,
+      "sha256": "c1af62ad2266cf56dea213c8390944aa129eee5e824f5534d8c0c31b92219e44"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-159.png",
+      "bytes": 382,
+      "sha256": "14ab0f462deb982927c76527593341f574fed62089bf2f7c09685702b7e25e7a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-175.png",
+      "bytes": 420,
+      "sha256": "faec2680b7acb0e66f022d7629e40aa6a36fe03784040613b19718949df508ce"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-19.png",
+      "bytes": 503,
+      "sha256": "b2763d0f14bbac37d9112a79a451ea725930880e95cfab3ffc28a6f799ead7fc"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-191.png",
+      "bytes": 401,
+      "sha256": "7a986bbc58c41c3f723f745af9e63900cd4fdb675c40586c5a5400b7acb7bc95"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-2.png",
+      "bytes": 557,
+      "sha256": "7756ffee58ddb5021ca98d8d6ac84df00fa3eea4f3e1b21663077ef3c2623f30"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-205.png",
+      "bytes": 431,
+      "sha256": "1c0402c500153e7bac1a5d1b3ab4ba4c26ca753131619d0ba319d773fc4e2160"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-207.png",
+      "bytes": 432,
+      "sha256": "26470da5af2190036fb122b1d954a84fc2e73ff9df9a250b1ceba862836079a9"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-223.png",
+      "bytes": 369,
+      "sha256": "bdaefd432abad0decfa3e165134d8cc8d83f11a98bc0f694a51f5d10168c5722"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-23.png",
+      "bytes": 471,
+      "sha256": "a1acec63abc5470a48ce169553f5e860ac3f4f43c2f017676e94f7d1536effe2"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-239.png",
+      "bytes": 407,
+      "sha256": "623f73c8d5748ac47ba1388343b5e339c2a88eae403aa4095eb185c5aac20968"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-255.png",
+      "bytes": 377,
+      "sha256": "b3476864afa5b4522fa7e5a3bbae97c4003683babd6a691808b3501a9dc3d851"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-27.png",
+      "bytes": 471,
+      "sha256": "38a77acf2593fd829477263c09dc82e3825b5981a69342daab2b5b14f3e9a372"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-3.png",
+      "bytes": 547,
+      "sha256": "b8ddd57650898de24e97e4943b74f7da16520dc4992e40d21e9c7c201a70456f"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-31.png",
+      "bytes": 428,
+      "sha256": "6c1b484c8bf3471b1ad26bc8b4004039c5cd1a1905a5dd6840ae09057f83702a"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-38.png",
+      "bytes": 513,
+      "sha256": "2a292a60bd7db515d8c4a86ad667c7e403a9ee4eb6b90a27212b2dc76507bedd"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-39.png",
+      "bytes": 477,
+      "sha256": "5ab6dc72d0abb4067aab62d1dc314afb71db949ca69de8ef0f035b1ae64c1442"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-4.png",
+      "bytes": 571,
+      "sha256": "9e62de09a674da567a2366604a2a709d9136d4156df60f1b35856d4408159a2d"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-46.png",
+      "bytes": 445,
+      "sha256": "f6e319d9ab88812641f7c865c18308af0946c1bccd9af4667fec26dcd433422b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-47.png",
+      "bytes": 432,
+      "sha256": "ecdd9f366f374f907f9d7f1efd40a9eef30688b73bca258113c562b3f28119f9"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-5-v1.png",
+      "bytes": 506,
+      "sha256": "b2d4f4ccc58a2f1179ffd63bd2e99ea9c5375aa777562326c8f00e89e12ebbeb"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-5-v2.png",
+      "bytes": 500,
+      "sha256": "b710f5bc652cff0977f4dd29a48e11dbabdb77d2ad127f797ee6894847e2079d"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-5.png",
+      "bytes": 511,
+      "sha256": "496640789c17145b566fe74411a10ab62953dc8c31e484ad1683dd2b61a18006"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-55.png",
+      "bytes": 449,
+      "sha256": "93a7f6ccd3ce1fbe0bb082e2bb1797ed1d41153b7425f82ac3e91bbea6b459e2"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-6.png",
+      "bytes": 511,
+      "sha256": "f6dc0aa7587d8bcf8e1f86be2c4aca1a748d1fe57d146657b9b11af0e89307dc"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-63.png",
+      "bytes": 402,
+      "sha256": "cbc587155ce9a0ba29bec519f6bb20401aeab359b80b8932a5a60007d977ee11"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-7.png",
+      "bytes": 468,
+      "sha256": "75c7c7bdebf4d393147ca957527b5cc91784d0feb9d217dd3acb1058500eb767"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-76.png",
+      "bytes": 529,
+      "sha256": "67101ec5bfc2f497003232f79dcb7e1192df90006c2c1537598d2de67827f46b"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-77.png",
+      "bytes": 469,
+      "sha256": "6dc9c071f12ae517b4e57bf8c652e52a7861aeaa4d281080b347a1d81dd58af2"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-78.png",
+      "bytes": 461,
+      "sha256": "5a2c4f2bab45e684707defb8e5452724715854ad58f0fe2ece2ce3a53eff4d93"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-79.png",
+      "bytes": 428,
+      "sha256": "41e51d3f26b2e2ae6083d1e7063c03ff2a168773705eab650beb52391babcd99"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-8.png",
+      "bytes": 525,
+      "sha256": "301101f4523f0734d6dc598dc6ae6f4749f128eb36b6965afad6b5ce742bb5b2"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-9.png",
+      "bytes": 497,
+      "sha256": "4a47840177423901766bb5640c05643c8b64e1d0168510d246e415d8ac571dfa"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/terrain-tiles/path-95.png",
+      "bytes": 402,
+      "sha256": "6a77080c5c7fc98e4cd22e4b8248a287ef9a7e04eec75099718d125718b21189"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/verify_assets.mjs",
+      "bytes": 5078,
+      "sha256": "6dcb081a9fa37a0a38b3c446d064701c8a91e80949029c0d9c46d470934b757d"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/verify_browser.mjs",
+      "bytes": 9694,
+      "sha256": "d4b46fdfb83a3ed212dc7dadfd5eb7188526d09a50dc55e8b7069d5b9ed92ef3"
+    },
+    {
+      "path": "docs/growth-p2-b/2026-10-14/verify_models.py",
+      "bytes": 1171,
+      "sha256": "41dd57f11d8c001f736383f45d7e1a105d8e42187fb036f6ebb05450befa0de5"
+    },
+    {
+      "path": "src/growth/homestead/HomesteadPreview.jsx",
+      "bytes": 7902,
+      "sha256": "65678eeb6c2eecc837d254a1930c78fb60e05c8ffe9dcc7e06b8181fed36339e"
+    },
+    {
+      "path": "src/growth/homestead/renderer.js",
+      "bytes": 2851,
+      "sha256": "820070fe5d9a5324bfced90eb99712b7ddac0064542c1604e4ffec123248e2d2"
+    },
+    {
+      "path": "src/growth/homestead/scene.json",
+      "bytes": 2683,
+      "sha256": "a4876b954b06c04f956476bb7eac8f9ecac2516fe931c888f730226c0ddf03c6"
+    },
+    {
+      "path": "src/growth/homestead/styles.css",
+      "bytes": 5583,
+      "sha256": "b4b5ce6beccb93893e6cc63cc243e79c1b77b4f8c8cc9ebddb307ae900ab59d6"
+    },
+    {
+      "path": "src/growth/homestead/tile-rules.js",
+      "bytes": 1598,
+      "sha256": "5d40ee48af3c13aeea4d043e59fe57bf6c7dc09d6463165bd037546ae104362e"
+    },
+    {
+      "path": "src/growth/homestead/world.js",
+      "bytes": 2325,
+      "sha256": "40969d7e3d4a37d6c467e0fb07197f85871e7dc26ace0cd4b6b5bb98e0683ebe"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/SOURCE.md",
+      "bytes": 1394,
+      "sha256": "5705a16b54636f513f33ef585dd1c401c8304fa06f10252c5824d96571135bc0"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/bush.png",
+      "bytes": 1107,
+      "sha256": "5ece58545c0b9756b1d9f682db1fbf6e251fb2a826768483aa4c09d19bb18be0"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/cabin-terracotta.png",
+      "bytes": 6581,
+      "sha256": "457c20ad6f0876aa8498912038d3b36a55baabfa426c8125c49c3ecd783ca0fe"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/export-checks/bush.json",
+      "bytes": 1617,
+      "sha256": "88772ae5e6784d9c2c21bbcd98cc0731b1339b8d6a0e92959423d2b7b5dd5789"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/export-checks/fence-horizontal.json",
+      "bytes": 1704,
+      "sha256": "734c56d7d9c4e524133144634b53c021792a39bdb858f215a2d1bf5cb6fce966"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/export-checks/fence-vertical.json",
+      "bytes": 1690,
+      "sha256": "9fc2639fb9a1ba01398c19c863c35f9c572a02d2a98c7b0254f2e28cb775eda6"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/export-checks/grass-tuft.json",
+      "bytes": 1659,
+      "sha256": "69c394b4c32b05eed85442dd48c93342f911c5cf1e019a66faa68b8f6b80d89d"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/export-checks/mailbox.json",
+      "bytes": 1639,
+      "sha256": "67f3a400bf36381eca116e02609f03380441accbdfa926cf679f38ccd9e1ab71"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/export-checks/oak-broad.json",
+      "bytes": 1650,
+      "sha256": "c05a1d72cb0da33f8d11af987a6f647a7867ad68dc5419f1f9769a370dff9b8b"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/export-checks/pine-slender.json",
+      "bytes": 1674,
+      "sha256": "ee44feeda48b0128493aa3e89cc0966329d567a9a2268ddf75dc0cd32be0793e"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/export-checks/rock.json",
+      "bytes": 1617,
+      "sha256": "869cf32090a9c3b494e102a97c55d6e6ecd09d7030494e4e13f7dbf8e3e7d7ef"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/export-checks/wildflowers.json",
+      "bytes": 1667,
+      "sha256": "38a416b7dca401d3f2930b36d3bc57e8fbadb35e8ab1cb9b8a0d00138f151311"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/fence-horizontal.png",
+      "bytes": 563,
+      "sha256": "9c096a048f41574491c109e1ed38b2f356281aafb855d39b32cf16ce75882c15"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/fence-vertical.png",
+      "bytes": 442,
+      "sha256": "a72beba8977d71d227627119d662bed4f33145fc89e878867453b7131c7c2afe"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/grass-tuft.png",
+      "bytes": 535,
+      "sha256": "eaa9d8cd48640584b81912d30385ec0680416df1106315865dac7e67415a764b"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/mailbox.png",
+      "bytes": 582,
+      "sha256": "b226178b6192477399ab35dbaccd7e7a9af7f856a24b1e426aed06e2dcaebff1"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/manifest.json",
+      "bytes": 217904,
+      "sha256": "ea89829e0b8e1dad65b0031a5f8b96fff9fba90cd3d8efeb088299a7c00874e1"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/oak-broad.png",
+      "bytes": 2694,
+      "sha256": "b613b54598d11f6dd00bcf55f7cd9a5de894b583a8429670da5fe8009750f5f3"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/pine-slender.png",
+      "bytes": 2809,
+      "sha256": "36ee71f75046c5e608922e5eadde339440efd63bee6a257bca6f68538f159fd4"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/production-summary.json",
+      "bytes": 179,
+      "sha256": "92423b2996a86fbd14d0b846c5f73f65981f877c1d7fcdd62c37ac574b790c5f"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/rock.png",
+      "bytes": 483,
+      "sha256": "1bb349a9073ce02fb476a9aacafe041c76f3e7718a54f3362aec80a03b7d2ffb"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/terrain-atlas.png",
+      "bytes": 30141,
+      "sha256": "6bdb538465a4c35912e04497840c782564c179fcca0dcb5f2a5441d2357e70b5"
+    },
+    {
+      "path": "public/assets/growth-p2-homestead/wildflowers.png",
+      "bytes": 919,
+      "sha256": "98a8c6684d8602f6d58103692f921b1d5e51add5751817f75260f5580f989ff7"
+    },
+    {
+      "path": "tests/homestead.test.mjs",
+      "bytes": 4182,
+      "sha256": "00af3c0c40be8ca8b25c0a1bd7f9eff271ef5ae734afe99e49d5058fd2cd3065"
+    },
+    {
+      "path": "src/main.jsx",
+      "bytes": 929,
+      "sha256": "8c9968d80c64d3f4a24c04727a03e21617d9dddbca703211aa4aed1150e61982"
+    }
+  ],
+  "fileCount": 586,
+  "totalBytes": 17648965
+}

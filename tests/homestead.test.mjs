@@ -1,0 +1,22 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {BLOB_MASKS,normalizeMask,terrainMask,tileId,terrainInside} from '../src/growth/homestead/tile-rules.js';
+import {prepareScene,objectRect,objectOrder,fitCamera,constrainCamera,worldBounds} from '../src/growth/homestead/world.js';
+const scene=JSON.parse(readFileSync(new URL('../src/growth/homestead/scene.json',import.meta.url)));
+const manifest=JSON.parse(readFileSync(new URL('../public/assets/growth-p2-homestead/manifest.json',import.meta.url)));
+const world=prepareScene(scene,manifest);
+test('blob tiles keep 47 meaningful connections and exclude unsupported diagonals',()=>{assert.equal(BLOB_MASKS.length,47);assert.equal(normalizeMask(16),0);assert.equal(normalizeMask(19),19);assert.equal(normalizeMask(255),255)});
+test('roads recognize endpoints, straight lines, turns and inner corners',()=>{
+ const grid=[['grass','path','grass'],['grass','path','path'],['grass','grass','grass']];assert.equal(terrainMask(grid,1,0),4);assert.equal(terrainMask(grid,1,1),3);assert.equal(tileId(grid,1,1),'path-3');
+ const square=[['path','path'],['path','path']];assert.equal(terrainMask(square,0,0),38);
+ const hole=[['grass','path','path'],['path','path','path'],['path','path','path']];assert.equal(terrainMask(hole,1,1),127);
+});
+test('edge and inside-corner shapes leave a grass verge while full neighbours fill the tile',()=>{assert.equal(terrainInside(0,0,0),false);assert.equal(terrainInside(0,16,16),true);assert.equal(terrainInside(255,0,0),true);assert.equal(terrainInside(127,0,0),false);assert.equal(terrainInside(127,3,0),true)});
+test('approved cabin uses its front ground anchor with a 3x2 footprint',()=>{const home=world.objects.find(o=>o.id==='home');assert.deepEqual(home.ground,[176,160]);assert.deepEqual(objectRect(home),[128,48,96,128]);assert.deepEqual(home.asset.footprintOffset,[-1.5,-2]);assert.equal(home.asset.status,'approved')});
+test('all 144 map cells resolve to exported tile frames and scene keeps independent objects',()=>{assert.equal(world.tiles.length,144);assert.equal(world.objects.length,32);assert.equal(new Set(world.objects.map(o=>o.id)).size,32);assert.equal(new Set(world.objects.filter(o=>o.asset.type==='tree').map(o=>o.asset.id)).size,2)});
+test('changing scene coordinates moves one independent sprite without changing terrain or source',()=>{const moved=structuredClone(scene);moved.objects[0].at=[7.5,5];const next=prepareScene(moved,manifest);assert.deepEqual(objectRect(next.objects[0]),[192,48,96,128]);assert.deepEqual(next.tiles,world.tiles);assert.deepEqual(world.objects[0].ground,[176,160]);assert.strictEqual(next.objects[0].asset,manifest.assets[0])});
+test('sorting respects ground depth ahead of asset priority and resolves equal-depth ties',()=>{const a={id:'rear-tree',ground:[80,100],asset:{priority:20}},b={id:'front-house',ground:[80,150],asset:{priority:10}},c={id:'a-flower',ground:[70,150],asset:{priority:5}};assert.deepEqual(objectOrder([b,a,c]).map(o=>o.id),['rear-tree','a-flower','front-house']);assert.deepEqual(objectOrder([{...b,id:'z'},{...b,id:'a'}]).map(o=>o.id),['a','z'])});
+test('overview fits the unlocked 12x12 terrain and visual canopy extent at desktop and phone sizes',()=>{const b=worldBounds(world);for(const [w,h] of [[1098,820],[294,377],[364,460]]){const camera=fitCamera(world,w,h);assert.ok((b.x1-b.x0)*camera.scale<=w);assert.ok((b.y1-b.y0)*camera.scale<=h);assert.ok([.5,1,2,3,4].includes(camera.scale))}});
+test('panning bounds retain a visible world and overview restores centre',()=>{const c=constrainCamera({x:100000,y:-100000,scale:4},world,300,400);assert.ok(c.x<400&&c.y>0);const fit=fitCamera(world,300,400);assert.deepEqual(constrainCamera({...fit,x:1e9,y:-1e9},world,300,400),fit)});
+test('bad terrain and object references fail clearly instead of silently drawing placeholders',()=>{const invalid=structuredClone(scene);invalid.objects[0].asset='missing';assert.throws(()=>prepareScene(invalid,manifest),/未找到素材/);invalid.objects=scene.objects;invalid.terrainRows[0]='unknown';assert.throws(()=>prepareScene(invalid,manifest),/地形行长度/)});

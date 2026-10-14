@@ -1,0 +1,233 @@
+{
+  "total": 55,
+  "passed": 55,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "cabin-terracotta native size",
+      "passed": true
+    },
+    {
+      "name": "cabin-terracotta binary alpha and exact 32-color palette",
+      "passed": true
+    },
+    {
+      "name": "cabin-terracotta source and anchor exist",
+      "passed": true
+    },
+    {
+      "name": "cabin-terracotta visible pixels have margin",
+      "passed": true
+    },
+    {
+      "name": "oak-broad native size",
+      "passed": true
+    },
+    {
+      "name": "oak-broad binary alpha and exact 32-color palette",
+      "passed": true
+    },
+    {
+      "name": "oak-broad source and anchor exist",
+      "passed": true
+    },
+    {
+      "name": "oak-broad visible pixels have margin",
+      "passed": true
+    },
+    {
+      "name": "oak-broad south orthographic camera and projected anchor",
+      "passed": true
+    },
+    {
+      "name": "pine-slender native size",
+      "passed": true
+    },
+    {
+      "name": "pine-slender binary alpha and exact 32-color palette",
+      "passed": true
+    },
+    {
+      "name": "pine-slender source and anchor exist",
+      "passed": true
+    },
+    {
+      "name": "pine-slender visible pixels have margin",
+      "passed": true
+    },
+    {
+      "name": "pine-slender south orthographic camera and projected anchor",
+      "passed": true
+    },
+    {
+      "name": "grass-tuft native size",
+      "passed": true
+    },
+    {
+      "name": "grass-tuft binary alpha and exact 32-color palette",
+      "passed": true
+    },
+    {
+      "name": "grass-tuft source and anchor exist",
+      "passed": true
+    },
+    {
+      "name": "grass-tuft visible pixels have margin",
+      "passed": true
+    },
+    {
+      "name": "grass-tuft south orthographic camera and projected anchor",
+      "passed": true
+    },
+    {
+      "name": "wildflowers native size",
+      "passed": true
+    },
+    {
+      "name": "wildflowers binary alpha and exact 32-color palette",
+      "passed": true
+    },
+    {
+      "name": "wildflowers source and anchor exist",
+      "passed": true
+    },
+    {
+      "name": "wildflowers visible pixels have margin",
+      "passed": true
+    },
+    {
+      "name": "wildflowers south orthographic camera and projected anchor",
+      "passed": true
+    },
+    {
+      "name": "bush native size",
+      "passed": true
+    },
+    {
+      "name": "bush binary alpha and exact 32-color palette",
+      "passed": true
+    },
+    {
+      "name": "bush source and anchor exist",
+      "passed": true
+    },
+    {
+      "name": "bush visible pixels have margin",
+      "passed": true
+    },
+    {
+      "name": "bush south orthographic camera and projected anchor",
+      "passed": true
+    },
+    {
+      "name": "rock native size",
+      "passed": true
+    },
+    {
+      "name": "rock binary alpha and exact 32-color palette",
+      "passed": true
+    },
+    {
+      "name": "rock source and anchor exist",
+      "passed": true
+    },
+    {
+      "name": "rock visible pixels have margin",
+      "passed": true
+    },
+    {
+      "name": "rock south orthographic camera and projected anchor",
+      "passed": true
+    },
+    {
+      "name": "fence-horizontal native size",
+      "passed": true
+    },
+    {
+      "name": "fence-horizontal binary alpha and exact 32-color palette",
+      "passed": true
+    },
+    {
+      "name": "fence-horizontal source and anchor exist",
+      "passed": true
+    },
+    {
+      "name": "fence-horizontal visible pixels have margin",
+      "passed": true
+    },
+    {
+      "name": "fence-horizontal south orthographic camera and projected anchor",
+      "passed": true
+    },
+    {
+      "name": "fence-vertical native size",
+      "passed": true
+    },
+    {
+      "name": "fence-vertical binary alpha and exact 32-color palette",
+      "passed": true
+    },
+    {
+      "name": "fence-vertical source and anchor exist",
+      "passed": true
+    },
+    {
+      "name": "fence-vertical visible pixels have margin",
+      "passed": true
+    },
+    {
+      "name": "fence-vertical south orthographic camera and projected anchor",
+      "passed": true
+    },
+    {
+      "name": "mailbox native size",
+      "passed": true
+    },
+    {
+      "name": "mailbox binary alpha and exact 32-color palette",
+      "passed": true
+    },
+    {
+      "name": "mailbox source and anchor exist",
+      "passed": true
+    },
+    {
+      "name": "mailbox visible pixels have margin",
+      "passed": true
+    },
+    {
+      "name": "mailbox south orthographic camera and projected anchor",
+      "passed": true
+    },
+    {
+      "name": "approved cabin is byte-identical to the accepted original",
+      "passed": true
+    },
+    {
+      "name": "all 104 terrain tiles are opaque 32px and use the same palette",
+      "passed": true
+    },
+    {
+      "name": "eight grass textures are distinct",
+      "passed": true
+    },
+    {
+      "name": "all actual scene tile boundaries join exactly",
+      "passed": true
+    },
+    {
+      "name": "connection edges remain equal across every binary 4x3 neighbourhood",
+      "passed": true
+    },
+    {
+      "name": "every empty future plot remains editable terrain rather than a baked scene",
+      "passed": true
+    }
+  ],
+  "sceneNeighbourPairs": 264,
+  "exhaustiveNeighbourPairs": 16384,
+  "visualApproval": "new assets and assembled scene pending user review",
+  "approvedAssets": [
+    "cabin-terracotta"
+  ]
+}

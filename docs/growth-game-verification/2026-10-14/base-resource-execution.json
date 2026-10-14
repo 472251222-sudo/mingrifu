@@ -1,0 +1,6 @@
+{
+  "originalScript": "docs/growth-p2-b/2026-10-14/verify_assets.mjs",
+  "sha256": "6dcb081a9fa37a0a38b3c446d064701c8a91e80949029c0d9c46d470934b757d",
+  "method": "Original assertions executed in memory; only module URLs and report destination redirected",
+  "oldReportUntouched": true
+}

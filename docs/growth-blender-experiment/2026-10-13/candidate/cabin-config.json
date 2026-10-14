@@ -1,0 +1,148 @@
+{
+  "design": "hearth-cabin-original-v1",
+  "seed": 13026,
+  "building": {
+    "width": 2.48,
+    "depth": 1.5,
+    "foundationHeight": 0.18,
+    "wallTop": 1.61,
+    "roofPeak": 2.46,
+    "roofHalfWidth": 1.32,
+    "roofFront": -1.02,
+    "roofBack": 0.99
+  },
+  "camera": {
+    "type": "ORTHO",
+    "azimuthDegrees": 0,
+    "elevationDegrees": 38,
+    "pixelsPerWorldUnit": 32,
+    "anchorWorld": [
+      0,
+      -1.2,
+      0
+    ],
+    "anchorPixels": [
+      48,
+      112
+    ]
+  },
+  "render": {
+    "width": 96,
+    "height": 128,
+    "engine": "CYCLES",
+    "device": "CPU",
+    "samples": 48,
+    "seed": 13026,
+    "diffuseBounces": 0,
+    "glossyBounces": 0,
+    "transparentFilm": true,
+    "previewWidth": 480,
+    "previewHeight": 480
+  },
+  "lighting": {
+    "sunPosition": [
+      -3.5,
+      -4.0,
+      7.0
+    ],
+    "sunEnergy": 2.0,
+    "sunAngle": 0,
+    "worldStrength": 0,
+    "materialAmbientEmission": 0.18
+  },
+  "materials": {
+    "wood": [
+      "#795643",
+      "#a07652",
+      "#c39b6a",
+      "#a87953"
+    ],
+    "timber": "#594036",
+    "timberLight": "#a07652",
+    "door": "#795643",
+    "stone": [
+      "#586253",
+      "#78816c",
+      "#a4aa8b"
+    ],
+    "glass": "#d1cfaa",
+    "glassShade": "#9aa26d",
+    "glassGlow": "#eee2bf",
+    "shutters": "#588455",
+    "metal": "#3c4940",
+    "brass": "#df9c6b",
+    "leaves": [
+      "#3b6550",
+      "#588455",
+      "#7da55e"
+    ],
+    "flower": "#e2bd86",
+    "brick": "#995347",
+    "brickMortar": "#795643"
+  },
+  "roofVariants": {
+    "terracotta": [
+      "#a7634e",
+      "#bd7055",
+      "#cf8b62",
+      "#713d3a"
+    ],
+    "deep-blue": [
+      "#26394f",
+      "#3a5575",
+      "#557a9f",
+      "#17283d"
+    ]
+  },
+  "pixelOutput": {
+    "alphaThreshold": 128,
+    "outlinePixels": 1,
+    "palette": [
+      "#26332d",
+      "#3c4940",
+      "#586253",
+      "#78816c",
+      "#a4aa8b",
+      "#d1cfaa",
+      "#eee2bf",
+      "#fff1d2",
+      "#3b2926",
+      "#594036",
+      "#795643",
+      "#a07652",
+      "#c39b6a",
+      "#e2bd86",
+      "#713d3a",
+      "#995347",
+      "#bd7055",
+      "#df9c6b",
+      "#264b40",
+      "#3b6550",
+      "#588455",
+      "#7da55e",
+      "#a9c36e",
+      "#cadb8c",
+      "#17283d",
+      "#26394f",
+      "#3a5575",
+      "#557a9f",
+      "#53694b",
+      "#75835a",
+      "#9aa26d",
+      "#c2bd87"
+    ]
+  },
+  "game": {
+    "projection": "orthogonal-square",
+    "tileSize": 32,
+    "footprint": [
+      3,
+      2
+    ],
+    "anchor": [
+      48,
+      112
+    ],
+    "status": "candidate-not-integrated"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "userDate": "2026-10-14",
+  "startedUTC": "2026-10-13T17:22:15.190208+00:00",
+  "recordedUTC": "2026-10-13T18:08:00.917443+00:00",
+  "elapsedMinutes": 60.92,
+  "toolPurchasesAndPaidAPICharges": 0,
+  "objectAssetDefinitions": 10,
+  "newObjectAssets": 9,
+  "terrainFrames": 104,
+  "objectInstances": 32,
+  "terrainCells": 144,
+  "technicalCompletion": true,
+  "candidateArtCompletion": true,
+  "userVisualAcceptance": {
+    "approved": [
+      "cabin-terracotta"
+    ],
+    "pending": "all new assets and homestead composition"
+  },
+  "completedUTC": "2026-10-13T18:23:10.347726+00:00",
+  "projectTestCount": 52,
+  "assetCheckCount": 55,
+  "existingP1AndP11BrowserRegression": "pass; WebKit skipped unavailable",
+  "finalBuildPassed": true
+}

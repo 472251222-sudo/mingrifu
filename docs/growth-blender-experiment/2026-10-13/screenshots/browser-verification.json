@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:5187/preview.html",
+  "browser": "Chrome headless isolated context",
+  "screenshots": [
+    "desktop-normal.png",
+    "scene-normal.png",
+    "scene-deep-blue.png",
+    "scene-close.png",
+    "mobile-390.png",
+    "mobile-320.png"
+  ],
+  "checks": {
+    "imagesLoaded": true,
+    "nativeImageDimensions": [
+      320,
+      256
+    ],
+    "sceneScales": [
+      1,
+      2,
+      4
+    ],
+    "roofToggle": true,
+    "gridToggle": true,
+    "desktop": true,
+    "mobileWidths": [
+      390,
+      320
+    ],
+    "noPageHorizontalOverflow": true,
+    "noJavaScriptErrors": true,
+    "noExternalRequests": true,
+    "noStorageWrites": true
+  },
+  "errors": []
+}

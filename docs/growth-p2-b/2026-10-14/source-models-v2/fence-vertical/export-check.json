@@ -1,0 +1,80 @@
+{
+  "id": "fence-vertical",
+  "name": "木栅栏·纵向",
+  "type": "decoration",
+  "status": "candidate",
+  "version": "p2-b-v1",
+  "nativeSize": [
+    32,
+    80
+  ],
+  "anchor": [
+    16,
+    60
+  ],
+  "footprint": [
+    1,
+    2
+  ],
+  "footprintOffset": [
+    -0.5,
+    -1
+  ],
+  "png": "/assets/growth-p2-homestead/fence-vertical.png",
+  "pngPath": "public/assets/growth-p2-homestead/fence-vertical.png",
+  "sourceEngineering": "docs/growth-p2-b/2026-10-14/source-models-v2/fence-vertical/fence-vertical.blend",
+  "sourceScript": "docs/growth-p2-b/2026-10-14/build_assets.py",
+  "rawPNG": "docs/growth-p2-b/2026-10-14/source-models-v2/fence-vertical/fence-vertical-raw.png",
+  "method": "Structured Blender model; 38deg south orthographic camera; same four-band light and 32-color palette; native alpha/palette/1px outline export",
+  "renderLayer": "objects",
+  "occlusion": "groundAnchorY; then priority; then instance ID",
+  "priority": 5,
+  "palette": [
+    "#26332d",
+    "#3c4940",
+    "#586253",
+    "#78816c",
+    "#a4aa8b",
+    "#d1cfaa",
+    "#eee2bf",
+    "#fff1d2",
+    "#3b2926",
+    "#594036",
+    "#795643",
+    "#a07652",
+    "#c39b6a",
+    "#e2bd86",
+    "#713d3a",
+    "#995347",
+    "#bd7055",
+    "#df9c6b",
+    "#264b40",
+    "#3b6550",
+    "#588455",
+    "#7da55e",
+    "#a9c36e",
+    "#cadb8c",
+    "#17283d",
+    "#26394f",
+    "#3a5575",
+    "#557a9f",
+    "#53694b",
+    "#75835a",
+    "#9aa26d",
+    "#c2bd87"
+  ],
+  "sha256": "a72beba8977d71d227627119d662bed4f33145fc89e878867453b7131c7c2afe",
+  "visualBounds": [
+    12,
+    22,
+    8,
+    55
+  ],
+  "colorCount": 6,
+  "alphaValues": [
+    0,
+    255
+  ],
+  "visiblePixels": 336,
+  "outsidePalette": []
+}

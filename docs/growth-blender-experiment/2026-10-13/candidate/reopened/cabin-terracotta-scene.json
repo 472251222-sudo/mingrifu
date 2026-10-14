@@ -1,0 +1,2686 @@
+{
+  "blenderVersion": "4.5.14 LTS",
+  "semanticObjectCounts": {
+    "Walls": 54,
+    "Chimney": 19,
+    "Door": 14,
+    "Roof": 115,
+    "Foundation": 17,
+    "Decorations": 14,
+    "Windows": 38
+  },
+  "objects": {
+    "Bargeboard_-1_-1.045": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "d9aa219ab137f5213e22cf1b064c1a0508f652fdde43dc975a84864d7af8d287",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Bargeboard_-1_1.008": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "7d7c03944cb814989d65a3f6096835cabb54a0bbbbbbe30ebc561174fc235c20",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Bargeboard_1_-1.045": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "6084ba4c2a15347d56f33f9fa1518b41875af1ce67eca740ad00d25f3064b302",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Bargeboard_1_1.008": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "21fd86e659c6bc2a29416ffec9ac4f50386fc38db34f55669ccec907bfea74f4",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Chimney_body": {
+      "semanticPart": "Chimney",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "74eba8f738cfc0dbdb39822bcf546e577cf7171e5e9a2019407364e871fa73dd",
+      "materials": [
+        "Mat_brickMortar_0"
+      ]
+    },
+    "Chimney_cap_base": {
+      "semanticPart": "Chimney",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "a3ad2c6bfc4fe7d2e191cfcc1db6fc58e3006e6d8edc7c38d1e699bfe7b11b5e",
+      "materials": [
+        "Mat_stone_0"
+      ]
+    },
+    "Chimney_flue_dark": {
+      "semanticPart": "Chimney",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "4c09611a03b5e8ead19451f371cca31274721b8127e0630740b67ca3397f826c",
+      "materials": [
+        "Mat_metal_0"
+      ]
+    },
+    "Chimney_front_brick_0_0": {
+      "semanticPart": "Chimney",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "b2136afb92d6efcc78ae9dfcf22b5ca95bae4b8d43664f8997cc3af72c13fdbb",
+      "materials": [
+        "Mat_brick_0"
+      ]
+    },
+    "Chimney_front_brick_0_1": {
+      "semanticPart": "Chimney",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "a36d558f87f2f594783e191bd361b36ab36f648082579441636f7f7fdd23812f",
+      "materials": [
+        "Mat_brick_0"
+      ]
+    },
+    "Chimney_front_brick_1_0": {
+      "semanticPart": "Chimney",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "51832c849b80b0ab0532152c988f32a1c5d8fbe9eb45dbd902383d89414ce0e2",
+      "materials": [
+        "Mat_brick_0"
+      ]
+    },
+    "Chimney_front_brick_1_1": {
+      "semanticPart": "Chimney",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "f280e1a5ee065c9adc7aeb7135ea5d78a1ed0847759d3a63303cb85fab621303",
+      "materials": [
+        "Mat_brick_0"
+      ]
+    },
+    "Chimney_front_brick_2_0": {
+      "semanticPart": "Chimney",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "3bfd47b9013cebc0285a9f0c0a67fe7196cd1ee03f6caeebc629d7fcfcc9077b",
+      "materials": [
+        "Mat_brick_0"
+      ]
+    },
+    "Chimney_front_brick_2_1": {
+      "semanticPart": "Chimney",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "ab3bcd1023ccded2894b9fc4f4d72244e6fb301e1eb0bbdee531122ae07d4e45",
+      "materials": [
+        "Mat_brick_0"
+      ]
+    },
+    "Chimney_front_brick_3_0": {
+      "semanticPart": "Chimney",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "9c0b1d799c44ccb5330a7ca70dd7ce9f9d6c6fb24bb36033c2845b2363342496",
+      "materials": [
+        "Mat_brick_0"
+      ]
+    },
+    "Chimney_front_brick_3_1": {
+      "semanticPart": "Chimney",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "318f4101c53c4c838d4ac87fabafa99ea46d9abe00919ca61d7004fa9154c46f",
+      "materials": [
+        "Mat_brick_0"
+      ]
+    },
+    "Chimney_front_brick_4_0": {
+      "semanticPart": "Chimney",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "5d34b8b5af7ea20c5f30ddd42c089aa2fe5afa492ddbc588a55f769ad3c0e63a",
+      "materials": [
+        "Mat_brick_0"
+      ]
+    },
+    "Chimney_front_brick_4_1": {
+      "semanticPart": "Chimney",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "7d82ede69733cabbd884af2fd8018de82563c89c3928ab44491c352e95952dd3",
+      "materials": [
+        "Mat_brick_0"
+      ]
+    },
+    "Chimney_front_brick_5_0": {
+      "semanticPart": "Chimney",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "08d53b33a11a0518170aae0f6a10e8d8fe34f4927815a222243796520f45139f",
+      "materials": [
+        "Mat_brick_0"
+      ]
+    },
+    "Chimney_front_brick_5_1": {
+      "semanticPart": "Chimney",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "202450007545dbc44568863ee94fcf09a1afb7aa994dd9b227d5be29fdb803cc",
+      "materials": [
+        "Mat_brick_0"
+      ]
+    },
+    "Chimney_lip_x_-1": {
+      "semanticPart": "Chimney",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "d4f534b08e3397732b4f02634904ccdbeecc779144d19530b89489234405d295",
+      "materials": [
+        "Mat_stone_1"
+      ]
+    },
+    "Chimney_lip_x_1": {
+      "semanticPart": "Chimney",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "9b08cd78da106fb864a80b0b66530bf97133a220487a85ee63a9a0a8d5fb3dea",
+      "materials": [
+        "Mat_stone_1"
+      ]
+    },
+    "Chimney_lip_y_-1": {
+      "semanticPart": "Chimney",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "ab9bb031672f027645b817b986d7554c2a472edfcacbbfec33ef9bac848405f6",
+      "materials": [
+        "Mat_stone_1"
+      ]
+    },
+    "Chimney_lip_y_1": {
+      "semanticPart": "Chimney",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "e243bd9ba36e9c671a5f3e44a5ceea2adf3939f345b4d36284aa42b1d7668178",
+      "materials": [
+        "Mat_stone_1"
+      ]
+    },
+    "Corner_lit_edge_-1.15": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "e23496a0df64e1f3585689b7aac56f3bdafdda854b214c7beb39f4a4cfb2acb7",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Corner_lit_edge_1.15": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "8b4f82de68819afd92a6fd6a9605daf41dbd5caa2f97fe3051394742a9737d15",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Corner_timber_-1.15": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "49d7f1eeafff2c8e61ef87e6ec22944c157eef6476444ec84d70daf2c063c43f",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Corner_timber_1.15": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "fcdccb5c610a349108187c8b5cae06d4c98bacb6a15b954708c283c95763584a",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Door_canopy_fascia": {
+      "semanticPart": "Door",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "2139b033b7ea394c22eaad4c83d0a399c95975c6013da4692c7074752241ad92",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Door_canopy_roof": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "ef1bd899f32ebde2d1c52dc3b83b1f4999e63b94c1a7ca24919f043d5e7ca9a4",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Door_dark_recess": {
+      "semanticPart": "Door",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "2f48ebb72ff48060a4eaf9c9e3b60ee7c655fabaa4932cb6dab85616d5e86d58",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Door_frame_-1": {
+      "semanticPart": "Door",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "d8c711619e951e7e51ebfbe0dead204cb9409265d46cb1ca48d0f8892710badf",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Door_frame_1": {
+      "semanticPart": "Door",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "bd486e916b5401480e9bf007e1d8986398601aeb4c1730c7cc8e2479012defc5",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Door_handle": {
+      "semanticPart": "Door",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "2e8ffcb4e332f723a01a37c0214e3cfec9394c7a043c612126312b88a61e24e8",
+      "materials": [
+        "Mat_brass_0"
+      ]
+    },
+    "Door_hinge_0.39": {
+      "semanticPart": "Door",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "320f5b3959b4c6351ebb08c6c4bcd3d952df1b76395002b72702a8541af1ef81",
+      "materials": [
+        "Mat_metal_0"
+      ]
+    },
+    "Door_hinge_0.96": {
+      "semanticPart": "Door",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "b9393a1ac92ac7bda8c2550c21f50093e9d948173ef8e794a8dbd352c3faa92d",
+      "materials": [
+        "Mat_metal_0"
+      ]
+    },
+    "Door_leaf": {
+      "semanticPart": "Door",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "b9b12624a8ba53f0c651f8bbaa499e1e0575decdb769992b59069ce40cae48a3",
+      "materials": [
+        "Mat_door_0"
+      ]
+    },
+    "Door_lintel": {
+      "semanticPart": "Door",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "31e59cd29ba39ac895817d5f559173f70186f66ad18fa4b5a72c093de50e8089",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Door_lower_step": {
+      "semanticPart": "Foundation",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "82c766cc79ba90867d8cdac0d3b756fcdfd4fe96f40846e6eb88db7ed77d440a",
+      "materials": [
+        "Mat_stone_1"
+      ]
+    },
+    "Door_upper_step": {
+      "semanticPart": "Foundation",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "36aa32cd73841e1642cf0db9cf64d2f2b801484516b477dde704982cc75ec412",
+      "materials": [
+        "Mat_stone_2"
+      ]
+    },
+    "Door_vertical_board_0": {
+      "semanticPart": "Door",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "4b00a5b633c0709557f2692b593a964b51d1ec8f8d0e01e29beb4c89aa6dc197",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Door_vertical_board_1": {
+      "semanticPart": "Door",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "ae0f0ce3c14625ec9d86ad265ca081d659f1ee6d8357d99f697dac0aefbfe6af",
+      "materials": [
+        "Mat_wood_1"
+      ]
+    },
+    "Door_vertical_board_2": {
+      "semanticPart": "Door",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "5600371fd2756604bc829fa8c7f7d567e75b0b9c732e5d90e2079d8f83db4b63",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Eave_-1": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "2665381d48dde118d7f36d9e09e478ca042aee59b31b03356683cba8b40e6634",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Eave_1": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "2827768f4e54c667d593975cf5293150cb0e1967a6ed93215eea56849da0e766",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Eaves_support_beam": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "00fbf4e84f2295adddb66f91bf74bd72eef8f38e285cffeacc290e898c19ad17",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Facade_board_00": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "302bc3d3e289df975ec59d6f78226caca935cd88cf26ee277f99c6051bcf4b60",
+      "materials": [
+        "Mat_wood_1"
+      ]
+    },
+    "Facade_board_01": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "bd3e05b7bef21b815f14720d0252ed6dc69d60248d44f153936aa3f9d0478919",
+      "materials": [
+        "Mat_wood_1"
+      ]
+    },
+    "Facade_board_02": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "3247b7418f9e24572a613f19e48d47d5280e5ed24d606c4e6aaded0f4e686af8",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Facade_board_03": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "612fd746ebbcded64ecf2d6e95c5498f9a838687716ce4f7eb908b5c378d128a",
+      "materials": [
+        "Mat_wood_1"
+      ]
+    },
+    "Facade_board_04": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "e154080f3a748e687396b362b8e4681984fe7b78239c07e94a3632f2e3ebddbb",
+      "materials": [
+        "Mat_wood_2"
+      ]
+    },
+    "Facade_board_05": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "c6e7c5b51312477619fa0854159bf2ada35f669da1de3302ce80df56f5e03f7f",
+      "materials": [
+        "Mat_wood_1"
+      ]
+    },
+    "Facade_board_06": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "696ade949047da6fb20c0d5add442fbdcd9c812aa947ecd4eeba9691fd594afb",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Facade_board_07": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "600520a7066f74240e71923a0ac9603bea498cbd97105096cfd67ed6719546ac",
+      "materials": [
+        "Mat_wood_1"
+      ]
+    },
+    "Facade_board_08": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "9421e176bbd1247f88d2585f06401ce19c63e000d6973a6a9753245a1f8bbdb1",
+      "materials": [
+        "Mat_wood_1"
+      ]
+    },
+    "Facade_board_09": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "4a5e8219263d71d2f48de8545d369fa899955835233c80b8b2e44fe7c21480e0",
+      "materials": [
+        "Mat_wood_2"
+      ]
+    },
+    "Facade_board_10": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "10a5b69a14cf7bbb099a94a74a29af2f44ae8c69443193c8bca1b69e979044b2",
+      "materials": [
+        "Mat_wood_1"
+      ]
+    },
+    "Foundation_solid": {
+      "semanticPart": "Foundation",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "de5cf3df9accb0cee32c1be9194b652ee5c471b8a157186fb46368e71e256344",
+      "materials": [
+        "Mat_stone_0"
+      ]
+    },
+    "Front_gable_closed": {
+      "semanticPart": "Walls",
+      "vertices": 6,
+      "faces": 5,
+      "sha256": "5e7feb1d10929003ae69fc429a2bc2fafba082382503f45f47af0f174b1ea5cf",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Gable_board_00": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "590fb26e1a443c2073a4e2d361f1de13da5f15072b70870fabde1bb99250d0ed",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Gable_board_01": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "c5c8b490b1baca03df6bb13488ae1fb71cecd5fc0d99a03b9199b955297122ba",
+      "materials": [
+        "Mat_wood_1"
+      ]
+    },
+    "Gable_board_02": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "f0ccfcc246d22393306717d71fcc97ec8237b5ee61d4ab8055bd5c2f8a60266a",
+      "materials": [
+        "Mat_wood_2"
+      ]
+    },
+    "Gable_board_03": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "a1f57420bbd7b7f43c7e6b28720a2f77553f389563fa1338ea9b6922ee20cbbe",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Gable_board_04": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "b807de8c255e69ce85d9f586df59499ec3507a232fa61dce5d388217eae291a9",
+      "materials": [
+        "Mat_wood_1"
+      ]
+    },
+    "Gable_board_05": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "1de7a85494dcedd1acb76190ce2285c033343cf9a0b0c3f1efe7e6c80c85bff7",
+      "materials": [
+        "Mat_wood_2"
+      ]
+    },
+    "Gable_carving_left": {
+      "semanticPart": "Decorations",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "74a7f4834e4a6bf83b8cd0d8424322e86f35c55a6a874a651e8c645e98ede595",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Gable_carving_right": {
+      "semanticPart": "Decorations",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "facaa5470fc706aa4fc8304d8e5cc7b0d9d4180d7b7f0b83df907a203b255d55",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Lantern_base": {
+      "semanticPart": "Decorations",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "8e199fd4160f59c317ee6f579158ac6bcb812579eafaa5fb008fdcfe6144308a",
+      "materials": [
+        "Mat_metal_0"
+      ]
+    },
+    "Lantern_cap": {
+      "semanticPart": "Decorations",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "3eb4c4a7e15dadba0cd893e075d429bf9f53e8b90b3acaa8acad1a9b1d9f4088",
+      "materials": [
+        "Mat_metal_0"
+      ]
+    },
+    "Lantern_glass": {
+      "semanticPart": "Decorations",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "0c7cfbb76d48fb8bcf10097741e1c85a1f3937e696a6e4877540f18b1fa8fc34",
+      "materials": [
+        "Mat_glassGlow_0"
+      ]
+    },
+    "Lantern_wall_mount": {
+      "semanticPart": "Decorations",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "b9b2ebdb9fe457109b5485ce97cb444ff68baa64f2ac5913d28ae2673332ee21",
+      "materials": [
+        "Mat_metal_0"
+      ]
+    },
+    "Loft_window_crossbar": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "2a0d53a3ffaef2a41f6a09ee60fdc97673278725d85a72af903c5dee3d402143",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Loft_window_dark_recess": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "ce325615ed4ff21b2dabcaee4a7684f067cfa25e04c6d5442256b2881c66bab1",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Loft_window_glass": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "67225be54da210ba9bfa37f30fdb3ad17a6109f1d863cb0be5907bbdee96908a",
+      "materials": [
+        "Mat_glass_0"
+      ]
+    },
+    "Loft_window_horizontal_-1": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "bed725d514642c5f8ed99180be6e6069be542a9cd17a76c8f056436f42745601",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Loft_window_horizontal_1": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "1e4a5d1a50db9369876fefa21e638452d1771812d41bcb0c683f8bb72aef0bcb",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Loft_window_mullion": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "1371215fe1b4e7e4c079c2c42e627b6db9b102e3065a9db398e101d8e453ab25",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Loft_window_sill": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "6182d7edf05bb5af546fd93ab817971a9e67a258badb092d952e47b0319d061d",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Loft_window_upper_reflection": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "fb8bc1a4caf50262148428cab5965c7a26c5c8bdaa824d8ad09235641cfdd209",
+      "materials": [
+        "Mat_glassGlow_0"
+      ]
+    },
+    "Loft_window_upright_-1": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "53e9338b566edfb3e28dc74c65f6c985e938493bc14ad4b64ea874e4267ebeec",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Loft_window_upright_1": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "a22c38c0836783b45b77d3c40012d1437e6a44604214b81653f1f843cb289d61",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Planter_flower_0": {
+      "semanticPart": "Decorations",
+      "vertices": 12,
+      "faces": 20,
+      "sha256": "37e8671d06ec4c2cc4fb51fce82c4b4030d3e4d5a7b23e48c96e1807bc714fbc",
+      "materials": [
+        "Mat_flower_0"
+      ]
+    },
+    "Planter_flower_1": {
+      "semanticPart": "Decorations",
+      "vertices": 12,
+      "faces": 20,
+      "sha256": "f9e7e6926c9e7064b0cbe64db3cb98cc58a18280a73fddfdc985a42a3e60fa93",
+      "materials": [
+        "Mat_flower_0"
+      ]
+    },
+    "Planter_front_rail": {
+      "semanticPart": "Decorations",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "84b22bf034238aec7dad86bb3c72284df86252f5237f7b705b625787835c81a7",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Planter_leaf_0": {
+      "semanticPart": "Decorations",
+      "vertices": 12,
+      "faces": 20,
+      "sha256": "d30aae63548bcd48fe7a02ca7a18f4cede2219e15bf88bf550ae40ac46a1ffee",
+      "materials": [
+        "Mat_leaves_0"
+      ]
+    },
+    "Planter_leaf_1": {
+      "semanticPart": "Decorations",
+      "vertices": 12,
+      "faces": 20,
+      "sha256": "80f9a84bb2cb44a7ee41676665b0f981012320867df6ad4a1aa5a530ee683853",
+      "materials": [
+        "Mat_leaves_1"
+      ]
+    },
+    "Planter_leaf_2": {
+      "semanticPart": "Decorations",
+      "vertices": 12,
+      "faces": 20,
+      "sha256": "e540302a938b6ab863d038ea531f4362bdfcf4a31f628463c0f95b56837d2b22",
+      "materials": [
+        "Mat_leaves_2"
+      ]
+    },
+    "Planter_leaf_3": {
+      "semanticPart": "Decorations",
+      "vertices": 12,
+      "faces": 20,
+      "sha256": "bcdea9d2922634ac24726846ae7b4f73b65e97883e6c22d40e8393d11df51a27",
+      "materials": [
+        "Mat_leaves_0"
+      ]
+    },
+    "Porch_bracket_-0.095": {
+      "semanticPart": "Door",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "831b8c0e2eb2483fca8aa5b96ad7ac18b31625a661828a0a2254e9c80833fb0c",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Porch_bracket_0.495": {
+      "semanticPart": "Door",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "a9454bcdd103a8e9eb28879c245cdfe0911914f16c80683720da00398557926e",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Rear_gable_closed": {
+      "semanticPart": "Walls",
+      "vertices": 6,
+      "faces": 5,
+      "sha256": "f97a3d2cbfcc88e6294a4f30ef3a22b4c1b39b044104c9173ffbd967b90c28ab",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Roof_ridge_cap_00": {
+      "semanticPart": "Roof",
+      "vertices": 12,
+      "faces": 8,
+      "sha256": "8ce5a42ddea17ef47f6654f685c5d9c6489bbee574443af7635f2ee9ba6a245c",
+      "materials": [
+        "Roof_Color_2"
+      ]
+    },
+    "Roof_ridge_cap_01": {
+      "semanticPart": "Roof",
+      "vertices": 12,
+      "faces": 8,
+      "sha256": "dcb22ccde36094a5f6c0e0d0e3bd13ad33688f241e32669938e4d0456442fefe",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_ridge_cap_02": {
+      "semanticPart": "Roof",
+      "vertices": 12,
+      "faces": 8,
+      "sha256": "cabaa8f98f4a1d4bb4da78ea6407394da921f689a08d4911b95015228faa0158",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_ridge_cap_03": {
+      "semanticPart": "Roof",
+      "vertices": 12,
+      "faces": 8,
+      "sha256": "9f3891f578454b463cd3ca9452c24ae29d7819dac7421667462af8d7079992ea",
+      "materials": [
+        "Roof_Color_2"
+      ]
+    },
+    "Roof_ridge_cap_04": {
+      "semanticPart": "Roof",
+      "vertices": 12,
+      "faces": 8,
+      "sha256": "51d4860ac40adab69941206b30b399901b0c3a45a59db8ee99da6a9f82674395",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_ridge_cap_05": {
+      "semanticPart": "Roof",
+      "vertices": 12,
+      "faces": 8,
+      "sha256": "af0e17f06b8f227e55aced0f4b3fd6c83933856196ed929d0280137b571f16eb",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_ridge_cap_06": {
+      "semanticPart": "Roof",
+      "vertices": 12,
+      "faces": 8,
+      "sha256": "f46bfa869b05dffd99c4f5afd9b3e344a70a35887e62958457db932c7431aaa6",
+      "materials": [
+        "Roof_Color_2"
+      ]
+    },
+    "Roof_ridge_cap_07": {
+      "semanticPart": "Roof",
+      "vertices": 12,
+      "faces": 8,
+      "sha256": "49f8758c6f36ef0a41eea67902f667ec7a8890563562fb0503316fb81e295982",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_solid_-1": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "dabc43821844da4e6d3e9770017b86409a246d39f4eb129b78721c622e75d975",
+      "materials": [
+        "Roof_Color_3"
+      ]
+    },
+    "Roof_solid_1": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "a630fabb574d8b7437316fd5feeec3c6e84e3585652a20e7a04b0e3f9a85a21a",
+      "materials": [
+        "Roof_Color_3"
+      ]
+    },
+    "Roof_tile_-1_00_00": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "22f4b5ee5316a6929719772f4c82a87169eeffc6da2a2761d1eae65c4e40de9e",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_-1_00_01": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "eee6aa12479d398520cd2391fb5920a5d0ac204718713ba75fc3f668dd74a2c3",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_00_02": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "ec3289295229acf3726ba3e523eb5f6b7416e63457afec0de09483efbbf6e288",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_00_03": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "ace42d82a6b2e1f8f7bac77b0c8a3f5f8b86d431f5e5743b5ca8a706c2a90f86",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_00_04": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "870887b0152d9f813333403d7e99d9e4a0855211fa08f7df0429ff0bc4224c28",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_00_05": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "7d8b52bf3c9fc21f8b902affbe6771a062953c4bbbb56c53519e5fa1d338b862",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_01_00": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "9ff74a726883f8d09e9e26153e95ec51554a4daf237fe60d9b45050222ca5472",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_01_01": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "92ce37df83534f5120ec22c31f4ef8da0661a465264e41fc71c1ba2934d50325",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_01_02": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "ce502e42fb396676c67b87b46bd03dc86042149ce60c68052d5b6f6c4cd18c0c",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_01_03": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "646409d078ecf25afa4c70132ef882b225f62243613894def37e295ae8bef348",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_01_04": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "a3ce6bcc6562950ac3cd4ff900f537dc8f216ce113dbe2dafc898812f5187410",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_01_05": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "77063ab3ada681ad72c38c4bae3d52379ae19c175de3a97c99c6e436977d260f",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_01_06": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "ed98747a0612af6fbff3cdbd9c4d63511df2b2de39f07480bddd1d4ceeb651b1",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_02_00": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "15b203487d287425678fc23771de6f5d0f49d4d2189ae104f94d761e52ee5657",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_02_01": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "02d7392bbf58a5f3caa183d54ccd79f564bec176e6089083198b5abcff18e430",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_-1_02_02": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "091f048fd0f72f5832d7305e631f7f7063655397c2ec1faac207f4ac167abcc2",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_02_03": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "bda565bba237b3973caa28c4b860945fa2f3ab98ef147afa5966971ca4d20491",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_02_04": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "e0c6bc5f4543fe0c6de4d62e65a6189599587466c846abb72a2f6509f46ecd34",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_02_05": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "7bd613abbc1ceaac393648fd222fdeb247cbb8e03ff5149e7360df6bfe8a42f8",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_03_00": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "1c849d652f8a27d02c195ff0151b935112fcd0d1d2859276aa5c967351ac95a4",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_03_01": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "206f9e3da0c50379d22dc4b43ee44e170a33284ce3fa9d56cbe412ee1230a413",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_03_02": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "fe0f3c3a27916cf342363beefdb97748c2e8e306ff8c03325c9cf20540e829d6",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_03_03": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "a4b194a406dbaada3a492a5bcc7e30f0621059c04e6fc3ae77f81e7fd19e6879",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_03_04": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "fcf484c486fcf9be2c258c39fa166d5980aa27268005d96faeed6f7edae143f2",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_03_05": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "a2c50f21d97915d4bcd4914db63bc280ec05c65d814366783186de3ef898e2c5",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_03_06": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "ea06a623daf7a8e26b7c8cb7e6c1000c57a85788c55b8fe1bba8941e4019fcf5",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_04_00": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "e3e47ec041b66685c8d0220844af2e8f5ad685fbcaf022df36e567867cbf76f0",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_04_01": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "2e624d01df4f230cee22f31c65719bb5f126e60ee61cb28b12fc525480194901",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_04_02": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "c8272cc3a46b97d76fdd1cac2c2b7360d12f25e106f8fae2f9ba5d038ebc1394",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_-1_04_03": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "4de911ddb2aaf8ecc0f2fe7b01f913cd5cf2acb25cb8fd26b03f536e4791752d",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_04_04": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "d4cf2c1231b8d6700c174bb4a15632496ba90b5b51470f49fa3ac3e1eafaec0c",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_04_05": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "4f5064d3bb2373509670f666b5500a1b4f39d11d8e99df1127c547b8718652f2",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_05_00": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "0421ed8a8e6fdd5115ad759cec1ad67dfcb566f40f4f84fc2eab4ea3ba58be85",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_05_01": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "0ccb8e6c339bb7b87190348e32fe102a9f6cba663f56ab7e80bc6a70d0d98d3c",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_05_02": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "235ff6b3fbdfed0fbfb31c9003bb920d1fd8652f8f64879c9d85805b45f77b3c",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_05_03": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "e59867fb31755fd88d3f31e056eed2ca6a7589db79488388ca0e01d9f22fd8fd",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_05_04": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "de93eebd78b1f1c9344ababdef7b6db8b25a7503fe98f5168c558947992c4197",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_05_05": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "c16d6e48aa8862980cad99ed246cb4c47cf543dffb25e2173765fdf72fbbaf35",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_05_06": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "9e7d77bbda07d25e462191a9532855b457ba27face8a709f759501b7027410c6",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_06_00": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "a356a38f9be4f0af9038717b5990d077d866ea6c64ac819e1cc5b3a460311c2f",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_06_01": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "54db78a8b6070c8f1b181352c71135d734967e2b69356cf7eca6ba543d4730b4",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_06_02": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "1b00e28bced20048690344433219ca46b930f46606425862115db9f8b5ffc0fa",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_06_03": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "bd25bc5fa235db5f0005da5d17dea48b8668b0d3b2010be138804f9b70ee20d4",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_-1_06_04": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "2066a68a98c361da1a4d028e137351f78ed47dd7db38d769ae8a635c13395b5d",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_06_05": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "8278550284b144c1ed0420706f5b7150df0097a1895227480eaf175c838033d7",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_07_00": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "a910b5893bb47139a73005193191cc14f835438ca480fc6d82637a1f67bde113",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_07_01": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "9e0935507ec9b54cb280fea27c932cd5060b5d204047467d998eaf6a8727468b",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_07_02": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "d1222d2e9465ffd15d4e568c9df42392e89a2627ea4c181993e4cdad03f54953",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_07_03": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "968c1159d354745fd35b03e06f902c3faa8ec8e25214b1aadfa2ad9fb108408a",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_07_04": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "4d9e0152e2d07b6ff5301392efd842badaea10d791b2d3cba4c66d5460baf174",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_07_05": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "bd5ba6c401f30be6a6c296c0790feff03cec1483fcdc158d720c65b30d09cf16",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_-1_07_06": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "55bd10ffb60ca5258ad2b58ec00a7ffbdb0c932047cc82087664d63d9d07fd88",
+      "materials": [
+        "Roof_Color_1"
+      ]
+    },
+    "Roof_tile_1_00_00": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "47c4f387515bc71d8e6d47126a28aba7bdec5a01690a748ae026dba5ad7f58a6",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_00_01": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "27cfc99f5cf641b293f63dcd969451cf81d366fbd56aa881bb0a3d079bfdff57",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_00_02": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "8ff6c35de510885ed5e1da9acbc73c7489ce80bdd795f55103ceb89fa8e869a7",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_00_03": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "b4b2f5a1ee3ee4f691ba0ae4fddc14acb9af9ed21900d9ca719e9116658f7347",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_00_04": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "0013755c59d920d098cea35a99be38957826b33b2fe26e6d93e89ca2825a577c",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_00_05": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "0331a491a40b94d9c396864bdaa91e8c412540ea779c911943f73e18d581d046",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_01_00": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "9c8b812c55ae177fe54d3dad03759904b7702b50e1d8c8208eb91f15f3768db6",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_01_01": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "7dd9b655a52627355205b950421e2297f079f78ec45fe88c4edc593ad3c60e9e",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_01_02": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "ac4a6c3a71070bed54add853b3783488e2b30b040624f8d2f224edac027f785b",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_01_03": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "3402804d55ee6ec76f5dee6375026f4b38976090fc33139f015ee35dc9b40055",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_01_04": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "338384b494f4db960af7ca0da2ab4188549cacdacb2bc4d6e29a3d596e9165dd",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_01_05": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "38158f43b6ff0b708ebca5f76efd13aa52991ef31319934673ec4d63b3ff3273",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_01_06": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "3c9975757ec18fc3a6464ae336ca309702966f2986c39ace00bfcf23b48ab0dd",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_02_00": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "694157f34fb711a498d38a02cc36e8a64c7a057dc566110cd360eaa97cb02393",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_02_01": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "6d71eaaff4bda977d2bc1aeac46fd67bdeb50812748ad7782f4e3e157cb25fc3",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_02_02": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "f47435deb18f8067840777f12ab6aa2c97451a84cc5ef14a6e252792e3ea447d",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_02_03": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "c510017059d3bf4ba443e8c1885918a35526f1657a86a1b172892d21211fb34b",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_02_04": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "0b4a9db7794fe20f83435d51b99e98e1b1dc05dad4abac95ac50f37b032db1b6",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_02_05": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "06e97c3a40b52aef9d08c937a609a0ccac1dcf1eb78df3e439df57c37ad976b8",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_03_00": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "78922d62346a494b88e5124f8c9dd2ebc324039d09611ac31496960b6755f01a",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_03_01": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "87ca0718ca8db3adf7387071c0f3f0bb131467386465b06fdc41c94c811245f7",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_03_02": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "a893f0fc32ce889e0bc98a2bee91a6e4c538e4f26854216a5065c5c75f8079ba",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_03_03": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "f215f81c0aa8ac39601a1691a96cc12a2adbda74cc4c91c7b66f49cc193e472e",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_03_04": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "c222aca6ccefc6489ac2c6875a587f51934111a91422c8087f04f2263a048e1f",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_03_05": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "b3d0f127e6b0975488cd3652b56bc0eba5a743dce5e055606d166e10315810db",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_03_06": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "28a7d277e5de5bfa7b83122cdc5cc2e78460faea335702e5693e546953e4190a",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_04_00": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "33091e2a7b4300976ec5404981b1f9f47a5cbf1302c33db132f53fb596265dc8",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_04_01": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "9e067e15c7541d19710499f9023ec8e16e87678e332838bf61c8134d8e7e7ec9",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_04_02": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "80d621f2aa655fcd5f99f063153ab8c27e9a3c3d99b26b3a1d0202fb10661715",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_04_03": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "bb594a14995826ffac1ccee767876d1c532693add471f49f9b45c1eecbf58b19",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_04_04": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "fbcfdc6a0b3e62e540da081b5ea18159bbebb15b5b875d334b2fd6f5b8f87986",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_04_05": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "f66ed3c0191b43ac02bf39fa5b32f180ebec2fd07a6df1839fe66cf3ffcc0cbf",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_05_00": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "0fd116db76c636a216607a7638ad88c1c12c7f281baabaedb35d60c07e2e25ed",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_05_01": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "445f597e2027c852e305f0a3f1c620322fd8a586d771b6a2b336e8431e2f6617",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_05_02": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "91b88d3efcca4c8ccfffe5d4018bdb5256c076e9c3db099f03066add0b7c6c86",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_05_03": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "ac94150daf70463ceb6d634a930863d65460bdd8528a4981cf5e2e771b8e6724",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_05_04": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "07401dc38c6fee568211879de22dcb895daa1e2842f545d134455ea1fb1b5c85",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_05_05": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "db882802cbdc166bbecc389c9ee9ad710090c157f2e23b3bb9a591745b12e716",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_05_06": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "8bfffd3d76a0f3af756688cf71daa42a8c4cc5ac0210736828615648cda8baa6",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_06_00": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "ee99d024f6c6e09a4913b2be964b5ce1d7efe82daeb68e0e5251d131e2d3c9ae",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_06_01": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "ca5d0337a532cea1c4c4a95dca479cfce21372d5142f997a03c8433850c2d52f",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_06_02": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "05d3a236a2eceec85c8bcf771a1ce4139c1993d7a932a09cd99c9faf6d9c2c3e",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_06_03": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "d06d5b4794f4858eb32761f10d242280a336667ab8a5e4f4e5599f271873662e",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_06_04": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "a9ef1aba6a1b32855b9f5a6feb1369cfb9d2938ab2b16b152474e6105b1a5b88",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_06_05": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "1b94fc14bf22f80db578803ea0ac6271f078d9e16656f2a534b818a8628fd290",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_07_00": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "e56d7029d166784aa8d6df4788fafa89313f9bddb4b05482f304a22dd7dfc85c",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_07_01": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "a17be5f2b2ca5a49e6636c8628bb767c0cb8f3f4a098ca745bd7cfd131cfbe13",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_07_02": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "22571833c6e8909630f631d0396853234672dc700a863db9451af6a2753f19d5",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_07_03": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "e0e81296646b98c3d15bbee9c624f470bb016b40b306308c43ca3e9437079bfc",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_07_04": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "4fc1003b405ddcaaad31bafceb88a35190ce194a980976185816ab431405fce3",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_07_05": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "02f9f37305258d3f00ac603b865fe50630dc082d5bf0cf0009293bd06391ade8",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Roof_tile_1_07_06": {
+      "semanticPart": "Roof",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "0896b38f94582c0ff05a9ee3776c7eabdd9425b77f0042c197d975e964a91b3d",
+      "materials": [
+        "Roof_Color_0"
+      ]
+    },
+    "Side_board_-1_00": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "039cf86984b6a88e02b6fe41f5d90ef8cf99501071f795a9fbe588afc44c9392",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_-1_01": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "41590b1551eee82d1e8addea3932664e714f60da7e7a7f27b11b9735c9b86217",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_-1_02": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "611091165052ac0becf8dc1d0e50b75d7252b254721701f128c20c2cffd3a677",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_-1_03": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "903e6574df6c39c7e30a40c5496f7e480e09011fbfda1d9c99d39177161d302e",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_-1_04": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "35b587e17d7fd712f478cdad8304bbda15e1bcd3c34b8aa20ee93dcd291252ab",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_-1_05": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "cd4f770cea33deb698a21987ac260b4481682744f1f409923395b4ef44ce725e",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_-1_06": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "d2255e64fccb3479ac5fd3c55c3a7b1d65518be2977be9ce22f49182f579bc44",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_-1_07": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "6437b6d056f661d9eebebd4d1c664d83926ecd3e09eb129910ea2d5b4e4f20ec",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_-1_08": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "85b125e33e3fcea97eaed8d1c9f36b867319869b150f42985e663fa4ede5eeab",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_-1_09": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "24ce4e188a187a88cd21b40759751497c9dc7e78f85123f957983dbfb7ef06e3",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_-1_10": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "0831514730c356fcf988c5fc536b30d48e019dc9a2cee0e8f7091d2655c360ae",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_1_00": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "c93b9da77783f747675dcebb08a8cedb3148dbab518ccc1a2ff33789cedd511c",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_1_01": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "565b927c050397dd65d78408611a5071978d61677c0ec5de3930b8d698ed6cb1",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_1_02": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "e205027c0b76484f26185298aff4218e0b494d2b08d2d5d4791e5556c33b187e",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_1_03": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "92a24f33c2c6bd2fd3cf1baaa8cb0498e3e235839efabaf6906464518122cba3",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_1_04": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "e442256c50492da5fe9d08c7260c5752d92382e066b4ee98d34a5c57903cb300",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_1_05": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "8b608c4033d99442d34135c47a98effe5ad83b7ebc75824d8211b6302ca478c2",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_1_06": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "643714917dfd89008111ae0cbe785d1c91b5c05251339eb73f1a1cf616bcfaae",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_1_07": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "b673f26a849b8e8a43e20394a987e1e7bace53a320ed5372564ffd5d93da6033",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_1_08": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "1865f482b586cd17a746ea2b14a37c5836014ceb271a169e66c88672f7a3c779",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_1_09": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "5727576c7658d0b080a5d8277b2d3f283f1dbe37ac1ef14b6c103927768cef90",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Side_board_1_10": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "9982820bf922283531a30b937f4db32f4901502f14e4e037e13028a9f1e8db51",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Sill_beam": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "401089a9759f9d8dc03247b5416006aec0137c4e9794ca675c64fb5dcd0bf362",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Stone_front_0_0": {
+      "semanticPart": "Foundation",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "152ee60c0b2c59e0ff59366d0dbbfda51cd8efa57e56013074e202d9ea6ccd41",
+      "materials": [
+        "Mat_stone_0"
+      ]
+    },
+    "Stone_front_0_1": {
+      "semanticPart": "Foundation",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "5ac4a572473c6260567bb293b06e94c719d9f81ea1e71ab706f1bfd32b3c8268",
+      "materials": [
+        "Mat_stone_1"
+      ]
+    },
+    "Stone_front_0_2": {
+      "semanticPart": "Foundation",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "61425936d488bd9a74d0ee8f85600b34bdc5c29385c731b2a920baebedb20c1e",
+      "materials": [
+        "Mat_stone_2"
+      ]
+    },
+    "Stone_front_0_3": {
+      "semanticPart": "Foundation",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "ccd5ed33b28cd3cd9cc78e8c00999ed5fcb7e232c460f09462653b04ef8ca00c",
+      "materials": [
+        "Mat_stone_0"
+      ]
+    },
+    "Stone_front_0_4": {
+      "semanticPart": "Foundation",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "bd739709d1364ca69974ec5eed39c1b88296de4ea05b5919ec3b5857ab1fb821",
+      "materials": [
+        "Mat_stone_1"
+      ]
+    },
+    "Stone_front_0_5": {
+      "semanticPart": "Foundation",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "a1ec9fc0df4a3979f15d8d6adacaefb992b6e3a3cbd6c0364295c6489901ffc5",
+      "materials": [
+        "Mat_stone_2"
+      ]
+    },
+    "Stone_front_0_6": {
+      "semanticPart": "Foundation",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "6484204e820aad3ef38a9c66fc899e94c841cf1bacb7f32e5f8c615866c90237",
+      "materials": [
+        "Mat_stone_0"
+      ]
+    },
+    "Stone_front_1_0": {
+      "semanticPart": "Foundation",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "695977bf5efe2779b45df8cf4cdf092f4d1393c28187436e6528c6a07436f826",
+      "materials": [
+        "Mat_stone_1"
+      ]
+    },
+    "Stone_front_1_1": {
+      "semanticPart": "Foundation",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "8d61fcff28702ed112477a3c1595f411c13d4905620616abf9ccfcf26f740945",
+      "materials": [
+        "Mat_stone_2"
+      ]
+    },
+    "Stone_front_1_2": {
+      "semanticPart": "Foundation",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "3d3f7f44354b0e042d93ded3acecaa6dae999908982fc4290e1a0074cf13e460",
+      "materials": [
+        "Mat_stone_0"
+      ]
+    },
+    "Stone_front_1_3": {
+      "semanticPart": "Foundation",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "519e8a7201c419e37ded46019fb3df71485780ceef1890ef760a0fb7cdba21d7",
+      "materials": [
+        "Mat_stone_1"
+      ]
+    },
+    "Stone_front_1_4": {
+      "semanticPart": "Foundation",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "868e4bdc5f5f397cbfdad06f9cadea637375a9eee213627281d70a40deefa113",
+      "materials": [
+        "Mat_stone_2"
+      ]
+    },
+    "Stone_front_1_5": {
+      "semanticPart": "Foundation",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "bf8eb83a89e2793727fb62559edea57e63d802ed5dc27ab0a3311f3ea1a6590b",
+      "materials": [
+        "Mat_stone_0"
+      ]
+    },
+    "Stone_front_1_6": {
+      "semanticPart": "Foundation",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "29cf70974afdd48543f78e96dba935012ad61628434cb52b1042b58437d1d778",
+      "materials": [
+        "Mat_stone_1"
+      ]
+    },
+    "Walls_closed_body": {
+      "semanticPart": "Walls",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "60d3c4b12d50eb44d06a0c454cb03c2a1de5e553f48e2967c916cf9adb61ab01",
+      "materials": [
+        "Mat_wood_0"
+      ]
+    },
+    "Window_left_crossbar": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "d7c7f07441af53fbe8482ac0bc72592da2d7573ab9ab0545bf2e92a862f0f554",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Window_left_dark_recess": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "8865000902b6319b39bb7f82c9e4bf441813e00d31a24354fa8be0e699734295",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Window_left_glass": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "e1fb679d5f90dd2be269c3561d701a5d42b4321b2069832932b119a93fb42d36",
+      "materials": [
+        "Mat_glass_0"
+      ]
+    },
+    "Window_left_horizontal_-1": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "ef12ef92ca259fc3dc800381e2118ec957f827d4c740b26cda116225e947be30",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Window_left_horizontal_1": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "661e0f1b3f94f4538bd75e448eef3144e50bf7c377b96bd6fe30ac0b4ad6d0eb",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Window_left_mullion": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "753508af647a8cd4a522ec17d37bd57e3acef9ba256f2ccc3c5962948e174113",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Window_left_shutter_-1": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "3d2c798d8f4a5ca12c18d54ee99aad45705f55b33bee2b5e4e4e8b0d8f3d1a1f",
+      "materials": [
+        "Mat_shutters_0"
+      ]
+    },
+    "Window_left_shutter_1": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "4a5f4e2fea541ab04a85fbefe4b108e120bae56f928707015cf9491b76d430de",
+      "materials": [
+        "Mat_shutters_0"
+      ]
+    },
+    "Window_left_shutter_slat_-1_-1": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "dfdbb2923faf9466d47a6cfd7782ed48bddf73c7bfb7867a4b257d55dc792510",
+      "materials": [
+        "Mat_leaves_0"
+      ]
+    },
+    "Window_left_shutter_slat_-1_0": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "12ca94ed62df69d683f186628278e019b414cd337e358061828886cb87a3ebff",
+      "materials": [
+        "Mat_leaves_0"
+      ]
+    },
+    "Window_left_shutter_slat_-1_1": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "67d8278d752e797019f65e248f353fa9425dd55ed9469458fea8d26155f74aeb",
+      "materials": [
+        "Mat_leaves_0"
+      ]
+    },
+    "Window_left_shutter_slat_1_-1": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "7d93b4b6ea5d985603dad0cf09fee7491d5cd2a5303a18e0c7694dbfd518fe15",
+      "materials": [
+        "Mat_leaves_0"
+      ]
+    },
+    "Window_left_shutter_slat_1_0": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "911b1ec041fab96a1a7676c73bf0fa9d1d41912bc920423c36305bddfd54ae85",
+      "materials": [
+        "Mat_leaves_0"
+      ]
+    },
+    "Window_left_shutter_slat_1_1": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "d6ea46e7df6695c4698fa013a21ca1ed16cde5fce07cd153059085258cda3b58",
+      "materials": [
+        "Mat_leaves_0"
+      ]
+    },
+    "Window_left_sill": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "ac0eda8bc7d405195750241a6d7aa1cbf407b1ba83968f7f10135ca3ff484d37",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Window_left_upper_reflection": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "353dc0c8198c3793850d7b901fd83d9dbbacba99d750136c909a1fa93ad276cb",
+      "materials": [
+        "Mat_glassGlow_0"
+      ]
+    },
+    "Window_left_upright_-1": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "7d313955ef97c51bda001bbcfea19f6a68a7ce4447dd49f9a88fce5e4a317c3b",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Window_left_upright_1": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "614a2962f1fd96d8d40f95d1d44d44c9cdd49d66d41852dd3b92a56cb4458753",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Window_planter": {
+      "semanticPart": "Decorations",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "5249b6cb4752edb89d4513762efccdb10fd46cf4b02eb660879c9235593cdddf",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Window_right_crossbar": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "b7eeac1a8f5b5bb3f3517e08320ddd502436082ff313c554fe52f83f653737dc",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Window_right_dark_recess": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "dea8d5d97b31906ed829b3c24581d1131cef7e40db934c1933f25b32d59c2e66",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Window_right_glass": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "c057419bc0eded4987bb16520a1889ba005917c83b10e735e4ba5751eaf58828",
+      "materials": [
+        "Mat_glass_0"
+      ]
+    },
+    "Window_right_horizontal_-1": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "cecb0faffed920b6d60d6f6af2f0c37d23b0a81e2f694c0d540ebe16ab255133",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Window_right_horizontal_1": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "f9c22e27edb3b823afbddfc0dc3b025498e60f9c0c066acf0f1a6d04a48f8fb9",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Window_right_mullion": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "d429bf1f419992e96f72a6598bab2573786ea5b4ac2ac835ed868ffdc33d00bd",
+      "materials": [
+        "Mat_timber_0"
+      ]
+    },
+    "Window_right_sill": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "572225ff55a1f11ac223d2ca9ce7d80483324d979526579ea11504bbb33b3c60",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Window_right_upper_reflection": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "36256d6553df4e86e1ae8e436dada7925043bf312f6c53ee89d878bf6d58d507",
+      "materials": [
+        "Mat_glassGlow_0"
+      ]
+    },
+    "Window_right_upright_-1": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "eac7bd4a174c8ba68ef45007836e27bdc2554fbeb833425e7fb2dbc4772b94c2",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    },
+    "Window_right_upright_1": {
+      "semanticPart": "Windows",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "f0a639eec16a9563da63d203e7622fa5f5ae29ecea57b19cdb4b9c5ba657a165",
+      "materials": [
+        "Mat_timberLight_0"
+      ]
+    }
+  },
+  "materials": {
+    "Mat_brass_0": "#df9c6b",
+    "Mat_brick_0": "#995347",
+    "Mat_brickMortar_0": "#795643",
+    "Mat_door_0": "#795643",
+    "Mat_flower_0": "#e2bd86",
+    "Mat_glass_0": "#d1cfaa",
+    "Mat_glassGlow_0": "#eee2bf",
+    "Mat_glassShade_0": "#9aa26d",
+    "Mat_leaves_0": "#3b6550",
+    "Mat_leaves_1": "#588455",
+    "Mat_leaves_2": "#7da55e",
+    "Mat_metal_0": "#3c4940",
+    "Mat_shutters_0": "#588455",
+    "Mat_stone_0": "#586253",
+    "Mat_stone_1": "#78816c",
+    "Mat_stone_2": "#a4aa8b",
+    "Mat_timber_0": "#594036",
+    "Mat_timberLight_0": "#a07652",
+    "Mat_wood_0": "#795643",
+    "Mat_wood_1": "#a07652",
+    "Mat_wood_2": "#c39b6a",
+    "Mat_wood_3": "#a87953",
+    "Roof_Color_0": "#a7634e",
+    "Roof_Color_1": "#bd7055",
+    "Roof_Color_2": "#cf8b62",
+    "Roof_Color_3": "#713d3a"
+  },
+  "camera": {
+    "type": "ORTHO",
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.6156614422798157,
+        -0.7880107760429382,
+        -7.880107879638672
+      ],
+      [
+        0.0,
+        0.7880107760429382,
+        0.6156614422798157,
+        7.1225996017456055
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "orthoScale": 4.0,
+    "elevationDegrees": 38,
+    "azimuthDegrees": 0,
+    "projectedAnchor": [
+      48.0,
+      112.0000114440918
+    ]
+  },
+  "render": {
+    "engine": "CYCLES",
+    "resolution": [
+      96,
+      128
+    ],
+    "samples": 48,
+    "device": "CPU",
+    "filmTransparent": true
+  },
+  "hiddenInteriorsBuilt": false,
+  "variant": "terracotta",
+  "loadedExistingModel": true,
+  "timings": {
+    "openSeconds": 0.013,
+    "saveSeconds": 0.002,
+    "nativeRenderSeconds": 0.061,
+    "scriptTotalSeconds": 0.089
+  },
+  "outputBlend": "cabin-terracotta.blend",
+  "rawPNG": "cabin-terracotta-raw.png",
+  "config": {
+    "design": "hearth-cabin-original-v1",
+    "seed": 13026,
+    "building": {
+      "width": 2.48,
+      "depth": 1.5,
+      "foundationHeight": 0.18,
+      "wallTop": 1.61,
+      "roofPeak": 2.46,
+      "roofHalfWidth": 1.32,
+      "roofFront": -1.02,
+      "roofBack": 0.99
+    },
+    "camera": {
+      "type": "ORTHO",
+      "azimuthDegrees": 0,
+      "elevationDegrees": 38,
+      "pixelsPerWorldUnit": 32,
+      "anchorWorld": [
+        0,
+        -1.2,
+        0
+      ],
+      "anchorPixels": [
+        48,
+        112
+      ]
+    },
+    "render": {
+      "width": 96,
+      "height": 128,
+      "engine": "CYCLES",
+      "device": "CPU",
+      "samples": 48,
+      "seed": 13026,
+      "diffuseBounces": 0,
+      "glossyBounces": 0,
+      "transparentFilm": true,
+      "previewWidth": 480,
+      "previewHeight": 480
+    },
+    "lighting": {
+      "sunPosition": [
+        -3.5,
+        -4.0,
+        7.0
+      ],
+      "sunEnergy": 2.0,
+      "sunAngle": 0,
+      "worldStrength": 0,
+      "materialAmbientEmission": 0.18
+    },
+    "materials": {
+      "wood": [
+        "#795643",
+        "#a07652",
+        "#c39b6a",
+        "#a87953"
+      ],
+      "timber": "#594036",
+      "timberLight": "#a07652",
+      "door": "#795643",
+      "stone": [
+        "#586253",
+        "#78816c",
+        "#a4aa8b"
+      ],
+      "glass": "#d1cfaa",
+      "glassShade": "#9aa26d",
+      "glassGlow": "#eee2bf",
+      "shutters": "#588455",
+      "metal": "#3c4940",
+      "brass": "#df9c6b",
+      "leaves": [
+        "#3b6550",
+        "#588455",
+        "#7da55e"
+      ],
+      "flower": "#e2bd86",
+      "brick": "#995347",
+      "brickMortar": "#795643"
+    },
+    "roofVariants": {
+      "terracotta": [
+        "#a7634e",
+        "#bd7055",
+        "#cf8b62",
+        "#713d3a"
+      ],
+      "deep-blue": [
+        "#26394f",
+        "#3a5575",
+        "#557a9f",
+        "#17283d"
+      ]
+    },
+    "pixelOutput": {
+      "alphaThreshold": 128,
+      "outlinePixels": 1,
+      "palette": [
+        "#26332d",
+        "#3c4940",
+        "#586253",
+        "#78816c",
+        "#a4aa8b",
+        "#d1cfaa",
+        "#eee2bf",
+        "#fff1d2",
+        "#3b2926",
+        "#594036",
+        "#795643",
+        "#a07652",
+        "#c39b6a",
+        "#e2bd86",
+        "#713d3a",
+        "#995347",
+        "#bd7055",
+        "#df9c6b",
+        "#264b40",
+        "#3b6550",
+        "#588455",
+        "#7da55e",
+        "#a9c36e",
+        "#cadb8c",
+        "#17283d",
+        "#26394f",
+        "#3a5575",
+        "#557a9f",
+        "#53694b",
+        "#75835a",
+        "#9aa26d",
+        "#c2bd87"
+      ]
+    },
+    "game": {
+      "projection": "orthogonal-square",
+      "tileSize": 32,
+      "footprint": [
+        3,
+        2
+      ],
+      "anchor": [
+        48,
+        112
+      ],
+      "status": "candidate-not-integrated"
+    }
+  }
+}

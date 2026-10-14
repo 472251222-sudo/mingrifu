@@ -1,0 +1,9 @@
+{
+  "size": [
+    32,
+    32
+  ],
+  "matchingBorderPairs": 64,
+  "failedPairs": 0,
+  "productionTerrainApproved": false
+}

@@ -1,0 +1,64 @@
+
+> 3-0@0.0.0 test
+> node --test tests/*.test.mjs
+
+✔ calendar months cover the exact goal interval, including short and leap-month weeks (1.855125ms)
+✔ month edits preserve other months and mark child plan stale (2.544417ms)
+✔ week edits leave parent and siblings unchanged; daily output uses latest confirmed content (1.37825ms)
+✔ same-title daily instances stay separate and generation is idempotent (0.63175ms)
+✔ completion is idempotent, reversible and isolated by goal and task instance (0.770125ms)
+✔ moving and resizing preserve task identity; unscheduling does not delete completion (0.679708ms)
+✔ invalid durations and cross-midnight ranges fail without changing data (0.837292ms)
+✔ overlaps are reported, adjacent blocks are allowed and other tasks do not move (0.823875ms)
+✔ isometric axes share one reversible projection including negative land (3.126167ms)
+✔ screen picking remains accurate after camera movement at every supported zoom (0.80475ms)
+✔ overview includes all land and sprite margins on desktop and narrow screens (0.795541ms)
+✔ zoom supports both sides of 100 percent and clamps at the available limits (0.150375ms)
+✔ large-world overview adds smaller zoom levels without changing world data (1.499792ms)
+✔ initial world belongs to the person and contains exactly 8 × 8 cells (0.523166ms)
+✔ four building configurations have valid footprint and reusable atlas sprites (5.568541ms)
+✔ placing creates a grid-aligned building without mutating the input world (0.319292ms)
+✔ full footprint is checked against all four edges and fractional positions (0.254916ms)
+✔ partial overlap is rejected; a neighboring footprint is allowed (0.268208ms)
+✔ moving keeps identity, excludes its old footprint, and protects other buildings (0.126167ms)
+✔ storage and replacement preserve the same object rather than duplicating it (0.142584ms)
+✔ invalid building IDs and types cannot create unintended objects (0.062ms)
+✔ manual construction clears nature only inside its own footprint (0.065958ms)
+✔ repeated simulated growth never moves or overwrites buildings (4.085792ms)
+✔ a fully occupied map refuses growth without changing the world (0.337ms)
+✔ each cardinal expansion adds exactly 64 connected cells without changing existing content (0.1485ms)
+✔ expanded land supports placement across a continuous chunk seam (0.081791ms)
+✔ diagonal, distant and duplicate expansions are rejected (0.121458ms)
+✔ save/load restore buildings, inventory, nature and expanded coordinates exactly (0.421375ms)
+✔ prototype writes never overwrite V3 storage namespaces (0.11675ms)
+✔ quota failure preserves saved state, and the same candidate can be retried (0.121708ms)
+✔ concurrent save refuses to overwrite a newer tab (0.076458ms)
+✔ corrupt and future-version saves are preserved, without seeding or writing (0.118459ms)
+✔ invalid restored overlap, detached regions and IDs are rejected (0.447792ms)
+✔ camera bounds retain visible unlocked ground after large cardinal and diagonal pans (7.467875ms)
+✔ soft drag resistance is bounded and settles without changing zoom (0.182042ms)
+✔ camera still permits viewing remote unlocked chunks at close zoom (0.131709ms)
+✔ fit accepts all expansion candidates without mutating the unlocked world (0.790125ms)
+✔ alpha hit maps opaque sprite pixels using the rounded rendering rectangle (0.425584ms)
+✔ blob tiles keep 47 meaningful connections and exclude unsupported diagonals (0.915042ms)
+✔ roads recognize endpoints, straight lines, turns and inner corners (0.143416ms)
+✔ edge and inside-corner shapes leave a grass verge while full neighbours fill the tile (0.107791ms)
+✔ approved cabin uses its front ground anchor with a 3x2 footprint (0.748625ms)
+✔ all 144 map cells resolve to exported tile frames and scene keeps independent objects (0.077833ms)
+✔ changing scene coordinates moves one independent sprite without changing terrain or source (0.583208ms)
+✔ sorting respects ground depth ahead of asset priority and resolves equal-depth ties (7.993875ms)
+✔ overview fits the unlocked 12x12 terrain and visual canopy extent at desktop and phone sizes (0.34725ms)
+✔ panning bounds retain a visible world and overview restores centre (0.364208ms)
+✔ bad terrain and object references fail clearly instead of silently drawing placeholders (0.743417ms)
+✔ serves existing static assets without a fallback (44.852041ms)
+✔ falls back to index.html for an unknown app route (0.683041ms)
+✔ does not turn missing API or write requests into the app shell (0.279917ms)
+✔ emits the files required by Sites packaging (2.375042ms)
+ℹ tests 52
+ℹ suites 0
+ℹ pass 52
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 186.500959

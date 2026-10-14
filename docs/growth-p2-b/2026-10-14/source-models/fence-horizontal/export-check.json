@@ -1,0 +1,76 @@
+{
+  "id": "fence-horizontal",
+  "name": "木栅栏·横向",
+  "type": "decoration",
+  "status": "candidate",
+  "version": "p2-b-v1",
+  "nativeSize": [
+    64,
+    40
+  ],
+  "anchor": [
+    32,
+    34
+  ],
+  "footprint": [
+    2,
+    1
+  ],
+  "png": "/assets/growth-p2-homestead/fence-horizontal.png",
+  "pngPath": "public/assets/growth-p2-homestead/fence-horizontal.png",
+  "sourceEngineering": "docs/growth-p2-b/2026-10-14/source-models/fence-horizontal/fence-horizontal.blend",
+  "sourceScript": "docs/growth-p2-b/2026-10-14/build_assets.py",
+  "rawPNG": "docs/growth-p2-b/2026-10-14/source-models/fence-horizontal/fence-horizontal-raw.png",
+  "method": "Structured Blender model; 38deg south orthographic camera; same four-band light and 32-color palette; native alpha/palette/1px outline export",
+  "renderLayer": "objects",
+  "occlusion": "groundAnchorY; then priority; then instance ID",
+  "priority": 5,
+  "palette": [
+    "#26332d",
+    "#3c4940",
+    "#586253",
+    "#78816c",
+    "#a4aa8b",
+    "#d1cfaa",
+    "#eee2bf",
+    "#fff1d2",
+    "#3b2926",
+    "#594036",
+    "#795643",
+    "#a07652",
+    "#c39b6a",
+    "#e2bd86",
+    "#713d3a",
+    "#995347",
+    "#bd7055",
+    "#df9c6b",
+    "#264b40",
+    "#3b6550",
+    "#588455",
+    "#7da55e",
+    "#a9c36e",
+    "#cadb8c",
+    "#17283d",
+    "#26394f",
+    "#3a5575",
+    "#557a9f",
+    "#53694b",
+    "#75835a",
+    "#9aa26d",
+    "#c2bd87"
+  ],
+  "sha256": "336ed6eb7ad350b376a6189c60bc0803b061c5215d4df9c50e55ef9648ed4c9b",
+  "visualBounds": [
+    0,
+    17,
+    64,
+    21
+  ],
+  "colorCount": 3,
+  "alphaValues": [
+    0,
+    255
+  ],
+  "visiblePixels": 1128,
+  "outsidePalette": []
+}

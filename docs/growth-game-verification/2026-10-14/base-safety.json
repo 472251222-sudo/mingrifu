@@ -1,0 +1,12 @@
+{
+  "originalFiles": 998,
+  "unchanged": 995,
+  "missing": [],
+  "authorizedSpecChanges": [
+    ".codex/agents/builder.toml",
+    "AGENTS.md",
+    "docs/growth-game.md"
+  ],
+  "rawPrivateSnapshotsExcluded": true,
+  "previousMainBytesPreserved": true
+}

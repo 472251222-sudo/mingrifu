@@ -1,0 +1,165 @@
+{
+  "blenderVersion": "4.5.14 LTS",
+  "semanticObjectCounts": {
+    "Posts": 4,
+    "Rails": 2,
+    "Slats": 3
+  },
+  "objects": {
+    "Fence_post_0": {
+      "semanticPart": "Posts",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "61b2f6cd350aa2527ae1278f055e95096c68c7763444be2b1c27fe2ca9da0f72",
+      "materials": [
+        "Posts#a07652"
+      ]
+    },
+    "Fence_post_1": {
+      "semanticPart": "Posts",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "4966846acd7126273ce91f7f7e9f03a30bbce206c79080c5404f0a26d3a30e28",
+      "materials": [
+        "Posts#a07652"
+      ]
+    },
+    "Fence_rail_0": {
+      "semanticPart": "Rails",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "994f2f79c8a2912398eca5e9d59a4ca070ed77c46dd14b3d0881a7800118c7d3",
+      "materials": [
+        "Rails#a07652"
+      ]
+    },
+    "Fence_rail_1": {
+      "semanticPart": "Rails",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "f0d59f51ff2e658d5d8d2f4769859a6d77a34001e68cf35a29b93611c0a61681",
+      "materials": [
+        "Rails#a07652"
+      ]
+    },
+    "Fence_slat_0": {
+      "semanticPart": "Slats",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "154b04f8bdf2d45b385b88101a69f3325f54e57c04d3ceed5a5101b8d1d2a9e3",
+      "materials": [
+        "Slats#c39b6a"
+      ]
+    },
+    "Fence_slat_1": {
+      "semanticPart": "Slats",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "3dffa59a607de9cd609422c509363c68a2820e44d85006c5b649b6243894071b",
+      "materials": [
+        "Slats#c39b6a"
+      ]
+    },
+    "Fence_slat_2": {
+      "semanticPart": "Slats",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "85226a388083f53a06a37d922f6ac075261f6f8666ba8a6956b378a1577f67bf",
+      "materials": [
+        "Slats#c39b6a"
+      ]
+    },
+    "Post_cap_0": {
+      "semanticPart": "Posts",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "c39982f5c24f2468db0e825e30bf959bfd81386cf619c903bed90fae1046edcc",
+      "materials": [
+        "Posts#c39b6a"
+      ]
+    },
+    "Post_cap_1": {
+      "semanticPart": "Posts",
+      "vertices": 8,
+      "faces": 6,
+      "sha256": "97f288c3e3f84e74d6d0290b687b2bab25105328964a866358c964a737df9887",
+      "materials": [
+        "Posts#c39b6a"
+      ]
+    }
+  },
+  "materials": {
+    "Posts#a07652": "#a07652",
+    "Posts#c39b6a": "#c39b6a",
+    "Rails#a07652": "#a07652",
+    "Slats#c39b6a": "#c39b6a"
+  },
+  "camera": {
+    "type": "ORTHO",
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.6156614422798157,
+        -0.7880107760429382,
+        -7.880107879638672
+      ],
+      [
+        0.0,
+        0.7880107760429382,
+        0.6156614422798157,
+        6.71181058883667
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "orthoScale": 1.25,
+    "elevationDegrees": 38,
+    "azimuthDegrees": 0,
+    "projectedAnchor": [
+      32.0,
+      42.40002438426018
+    ]
+  },
+  "render": {
+    "engine": "CYCLES",
+    "resolution": [
+      64,
+      40
+    ],
+    "samples": 48,
+    "device": "CPU",
+    "filmTransparent": true
+  },
+  "hiddenInteriorsBuilt": false,
+  "id": "fence-horizontal",
+  "name": "木栅栏·横向",
+  "kind": "decoration",
+  "size": [
+    64,
+    40
+  ],
+  "anchor": [
+    32,
+    34
+  ],
+  "footprint": [
+    2,
+    1
+  ],
+  "status": "candidate",
+  "version": "p2-b-v1",
+  "constructionScript": "build_assets.py",
+  "renderSeconds": 0.007,
+  "buildAndRenderSeconds": 0.037,
+  "originalEngineering": "docs/growth-p2-b/2026-10-14/source-models/fence-horizontal/fence-horizontal.blend"
+}

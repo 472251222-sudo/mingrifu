@@ -1,0 +1,259 @@
+{
+  "blenderVersion": "4.5.14 LTS",
+  "semanticObjectCounts": {
+    "Branches": 3,
+    "Canopy": 11,
+    "Roots": 3,
+    "Trunk": 2
+  },
+  "objects": {
+    "Branch_0": {
+      "semanticPart": "Branches",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "fb1ef5d4dab4ff16e389ec41e0285afcef3aceaab71f06240e61fcdec92b0e9a",
+      "materials": [
+        "Branches#795643"
+      ]
+    },
+    "Branch_1": {
+      "semanticPart": "Branches",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "1f43dc291e1880a0ac772ad9d4968b6e50ea5a036420ca290c856a08057c7563",
+      "materials": [
+        "Branches#795643"
+      ]
+    },
+    "Branch_2": {
+      "semanticPart": "Branches",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "55169ab4ea66a8ad35b2a4cc432a4743a2b749f95be3b434bdff01aad1912e50",
+      "materials": [
+        "Branches#795643"
+      ]
+    },
+    "Crown_mass_00": {
+      "semanticPart": "Canopy",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "a94233c481d6d04b38efcb0ecdce228df1b93b6421d37870f7b6623863afcbc7",
+      "materials": [
+        "Canopy#588455"
+      ]
+    },
+    "Crown_mass_01": {
+      "semanticPart": "Canopy",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "05296f23f681775dd7d7038dbfc73f0ad15594bd758fbed0f98c56befbf824a8",
+      "materials": [
+        "Canopy#7da55e"
+      ]
+    },
+    "Crown_mass_02": {
+      "semanticPart": "Canopy",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "e9448f4be53b8c2fd453bf6a54358f4ac344517b3f676c461327ce4180dfe279",
+      "materials": [
+        "Canopy#588455"
+      ]
+    },
+    "Crown_mass_03": {
+      "semanticPart": "Canopy",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "3dac4762af6f74182d25e95340f81fc88c73476ae9033cfbe30c7051adf9df2f",
+      "materials": [
+        "Canopy#7da55e"
+      ]
+    },
+    "Crown_mass_04": {
+      "semanticPart": "Canopy",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "e747e18d45080e448cd09d0f669d102c398e7d4c69361660398ed2d0c1959687",
+      "materials": [
+        "Canopy#3b6550"
+      ]
+    },
+    "Crown_mass_05": {
+      "semanticPart": "Canopy",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "98301d85af71aa47a9294f8e9e03969fce24409257d9de982898f362abeba6c9",
+      "materials": [
+        "Canopy#588455"
+      ]
+    },
+    "Crown_mass_06": {
+      "semanticPart": "Canopy",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "ed894b7d68b26adfa4e63b91e94212c7be0f32ea7b981d341907745f6e2a369b",
+      "materials": [
+        "Canopy#588455"
+      ]
+    },
+    "Crown_mass_07": {
+      "semanticPart": "Canopy",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "927fad95cd748671abeeb63122265513140da17528a63df5f5d647c76f2ae2d7",
+      "materials": [
+        "Canopy#a9c36e"
+      ]
+    },
+    "Leaf_sprig_0": {
+      "semanticPart": "Canopy",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "d6070a78cdeb7488257cab663df9d577a1a48474b865c858475a4120c4ca4a26",
+      "materials": [
+        "Canopy#588455"
+      ]
+    },
+    "Leaf_sprig_1": {
+      "semanticPart": "Canopy",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "25f3b76234ce93aca146e2705f0c86926cdd74a5fb407f8c91f807c03a786678",
+      "materials": [
+        "Canopy#588455"
+      ]
+    },
+    "Leaf_sprig_2": {
+      "semanticPart": "Canopy",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "4e6322855a148ee34b7bd206c1d259f8c3d8ced2fb5f6d2552f65073f3f14f8e",
+      "materials": [
+        "Canopy#588455"
+      ]
+    },
+    "Root_0": {
+      "semanticPart": "Roots",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "246dd23104ffa7795c7563e56936350090964d195b3eb072ad17e96933762d83",
+      "materials": [
+        "Roots#795643"
+      ]
+    },
+    "Root_1": {
+      "semanticPart": "Roots",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "bebc198bdc0b5c00d0fc21ba2280a75dbcd736ab134ec8ff3cecfc20b0212179",
+      "materials": [
+        "Roots#795643"
+      ]
+    },
+    "Root_2": {
+      "semanticPart": "Roots",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "6fcf5850a67d062221494b19ac1df4dbf522b8e09076286fb352b7b2f0f3cb73",
+      "materials": [
+        "Roots#795643"
+      ]
+    },
+    "Trunk_base": {
+      "semanticPart": "Trunk",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "301fdc883cd3fb8a2428fa9521ef122ab5389f1c86be0fb18974ef999670540c",
+      "materials": [
+        "Trunk#795643"
+      ]
+    },
+    "Trunk_upper": {
+      "semanticPart": "Trunk",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "fce5cd2cc5a0f7c793b08eb26686bddbd041f5d9d6124909a4d5eb1f8677583d",
+      "materials": [
+        "Trunk#795643"
+      ]
+    }
+  },
+  "materials": {
+    "Branches#795643": "#795643",
+    "Canopy#3b6550": "#3b6550",
+    "Canopy#588455": "#588455",
+    "Canopy#7da55e": "#7da55e",
+    "Canopy#a9c36e": "#a9c36e",
+    "Roots#795643": "#795643",
+    "Trunk#795643": "#795643"
+  },
+  "camera": {
+    "type": "ORTHO",
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.6156614422798157,
+        -0.7880107760429382,
+        -7.880107879638672
+      ],
+      [
+        0.0,
+        0.7880107760429382,
+        0.6156614422798157,
+        8.218770027160645
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "orthoScale": 4.0,
+    "elevationDegrees": 38,
+    "azimuthDegrees": 0,
+    "projectedAnchor": [
+      48.0,
+      116.00003051757812
+    ]
+  },
+  "render": {
+    "engine": "CYCLES",
+    "resolution": [
+      96,
+      128
+    ],
+    "samples": 48,
+    "device": "CPU",
+    "filmTransparent": true
+  },
+  "hiddenInteriorsBuilt": false,
+  "id": "oak-broad",
+  "name": "林缘阔冠树",
+  "kind": "tree",
+  "size": [
+    96,
+    128
+  ],
+  "anchor": [
+    48,
+    116
+  ],
+  "footprint": [
+    2,
+    2
+  ],
+  "status": "candidate",
+  "version": "p2-b-v1",
+  "constructionScript": "build_assets.py",
+  "renderSeconds": 0.088,
+  "buildAndRenderSeconds": 0.175,
+  "originalEngineering": "docs/growth-p2-b/2026-10-14/source-models-v2/oak-broad/oak-broad.blend"
+}

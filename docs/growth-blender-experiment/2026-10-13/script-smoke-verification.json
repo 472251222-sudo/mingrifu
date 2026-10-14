@@ -1,0 +1,8 @@
+{
+  "scriptsParse": true,
+  "nativeExportIdenticalAfterGuardAddition": true,
+  "wrongMaskRejectedWithoutOutput": true,
+  "newPreviewDirectorySupported": true,
+  "originalPreviewsPreserved": true,
+  "temporaryCheckDirectory": "/var/folders/zq/rtrjt2x968x9j_49jf08r3jr0000gn/T/mingrifu-blender-export-check-68nrsm41"
+}

@@ -1,0 +1,373 @@
+{
+  "blenderVersion": "4.5.14 LTS",
+  "semanticObjectCounts": {
+    "Petals": 24,
+    "Leaves": 4,
+    "Stems": 4
+  },
+  "objects": {
+    "Flower_center_0": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "2e5317b39b57955ae0e5178befe21a42c09707393392cf991571731f60052860",
+      "materials": [
+        "Petals#e2bd86"
+      ]
+    },
+    "Flower_center_1": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "c12436baf27d50586c4f40684b5b0f7832214ac3d85c298f55ec23db729cb496",
+      "materials": [
+        "Petals#e2bd86"
+      ]
+    },
+    "Flower_center_2": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "e5a281ea062ed781fb261352c6dc037d30cb467ab74128c32019dac662490b0e",
+      "materials": [
+        "Petals#e2bd86"
+      ]
+    },
+    "Flower_center_3": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "d9fe34d96e3cc34c96a641654f13560cd5e49906d0a9f9fa2cef0b22ab11c4dc",
+      "materials": [
+        "Petals#e2bd86"
+      ]
+    },
+    "Flower_leaf_0": {
+      "semanticPart": "Leaves",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "8a6ee4fdacbf9ab4952e857c8463fddc4927827fd96207b7bdc86192bf7682ee",
+      "materials": [
+        "Leaves#7da55e"
+      ]
+    },
+    "Flower_leaf_1": {
+      "semanticPart": "Leaves",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "b8a876028218d58a8a30202e659cf070b3cab4f9c23f5d7e5cc9897c33fff83c",
+      "materials": [
+        "Leaves#7da55e"
+      ]
+    },
+    "Flower_leaf_2": {
+      "semanticPart": "Leaves",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "557b40ea7ef76b3c95c9b9021c3a8d32bbb719f1e9124f9d4c1dd44bbdad31b7",
+      "materials": [
+        "Leaves#7da55e"
+      ]
+    },
+    "Flower_leaf_3": {
+      "semanticPart": "Leaves",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "8e8d1f931801af158d178d5860a0127f34c8961c2228148d876b11b6872c40ef",
+      "materials": [
+        "Leaves#7da55e"
+      ]
+    },
+    "Flower_stem_0": {
+      "semanticPart": "Stems",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "ec0429819a6135db440b3495ee5a06f4e39bab03025cd81ccd202d2664282feb",
+      "materials": [
+        "Stems#588455"
+      ]
+    },
+    "Flower_stem_1": {
+      "semanticPart": "Stems",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "c73e7f81160bca19b8a8896c8612199ed83632db933bce64356c203f67710440",
+      "materials": [
+        "Stems#588455"
+      ]
+    },
+    "Flower_stem_2": {
+      "semanticPart": "Stems",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "0d6f85e4b9d4266494d52a1b08d173cd8304c34cf615eb281cd6cd5280d28881",
+      "materials": [
+        "Stems#588455"
+      ]
+    },
+    "Flower_stem_3": {
+      "semanticPart": "Stems",
+      "vertices": 14,
+      "faces": 9,
+      "sha256": "8dff1b083017949518c7ce508875fbb93d5475d698bd4b3f14511359e4b4b563",
+      "materials": [
+        "Stems#588455"
+      ]
+    },
+    "Petal_0_0": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "b5c565b4ebb46d23bc05b36df735a0837a89713c139d045ca179fc8ae3a2ef44",
+      "materials": [
+        "Petals#fff1d2"
+      ]
+    },
+    "Petal_0_1": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "8acf76dd752e1452261a20ee8a5454845abb2c8233965ad79e1c0a30d745a881",
+      "materials": [
+        "Petals#fff1d2"
+      ]
+    },
+    "Petal_0_2": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "bfd81252a15ce3f6a6ef593ededbaf290a4e2c140a1bf799dd4d55533741c052",
+      "materials": [
+        "Petals#fff1d2"
+      ]
+    },
+    "Petal_0_3": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "1f05bd282fedb28d628f2202161ec3bdb1fc1af836c571cc3c4274cf83595766",
+      "materials": [
+        "Petals#fff1d2"
+      ]
+    },
+    "Petal_0_4": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "be194f2340b27e4f11060b4b90f4bf9514810a606090f7f3324cd52ef7789154",
+      "materials": [
+        "Petals#fff1d2"
+      ]
+    },
+    "Petal_1_0": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "5945485c06144660da22b6c690206b56f8f51b3a2a934ef22e7e8048e3dd8a6c",
+      "materials": [
+        "Petals#df9c6b"
+      ]
+    },
+    "Petal_1_1": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "3294d47a3674e0b4ca961260fd40f0c7269bf2bf096eb3b5068c52e29144a21c",
+      "materials": [
+        "Petals#df9c6b"
+      ]
+    },
+    "Petal_1_2": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "fec8bf69142ec17c28c9e2112e3000e7d9639fbbea308658e81e961b75180c3f",
+      "materials": [
+        "Petals#df9c6b"
+      ]
+    },
+    "Petal_1_3": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "247a51ae14b458de38d2f14e6d5122660794aea00e76bd2a9a7af80da50056d1",
+      "materials": [
+        "Petals#df9c6b"
+      ]
+    },
+    "Petal_1_4": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "e12e06f01ec4e6f06e01ea4d663a542faf17ed2b1c4e3ab00b0d04496d9e1710",
+      "materials": [
+        "Petals#df9c6b"
+      ]
+    },
+    "Petal_2_0": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "290fd373d054a56d6275d246ba54819ae45c7a1c09cc9d36bcc81b091f98da19",
+      "materials": [
+        "Petals#fff1d2"
+      ]
+    },
+    "Petal_2_1": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "ed8be9ebc39a6f6aa406e5d41e5738047937cefdcd2e16eb84134741b25582b9",
+      "materials": [
+        "Petals#fff1d2"
+      ]
+    },
+    "Petal_2_2": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "dad8f4ebba0c6c32788da7894648968e67184890d1e4ef1bdddd4ec7984303b4",
+      "materials": [
+        "Petals#fff1d2"
+      ]
+    },
+    "Petal_2_3": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "9fa871ed3ef4b6004ce481ed9047e6875d851c52df99fe985ded0bd22318fe62",
+      "materials": [
+        "Petals#fff1d2"
+      ]
+    },
+    "Petal_2_4": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "39d4ff6e16f6ab4c3b3eff94950e0358fc245ea7f587e54e1514d7285d0c53de",
+      "materials": [
+        "Petals#fff1d2"
+      ]
+    },
+    "Petal_3_0": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "016aacb1633d6f07694327b11a626242e0a7f70ff41befad54e74fa639fae1a0",
+      "materials": [
+        "Petals#df9c6b"
+      ]
+    },
+    "Petal_3_1": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "995bade436c50a4ed8b23385312a2a16ef643995e9d2eb9bc3e80beafb50e8c1",
+      "materials": [
+        "Petals#df9c6b"
+      ]
+    },
+    "Petal_3_2": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "0784f6a5a35e389e5790a6317ea8ba6f92b46f4a0e2886d791fa83b4c0a6ac26",
+      "materials": [
+        "Petals#df9c6b"
+      ]
+    },
+    "Petal_3_3": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "cd8e892b1ed5e759cbedbe8586e7cbeb76841acc85a8918d67d7059bfa9686c0",
+      "materials": [
+        "Petals#df9c6b"
+      ]
+    },
+    "Petal_3_4": {
+      "semanticPart": "Petals",
+      "vertices": 42,
+      "faces": 80,
+      "sha256": "abd90c490141d3cc83558bbba0eec36593216ba97d71a96e88c28ec9f90e6cce",
+      "materials": [
+        "Petals#df9c6b"
+      ]
+    }
+  },
+  "materials": {
+    "Leaves#7da55e": "#7da55e",
+    "Petals#df9c6b": "#df9c6b",
+    "Petals#e2bd86": "#e2bd86",
+    "Petals#fff1d2": "#fff1d2",
+    "Stems#588455": "#588455"
+  },
+  "camera": {
+    "type": "ORTHO",
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.6156614422798157,
+        -0.7880107760429382,
+        -7.880107879638672
+      ],
+      [
+        0.0,
+        0.7880107760429382,
+        0.6156614422798157,
+        6.870438098907471
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "orthoScale": 1.5,
+    "elevationDegrees": 38,
+    "azimuthDegrees": 0,
+    "projectedAnchor": [
+      16.0,
+      42.00001537799835
+    ]
+  },
+  "render": {
+    "engine": "CYCLES",
+    "resolution": [
+      32,
+      48
+    ],
+    "samples": 48,
+    "device": "CPU",
+    "filmTransparent": true
+  },
+  "hiddenInteriorsBuilt": false,
+  "id": "wildflowers",
+  "name": "暖色野花",
+  "kind": "vegetation",
+  "size": [
+    32,
+    48
+  ],
+  "anchor": [
+    16,
+    42
+  ],
+  "footprint": [
+    1,
+    1
+  ],
+  "status": "candidate",
+  "version": "p2-b-v1",
+  "constructionScript": "build_assets.py",
+  "renderSeconds": 0.006,
+  "buildAndRenderSeconds": 0.057,
+  "originalEngineering": "docs/growth-p2-b/2026-10-14/source-models/wildflowers/wildflowers.blend"
+}

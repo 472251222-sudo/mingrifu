@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>明日复 · Blender 木屋候选样板</title>
+<style>
+:root{color-scheme:light;--ink:#344237;--muted:#6d7969;--line:#d9dfce;--paper:#fbfaf3;--green:#44664b}
+*{box-sizing:border-box}body{margin:0;background:#ecefe4;color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}
+main{max-width:1100px;margin:auto;padding:36px 24px 56px}header{display:flex;align-items:flex-start;justify-content:space-between;gap:20px}
+.eyebrow{font-size:12px;letter-spacing:2px;color:var(--muted);margin:0 0 6px}h1{font-size:28px;margin:0 0 8px;line-height:1.4;font-weight:650}h2{font-size:19px;margin:0 0 8px}
+p{margin:0 0 14px}.intro{color:var(--muted);max-width:760px}.badge{white-space:nowrap;padding:7px 12px;border:1px solid #c5ceb9;border-radius:22px;color:#627451;font-size:12px}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:20px;margin-top:20px;box-shadow:0 3px 14px #3f51380b}
+.controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:16px}.buttons{display:flex;gap:6px;padding:4px;background:#eef0e5;border-radius:12px}
+button{font:inherit;border:0;border-radius:8px;padding:9px 15px;min-height:44px;cursor:pointer;background:transparent;color:var(--muted)}
+button[aria-pressed="true"]{background:var(--green);color:#fff;box-shadow:0 1px 3px #31462a28}
+button:focus-visible,a:focus-visible{outline:3px solid #d1ad76;outline-offset:3px}
+.check{margin-left:auto;display:flex;gap:8px;align-items:center;cursor:pointer;padding:10px 2px;min-height:44px}input{accent-color:var(--green);width:17px;height:17px}
+.scene-viewport{background:#e2e9d5;border-radius:12px;border:1px solid #ced8bf;overflow:auto;display:flex;align-items:center;min-height:300px;padding:16px}
+.scene-viewport img{display:block;margin:auto;image-rendering:pixelated;image-rendering:crisp-edges;max-width:none;flex-shrink:0}
+.caption{font-size:13px;color:var(--muted);margin:12px 0 0}.details{display:flex;gap:8px 20px;flex-wrap:wrap;font-size:13px;color:var(--muted);margin-top:12px}
+.asset-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.checker{background:repeating-conic-gradient(#dce3d2 0 25%,#edf0e6 0 50%) 0 / 32px 32px;border-radius:12px;overflow:auto;text-align:center;padding:16px}
+.sprite{image-rendering:pixelated;image-rendering:crisp-edges}.compare-image{display:block;max-width:none;margin:0 auto}
+a{color:#456747;text-decoration-thickness:1px;text-underline-offset:3px}.links{display:flex;gap:12px 18px;flex-wrap:wrap;font-size:13px;margin-top:14px}
+.note{border-left:3px solid #ba9b6c;padding-left:12px;color:var(--muted);font-size:13px}.native-row{display:flex;align-items:center;justify-content:center;gap:40px;min-height:150px}
+figure{margin:0}figcaption{font-size:13px;margin-top:10px;color:var(--muted)}
+@media(max-width:700px){main{padding:24px 14px}.asset-grid{grid-template-columns:1fr}h1{font-size:23px}.badge{display:none}.panel{padding:14px}.check{margin-left:0}.scene-viewport{display:block;height:min(52vh,380px);min-height:240px}.scene-viewport img{margin:0 auto}.controls{gap:8px}.buttons button{padding:9px 12px}}
+</style></head><body><main>
+<header><div><p class="eyebrow">明日复 · 美术生产实验</p><h1>一栋可编辑的暖木小屋</h1><p class="intro">同一栋木屋、同一机位。看看它在方形草地中的比例，以及陶瓦与深蓝屋顶的不同气质。</p></div><span class="badge">候选样板 · 等待视觉验收</span></header>
+<section class="panel" aria-label="木屋场景">
+<div class="controls">
+<div class="buttons" aria-label="屋顶颜色"><button id="terracotta" data-variant="terracotta" aria-pressed="true">陶瓦屋顶</button><button id="deep-blue" data-variant="deep-blue" aria-pressed="false">深蓝屋顶</button></div>
+<div class="buttons" aria-label="观看倍率"><button data-scale="1" aria-pressed="false">×1</button><button data-scale="2" aria-pressed="true">×2</button><button data-scale="4" aria-pressed="false">×4</button></div>
+<label class="check"><input id="grid" type="checkbox" checked>显示方格与占地</label></div>
+<div class="scene-viewport" id="scene-frame"><img id="scene" src="previews/scene-terracotta-grid-1x.png" width="640" height="512" alt="陶瓦木屋位于正交草地网格中"></div>
+<div class="details"><span id="distance">正常游戏倍率 ×2</span><span>32px 方格</span><span>建议占地 3×2</span><span>地面锚点 (48,112)</span></div>
+<p class="caption">网格和占地提示在建筑下方。草地是本轮的简易验证背景，尚未作为正式地形素材。</p>
+</section>
+<section class="panel"><h2>屋顶换色 · 同结构对比</h2><p class="intro">左侧陶瓦，右侧深蓝。墙体、门窗、烟囱、镜头与建筑比例保持一致。</p>
+<div class="checker"><img class="sprite compare-image" src="previews/roof-comparison-4x.png" width="824" height="544" alt="屋顶换色前后四倍最近邻对比"></div>
+<p class="caption">×4 像素预览，使用整数最近邻显示。屋顶外的 8,676 个像素完全相同。</p></section>
+<div class="asset-grid">
+<section class="panel"><h2>原生精灵 · ×1</h2><div class="checker native-row"><figure><img class="sprite" src="delivery/cabin-terracotta-sprite.png" width="96" height="128" alt="原生96乘128陶瓦精灵"><figcaption>陶瓦木屋</figcaption></figure><figure><img class="sprite" src="delivery/deep-blue/cabin-deep-blue-sprite.png" width="96" height="128" alt="原生96乘128深蓝精灵"><figcaption>深蓝木屋</figcaption></figure></div><p class="caption">透明背景、固定色板、1px 轮廓。像素图没有从高分辨率预览缩小。</p></section>
+<section class="panel"><h2>Blender 模型预览</h2><div class="checker"><img src="previews/blender-model-preview.png" width="400" height="400" style="max-width:100%;height:auto" alt="原生三维木屋模型预览"></div><p class="caption">此视图展示可编辑模型的侧面。游戏精灵另用水平旋转 0° 的正交机位，避免菱形地面投影。</p></section>
+</div>
+<section class="panel"><h2>与 P1.1 候选木屋对照</h2><div class="checker native-row"><figure><img class="sprite" src="previews/old-p11-cabin.png" width="240" height="240" alt="原P1.1 Canvas候选木屋"><figcaption>P1.1 原素材 · ×3</figcaption></figure><figure><img class="sprite" src="delivery/cabin-terracotta-sprite.png" width="192" height="256" alt="Blender候选木屋"><figcaption>Blender 新候选 · ×2</figcaption></figure></div><p class="caption">两者原生尺寸与投影不同。此对照用于观察结构与细节，不作为美术已通过的证明。</p></section>
+<section class="panel"><p class="note">这轮验证了可编辑模型、材质换色和重复输出。屋面仍较规整，外墙和装饰还可进一步做自然化设计；是否值得扩展，由你的实际视觉判断决定。</p><div class="links"><a href="delivery/cabin-terracotta.blend">陶瓦 Blender 工程</a><a href="delivery/deep-blue/cabin-deep-blue.blend">深蓝 Blender 工程</a><a href="delivery/cabin-terracotta-sprite.png">木屋 PNG</a><a href="build_cabin.py">建模脚本</a><a href="README.md">验证报告</a></div></section>
+</main><script>
+let variant='terracotta',scale=2;
+const image=document.querySelector('#scene'),grid=document.querySelector('#grid');
+function update(){image.src='previews/scene-'+variant+(grid.checked?'-grid':'')+'-1x.png';image.width=320*scale;image.height=256*scale;image.alt=(variant==='terracotta'?'陶瓦':'深蓝')+'木屋位于正交草地场景中';document.querySelector('#distance').textContent=(scale===2?'正常游戏倍率 ':scale===4?'近距离 ':'原生距离 ')+'×'+scale;document.querySelectorAll('[data-variant]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.variant===variant)));document.querySelectorAll('[data-scale]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.scale)===scale)));}
+document.querySelectorAll('[data-variant]').forEach(b=>b.addEventListener('click',()=>{variant=b.dataset.variant;update()}));
+document.querySelectorAll('[data-scale]').forEach(b=>b.addEventListener('click',()=>{scale=Number(b.dataset.scale);update()}));
+grid.addEventListener('change',update);
+// Keep this one art specimen visible on narrow screens; this is not a game camera.
+const frame=document.querySelector('#scene-frame');
+function centerSpecimen(){requestAnimationFrame(()=>{frame.scrollLeft=16+144*scale-frame.clientWidth/2;frame.scrollTop=16+139*scale-frame.clientHeight/2})}
+document.querySelectorAll('[data-scale]').forEach(b=>b.addEventListener('click',centerSpecimen));
+image.addEventListener('load',centerSpecimen);window.addEventListener('resize',centerSpecimen);centerSpecimen();
+</script></body></html>

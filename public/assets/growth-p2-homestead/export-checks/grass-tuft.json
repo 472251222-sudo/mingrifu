@@ -1,0 +1,80 @@
+{
+  "id": "grass-tuft",
+  "name": "弯叶草丛",
+  "type": "vegetation",
+  "status": "candidate",
+  "version": "p2-b-v1",
+  "nativeSize": [
+    32,
+    32
+  ],
+  "anchor": [
+    16,
+    28
+  ],
+  "footprint": [
+    1,
+    1
+  ],
+  "footprintOffset": [
+    -0.5,
+    -0.5
+  ],
+  "png": "/assets/growth-p2-homestead/grass-tuft.png",
+  "pngPath": "public/assets/growth-p2-homestead/grass-tuft.png",
+  "sourceEngineering": "docs/growth-p2-b/2026-10-14/source-models-v2/grass-tuft/grass-tuft.blend",
+  "sourceScript": "docs/growth-p2-b/2026-10-14/build_assets.py",
+  "rawPNG": "docs/growth-p2-b/2026-10-14/source-models-v2/grass-tuft/grass-tuft-raw.png",
+  "method": "Structured Blender model; 38deg south orthographic camera; same four-band light and 32-color palette; native alpha/palette/1px outline export",
+  "renderLayer": "objects",
+  "occlusion": "groundAnchorY; then priority; then instance ID",
+  "priority": 5,
+  "palette": [
+    "#26332d",
+    "#3c4940",
+    "#586253",
+    "#78816c",
+    "#a4aa8b",
+    "#d1cfaa",
+    "#eee2bf",
+    "#fff1d2",
+    "#3b2926",
+    "#594036",
+    "#795643",
+    "#a07652",
+    "#c39b6a",
+    "#e2bd86",
+    "#713d3a",
+    "#995347",
+    "#bd7055",
+    "#df9c6b",
+    "#264b40",
+    "#3b6550",
+    "#588455",
+    "#7da55e",
+    "#a9c36e",
+    "#cadb8c",
+    "#17283d",
+    "#26394f",
+    "#3a5575",
+    "#557a9f",
+    "#53694b",
+    "#75835a",
+    "#9aa26d",
+    "#c2bd87"
+  ],
+  "sha256": "eaa9d8cd48640584b81912d30385ec0680416df1106315865dac7e67415a764b",
+  "visualBounds": [
+    3,
+    12,
+    27,
+    18
+  ],
+  "colorCount": 7,
+  "alphaValues": [
+    0,
+    255
+  ],
+  "visiblePixels": 230,
+  "outsidePalette": []
+}

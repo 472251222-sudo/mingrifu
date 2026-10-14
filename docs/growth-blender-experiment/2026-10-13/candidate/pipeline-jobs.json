@@ -1,0 +1,207 @@
+[
+  {
+    "name": "build-original",
+    "seconds": 2.355,
+    "exitCode": 0,
+    "log": "build-original.log",
+    "command": [
+      "/Users/lyc/Applications/Blender.app/Contents/MacOS/Blender",
+      "--background",
+      "--factory-startup",
+      "--disable-autoexec",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/build_cabin.py",
+      "--",
+      "--config",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/cabin-config.json",
+      "--output",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/candidate",
+      "--variant",
+      "terracotta",
+      "--roof-mask",
+      "--model-preview"
+    ]
+  },
+  {
+    "name": "pixel-export-terracotta",
+    "seconds": 0.103,
+    "exitCode": 0,
+    "log": "pixel-export-terracotta.log",
+    "command": [
+      "/opt/homebrew/bin/node",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/pixel_export.mjs",
+      "--config",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/cabin-config.json",
+      "--input",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/candidate/cabin-terracotta-raw.png",
+      "--output",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/candidate/cabin-terracotta-sprite.png",
+      "--roof-mask",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/candidate/roof-visible-mask-raw.png"
+    ]
+  },
+  {
+    "name": "reopen-change-roof",
+    "seconds": 0.439,
+    "exitCode": 0,
+    "log": "deep-blue/reopen-change-roof.log",
+    "command": [
+      "/Users/lyc/Applications/Blender.app/Contents/MacOS/Blender",
+      "--background",
+      "--factory-startup",
+      "--disable-autoexec",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/build_cabin.py",
+      "--",
+      "--config",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/cabin-config.json",
+      "--output",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/candidate/deep-blue",
+      "--variant",
+      "deep-blue",
+      "--load",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/candidate/cabin-terracotta.blend"
+    ]
+  },
+  {
+    "name": "pixel-export-deep-blue",
+    "seconds": 0.085,
+    "exitCode": 0,
+    "log": "deep-blue/pixel-export-deep-blue.log",
+    "command": [
+      "/opt/homebrew/bin/node",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/pixel_export.mjs",
+      "--config",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/cabin-config.json",
+      "--input",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/candidate/deep-blue/cabin-deep-blue-raw.png",
+      "--output",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/candidate/deep-blue/cabin-deep-blue-sprite.png"
+    ]
+  },
+  {
+    "name": "reopen-original-rerender",
+    "seconds": 0.429,
+    "exitCode": 0,
+    "log": "reopened/reopen-original-rerender.log",
+    "command": [
+      "/Users/lyc/Applications/Blender.app/Contents/MacOS/Blender",
+      "--background",
+      "--factory-startup",
+      "--disable-autoexec",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/build_cabin.py",
+      "--",
+      "--config",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/cabin-config.json",
+      "--output",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/candidate/reopened",
+      "--variant",
+      "terracotta",
+      "--load",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/candidate/cabin-terracotta.blend"
+    ]
+  },
+  {
+    "name": "pixel-export-terracotta",
+    "seconds": 0.085,
+    "exitCode": 0,
+    "log": "reopened/pixel-export-terracotta.log",
+    "command": [
+      "/opt/homebrew/bin/node",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/pixel_export.mjs",
+      "--config",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/cabin-config.json",
+      "--input",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/candidate/reopened/cabin-terracotta-raw.png",
+      "--output",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/candidate/reopened/cabin-terracotta-sprite.png"
+    ]
+  },
+  {
+    "name": "rebuild-from-script",
+    "seconds": 1.03,
+    "exitCode": 0,
+    "log": "rebuilt/rebuild-from-script.log",
+    "command": [
+      "/Users/lyc/Applications/Blender.app/Contents/MacOS/Blender",
+      "--background",
+      "--factory-startup",
+      "--disable-autoexec",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/build_cabin.py",
+      "--",
+      "--config",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/cabin-config.json",
+      "--output",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/candidate/rebuilt",
+      "--variant",
+      "terracotta"
+    ]
+  },
+  {
+    "name": "pixel-export-terracotta",
+    "seconds": 0.086,
+    "exitCode": 0,
+    "log": "rebuilt/pixel-export-terracotta.log",
+    "command": [
+      "/opt/homebrew/bin/node",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/pixel_export.mjs",
+      "--config",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/cabin-config.json",
+      "--input",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/candidate/rebuilt/cabin-terracotta-raw.png",
+      "--output",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/candidate/rebuilt/cabin-terracotta-sprite.png"
+    ]
+  },
+  {
+    "name": "reopen-blue-rerender",
+    "seconds": 0.438,
+    "exitCode": 0,
+    "log": "blue-reopened/reopen-blue-rerender.log",
+    "command": [
+      "/Users/lyc/Applications/Blender.app/Contents/MacOS/Blender",
+      "--background",
+      "--factory-startup",
+      "--disable-autoexec",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/build_cabin.py",
+      "--",
+      "--config",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/cabin-config.json",
+      "--output",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/candidate/blue-reopened",
+      "--variant",
+      "deep-blue",
+      "--load",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/candidate/deep-blue/cabin-deep-blue.blend"
+    ]
+  },
+  {
+    "name": "pixel-export-deep-blue",
+    "seconds": 0.086,
+    "exitCode": 0,
+    "log": "blue-reopened/pixel-export-deep-blue.log",
+    "command": [
+      "/opt/homebrew/bin/node",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/pixel_export.mjs",
+      "--config",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/cabin-config.json",
+      "--input",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/candidate/blue-reopened/cabin-deep-blue-raw.png",
+      "--output",
+      "/Users/lyc/Desktop/\u660e\u65e5\u590d3.0/docs/growth-blender-experiment/2026-10-13/candidate/blue-reopened/cabin-deep-blue-sprite.png"
+    ]
+  }
+]
