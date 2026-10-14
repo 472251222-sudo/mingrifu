@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-14",
+  "cliVersion": "0.162.0-alpha.17.2",
+  "nativeConfigRead": {
+    "agents": {
+      "enabled": true,
+      "max_concurrent_threads_per_session": 3,
+      "max_depth": null,
+      "default_subagent_model": null,
+      "default_subagent_reasoning_effort": null,
+      "job_max_runtime_seconds": null,
+      "interrupt_message": null
+    },
+    "projectConfigOrigin": null,
+    "cliStrictConfig": true
+  },
+  "customRoleResults": {
+    "art": {
+      "agentType": "art",
+      "id": "/root/cfg_verify_art",
+      "completed": true,
+      "evidence": "native-role-results.md: Art单项结果"
+    },
+    "builder": {
+      "agentType": "builder",
+      "id": "/root/verify_builder_readonly",
+      "completed": true
+    },
+    "qa": {
+      "agentType": "qa",
+      "id": "/root/verify_qa_readonly",
+      "completed": true,
+      "reportedInstructionMatchesRoleFile": true
+    }
+  },
+  "nativeToolCalls": [
+    {
+      "agentType": "builder",
+      "taskName": "verify_builder_readonly",
+      "forkTurns": "none",
+      "callId": "call_71ce638c659647d088cde80b6db63813",
+      "toolResult": "{\"task_name\":\"/root/verify_builder_readonly\"}"
+    },
+    {
+      "agentType": "qa",
+      "taskName": "verify_qa_readonly",
+      "forkTurns": "none",
+      "callId": "call_11c06f2b84b94d50b2e0a3a8ea70bce3",
+      "toolResult": "{\"task_name\":\"/root/verify_qa_readonly\"}"
+    }
+  ],
+  "probePermissions": "read-only parent sessions; role files do not independently override permissions",
+  "initialConnectivityIssue": "CLI direct request timeout; probe used existing macOS local proxy, no network/permission/config/credential changes",
+  "initialArtContextIssue": "ephemeral parent transcript missing; fork_turns none succeeded",
+  "projectTests": {
+    "command": "npm test",
+    "passed": 52,
+    "failed": 0,
+    "skipped": 0,
+    "rerunThisPhase": true
+  },
+  "httpReadCheck": [
+    {
+      "path": "/growth-p1",
+      "status": 200,
+      "bytes": 601
+    },
+    {
+      "path": "/growth-p2-homestead",
+      "status": 200,
+      "bytes": 601
+    },
+    {
+      "path": "/assets/growth-p2-homestead/manifest.json",
+      "status": 200,
+      "bytes": 217904
+    }
+  ],
+  "qaFindings": [
+    {
+      "id": "QA-CFG-001",
+      "severity": "low",
+      "fixRound": 1,
+      "fix": "Clarify Pixelorama practical editing remains unverified",
+      "status": "resolved; custom QA limited-scope review passed"
+    }
+  ],
+  "protectedFiles": {
+    "count": 988,
+    "unchanged": 987,
+    "missing": [],
+    "allowedExistingChanges": [
+      "docs/growth-p1/README.md"
+    ],
+    "previousMainJsxHashPreserved": true
+  },
+  "beforeCommit": {
+    "branch": "feature/growth-rebuild",
+    "head": "65774ef568ca467f0cae530702e8f7d87dde0b4c",
+    "main": "990f7ff11718a0131ca1b96f34fbc049317ad95d",
+    "v4Development": "44d16da058c2ff8259459d35f8464f01dd7e995d"
+  },
+  "commitScope": [
+    ".codex/config.toml",
+    ".codex/agents/art.toml",
+    ".codex/agents/builder.toml",
+    ".codex/agents/qa.toml",
+    "AGENTS.md",
+    "docs/growth-game.md",
+    "docs/growth-p1/README.md",
+    "docs/growth-agent-verification/2026-10-14/README.md",
+    "docs/growth-agent-verification/2026-10-14/native-role-results.md",
+    "docs/growth-agent-verification/2026-10-14/project-tests.txt",
+    "docs/growth-agent-verification/2026-10-14/verification.json"
+  ],
+  "notRerun": [
+    "Blender production",
+    "asset exporter",
+    "full P1/P1.1/P2-B browser regression",
+    "production build"
+  ],
+  "businessCodeModified": false,
+  "userWorldStorageAccessed": false,
+  "pixelLabCalled": false,
+  "newDependenciesInstalled": false,
+  "laterBusinessStagesStarted": false,
+  "finalQAReview": {
+    "agent": "/root/qa_takeover",
+    "fixRound": 1,
+    "result": "pass",
+    "newDefects": 0,
+    "commitScopeVerifiedCount": 11
+  }
+}

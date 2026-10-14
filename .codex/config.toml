@@ -1,0 +1,5 @@
+# Project-scoped native Codex subagents. Roles are discovered in agents/*.toml.
+# Keep model, authentication, provider and permissions under the user's control.
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 3
