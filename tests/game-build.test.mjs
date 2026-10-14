@@ -5,11 +5,16 @@ import {tmpdir} from 'node:os';
 import {join, resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
-import {build, createServer, preview} from 'vite';
+import {build, createServer, preview, resolveConfig} from 'vite';
 
 const repository = fileURLToPath(new URL('../', import.meta.url));
 const configFile = resolve(repository, 'vite.game.config.mjs');
 const hash = bytes => createHash('sha256').update(bytes).digest('hex');
+
+test('independent dev dependency artifacts have a separate cache from V3', async () => {
+  const [main, game] = await Promise.all([resolve(repository, 'vite.config.mjs'), configFile].map(configFile => resolveConfig({configFile, logLevel: 'silent'}, 'serve')));
+  assert.notEqual(game.cacheDir, main.cacheDir, 'running two entry points must not invalidate each other through a shared optimizer cache');
+});
 
 test('independent game builds and serves its own shell and original resources without V3', async t => {
   const output = await mkdtemp(join(tmpdir(), 'mingrifu-game-build-'));

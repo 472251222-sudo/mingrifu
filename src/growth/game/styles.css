@@ -1,42 +1,77 @@
-:root {
-  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
-  color: #26332d;
-  background: #f3f1e7;
-  font-synthesis: none;
-}
+:root { font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif; color: #26332d; background: #f3f1e7; font-synthesis: none; }
 * { box-sizing: border-box; }
 body { margin: 0; min-width: 320px; }
-button { font: inherit; color: inherit; cursor: pointer; border: 1px solid #a4aa8b; border-radius: 10px; background: #fffdf3; min-height: 44px; padding: 8px 16px; }
+button { font: inherit; color: inherit; cursor: pointer; border: 1px solid #a4aa8b; border-radius: 10px; background: #fffdf3; min-height: 44px; padding: 8px 14px; }
 button:hover:not(:disabled) { background: #eee2bf; }
 button:disabled { cursor: default; opacity: .45; }
-button:focus-visible, canvas:focus-visible { outline: 3px solid #795643; outline-offset: 3px; }
-.game-page { max-width: 1120px; margin: auto; padding: 24px 20px max(20px, env(safe-area-inset-bottom)); }
-.game-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 20px; }
-.game-header h1 { font-size: 28px; margin: 6px 0; }
-.game-header p { margin: 0; font-size: 14px; color: #586253; }
-.game-header .game-eyebrow { letter-spacing: .08em; font-size: 12px; }
-.game-badge { flex-shrink: 0; border: 1px solid #a4aa8b; border-radius: 20px; padding: 7px 12px; font-size: 12px; }
-.game-world-panel { border: 1px solid #d1cfaa; border-radius: 16px; overflow: hidden; background: #e8e7d3; }
-.game-camera-tools { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; padding: 12px; border-bottom: 1px solid #d1cfaa; }
-.game-zoom-tools { display: flex; align-items: center; gap: 10px; }
-.game-zoom-tools button { width: 44px; padding: 8px; font-size: 20px; }
-.game-zoom-tools output { min-width: 35px; text-align: center; font-variant-numeric: tabular-nums; }
-.game-world-host { width: 100%; height: min(68svh, 680px); min-height: 240px; }
+button:focus-visible, canvas:focus-visible { outline: 3px solid #795643; outline-offset: -3px; }
+.game-page { max-width: 1200px; margin: auto; height: 100svh; min-height: 480px; display: flex; flex-direction: column; padding: 18px 18px 0; }
+.game-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px; flex-shrink: 0; }
+.game-header h1 { font-size: 24px; margin: 4px 0; }
+.game-eyebrow { letter-spacing: .06em; font-size: 11px; margin: 0; color: #586253; }
+.game-resources { display: flex; gap: 8px; font-size: 14px; font-weight: 600; }
+.game-resources output { border: 1px solid #d1cfaa; border-radius: 12px; padding: 8px 10px; background: #fffdf3; white-space: nowrap; }
+.game-stage { display: flex; align-items: center; gap: 10px; font-size: 12px; flex-shrink: 0; }
+.game-stage progress { width: 120px; height: 8px; accent-color: #588455; }
+.game-temporary { margin: 6px 0 10px; font-size: 11px; color: #795643; flex-shrink: 0; }
+.game-map-panel { position: relative; flex: 1; min-height: 120px; border: 1px solid #d1cfaa; border-radius: 14px; overflow: hidden; background: #e8e7d3; }
+.game-world-host { position: absolute; inset: 0; }
 .game-world-host canvas { display: block; width: 100%; height: 100%; image-rendering: pixelated; touch-action: none; cursor: grab; }
 .game-world-host canvas:active { cursor: grabbing; }
-.game-world-hint { margin: 0; padding: 12px; text-align: center; font-size: 12px; color: #586253; }
-.game-message { min-height: 300px; display: grid; align-content: center; justify-items: center; gap: 12px; padding: 24px; border: 1px solid #d1cfaa; border-radius: 16px; background: #e8e7d3; text-align: center; }
+.game-camera-tools { position: absolute; top: 8px; left: 8px; right: 8px; display: flex; justify-content: space-between; gap: 8px; pointer-events: none; }
+.game-camera-tools button, .game-zoom-tools { pointer-events: auto; }
+.game-camera-tools > button { padding: 8px 10px; }
+.game-zoom-tools { display: flex; align-items: center; gap: 6px; padding-left: 6px; border-radius: 12px; background: #f3f1e7e6; }
+.game-zoom-tools button { width: 44px; padding: 8px; font-size: 20px; }
+.game-zoom-tools output { min-width: 36px; text-align: center; font-size: 12px; font-variant-numeric: tabular-nums; }
+.game-map-hint { position: absolute; bottom: 6px; right: 10px; font-size: 10px; color: #586253; pointer-events: none; background: #e8e7d3d9; padding: 3px 6px; border-radius: 6px; }
+.game-actions { flex-shrink: 0; min-height: 130px; padding: 12px 0 max(12px, env(safe-area-inset-bottom)); }
+.game-operation-title { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; font-size: 14px; }
+.game-operation-title span { font-size: 11px; color: #586253; text-align: right; }
+.game-operation-message { margin: 7px 0; font-size: 12px; line-height: 1.5; min-height: 36px; color: #586253; }
+.game-operation-error { color: #995347; }
+.game-action-buttons { display: flex; gap: 8px; }
+.game-action-buttons button { flex: 1; }
+.game-primary { background: #3b6550; border-color: #3b6550; color: #fff1d2; }
+.game-primary:hover:not(:disabled) { background: #264b40; }
+.game-message { flex: 1; display: grid; align-content: center; justify-items: center; gap: 12px; padding: 20px; border: 1px solid #d1cfaa; border-radius: 14px; background: #e8e7d3; text-align: center; }
 .game-message h2, .game-message p { margin: 0; }
 .game-message h2 { font-size: 20px; }
-.game-note { color: #586253; font-size: 12px; line-height: 1.7; margin: 14px 0 0; }
+.game-drawer-backdrop { position: fixed; inset: 0; z-index: 10; border: 0; border-radius: 0; background: #26332d55; }
+.game-drawer { position: fixed; z-index: 11; right: 24px; top: 100px; bottom: 24px; width: 340px; background: #f3f1e7; border: 1px solid #a4aa8b; border-radius: 16px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 12px 40px #26332d40; }
+.game-drawer > header { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 12px; }
+.game-drawer h2 { font-size: 16px; margin: 0; }
+.game-drawer > header button { width: 44px; padding: 8px; font-size: 22px; }
+.game-catalog { overflow-y: auto; overscroll-behavior: contain; padding: 0 12px max(12px, env(safe-area-inset-bottom)); display: grid; gap: 8px; }
+.game-catalog-item { display: flex; align-items: center; gap: 12px; text-align: left; min-height: 88px; }
+.game-catalog-item img { width: 64px; height: 70px; object-fit: contain; image-rendering: pixelated; }
+.game-catalog-item span { display: grid; gap: 3px; }
+.game-catalog-item strong { font-size: 13px; }
+.game-catalog-item small { color: #586253; font-size: 11px; }
+.game-empty { font-size: 13px; line-height: 1.7; }
 @media (max-width: 600px) {
-  .game-page { padding: 16px 12px max(16px, env(safe-area-inset-bottom)); }
-  .game-header { margin-bottom: 14px; }
-  .game-header h1 { font-size: 23px; }
-  .game-header p { font-size: 12px; }
-  .game-badge { padding: 6px 8px; }
-  .game-world-host { height: 58svh; }
-  .game-camera-tools { padding: 8px; gap: 6px; }
-  .game-camera-tools > button { padding: 8px 10px; }
-  .game-zoom-tools { gap: 6px; }
+  .game-page { padding: 10px 10px 0; }
+  .game-header h1 { font-size: 19px; }
+  .game-resources { font-size: 12px; gap: 5px; }
+  .game-resources output { padding: 7px 8px; }
+  .game-stage { gap: 7px; font-size: 11px; }
+  .game-stage progress { flex: 1; max-width: 120px; }
+  .game-temporary { font-size: 10px; margin-bottom: 7px; }
+  .game-camera-tools { top: 6px; left: 6px; right: 6px; }
+  .game-camera-tools button { font-size: 12px; }
+  .game-zoom-tools button { font-size: 18px; }
+  .game-zoom-tools { gap: 4px; padding-left: 4px; }
+  .game-operation-title { font-size: 13px; }
+  .game-operation-title span { font-size: 10px; }
+  .game-actions { min-height: 130px; padding-top: 10px; }
+  .game-operation-message { font-size: 11px; }
+  .game-action-buttons button { font-size: 12px; padding: 8px; }
+  .game-drawer { top: auto; left: 0; right: 0; bottom: 0; width: 100%; max-height: 78svh; border-radius: 18px 18px 0 0; }
+}
+@media (max-height: 620px) {
+  .game-page { padding-top: 6px; }
+  .game-header { margin-bottom: 4px; }
+  .game-header h1 { margin: 2px 0; }
+  .game-actions { min-height: 122px; padding-top: 8px; }
+  .game-operation-message { margin: 5px 0; }
 }

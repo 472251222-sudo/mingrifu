@@ -1,0 +1,43 @@
+✔ initial cabin maps logical footprint to the original sprite ground anchor (1.615208ms)
+✔ sparse negative chunks draw only owned cells and join path tiles across a chunk seam (0.234ms)
+✔ stored objects disappear from scene while unknown resources fail clearly (0.253917ms)
+✔ frontmost visible alpha wins before a rear footprint fallback (0.144709ms)
+✖ screen raster alpha takes priority over a mismatching original texel and rear occupancy (0.633542ms)
+✔ transparent sprite margins do not select and actual occupied ground remains a fallback (0.073792ms)
+✔ natural foreground alpha blocks a hidden artificial object without an invisible natural footprint (0.072333ms)
+✔ external selection outlines exclude enclosed transparent holes (0.198667ms)
+✔ moving preview replaces its source and stays behind foreground objects in real depth order (6.512542ms)
+✔ screen conversion uses rounded camera origin consistently and floors negative grid positions (0.176541ms)
+✔ overview can fit below half scale and below presets without dense map allocation (0.149916ms)
+✔ soft camera bounds retain a portion of world and overview centres remain stable (0.056584ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 11
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 88.637042
+
+✖ failing tests:
+
+test at tests/game-view.test.mjs:50:1
+✖ screen raster alpha takes priority over a mismatching original texel and rear occupancy (0.633542ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'rear' !== 'front'
+  
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-view.test.mjs:53:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'rear',
+    expected: 'front',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,66 @@
+{
+  "chromeVersion": "155.0.8059.40",
+  "alphaHits": {
+    "roof": "o-1",
+    "wall": "o-1",
+    "groundFallback": "o-1",
+    "transparentMargin": null,
+    "zoomedPannedRoof": "o-1",
+    "naturalForeground": "n-3"
+  },
+  "foregroundPoint": {
+    "x": 212.5,
+    "y": 79.5
+  },
+  "depthOrder": [
+    {
+      "id": "n-2",
+      "groundY": 96,
+      "preview": false
+    },
+    {
+      "id": "~preview",
+      "groundY": 128,
+      "preview": true
+    },
+    {
+      "id": "o-1",
+      "groundY": 128,
+      "preview": false
+    },
+    {
+      "id": "n-6",
+      "groundY": 176,
+      "preview": false
+    },
+    {
+      "id": "n-3",
+      "groundY": 176,
+      "preview": false
+    },
+    {
+      "id": "n-4",
+      "groundY": 208,
+      "preview": false
+    },
+    {
+      "id": "n-5",
+      "groundY": 208,
+      "preview": false
+    }
+  ],
+  "sparse": {
+    "tileCount": 192,
+    "bounds": {
+      "x0": -268,
+      "y0": -268,
+      "x1": 780,
+      "y1": 268
+    },
+    "fit": {
+      "x": 256,
+      "y": 0,
+      "scale": 0.25
+    }
+  }
+}

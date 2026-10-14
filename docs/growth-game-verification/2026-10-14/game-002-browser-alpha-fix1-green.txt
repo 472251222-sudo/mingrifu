@@ -1,0 +1,181 @@
+{
+  "chrome": "155.0.8059.40",
+  "ui": [
+    {
+      "scale": 0.25,
+      "local": [
+        145,
+        143
+      ],
+      "size": [
+        298,
+        339
+      ],
+      "origin": [
+        118,
+        138
+      ],
+      "client": [
+        156,
+        243
+      ],
+      "rgba": [
+        189,
+        112,
+        85,
+        255
+      ],
+      "selected": "o-1"
+    },
+    {
+      "scale": 0.125,
+      "local": [
+        142,
+        159
+      ],
+      "size": [
+        298,
+        339
+      ],
+      "origin": [
+        134,
+        154
+      ],
+      "client": [
+        153,
+        259
+      ],
+      "rgba": [
+        89,
+        64,
+        54,
+        255
+      ],
+      "selected": "o-1"
+    }
+  ],
+  "totalChecked": 9698112,
+  "totalMismatches": 0,
+  "cases": [
+    {
+      "name": "initial",
+      "scale": 0.07,
+      "mismatches": 0
+    },
+    {
+      "name": "initial",
+      "scale": 0.125,
+      "mismatches": 0
+    },
+    {
+      "name": "initial",
+      "scale": 0.25,
+      "mismatches": 0
+    },
+    {
+      "name": "initial",
+      "scale": 0.5,
+      "mismatches": 0
+    },
+    {
+      "name": "initial",
+      "scale": 1,
+      "mismatches": 0
+    },
+    {
+      "name": "initial",
+      "scale": 2,
+      "mismatches": 0
+    },
+    {
+      "name": "initial",
+      "scale": 3,
+      "mismatches": 0
+    },
+    {
+      "name": "initial",
+      "scale": 4,
+      "mismatches": 0
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 0.07,
+      "mismatches": 0
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 0.125,
+      "mismatches": 0
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 0.25,
+      "mismatches": 0
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 0.5,
+      "mismatches": 0
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 1,
+      "mismatches": 0
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 2,
+      "mismatches": 0
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 3,
+      "mismatches": 0
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 4,
+      "mismatches": 0
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 0.07,
+      "mismatches": 0
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 0.125,
+      "mismatches": 0
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 0.25,
+      "mismatches": 0
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 0.5,
+      "mismatches": 0
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 1,
+      "mismatches": 0
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 2,
+      "mismatches": 0
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 3,
+      "mismatches": 0
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 4,
+      "mismatches": 0
+    }
+  ]
+}

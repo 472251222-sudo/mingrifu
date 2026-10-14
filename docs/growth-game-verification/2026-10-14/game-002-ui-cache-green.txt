@@ -1,0 +1,21 @@
+✔ independent dev dependency artifacts have a separate cache from V3 (20.720125ms)
+✔ initial cabin maps logical footprint to the original sprite ground anchor (1.061959ms)
+✔ sparse negative chunks draw only owned cells and join path tiles across a chunk seam (0.219459ms)
+✔ stored objects disappear from scene while unknown resources fail clearly (0.268ms)
+✔ frontmost visible alpha wins before a rear footprint fallback (0.142291ms)
+✔ screen raster alpha takes priority over a mismatching original texel and rear occupancy (0.07725ms)
+✔ transparent sprite margins do not select and actual occupied ground remains a fallback (0.054792ms)
+✔ natural foreground alpha blocks a hidden artificial object without an invisible natural footprint (0.062292ms)
+✔ external selection outlines exclude enclosed transparent holes (0.203334ms)
+✔ moving preview replaces its source and stays behind foreground objects in real depth order (6.831542ms)
+✔ screen conversion uses rounded camera origin consistently and floors negative grid positions (0.146792ms)
+✔ overview can fit below half scale and below presets without dense map allocation (0.136625ms)
+✔ soft camera bounds retain a portion of world and overview centres remain stable (0.046708ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 178.635041

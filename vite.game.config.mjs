@@ -36,6 +36,7 @@ export default defineConfig({
   root: fileURLToPath(new URL('./game/', import.meta.url)),
   base: '/',
   publicDir: false,
+  cacheDir: fileURLToPath(new URL('./node_modules/.vite-growth-game/', import.meta.url)),
   resolve: {alias: {'/src': fileURLToPath(new URL('./src/', import.meta.url))}},
   plugins: [react(), gameResources()],
   optimizeDeps: {include: ['react', 'react-dom/client']},

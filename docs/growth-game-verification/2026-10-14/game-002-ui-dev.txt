@@ -1,0 +1,9 @@
+
+> 3-0@0.0.0 dev:game
+> vite --config vite.game.config.mjs
+
+9:39:19 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+
+  VITE v6.4.2  ready in 125 ms
+
+  ➜  Local:   http://127.0.0.1:5189/

@@ -1,0 +1,20 @@
+✔ initial cabin maps logical footprint to the original sprite ground anchor (1.596584ms)
+✔ sparse negative chunks draw only owned cells and join path tiles across a chunk seam (0.233458ms)
+✔ stored objects disappear from scene while unknown resources fail clearly (0.24925ms)
+✔ frontmost visible alpha wins before a rear footprint fallback (0.133208ms)
+✔ screen raster alpha takes priority over a mismatching original texel and rear occupancy (0.076041ms)
+✔ transparent sprite margins do not select and actual occupied ground remains a fallback (0.065334ms)
+✔ natural foreground alpha blocks a hidden artificial object without an invisible natural footprint (0.071209ms)
+✔ external selection outlines exclude enclosed transparent holes (0.1925ms)
+✔ moving preview replaces its source and stays behind foreground objects in real depth order (6.457125ms)
+✔ screen conversion uses rounded camera origin consistently and floors negative grid positions (0.151ms)
+✔ overview can fit below half scale and below presets without dense map allocation (0.132916ms)
+✔ soft camera bounds retain a portion of world and overview centres remain stable (0.723542ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 87.539459

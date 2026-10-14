@@ -1,0 +1,66 @@
+[
+  {
+    "canvasSize": [
+      298,
+      339
+    ],
+    "scale": 0.25,
+    "origin": [
+      118,
+      138
+    ],
+    "worldPoint": {
+      "x": 108,
+      "y": 20
+    },
+    "localPixel": [
+      145,
+      143
+    ],
+    "renderedPixel": [
+      189,
+      112,
+      85,
+      255
+    ],
+    "client": {
+      "x": 156,
+      "y": 243
+    },
+    "temporary": "临时体验 · 尚未保存，刷新会重置 · 美术候选",
+    "selectedId": "",
+    "selectedText": "布置自己的世界\n可随时调整"
+  },
+  {
+    "canvasSize": [
+      298,
+      339
+    ],
+    "scale": 0.125,
+    "origin": [
+      134,
+      154
+    ],
+    "worldPoint": {
+      "x": 64,
+      "y": 40
+    },
+    "localPixel": [
+      142,
+      159
+    ],
+    "renderedPixel": [
+      89,
+      64,
+      54,
+      255
+    ],
+    "client": {
+      "x": 153,
+      "y": 259
+    },
+    "temporary": "临时体验 · 尚未保存，刷新会重置 · 美术候选",
+    "selectedId": "n-2",
+    "selectedText": "林缘阔冠树\n自然植被"
+  }
+]

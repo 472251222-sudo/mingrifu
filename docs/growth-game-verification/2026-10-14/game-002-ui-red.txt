@@ -1,0 +1,157 @@
+✖ game scene adapters exist and support orthogonal mapping independently of the old sample scene (1.46925ms)
+✖ initial cabin maps logical footprint to the original sprite ground anchor (0.069625ms)
+✖ sparse negative chunks draw only owned cells and join path tiles across a chunk seam (0.141125ms)
+✖ stored objects disappear from scene while unknown resources fail clearly (0.06575ms)
+✖ frontmost visible alpha wins before a rear footprint fallback (0.0885ms)
+✖ transparent sprite margins do not select and actual occupied ground remains a fallback (0.063833ms)
+✖ natural foreground alpha blocks a hidden artificial object without an invisible natural footprint (0.056084ms)
+✖ external selection outlines exclude enclosed transparent holes (0.043625ms)
+✖ moving preview replaces its source and stays behind foreground objects in real depth order (0.069667ms)
+✖ screen conversion uses rounded camera origin consistently and floors negative grid positions (0.0935ms)
+✖ overview can fit below half scale and below presets without dense map allocation (0.064291ms)
+✖ soft camera bounds retain a portion of world and overview centres remain stable (0.048041ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 0
+ℹ fail 12
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 84.90275
+
+✖ failing tests:
+
+test at tests/game-view.test.mjs:8:1
+✖ game scene adapters exist and support orthogonal mapping independently of the old sample scene (1.46925ms)
+  AssertionError [ERR_ASSERTION]: Dynamic game scene adapters are required: Cannot find module '/Users/lyc/Desktop/明日复3.0/src/growth/game/scene.js' imported from /Users/lyc/Desktop/明日复3.0/tests/game-view.test.mjs
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-view.test.mjs:13:12)
+      at async Test.run (node:internal/test_runner/test:1313:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: undefined,
+    operator: 'fail',
+    diff: 'simple'
+  }
+
+test at tests/game-view.test.mjs:17:1
+✖ initial cabin maps logical footprint to the original sprite ground anchor (0.069625ms)
+  TypeError: Cannot read properties of undefined (reading 'worldToScene')
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-view.test.mjs:18:22)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3)
+
+test at tests/game-view.test.mjs:28:1
+✖ sparse negative chunks draw only owned cells and join path tiles across a chunk seam (0.141125ms)
+  TypeError: Cannot read properties of undefined (reading 'worldToScene')
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-view.test.mjs:32:22)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-view.test.mjs:41:1
+✖ stored objects disappear from scene while unknown resources fail clearly (0.06575ms)
+  TypeError: Cannot read properties of undefined (reading 'worldToScene')
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-view.test.mjs:44:21)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-view.test.mjs:52:1
+✖ frontmost visible alpha wins before a rear footprint fallback (0.0885ms)
+  TypeError: Cannot read properties of undefined (reading 'hitScene')
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-view.test.mjs:55:21)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-view.test.mjs:58:1
+✖ transparent sprite margins do not select and actual occupied ground remains a fallback (0.063833ms)
+  TypeError: Cannot read properties of undefined (reading 'hitScene')
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-view.test.mjs:61:21)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-view.test.mjs:66:1
+✖ natural foreground alpha blocks a hidden artificial object without an invisible natural footprint (0.056084ms)
+  TypeError: Cannot read properties of undefined (reading 'hitScene')
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-view.test.mjs:69:21)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-view.test.mjs:73:1
+✖ external selection outlines exclude enclosed transparent holes (0.043625ms)
+  TypeError: Cannot read properties of undefined (reading 'externalOutline')
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-view.test.mjs:74:29)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-view.test.mjs:80:1
+✖ moving preview replaces its source and stays behind foreground objects in real depth order (0.069667ms)
+  TypeError: Cannot read properties of undefined (reading 'worldToScene')
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-view.test.mjs:81:22)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-view.test.mjs:90:1
+✖ screen conversion uses rounded camera origin consistently and floors negative grid positions (0.0935ms)
+  TypeError: Cannot read properties of undefined (reading 'cameraOrigin')
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-view.test.mjs:92:25)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-view.test.mjs:97:1
+✖ overview can fit below half scale and below presets without dense map allocation (0.064291ms)
+  TypeError: Cannot read properties of undefined (reading 'fitSceneCamera')
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-view.test.mjs:99:23)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-view.test.mjs:107:1
+✖ soft camera bounds retain a portion of world and overview centres remain stable (0.048041ms)
+  TypeError: Cannot read properties of undefined (reading 'constrainSceneCamera')
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-view.test.mjs:109:28)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)

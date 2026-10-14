@@ -1,0 +1,215 @@
+{
+  "chromeVersion": "155.0.8059.40",
+  "results": [
+    {
+      "name": "desktop",
+      "base": "http://127.0.0.1:5189/",
+      "width": 1280,
+      "height": 900,
+      "mobile": false,
+      "layout": {
+        "mapHeight": 628,
+        "mapTop": 133,
+        "mapBottom": 761,
+        "actionBottom": 900,
+        "height": 900,
+        "scrollHeight": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "touchEvents": null,
+      "status": "passed",
+      "scenarios": [
+        "overlap/outside/cancel",
+        "locked",
+        "drag-preserves-preview",
+        "touch-cancel-no-command",
+        "flower30to28",
+        "gift-roof-alpha",
+        "move-store-place-same-id-free",
+        "insufficient-BP",
+        "keyboard-arrows-Escape-Enter",
+        "temporary-refresh-reset",
+        "old-storage-unchanged"
+      ]
+    },
+    {
+      "name": "phone320-short",
+      "base": "http://127.0.0.1:5189/",
+      "width": 320,
+      "height": 568,
+      "mobile": true,
+      "layout": {
+        "mapHeight": 339,
+        "mapTop": 100,
+        "mapBottom": 439,
+        "actionBottom": 568,
+        "height": 568,
+        "scrollHeight": 568,
+        "scrollWidth": 320,
+        "width": 320
+      },
+      "touchEvents": [
+        {
+          "type": "pointerdown",
+          "pointerType": "touch"
+        },
+        {
+          "type": "pointermove",
+          "pointerType": "touch"
+        },
+        {
+          "type": "pointermove",
+          "pointerType": "touch"
+        },
+        {
+          "type": "pointermove",
+          "pointerType": "touch"
+        },
+        {
+          "type": "pointermove",
+          "pointerType": "touch"
+        },
+        {
+          "type": "pointermove",
+          "pointerType": "touch"
+        },
+        {
+          "type": "pointermove",
+          "pointerType": "touch"
+        },
+        {
+          "type": "pointerup",
+          "pointerType": "touch"
+        },
+        {
+          "type": "pointerdown",
+          "pointerType": "touch"
+        },
+        {
+          "type": "pointercancel",
+          "pointerType": "touch"
+        }
+      ],
+      "status": "passed",
+      "scenarios": [
+        "overlap/outside/cancel",
+        "locked",
+        "drag-preserves-preview",
+        "touch-cancel-no-command",
+        "flower30to28",
+        "gift-roof-alpha",
+        "move-store-place-same-id-free",
+        "insufficient-BP",
+        "keyboard-arrows-Escape-Enter",
+        "temporary-refresh-reset",
+        "old-storage-unchanged"
+      ]
+    },
+    {
+      "name": "phone390",
+      "base": "http://127.0.0.1:5189/",
+      "width": 390,
+      "height": 700,
+      "mobile": true,
+      "layout": {
+        "mapHeight": 453,
+        "mapTop": 112,
+        "mapBottom": 565,
+        "actionBottom": 700,
+        "height": 700,
+        "scrollHeight": 700,
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "touchEvents": [
+        {
+          "type": "pointerdown",
+          "pointerType": "touch"
+        },
+        {
+          "type": "pointermove",
+          "pointerType": "touch"
+        },
+        {
+          "type": "pointermove",
+          "pointerType": "touch"
+        },
+        {
+          "type": "pointermove",
+          "pointerType": "touch"
+        },
+        {
+          "type": "pointermove",
+          "pointerType": "touch"
+        },
+        {
+          "type": "pointermove",
+          "pointerType": "touch"
+        },
+        {
+          "type": "pointermove",
+          "pointerType": "touch"
+        },
+        {
+          "type": "pointerup",
+          "pointerType": "touch"
+        },
+        {
+          "type": "pointerdown",
+          "pointerType": "touch"
+        },
+        {
+          "type": "pointercancel",
+          "pointerType": "touch"
+        }
+      ],
+      "status": "passed",
+      "scenarios": [
+        "overlap/outside/cancel",
+        "locked",
+        "drag-preserves-preview",
+        "touch-cancel-no-command",
+        "flower30to28",
+        "gift-roof-alpha",
+        "move-store-place-same-id-free",
+        "insufficient-BP",
+        "keyboard-arrows-Escape-Enter",
+        "temporary-refresh-reset",
+        "old-storage-unchanged"
+      ]
+    },
+    {
+      "name": "preview",
+      "base": "http://127.0.0.1:5190/",
+      "width": 1280,
+      "height": 900,
+      "mobile": false,
+      "layout": {
+        "mapHeight": 628,
+        "mapTop": 133,
+        "mapBottom": 761,
+        "actionBottom": 900,
+        "height": 900,
+        "scrollHeight": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "touchEvents": null,
+      "status": "passed",
+      "scenarios": [
+        "overlap/outside/cancel",
+        "locked",
+        "drag-preserves-preview",
+        "touch-cancel-no-command",
+        "flower30to28",
+        "gift-roof-alpha",
+        "move-store-place-same-id-free",
+        "insufficient-BP",
+        "keyboard-arrows-Escape-Enter",
+        "temporary-refresh-reset",
+        "old-storage-unchanged"
+      ]
+    }
+  ]
+}

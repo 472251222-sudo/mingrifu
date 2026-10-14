@@ -1,0 +1,205 @@
+{
+  "chrome": "155.0.8059.40",
+  "ui": [
+    {
+      "scale": 0.25,
+      "local": [
+        145,
+        143
+      ],
+      "size": [
+        298,
+        339
+      ],
+      "origin": [
+        118,
+        138
+      ],
+      "client": [
+        156,
+        243
+      ],
+      "rgba": [
+        189,
+        112,
+        85,
+        255
+      ],
+      "selected": ""
+    },
+    {
+      "scale": 0.125,
+      "local": [
+        142,
+        159
+      ],
+      "size": [
+        298,
+        339
+      ],
+      "origin": [
+        134,
+        154
+      ],
+      "client": [
+        153,
+        259
+      ],
+      "rgba": [
+        89,
+        64,
+        54,
+        255
+      ],
+      "selected": "n-2"
+    }
+  ],
+  "totalChecked": 9698112,
+  "totalMismatches": 2930,
+  "cases": [
+    {
+      "name": "initial",
+      "scale": 0.07,
+      "mismatches": 67
+    },
+    {
+      "name": "initial",
+      "scale": 0.125,
+      "mismatches": 137
+    },
+    {
+      "name": "initial",
+      "scale": 0.25,
+      "mismatches": 253
+    },
+    {
+      "name": "initial",
+      "scale": 0.5,
+      "mismatches": 512
+    },
+    {
+      "name": "initial",
+      "scale": 1,
+      "mismatches": 0
+    },
+    {
+      "name": "initial",
+      "scale": 2,
+      "mismatches": 0
+    },
+    {
+      "name": "initial",
+      "scale": 3,
+      "mismatches": 0
+    },
+    {
+      "name": "initial",
+      "scale": 4,
+      "mismatches": 0
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 0.07,
+      "mismatches": 64
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 0.125,
+      "mismatches": 141
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 0.25,
+      "mismatches": 260
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 0.5,
+      "mismatches": 524
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 1,
+      "mismatches": 0
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 2,
+      "mismatches": 0
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 3,
+      "mismatches": 0
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 4,
+      "mismatches": 0
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 0.07,
+      "mismatches": 68
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 0.125,
+      "mismatches": 137
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 0.25,
+      "mismatches": 245
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 0.5,
+      "mismatches": 522
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 1,
+      "mismatches": 0
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 2,
+      "mismatches": 0
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 3,
+      "mismatches": 0
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 4,
+      "mismatches": 0
+    }
+  ]
+}
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: both actual QA UI points must select the visible cabin
++ actual - expected
+
+  [
++   '',
++   'n-2'
+-   'o-1',
+-   'o-1'
+  ]
+
+    at file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/docs/growth-game-verification/2026-10-14/game-002-browser-alpha-regression.mjs:61:10 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: [ '', 'n-2' ],
+  expected: [ 'o-1', 'o-1' ],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.16.0

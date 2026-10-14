@@ -1,0 +1,213 @@
+{
+  "chrome": "155.0.8059.40",
+  "results": [
+    {
+      "round": 1,
+      "entry": "game",
+      "base": "http://127.0.0.1:5189/",
+      "deps": [
+        {
+          "url": "http://127.0.0.1:5189/@fs/Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/node_modules/.vite-growth-game/deps/react.js?v=e62dbe50",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5189/@fs/Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/node_modules/.vite-growth-game/deps/react_jsx-dev-runtime.js?v=e62dbe50",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5189/@fs/Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/node_modules/.vite-growth-game/deps/chunk-H5I4P4DR.js?v=04eab25f",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5189/@fs/Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/node_modules/.vite-growth-game/deps/react-dom_client.js?v=e62dbe50",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5189/@fs/Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/node_modules/.vite-growth-game/deps/chunk-5SC5K45T.js?v=04eab25f",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5189/@fs/Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/node_modules/.vite-growth-game/deps/react_jsx-dev-runtime.js?v=e62dbe50",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5189/@fs/Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/node_modules/.vite-growth-game/deps/react.js?v=e62dbe50",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5189/@fs/Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/node_modules/.vite-growth-game/deps/react-dom_client.js?v=e62dbe50",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5189/@fs/Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/node_modules/.vite-growth-game/deps/chunk-H5I4P4DR.js?v=04eab25f",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5189/@fs/Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/node_modules/.vite-growth-game/deps/chunk-5SC5K45T.js?v=04eab25f",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "round": 1,
+      "entry": "V3",
+      "base": "http://127.0.0.1:5191/",
+      "deps": [
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/react.js?v=c5858283",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=c5858283",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/react-dom_client.js?v=c5858283",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/chunk-WGQ442SR.js?v=f2b8b0a2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/chunk-5OEL3WWE.js?v=f2b8b0a2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/@phosphor-icons_react.js?v=d468480d",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=c5858283",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/react.js?v=c5858283",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/react-dom_client.js?v=c5858283",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/chunk-WGQ442SR.js?v=f2b8b0a2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/chunk-5OEL3WWE.js?v=f2b8b0a2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/@phosphor-icons_react.js?v=d468480d",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "round": 2,
+      "entry": "game",
+      "base": "http://127.0.0.1:5189/",
+      "deps": [
+        {
+          "url": "http://127.0.0.1:5189/@fs/Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/node_modules/.vite-growth-game/deps/react.js?v=e62dbe50",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5189/@fs/Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/node_modules/.vite-growth-game/deps/react_jsx-dev-runtime.js?v=e62dbe50",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5189/@fs/Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/node_modules/.vite-growth-game/deps/chunk-H5I4P4DR.js?v=04eab25f",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5189/@fs/Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/node_modules/.vite-growth-game/deps/react-dom_client.js?v=e62dbe50",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5189/@fs/Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/node_modules/.vite-growth-game/deps/chunk-5SC5K45T.js?v=04eab25f",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5189/@fs/Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/node_modules/.vite-growth-game/deps/react_jsx-dev-runtime.js?v=e62dbe50",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5189/@fs/Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/node_modules/.vite-growth-game/deps/react.js?v=e62dbe50",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5189/@fs/Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/node_modules/.vite-growth-game/deps/react-dom_client.js?v=e62dbe50",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5189/@fs/Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/node_modules/.vite-growth-game/deps/chunk-H5I4P4DR.js?v=04eab25f",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5189/@fs/Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/node_modules/.vite-growth-game/deps/chunk-5SC5K45T.js?v=04eab25f",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "round": 2,
+      "entry": "V3",
+      "base": "http://127.0.0.1:5191/",
+      "deps": [
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/react.js?v=c5858283",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=c5858283",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/react-dom_client.js?v=c5858283",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/chunk-WGQ442SR.js?v=f2b8b0a2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/chunk-5OEL3WWE.js?v=f2b8b0a2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/@phosphor-icons_react.js?v=d468480d",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=c5858283",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/react.js?v=c5858283",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/react-dom_client.js?v=c5858283",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/chunk-WGQ442SR.js?v=f2b8b0a2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/chunk-5OEL3WWE.js?v=f2b8b0a2",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:5191/node_modules/.vite/deps/@phosphor-icons_react.js?v=d468480d",
+          "status": 200
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "chrome": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+  "results": [
+    {
+      "scale": 0.5,
+      "camera": {
+        "x": 128,
+        "y": 128,
+        "scale": 0.5
+      },
+      "origin": [
+        136,
+        136
+      ],
+      "width": 400,
+      "height": 400,
+      "mismatchCount": 0,
+      "centreMismatchCount": 256,
+      "examples": []
+    },
+    {
+      "scale": 0.25,
+      "camera": {
+        "x": 128,
+        "y": 128,
+        "scale": 0.25
+      },
+      "origin": [
+        168,
+        168
+      ],
+      "width": 400,
+      "height": 400,
+      "mismatchCount": 107,
+      "centreMismatchCount": 32,
+      "examples": [
+        {
+          "screen": {
+            "x": 173,
+            "y": 170
+          },
+          "world": {
+            "x": 20,
+            "y": 8
+          },
+          "hit": null,
+          "display": "n-2",
+          "object": "n-2",
+          "sourcePixel": [
+            36,
+            28
+          ],
+          "sourceAlpha": 0,
+          "rasterAlpha": 255,
+          "renderedPixel": [
+            125,
+            165,
+            94,
+            255
+          ]
+        },
+        {
+          "screen": {
+            "x": 172,
+            "y": 171
+          },
+          "world": {
+            "x": 16,
+            "y": 12
+          },
+          "hit": null,
+          "display": "n-2",
+          "object": "n-2",
+          "sourcePixel": [
+            32,
+            32
+          ],
+          "sourceAlpha": 0,
+          "rasterAlpha": 255,
+          "renderedPixel": [
+            125,
+            165,
+            94,
+            255
+          ]
+        },
+        {
+          "screen": {
+            "x": 180,
+            "y": 171
+          },
+          "world": {
+            "x": 48,
+            "y": 12
+          },
+          "hit": "n-2",
+          "display": null,
+          "object": "n-2",
+          "sourcePixel": [
+            64,
+            32
+          ],
+          "sourceAlpha": 255,
+          "rasterAlpha": 0,
+          "renderedPixel": [
+            125,
+            165,
+            94,
+            255
+          ]
+        },
+        {
+          "screen": {
+            "x": 171,
+            "y": 172
+          },
+          "world": {
+            "x": 12,
+            "y": 16
+          },
+          "hit": null,
+          "display": "n-2",
+          "object": "n-2",
+          "sourcePixel": [
+            28,
+            36
+          ],
+          "sourceAlpha": 0,
+          "rasterAlpha": 255,
+          "renderedPixel": [
+            125,
+            165,
+            94,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "scale": 0.125,
+      "camera": {
+        "x": 128,
+        "y": 128,
+        "scale": 0.125
+      },
+      "origin": [
+        184,
+        184
+      ],
+      "width": 400,
+      "height": 400,
+      "mismatchCount": 60,
+      "centreMismatchCount": 6,
+      "examples": [
+        {
+          "screen": {
+            "x": 186,
+            "y": 185
+          },
+          "world": {
+            "x": 16,
+            "y": 8
+          },
+          "hit": null,
+          "display": "n-2",
+          "object": "n-2",
+          "sourcePixel": [
+            32,
+            28
+          ],
+          "sourceAlpha": 0,
+          "rasterAlpha": 255,
+          "renderedPixel": [
+            125,
+            165,
+            94,
+            255
+          ]
+        },
+        {
+          "screen": {
+            "x": 185,
+            "y": 186
+          },
+          "world": {
+            "x": 8,
+            "y": 16
+          },
+          "hit": null,
+          "display": "n-2",
+          "object": "n-2",
+          "sourcePixel": [
+            24,
+            36
+          ],
+          "sourceAlpha": 0,
+          "rasterAlpha": 255,
+          "renderedPixel": [
+            38,
+            75,
+            64,
+            255
+          ]
+        },
+        {
+          "screen": {
+            "x": 191,
+            "y": 186
+          },
+          "world": {
+            "x": 56,
+            "y": 16
+          },
+          "hit": null,
+          "display": "n-2",
+          "object": "n-2",
+          "sourcePixel": [
+            72,
+            36
+          ],
+          "sourceAlpha": 0,
+          "rasterAlpha": 255,
+          "renderedPixel": [
+            38,
+            75,
+            64,
+            255
+          ]
+        },
+        {
+          "screen": {
+            "x": 210,
+            "y": 186
+          },
+          "world": {
+            "x": 208,
+            "y": 16
+          },
+          "hit": null,
+          "display": "n-3",
+          "object": "n-3",
+          "sourcePixel": [
+            40,
+            36
+          ],
+          "sourceAlpha": 0,
+          "rasterAlpha": 255,
+          "renderedPixel": [
+            125,
+            165,
+            94,
+            255
+          ]
+        }
+      ]
+    }
+  ]
+}

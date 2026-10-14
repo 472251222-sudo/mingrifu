@@ -1,0 +1,584 @@
+[
+  {
+    "scale": 0.5,
+    "camera": {
+      "x": 128,
+      "y": 128,
+      "scale": 0.5
+    },
+    "origin": [
+      136,
+      136
+    ],
+    "counts": {
+      "integer": 0,
+      "fractional": 53
+    },
+    "samples": [
+      {
+        "screen": {
+          "x": 190.5,
+          "y": 146.5
+        },
+        "rasterPixel": [
+          190,
+          146
+        ],
+        "world": {
+          "x": 109,
+          "y": 21
+        },
+        "hit": "o-1",
+        "display": null,
+        "sourcePixel": [
+          45,
+          5
+        ],
+        "sourceAlpha": 255,
+        "rasterAlpha": 0
+      },
+      {
+        "screen": {
+          "x": 199.5,
+          "y": 146.5
+        },
+        "rasterPixel": [
+          199,
+          146
+        ],
+        "world": {
+          "x": 127,
+          "y": 21
+        },
+        "hit": "o-1",
+        "display": null,
+        "sourcePixel": [
+          63,
+          5
+        ],
+        "sourceAlpha": 255,
+        "rasterAlpha": 0
+      },
+      {
+        "screen": {
+          "x": 200.5,
+          "y": 146.5
+        },
+        "rasterPixel": [
+          200,
+          146
+        ],
+        "world": {
+          "x": 129,
+          "y": 21
+        },
+        "hit": "o-1",
+        "display": null,
+        "sourcePixel": [
+          65,
+          5
+        ],
+        "sourceAlpha": 255,
+        "rasterAlpha": 0
+      },
+      {
+        "screen": {
+          "x": 201.5,
+          "y": 146.5
+        },
+        "rasterPixel": [
+          201,
+          146
+        ],
+        "world": {
+          "x": 131,
+          "y": 21
+        },
+        "hit": "o-1",
+        "display": null,
+        "sourcePixel": [
+          67,
+          5
+        ],
+        "sourceAlpha": 255,
+        "rasterAlpha": 0
+      },
+      {
+        "screen": {
+          "x": 202.5,
+          "y": 146.5
+        },
+        "rasterPixel": [
+          202,
+          146
+        ],
+        "world": {
+          "x": 133,
+          "y": 21
+        },
+        "hit": "o-1",
+        "display": null,
+        "sourcePixel": [
+          69,
+          5
+        ],
+        "sourceAlpha": 255,
+        "rasterAlpha": 0
+      },
+      {
+        "screen": {
+          "x": 203.5,
+          "y": 146.5
+        },
+        "rasterPixel": [
+          203,
+          146
+        ],
+        "world": {
+          "x": 135,
+          "y": 21
+        },
+        "hit": "o-1",
+        "display": null,
+        "sourcePixel": [
+          71,
+          5
+        ],
+        "sourceAlpha": 255,
+        "rasterAlpha": 0
+      },
+      {
+        "screen": {
+          "x": 204.5,
+          "y": 146.5
+        },
+        "rasterPixel": [
+          204,
+          146
+        ],
+        "world": {
+          "x": 137,
+          "y": 21
+        },
+        "hit": "o-1",
+        "display": null,
+        "sourcePixel": [
+          73,
+          5
+        ],
+        "sourceAlpha": 255,
+        "rasterAlpha": 0
+      },
+      {
+        "screen": {
+          "x": 188.5,
+          "y": 147.5
+        },
+        "rasterPixel": [
+          188,
+          147
+        ],
+        "world": {
+          "x": 105,
+          "y": 23
+        },
+        "hit": "o-1",
+        "display": null,
+        "sourcePixel": [
+          41,
+          7
+        ],
+        "sourceAlpha": 255,
+        "rasterAlpha": 0
+      }
+    ]
+  },
+  {
+    "scale": 0.25,
+    "camera": {
+      "x": 128,
+      "y": 128,
+      "scale": 0.25
+    },
+    "origin": [
+      168,
+      168
+    ],
+    "counts": {
+      "integer": 28,
+      "fractional": 0
+    },
+    "samples": [
+      {
+        "screen": {
+          "x": 195,
+          "y": 173
+        },
+        "rasterPixel": [
+          195,
+          173
+        ],
+        "world": {
+          "x": 108,
+          "y": 20
+        },
+        "hit": null,
+        "display": "o-1",
+        "sourcePixel": [
+          44,
+          4
+        ],
+        "sourceAlpha": 0,
+        "rasterAlpha": 255
+      },
+      {
+        "screen": {
+          "x": 199,
+          "y": 173
+        },
+        "rasterPixel": [
+          199,
+          173
+        ],
+        "world": {
+          "x": 124,
+          "y": 20
+        },
+        "hit": null,
+        "display": "o-1",
+        "sourcePixel": [
+          60,
+          4
+        ],
+        "sourceAlpha": 0,
+        "rasterAlpha": 255
+      },
+      {
+        "screen": {
+          "x": 200,
+          "y": 173
+        },
+        "rasterPixel": [
+          200,
+          173
+        ],
+        "world": {
+          "x": 128,
+          "y": 20
+        },
+        "hit": null,
+        "display": "o-1",
+        "sourcePixel": [
+          64,
+          4
+        ],
+        "sourceAlpha": 0,
+        "rasterAlpha": 255
+      },
+      {
+        "screen": {
+          "x": 201,
+          "y": 173
+        },
+        "rasterPixel": [
+          201,
+          173
+        ],
+        "world": {
+          "x": 132,
+          "y": 20
+        },
+        "hit": null,
+        "display": "o-1",
+        "sourcePixel": [
+          68,
+          4
+        ],
+        "sourceAlpha": 0,
+        "rasterAlpha": 255
+      },
+      {
+        "screen": {
+          "x": 202,
+          "y": 173
+        },
+        "rasterPixel": [
+          202,
+          173
+        ],
+        "world": {
+          "x": 136,
+          "y": 20
+        },
+        "hit": null,
+        "display": "o-1",
+        "sourcePixel": [
+          72,
+          4
+        ],
+        "sourceAlpha": 0,
+        "rasterAlpha": 255
+      },
+      {
+        "screen": {
+          "x": 193,
+          "y": 174
+        },
+        "rasterPixel": [
+          193,
+          174
+        ],
+        "world": {
+          "x": 100,
+          "y": 24
+        },
+        "hit": null,
+        "display": "o-1",
+        "sourcePixel": [
+          36,
+          8
+        ],
+        "sourceAlpha": 0,
+        "rasterAlpha": 255
+      },
+      {
+        "screen": {
+          "x": 199,
+          "y": 174
+        },
+        "rasterPixel": [
+          199,
+          174
+        ],
+        "world": {
+          "x": 124,
+          "y": 24
+        },
+        "hit": null,
+        "display": "o-1",
+        "sourcePixel": [
+          60,
+          8
+        ],
+        "sourceAlpha": 0,
+        "rasterAlpha": 255
+      },
+      {
+        "screen": {
+          "x": 190,
+          "y": 175
+        },
+        "rasterPixel": [
+          190,
+          175
+        ],
+        "world": {
+          "x": 88,
+          "y": 28
+        },
+        "hit": null,
+        "display": "o-1",
+        "sourcePixel": [
+          24,
+          12
+        ],
+        "sourceAlpha": 0,
+        "rasterAlpha": 255
+      }
+    ]
+  },
+  {
+    "scale": 0.125,
+    "camera": {
+      "x": 128,
+      "y": 128,
+      "scale": 0.125
+    },
+    "origin": [
+      184,
+      184
+    ],
+    "counts": {
+      "integer": 11,
+      "fractional": 1
+    },
+    "samples": [
+      {
+        "screen": {
+          "x": 196,
+          "y": 187
+        },
+        "rasterPixel": [
+          196,
+          187
+        ],
+        "world": {
+          "x": 96,
+          "y": 24
+        },
+        "hit": null,
+        "display": "o-1",
+        "sourcePixel": [
+          32,
+          8
+        ],
+        "sourceAlpha": 0,
+        "rasterAlpha": 255
+      },
+      {
+        "screen": {
+          "x": 201,
+          "y": 187
+        },
+        "rasterPixel": [
+          201,
+          187
+        ],
+        "world": {
+          "x": 136,
+          "y": 24
+        },
+        "hit": "o-1",
+        "display": null,
+        "sourcePixel": [
+          72,
+          8
+        ],
+        "sourceAlpha": 255,
+        "rasterAlpha": 0
+      },
+      {
+        "screen": {
+          "x": 194,
+          "y": 188
+        },
+        "rasterPixel": [
+          194,
+          188
+        ],
+        "world": {
+          "x": 80,
+          "y": 32
+        },
+        "hit": null,
+        "display": "o-1",
+        "sourcePixel": [
+          16,
+          16
+        ],
+        "sourceAlpha": 0,
+        "rasterAlpha": 255
+      },
+      {
+        "screen": {
+          "x": 202,
+          "y": 188
+        },
+        "rasterPixel": [
+          202,
+          188
+        ],
+        "world": {
+          "x": 144,
+          "y": 32
+        },
+        "hit": null,
+        "display": "o-1",
+        "sourcePixel": [
+          80,
+          16
+        ],
+        "sourceAlpha": 0,
+        "rasterAlpha": 255
+      },
+      {
+        "screen": {
+          "x": 192,
+          "y": 189
+        },
+        "rasterPixel": [
+          192,
+          189
+        ],
+        "world": {
+          "x": 64,
+          "y": 40
+        },
+        "hit": "n-2",
+        "display": "o-1",
+        "sourcePixel": [
+          0,
+          24
+        ],
+        "sourceAlpha": 0,
+        "rasterAlpha": 255
+      },
+      {
+        "screen": {
+          "x": 192,
+          "y": 190
+        },
+        "rasterPixel": [
+          192,
+          190
+        ],
+        "world": {
+          "x": 64,
+          "y": 48
+        },
+        "hit": "n-2",
+        "display": "o-1",
+        "sourcePixel": [
+          0,
+          32
+        ],
+        "sourceAlpha": 0,
+        "rasterAlpha": 255
+      },
+      {
+        "screen": {
+          "x": 192,
+          "y": 191
+        },
+        "rasterPixel": [
+          192,
+          191
+        ],
+        "world": {
+          "x": 64,
+          "y": 56
+        },
+        "hit": "n-2",
+        "display": "o-1",
+        "sourcePixel": [
+          0,
+          40
+        ],
+        "sourceAlpha": 0,
+        "rasterAlpha": 255
+      },
+      {
+        "screen": {
+          "x": 197,
+          "y": 200
+        },
+        "rasterPixel": [
+          197,
+          200
+        ],
+        "world": {
+          "x": 104,
+          "y": 128
+        },
+        "hit": "o-1",
+        "display": null,
+        "sourcePixel": [
+          40,
+          112
+        ],
+        "sourceAlpha": 255,
+        "rasterAlpha": 0
+      }
+    ]
+  }
+]

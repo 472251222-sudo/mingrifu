@@ -1,0 +1,26 @@
+{
+  "chromeVersion": "155.0.8059.40",
+  "results": [
+    {
+      "name": "desktop",
+      "status": "failed",
+      "error": "AssertionError [ERR_ASSERTION]: Expected \"actual\" to be strictly unequal to: '124'\n    at file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/docs/growth-game-verification/2026-10-14/game-002-browser.mjs:105:14",
+      "errors": []
+    }
+  ]
+}
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected "actual" to be strictly unequal to: '124'
+    at file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/docs/growth-game-verification/2026-10-14/game-002-browser.mjs:105:14 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: '124',
+  expected: '124',
+  operator: 'notStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.16.0

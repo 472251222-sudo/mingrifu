@@ -1,0 +1,37 @@
+✖ independent dev dependency artifacts have a separate cache from V3 (24.580458ms)
+✔ initial cabin maps logical footprint to the original sprite ground anchor (1.325292ms)
+✔ sparse negative chunks draw only owned cells and join path tiles across a chunk seam (0.283875ms)
+✔ stored objects disappear from scene while unknown resources fail clearly (0.394959ms)
+✔ frontmost visible alpha wins before a rear footprint fallback (0.177042ms)
+✔ screen raster alpha takes priority over a mismatching original texel and rear occupancy (0.087792ms)
+✔ transparent sprite margins do not select and actual occupied ground remains a fallback (0.060917ms)
+✔ natural foreground alpha blocks a hidden artificial object without an invisible natural footprint (0.072ms)
+✔ external selection outlines exclude enclosed transparent holes (0.248792ms)
+✔ moving preview replaces its source and stays behind foreground objects in real depth order (6.372959ms)
+✔ screen conversion uses rounded camera origin consistently and floors negative grid positions (0.10675ms)
+✔ overview can fit below half scale and below presets without dense map allocation (0.118917ms)
+✔ soft camera bounds retain a portion of world and overview centres remain stable (0.04525ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 12
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 195.474
+
+✖ failing tests:
+
+test at tests/game-view.test.mjs:12:1
+✖ independent dev dependency artifacts have a separate cache from V3 (24.580458ms)
+  AssertionError [ERR_ASSERTION]: running two entry points must not invalidate each other through a shared optimizer cache
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-view.test.mjs:14:10)
+      at async Test.run (node:internal/test_runner/test:1313:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '/Users/lyc/Desktop/明日复3.0/node_modules/.vite',
+    expected: '/Users/lyc/Desktop/明日复3.0/node_modules/.vite',
+    operator: 'notStrictEqual',
+    diff: 'simple'
+  }

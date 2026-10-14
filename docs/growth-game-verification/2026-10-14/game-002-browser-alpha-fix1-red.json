@@ -1,0 +1,781 @@
+{
+  "chrome": "155.0.8059.40",
+  "ui": [
+    {
+      "scale": 0.25,
+      "local": [
+        145,
+        143
+      ],
+      "size": [
+        298,
+        339
+      ],
+      "origin": [
+        118,
+        138
+      ],
+      "client": [
+        156,
+        243
+      ],
+      "rgba": [
+        189,
+        112,
+        85,
+        255
+      ],
+      "selected": ""
+    },
+    {
+      "scale": 0.125,
+      "local": [
+        142,
+        159
+      ],
+      "size": [
+        298,
+        339
+      ],
+      "origin": [
+        134,
+        154
+      ],
+      "client": [
+        153,
+        259
+      ],
+      "rgba": [
+        89,
+        64,
+        54,
+        255
+      ],
+      "selected": "n-2"
+    }
+  ],
+  "matrix": [
+    {
+      "name": "initial",
+      "scale": 0.07,
+      "camera": {
+        "x": 124,
+        "y": 126,
+        "scale": 0.07
+      },
+      "origin": [
+        140,
+        161
+      ],
+      "checked": 404088,
+      "mismatches": 67,
+      "examples": [
+        {
+          "point": {
+            "x": 141.9,
+            "y": 161.9
+          },
+          "actual": "n-2",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 142,
+            "y": 161
+          },
+          "actual": null,
+          "expected": "n-2",
+          "visual": "n-2"
+        },
+        {
+          "point": {
+            "x": 142.25,
+            "y": 161.25
+          },
+          "actual": null,
+          "expected": "n-2",
+          "visual": "n-2"
+        }
+      ]
+    },
+    {
+      "name": "initial",
+      "scale": 0.125,
+      "camera": {
+        "x": 124,
+        "y": 126,
+        "scale": 0.125
+      },
+      "origin": [
+        134,
+        154
+      ],
+      "checked": 404088,
+      "mismatches": 137,
+      "examples": [
+        {
+          "point": {
+            "x": 137.9,
+            "y": 154.9
+          },
+          "actual": "n-2",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 135.9,
+            "y": 155.9
+          },
+          "actual": "n-2",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 136,
+            "y": 155
+          },
+          "actual": null,
+          "expected": "n-2",
+          "visual": "n-2"
+        }
+      ]
+    },
+    {
+      "name": "initial",
+      "scale": 0.25,
+      "camera": {
+        "x": 124,
+        "y": 126,
+        "scale": 0.25
+      },
+      "origin": [
+        118,
+        138
+      ],
+      "checked": 404088,
+      "mismatches": 253,
+      "examples": [
+        {
+          "point": {
+            "x": 125.9,
+            "y": 139.9
+          },
+          "actual": "n-2",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 126.9,
+            "y": 139.9
+          },
+          "actual": "n-2",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 122.9,
+            "y": 140.9
+          },
+          "actual": "n-2",
+          "expected": null,
+          "visual": null
+        }
+      ]
+    },
+    {
+      "name": "initial",
+      "scale": 0.5,
+      "camera": {
+        "x": 124,
+        "y": 126,
+        "scale": 0.5
+      },
+      "origin": [
+        87,
+        107
+      ],
+      "checked": 404088,
+      "mismatches": 512,
+      "examples": [
+        {
+          "point": {
+            "x": 102.5,
+            "y": 110.5
+          },
+          "actual": "n-2",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 102.9,
+            "y": 110.9
+          },
+          "actual": "n-2",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 103.5,
+            "y": 110.5
+          },
+          "actual": "n-2",
+          "expected": null,
+          "visual": null
+        }
+      ]
+    },
+    {
+      "name": "initial",
+      "scale": 1,
+      "camera": {
+        "x": 124,
+        "y": 126,
+        "scale": 1
+      },
+      "origin": [
+        25,
+        44
+      ],
+      "checked": 404088,
+      "mismatches": 0,
+      "examples": []
+    },
+    {
+      "name": "initial",
+      "scale": 2,
+      "camera": {
+        "x": 124,
+        "y": 126,
+        "scale": 2
+      },
+      "origin": [
+        -99,
+        -82
+      ],
+      "checked": 404088,
+      "mismatches": 0,
+      "examples": []
+    },
+    {
+      "name": "initial",
+      "scale": 3,
+      "camera": {
+        "x": 124,
+        "y": 126,
+        "scale": 3
+      },
+      "origin": [
+        -223,
+        -208
+      ],
+      "checked": 404088,
+      "mismatches": 0,
+      "examples": []
+    },
+    {
+      "name": "initial",
+      "scale": 4,
+      "camera": {
+        "x": 124,
+        "y": 126,
+        "scale": 4
+      },
+      "origin": [
+        -347,
+        -334
+      ],
+      "checked": 404088,
+      "mismatches": 0,
+      "examples": []
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 0.07,
+      "camera": {
+        "x": -50.375,
+        "y": -48.125,
+        "scale": 0.07
+      },
+      "origin": [
+        153,
+        173
+      ],
+      "checked": 404088,
+      "mismatches": 64,
+      "examples": [
+        {
+          "point": {
+            "x": 142.9,
+            "y": 156.9
+          },
+          "actual": "o-1",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 143.9,
+            "y": 156.9
+          },
+          "actual": "o-1",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 139.9,
+            "y": 157.9
+          },
+          "actual": "o-1",
+          "expected": null,
+          "visual": null
+        }
+      ]
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 0.125,
+      "camera": {
+        "x": -50.375,
+        "y": -48.125,
+        "scale": 0.125
+      },
+      "origin": [
+        155,
+        176
+      ],
+      "checked": 404088,
+      "mismatches": 141,
+      "examples": [
+        {
+          "point": {
+            "x": 136.9,
+            "y": 146.9
+          },
+          "actual": "o-1",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 138.9,
+            "y": 146.9
+          },
+          "actual": "o-1",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 139.9,
+            "y": 146.9
+          },
+          "actual": "o-1",
+          "expected": null,
+          "visual": null
+        }
+      ]
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 0.25,
+      "camera": {
+        "x": -50.375,
+        "y": -48.125,
+        "scale": 0.25
+      },
+      "origin": [
+        162,
+        182
+      ],
+      "checked": 404088,
+      "mismatches": 260,
+      "examples": [
+        {
+          "point": {
+            "x": 124.9,
+            "y": 123.9
+          },
+          "actual": "o-1",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 125,
+            "y": 123
+          },
+          "actual": null,
+          "expected": "o-1",
+          "visual": "o-1"
+        },
+        {
+          "point": {
+            "x": 129.5,
+            "y": 123.5
+          },
+          "actual": "o-1",
+          "expected": null,
+          "visual": null
+        }
+      ]
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 0.5,
+      "camera": {
+        "x": -50.375,
+        "y": -48.125,
+        "scale": 0.5
+      },
+      "origin": [
+        174,
+        194
+      ],
+      "checked": 404088,
+      "mismatches": 524,
+      "examples": [
+        {
+          "point": {
+            "x": 100.5,
+            "y": 76.5
+          },
+          "actual": "o-1",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 100.9,
+            "y": 76.9
+          },
+          "actual": "o-1",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 109.5,
+            "y": 76.5
+          },
+          "actual": "o-1",
+          "expected": null,
+          "visual": null
+        }
+      ]
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 1,
+      "camera": {
+        "x": -50.375,
+        "y": -48.125,
+        "scale": 1
+      },
+      "origin": [
+        199,
+        218
+      ],
+      "checked": 404088,
+      "mismatches": 0,
+      "examples": []
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 2,
+      "camera": {
+        "x": -50.375,
+        "y": -48.125,
+        "scale": 2
+      },
+      "origin": [
+        250,
+        266
+      ],
+      "checked": 404088,
+      "mismatches": 0,
+      "examples": []
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 3,
+      "camera": {
+        "x": -50.375,
+        "y": -48.125,
+        "scale": 3
+      },
+      "origin": [
+        300,
+        314
+      ],
+      "checked": 404088,
+      "mismatches": 0,
+      "examples": []
+    },
+    {
+      "name": "negative-sparse",
+      "scale": 4,
+      "camera": {
+        "x": -50.375,
+        "y": -48.125,
+        "scale": 4
+      },
+      "origin": [
+        351,
+        362
+      ],
+      "checked": 404088,
+      "mismatches": 0,
+      "examples": []
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 0.07,
+      "camera": {
+        "x": 124,
+        "y": 126,
+        "scale": 0.07
+      },
+      "origin": [
+        140,
+        161
+      ],
+      "checked": 404088,
+      "mismatches": 68,
+      "examples": [
+        {
+          "point": {
+            "x": 141.9,
+            "y": 161.9
+          },
+          "actual": "n-2",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 142,
+            "y": 161
+          },
+          "actual": null,
+          "expected": "n-2",
+          "visual": "n-2"
+        },
+        {
+          "point": {
+            "x": 142.25,
+            "y": 161.25
+          },
+          "actual": null,
+          "expected": "n-2",
+          "visual": "n-2"
+        }
+      ]
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 0.125,
+      "camera": {
+        "x": 124,
+        "y": 126,
+        "scale": 0.125
+      },
+      "origin": [
+        134,
+        154
+      ],
+      "checked": 404088,
+      "mismatches": 137,
+      "examples": [
+        {
+          "point": {
+            "x": 137.9,
+            "y": 154.9
+          },
+          "actual": "n-2",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 135.9,
+            "y": 155.9
+          },
+          "actual": "n-2",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 136,
+            "y": 155
+          },
+          "actual": null,
+          "expected": "n-2",
+          "visual": "n-2"
+        }
+      ]
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 0.25,
+      "camera": {
+        "x": 124,
+        "y": 126,
+        "scale": 0.25
+      },
+      "origin": [
+        118,
+        138
+      ],
+      "checked": 404088,
+      "mismatches": 245,
+      "examples": [
+        {
+          "point": {
+            "x": 125.9,
+            "y": 139.9
+          },
+          "actual": "n-2",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 126.9,
+            "y": 139.9
+          },
+          "actual": "n-2",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 122.9,
+            "y": 140.9
+          },
+          "actual": "n-2",
+          "expected": null,
+          "visual": null
+        }
+      ]
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 0.5,
+      "camera": {
+        "x": 124,
+        "y": 126,
+        "scale": 0.5
+      },
+      "origin": [
+        87,
+        107
+      ],
+      "checked": 404088,
+      "mismatches": 522,
+      "examples": [
+        {
+          "point": {
+            "x": 102.5,
+            "y": 110.5
+          },
+          "actual": "n-2",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 102.9,
+            "y": 110.9
+          },
+          "actual": "n-2",
+          "expected": null,
+          "visual": null
+        },
+        {
+          "point": {
+            "x": 103.5,
+            "y": 110.5
+          },
+          "actual": "n-2",
+          "expected": null,
+          "visual": null
+        }
+      ]
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 1,
+      "camera": {
+        "x": 124,
+        "y": 126,
+        "scale": 1
+      },
+      "origin": [
+        25,
+        44
+      ],
+      "checked": 404088,
+      "mismatches": 0,
+      "examples": []
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 2,
+      "camera": {
+        "x": 124,
+        "y": 126,
+        "scale": 2
+      },
+      "origin": [
+        -99,
+        -82
+      ],
+      "checked": 404088,
+      "mismatches": 0,
+      "examples": []
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 3,
+      "camera": {
+        "x": 124,
+        "y": 126,
+        "scale": 3
+      },
+      "origin": [
+        -223,
+        -208
+      ],
+      "checked": 404088,
+      "mismatches": 0,
+      "examples": []
+    },
+    {
+      "name": "natural-foreground",
+      "scale": 4,
+      "camera": {
+        "x": 124,
+        "y": 126,
+        "scale": 4
+      },
+      "origin": [
+        -347,
+        -334
+      ],
+      "checked": 404088,
+      "mismatches": 0,
+      "examples": []
+    }
+  ],
+  "totalChecked": 9698112,
+  "totalMismatches": 2930
+}

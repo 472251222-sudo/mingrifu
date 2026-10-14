@@ -1,0 +1,25 @@
+✔ independent dev dependency artifacts have a separate cache from V3 (25.318334ms)
+▶ independent game builds and serves its own shell and original resources without V3
+  ✔ dev root resolves game HTML, aliased entry and runtime assets (207.030958ms)
+  ✔ preview root resolves built game HTML, chunk and every runtime asset (3022.643375ms)
+✔ independent game builds and serves its own shell and original resources without V3 (3821.501416ms)
+✔ initial cabin maps logical footprint to the original sprite ground anchor (1.795792ms)
+✔ sparse negative chunks draw only owned cells and join path tiles across a chunk seam (0.25ms)
+✔ stored objects disappear from scene while unknown resources fail clearly (0.27775ms)
+✔ frontmost visible alpha wins before a rear footprint fallback (0.152166ms)
+✔ screen raster alpha takes priority over a mismatching original texel and rear occupancy (0.084834ms)
+✔ transparent sprite margins do not select and actual occupied ground remains a fallback (0.064875ms)
+✔ natural foreground alpha blocks a hidden artificial object without an invisible natural footprint (0.073709ms)
+✔ external selection outlines exclude enclosed transparent holes (0.224958ms)
+✔ moving preview replaces its source and stays behind foreground objects in real depth order (6.9035ms)
+✔ screen conversion uses rounded camera origin consistently and floors negative grid positions (0.148417ms)
+✔ overview can fit below half scale and below presets without dense map allocation (0.133375ms)
+✔ soft camera bounds retain a portion of world and overview centres remain stable (0.056125ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4031.074625

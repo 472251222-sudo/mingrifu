@@ -1,0 +1,41 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ actual - expected
+
+  {
+    groundFallback: 'o-1',
++   naturalForeground: 'o-1',
+-   naturalForeground: 'n-3',
+    roof: 'o-1',
+    transparentMargin: null,
+    wall: 'o-1',
+    zoomedPannedRoof: 'o-1'
+  }
+
+    at file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/docs/growth-game-verification/2026-10-14/game-002-browser-math.mjs:37:10 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: {
+    roof: 'o-1',
+    wall: 'o-1',
+    groundFallback: 'o-1',
+    transparentMargin: null,
+    zoomedPannedRoof: 'o-1',
+    naturalForeground: 'o-1'
+  },
+  expected: {
+    roof: 'o-1',
+    wall: 'o-1',
+    groundFallback: 'o-1',
+    transparentMargin: null,
+    zoomedPannedRoof: 'o-1',
+    naturalForeground: 'n-3'
+  },
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.16.0
