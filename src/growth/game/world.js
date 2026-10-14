@@ -1,5 +1,6 @@
 import {ASSETS, BALANCE} from './balance.js';
-import {cellKey, footprintCells, placementCheck} from './spatial.js';
+import {cellKey, footprintCells, frontierChunks, placementCheck} from './spatial.js';
+import {growNatureForXP, sameEffortContent, validateEffortEvent} from './growth.js';
 
 export function createGameWorld() {
   return {schemaVersion: BALANCE.schemaVersion, ...structuredClone(BALANCE.initial)};
@@ -19,17 +20,6 @@ function boundedArray(value, limit) {
   if (!Array.isArray(value) || value.length > limit) fail('列表缺失或超过数量上限');
 }
 
-function validISO(value) {
-  if (typeof value !== 'string' || value.length > 40) return false;
-  const match = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})(?:\.\d{1,9})?(?:Z|[+-](\d{2}):(\d{2}))$/.exec(value);
-  if (!match || !Number.isFinite(Date.parse(value))) return false;
-  const [, year, month, day, hour, minute, second, zoneHour = '0', zoneMinute = '0'] = match.map((part, index) => index ? Number(part) : part);
-  if (hour > 23 || minute > 59 || second > 59 || zoneHour > 23 || zoneMinute > 59) return false;
-  const calendar = new Date(0);
-  calendar.setUTCFullYear(year, month - 1, day);
-  return calendar.getUTCFullYear() === year && calendar.getUTCMonth() === month - 1 && calendar.getUTCDate() === day;
-}
-
 function finish(world, patch) {
   if (world.revision === Number.MAX_SAFE_INTEGER) throw new Error('世界版本已达安全整数上限，操作未保存。');
   return validateGameWorld({...world, ...patch, revision: world.revision + 1});
@@ -43,6 +33,29 @@ function yieldingNature(world, asset, x, y) {
 export function applyGameCommand(world, command) {
   validateGameWorld(world);
   if (!record(command) || typeof command.type !== 'string') throw new Error('请选择有效的操作。');
+  if (command.type === 'effort') {
+    validateEffortEvent(command.event);
+    const existing = world.efforts.find(event => event.id === command.event.id);
+    if (existing) {
+      if (!sameEffortContent(existing, command.event)) throw new Error('这个努力事件 ID 已有不同内容，请保留原记录或使用新的事件 ID。');
+      return world;
+    }
+    if (world.efforts.length >= BALANCE.limits.maxEfforts) throw new Error('努力事件历史已达数量上限，原记录全部保留。');
+    const event = {id: command.event.id, source: command.event.source, minutes: command.event.minutes, occurredAt: command.event.occurredAt};
+    if (command.event.label !== undefined) event.label = command.event.label;
+    const xp = world.xp + event.minutes * BALANCE.effort.xpPerMinute;
+    const bp = world.bp + Math.floor(event.minutes / BALANCE.effort.minutesPerBP);
+    if (!Number.isSafeInteger(xp) || !Number.isSafeInteger(bp)) throw new Error('XP 或 BP 将超出安全整数上限，努力事件未提交。');
+    return finish(world, {xp, bp, efforts: [...world.efforts, event], ...growNatureForXP(world, xp)});
+  }
+  if (command.type === 'expand') {
+    if (!Number.isSafeInteger(command.x) || !Number.isSafeInteger(command.y) || Math.abs(command.x) > BALANCE.limits.maxChunkCoordinate || Math.abs(command.y) > BALANCE.limits.maxChunkCoordinate) throw new Error('请选择界限内的整数土地区块坐标。');
+    if (world.xp < BALANCE.expansion.unlockXP) throw new Error(`土地扩张需要累计 ${BALANCE.expansion.unlockXP} XP 才能解锁。`);
+    if (world.bp < BALANCE.expansion.cost) throw new Error(`BP 不足，扩张一块土地需要 ${BALANCE.expansion.cost} BP。`);
+    if (world.chunks.length >= BALANCE.limits.maxChunks) throw new Error('已开放土地达到区块数量上限，扩张未扣费。');
+    if (!frontierChunks(world).some(chunk => chunk.x === command.x && chunk.y === command.y)) throw new Error('请选择与现有土地四向相邻、尚未开放的区块，不能重复扩张或跳过土地。');
+    return finish(world, {bp: world.bp - BALANCE.expansion.cost, chunks: [...world.chunks, {x: command.x, y: command.y}]});
+  }
   if (command.type === 'build') {
     if (typeof command.assetId !== 'string' || !Object.hasOwn(ASSETS, command.assetId)) throw new Error('这类对象的素材暂不可用。');
     const asset = ASSETS[command.assetId];
@@ -104,10 +117,8 @@ export function validateGameWorld(world) {
   let totalXP = BALANCE.initial.xp, earnedBP = BALANCE.initial.bp;
   const eventIds = new Set();
   for (const event of world.efforts) {
-    shape(event, ['id', 'source', 'minutes', 'occurredAt'], ['label']);
-    if (typeof event.id !== 'string' || !event.id.trim() || event.id.length > BALANCE.effort.maxIdLength || eventIds.has(event.id)) fail('努力事件编号无效或重复');
-    if (event.source !== 'simulation' || !Number.isSafeInteger(event.minutes) || event.minutes < BALANCE.effort.minMinutes || event.minutes > BALANCE.effort.maxMinutes || !validISO(event.occurredAt)) fail('努力事件内容无效');
-    if (event.label !== undefined && (typeof event.label !== 'string' || event.label.length > BALANCE.effort.maxLabelLength)) fail('努力事件标签无效');
+    validateEffortEvent(event);
+    if (eventIds.has(event.id)) fail('努力事件编号重复');
     eventIds.add(event.id);
     totalXP += event.minutes * BALANCE.effort.xpPerMinute;
     earnedBP += Math.floor(event.minutes / BALANCE.effort.minutesPerBP);

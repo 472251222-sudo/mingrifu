@@ -26,8 +26,13 @@ export const BALANCE = freeze({
   tileSize: 32,
   chunkSize: 8,
   expansion: {cost: 20, unlockXP: 120},
-  effort: {minMinutes: 1, maxMinutes: 180, xpPerMinute: 1, minutesPerBP: 5, presets: [10, 25, 50], maxIdLength: 120, maxLabelLength: 80},
-  ecology: {xpInterval: 50, stages: {young: ['grass-tuft'], bush: ['bush'], mature: ['oak-broad', 'pine-slender'], static: ['wildflowers']}},
+  effort: {minMinutes: 1, maxMinutes: 180, xpPerMinute: 1, minutesPerBP: 5, presets: [10, 25, 50], maxIdLength: 120, maxLabelLength: 80, maxOccurredAtLength: 40},
+  ecology: {
+    xpInterval: 50,
+    stages: {young: ['grass-tuft'], bush: ['bush'], mature: ['oak-broad', 'pine-slender'], static: ['wildflowers']},
+    upgrades: {young: {asset: 'bush', stage: 'bush'}, bush: {asset: 'oak-broad', stage: 'mature'}},
+    seed: {asset: 'grass-tuft', stage: 'young'},
+  },
   stages: [
     {id: 'sprout', name: '萌芽', unlockXP: 0, nextXP: 120},
     {id: 'rooted', name: '扎根', unlockXP: 120, nextXP: 300},

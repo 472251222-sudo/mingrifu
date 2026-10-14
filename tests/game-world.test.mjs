@@ -212,8 +212,9 @@ test('invalid object lifecycle commands reject atomically instead of creating du
   rejectAtomic(copy(stored), {type: 'place', id: 'o-1', x: 7, y: 7}, /土地|越界|超出/);
   const occupied = applyGameCommand(createGameWorld(), {type: 'build', assetId: 'rock', x: 0, y: 0});
   rejectAtomic(occupied, {type: 'move', id: 'o-1', x: 0, y: 0}, /重叠/);
-  rejectAtomic(createGameWorld(), {type: 'expand', x: 1, y: 0}, /暂不|操作/);
-  rejectAtomic(createGameWorld(), {type: 'effort', event: {}}, /暂不|操作/);
+  rejectAtomic(createGameWorld(), {type: 'expand', x: 1, y: 0}, /解锁|XP/);
+  rejectAtomic(createGameWorld(), {type: 'effort', event: {}}, /努力|事件|格式/);
+  rejectAtomic(createGameWorld(), {type: 'unknown'}, /暂不|操作/);
   rejectAtomic(createGameWorld(), null, /操作/);
 });
 

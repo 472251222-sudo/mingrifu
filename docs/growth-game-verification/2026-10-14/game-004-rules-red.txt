@@ -1,0 +1,565 @@
+✖ 10 simulated minutes award 10 permanent XP and 2 spendable BP (1.855458ms)
+✖ 25 simulated minutes award 25 permanent XP and 5 spendable BP (0.137459ms)
+✖ 50 simulated minutes award 50 permanent XP and 10 spendable BP (0.116375ms)
+✖ 3 simulated minutes award 3 permanent XP and 0 spendable BP (0.093458ms)
+✖ 1 simulated minutes award 1 permanent XP and 0 spendable BP (0.083667ms)
+✖ 180 simulated minutes award 180 permanent XP and 36 spendable BP (0.069208ms)
+✖ same event after spending and a JSON round trip is a complete no-op including revision and nature (0.094792ms)
+✖ same event ID with changed content is rejected without altering rewards or vegetation (0.083167ms)
+✖ event records are copied so later caller edits cannot change saved reward history (0.093625ms)
+✖ bad event shape, source, ID, minutes, label and calendar date reject atomically (1.2745ms)
+✖ maximum label and ID and valid leap-day/timezone events are accepted (0.102417ms)
+✖ only a crossed 50XP boundary grows nature, and BP floors each event separately (0.08525ms)
+✖ one effort crosses all ecology boundaries while making only one world revision (0.095834ms)
+✖ blocked oak footprint (artificial) skips to another legal growth candidate (0.136083ms)
+✖ blocked oak footprint (nature) skips to another legal growth candidate (0.0765ms)
+✖ blocked oak footprint (path) skips to another legal growth candidate (0.081042ms)
+✖ blocked oak footprint (edge) skips to another legal growth candidate (0.072083ms)
+✖ when all upgrade candidates are blocked the first legal empty cell gains a new grass ID (0.078917ms)
+✖ mature trees and static flowers never upgrade; new plants occupy genuinely empty cells (0.078916ms)
+✖ growth choice is deterministic by coordinates and independent of event IDs or array order (0.08075ms)
+✖ a completely occupied map still rewards effort without moving objects or forcing plants into roads (0.309541ms)
+✖ repeated ecology never modifies any artificial vegetation, building or stored record (0.103458ms)
+✖ 120XP and 300XP unlock catalogs immediately and spent BP cannot lower the stage (0.385875ms)
+✖ effort dates do not cause elapsed-time rewards, decay, maintenance or penalties (0.082292ms)
+✖ event history capacity rejects new records but never erases deduplication or rejects an existing no-op (32.912625ms)
+✖ revision or required natural ID overflow rejects the whole effort before issuing resources (0.230833ms)
+✖ expansion (0,-1) buys exactly 64 adjacent cells for 20BP without changing original layout (0.111375ms)
+✖ expansion (-1,0) buys exactly 64 adjacent cells for 20BP without changing original layout (0.0745ms)
+✖ expansion (1,0) buys exactly 64 adjacent cells for 20BP without changing original layout (0.063667ms)
+✖ expansion (0,1) buys exactly 64 adjacent cells for 20BP without changing original layout (0.057333ms)
+✖ expansion stage, cost, coordinate, adjacency and duplicate checks all reject atomically (0.151958ms)
+✖ negative expanded land permits builds across the already open seam and ecosystem growth (0.092125ms)
+✖ chunk count, coordinate bounds and revision exhaustion cannot partially charge an expansion (0.082875ms)
+✖ world schema stays unchanged and all recorded events remain replay-safe after growth and expansion (0.09175ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 0
+ℹ fail 34
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 126.83625
+
+✖ failing tests:
+
+test at tests/game-growth.test.mjs:23:3
+✖ 10 simulated minutes award 10 permanent XP and 2 spendable BP (1.855458ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:25:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.start (node:internal/test_runner/test:1177:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17)
+
+test at tests/game-growth.test.mjs:23:3
+✖ 25 simulated minutes award 25 permanent XP and 5 spendable BP (0.137459ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:25:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3)
+
+test at tests/game-growth.test.mjs:23:3
+✖ 50 simulated minutes award 50 permanent XP and 10 spendable BP (0.116375ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:25:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:23:3
+✖ 3 simulated minutes award 3 permanent XP and 0 spendable BP (0.093458ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:25:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:23:3
+✖ 1 simulated minutes award 1 permanent XP and 0 spendable BP (0.083667ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:25:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:23:3
+✖ 180 simulated minutes award 180 permanent XP and 36 spendable BP (0.069208ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:25:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:38:1
+✖ same event after spending and a JSON round trip is a complete no-op including revision and nature (0.094792ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:39:17)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:50:1
+✖ same event ID with changed content is rejected without altering rewards or vegetation (0.083167ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:52:19)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:59:1
+✖ event records are copied so later caller edits cannot change saved reward history (0.093625ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:61:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:68:1
+✖ bad event shape, source, ID, minutes, label and calendar date reject atomically (1.2745ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /努力|事件|格式|分钟|标签/. Input:
+  
+  'Error: 这项操作暂不可用。'
+  
+      at rejectAtomic (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:16:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:72:32)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: 这项操作暂不可用。
+        at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+        at file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:16:23
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at rejectAtomic (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:16:10)
+        at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:72:32)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1306:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+        at Test.postRun (node:internal/test_runner/test:1447:19),
+    expected: /努力|事件|格式|分钟|标签/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/game-growth.test.mjs:75:1
+✖ maximum label and ID and valid leap-day/timezone events are accepted (0.102417ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:76:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:81:1
+✖ only a crossed 50XP boundary grows nature, and BP floors each event separately (0.08525ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:83:17)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:93:1
+✖ one effort crosses all ecology boundaries while making only one world revision (0.095834ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:95:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:109:3
+✖ blocked oak footprint (artificial) skips to another legal growth candidate (0.136083ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:116:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:109:3
+✖ blocked oak footprint (nature) skips to another legal growth candidate (0.0765ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:116:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:109:3
+✖ blocked oak footprint (path) skips to another legal growth candidate (0.081042ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:116:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:109:3
+✖ blocked oak footprint (edge) skips to another legal growth candidate (0.072083ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:116:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:126:1
+✖ when all upgrade candidates are blocked the first legal empty cell gains a new grass ID (0.078917ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:131:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:139:1
+✖ mature trees and static flowers never upgrade; new plants occupy genuinely empty cells (0.078916ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:142:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:148:1
+✖ growth choice is deterministic by coordinates and independent of event IDs or array order (0.08075ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:151:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:157:1
+✖ a completely occupied map still rewards effort without moving objects or forcing plants into roads (0.309541ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:165:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:174:1
+✖ repeated ecology never modifies any artificial vegetation, building or stored record (0.103458ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:180:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:188:1
+✖ 120XP and 300XP unlock catalogs immediately and spent BP cannot lower the stage (0.385875ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:189:17)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:208:1
+✖ effort dates do not cause elapsed-time rewards, decay, maintenance or penalties (0.082292ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:209:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:219:1
+✖ event history capacity rejects new records but never erases deduplication or rejects an existing no-op (32.912625ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /努力|事件|上限/. Input:
+  
+  'Error: 这项操作暂不可用。'
+  
+      at rejectAtomic (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:16:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:224:3)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: 这项操作暂不可用。
+        at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+        at file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:16:23
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at rejectAtomic (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:16:10)
+        at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:224:3)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1306:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+        at Test.postRun (node:internal/test_runner/test:1447:19),
+    expected: /努力|事件|上限/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/game-growth.test.mjs:228:1
+✖ revision or required natural ID overflow rejects the whole effort before issuing resources (0.230833ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /版本|溢出|上限/. Input:
+  
+  'Error: 这项操作暂不可用。'
+  
+      at rejectAtomic (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:16:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:230:3)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: 这项操作暂不可用。
+        at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+        at file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:16:23
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at rejectAtomic (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:16:10)
+        at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:230:3)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1306:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+        at Test.postRun (node:internal/test_runner/test:1447:19),
+    expected: /版本|溢出|上限/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/game-growth.test.mjs:239:3
+✖ expansion (0,-1) buys exactly 64 adjacent cells for 20BP without changing original layout (0.111375ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at ready (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:19:21)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:240:26)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:239:3
+✖ expansion (-1,0) buys exactly 64 adjacent cells for 20BP without changing original layout (0.0745ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at ready (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:19:21)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:240:26)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:239:3
+✖ expansion (1,0) buys exactly 64 adjacent cells for 20BP without changing original layout (0.063667ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at ready (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:19:21)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:240:26)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:239:3
+✖ expansion (0,1) buys exactly 64 adjacent cells for 20BP without changing original layout (0.057333ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at ready (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:19:21)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:240:26)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:256:1
+✖ expansion stage, cost, coordinate, adjacency and duplicate checks all reject atomically (0.151958ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /XP|解锁/. Input:
+  
+  'Error: 这项操作暂不可用。'
+  
+      at rejectAtomic (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:16:10)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:257:3)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: 这项操作暂不可用。
+        at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+        at file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:16:23
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at rejectAtomic (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:16:10)
+        at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:257:3)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1306:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+        at Test.postRun (node:internal/test_runner/test:1447:19),
+    expected: /XP|解锁/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests/game-growth.test.mjs:266:1
+✖ negative expanded land permits builds across the already open seam and ecosystem growth (0.092125ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at ready (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:19:21)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:267:17)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:281:1
+✖ chunk count, coordinate bounds and revision exhaustion cannot partially charge an expansion (0.082875ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at ready (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:19:21)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:282:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)
+
+test at tests/game-growth.test.mjs:295:1
+✖ world schema stays unchanged and all recorded events remain replay-safe after growth and expansion (0.09175ms)
+  Error: 这项操作暂不可用。
+      at applyGameCommand (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/src/growth/game/world.js:70:9)
+      at effort (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:13:47)
+      at TestContext.<anonymous> (file:///Users/lyc/Desktop/%E6%98%8E%E6%97%A5%E5%A4%8D3.0/tests/game-growth.test.mjs:298:51)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7)

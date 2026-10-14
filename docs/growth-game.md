@@ -79,8 +79,8 @@ P2-B交付记录：52项项目测试、55项资源检查通过；264对场景边
 | ART-REVIEW-001 候选视觉验收 | awaiting_user / 用户，Art提供证据 | 用户实际评审新树/植被/装饰/地形与家园构图；记录逐项决定，不重做已验收木屋、不自行改approved |
 | GAME-001 独立运行边界与入口 | technical_done / Builder→QA | 独立启动/构建/预览与资源/V3隔离已验证；55测试、Chrome桌面/320/390及失败重试通过；本阶段12×12只读壳，后续替换8×8游戏模型 |
 | GAME-002 正交建造适配 | running / 两名Builder→QA，Art只维护资产接口 | 32px方格下选择/预览/合法放置/移动/收纳/重摆；地面占地和alpha命中分开，前景对象优先，手机地图及确认同屏，拖动不误放置；规则与UI文件互斥分工 |
-| GAME-003 独立世界保存与扩张 | backlog / Builder→QA | 明确新命名空间/版本，刷新和重新打开恢复；失败/损坏/并发不丢数据，P1/V3原键保持；四周连续扩张、新土地可建造。依赖GAME-002，存档适配方案先评审 |
-| GAME-004 双轨成长/XP/BP/解锁 | backlog / Builder→QA，Art只读资源建议 | 实现PRD事件幂等、永久XP、BP奖励/扣费、阶段解锁、每50XP生态；不破坏人工布局，不接主产品 |
+| GAME-003 独立世界保存与扩张 | running / 数据与规则Builder→QA | 稳定002纯API后并行实现新键/Web Locks/事务hook与expand纯命令；UI随后集成，刷新/故障/并发/旧键与新土地建造待验 |
+| GAME-004 双轨成长/XP/BP/解锁 | running / 规则Builder→QA | 独占规则域实现事件幂等/XP/BP/阶段/生态，与002 UI和003数据文件隔离；努力界面与完整闭环随后集成，不接主产品 |
 | RELEASE-001 独立模块验收 | backlog / Manager+QA+用户 | 覆盖全流程、保存与恢复、非法操作、相机总览、遮挡、资源失败、移动端；独立构建可从说明复现，V3/P1回归通过；美术用户确认、已知问题清楚、提交可恢复 |
 
 完整独立交付必须同时满足：入口/构建独立、已有核心自由建造和扩张/保存能力在新正交场景真正可用、模拟成长不破坏布局、可靠桌面/手机体验、素材来源与工程可复现、自动测试与独立QA通过、用户完成视觉体验验收。不能仅凭静态家园图或旧P1测试宣称交付完成。
@@ -142,3 +142,10 @@ P2-B交付记录：52项项目测试、55项资源检查通过；264对场景边
 - GAME-001：真实RED→GREEN构建/HTTP契约3项，全套55/55；独立build成功。隔离Chrome155桌面dev/preview、320/390、木屋404重试共5项通过。Manager另实跑契约3/3并查看320截图；QA独立规格/质量通过、0缺陷，19受保护文件与BASE相同，12资源原字节一致。首轮favicon404已定位并最小修正，原失败证据保留。未验证连续触控拖动/真机/Safari，002与RELEASE补覆盖。报告game-001-report.md，QA game-001-qa.md；本阶段不宣称完整游戏可玩或新美术通过。
 
 - GAME-001提交4d100a4已Push。GAME-002-RULES独立子阶段：规则26/26、全套81/81，QA亲跑26项并在内存验证全部10素材建造/收纳/重摆；规格/质量0缺陷通过。此子阶段版本化稳定API后，规则Builder继续004努力/生态与003扩张纯命令，UI Builder继续002建造；完整002尚未宣称完成。规则报告与QA见game-002-rules-report.md/game-002-rules-qa.md。
+
+- 002规则子阶段提交12c8310；原始Node失败日志含输出空行末尾空白，保留真实字节，不伪造日志，源码/其余范围diff检查通过。并行计划采用 /root/game_builder 独占UI、/root/game_rules 独占规则/成长、/root/game_persistence 独占persistence/useGameWorld及对应测试，最多3子Agent；QA在实现者完成释放运行槽后独立复核。003数据只依赖稳定world API，先实现无需等002页面完成；整阶段技术完成仍需浏览器和QA。
+
+- GAME-004-RULES/003-EXPAND：规则Builder真实RED34fail→GREEN60；追加拥挤解除后不补旧生态断言后61/61。QA fresh亲跑61规则，并独立验证120种event键顺序、revision上限幂等、负土地数组重排仍确定性等反例；规格/质量通过、0缺陷。此为规则子阶段，不等同003/004完整UI交付。game-004-rules-report.md与game-004-rules-qa.md。
+- GAME-002-UI进入review：视图11/11，最新154全套测试与build通过；Chrome桌面/320×568/390×700/preview四完整建造流程、真实CDP触控drag/cancel、Alpha/前景/稀疏负地图数学和截图已交QA。旧001后台dev日志追加476字节完整另存game-002-ui-prior-dev-appended.txt后恢复001已提交字节；新dev日志/进程不再写旧证据。
+- GAME-003-DATA进入review：27数据测试、155全套测试与build、真实StrictMode/锁/存储12浏览器基础场景完成；独立数据QA接单，不将harness当完整游戏。Art独立只读检查002截图/脚点/像素与木屋SHA，不改素材/approved。
+- RELEASE原型回归：旧5188服务已停止，初次连接失败留release-old-p1-r1.txt；启动现有应用5191后release-old-p1-r2通过P1桌面/390/320建造成长保存扩张与V3任务完成/撤销、计划编辑、目标创建生成任务，0 pageErrors。WebKit未安装跳过；全部隔离浏览器，不触用户数据。
